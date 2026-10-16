@@ -34,7 +34,7 @@ export function TaxTool() {
 
   return (
     <div className="grid gap-5 lg:grid-cols-[minmax(0,340px)_minmax(0,1fr)] items-start">
-      <Card title="Your salary" className="lg:sticky lg:top-28">
+      <Card title="Your salary">
         <div className="grid gap-4">
           <NumberInput label="Monthly gross salary" value={monthly} onChange={setMonthly} prefix="৳" step={1000} />
           <div className="grid grid-cols-2 gap-3">

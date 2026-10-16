@@ -62,7 +62,7 @@ export function CheckTool() {
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,340px)_minmax(0,1fr)] items-start">
-      <Card eyebrow="Your details" title="Your job" className="lg:sticky lg:top-32">
+      <Card eyebrow="Your details" title="Your job">
         <div className="grid gap-4">
           <EmployerSelect value={employer} onChange={setEmployer} />
           {!isGovt && fnId && <FunctionSelect groupId={groupId} value={fnId} onChange={setFunctionId} />}

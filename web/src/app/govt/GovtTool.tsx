@@ -21,7 +21,7 @@ export function GovtTool() {
 
   return (
     <div className="grid gap-5 lg:grid-cols-[minmax(0,320px)_minmax(0,1fr)] items-start">
-      <Card title="Your post" className="lg:sticky lg:top-28">
+      <Card title="Your post">
         <div className="grid gap-4">
           <Select<string>
             label="Grade"
