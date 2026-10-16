@@ -27,7 +27,9 @@
       "group": "telecom",
       "anchors": [
         "gp_mt_glassdoor",
-        "gp_csr_glassdoor"
+        "gp_csr_glassdoor",
+        "gp_ds_glassdoor",
+        "gp_pm_glassdoor"
       ]
     },
     {
@@ -60,7 +62,8 @@
       "group": "large_bank",
       "anchors": [
         "city_mto",
-        "city_mto_confirmed"
+        "city_mto_confirmed",
+        "city_sysadmin_glassdoor"
       ]
     },
     {
@@ -177,6 +180,34 @@
       "group": "other_bank",
       "anchors": [
         "pubali_spo_glassdoor"
+      ]
+    },
+    {
+      "name": "SSL Wireless",
+      "group": "local_software",
+      "anchors": [
+        "ssl_ds_glassdoor"
+      ]
+    },
+    {
+      "name": "Transcom Group",
+      "group": "local_conglomerate",
+      "anchors": [
+        "transcom_proc_post"
+      ]
+    },
+    {
+      "name": "BRAC University",
+      "group": "private_university",
+      "anchors": [
+        "bracu_lecturer_glassdoor"
+      ]
+    },
+    {
+      "name": "North South University",
+      "group": "private_university",
+      "anchors": [
+        "nsu_lecturer_crowd"
       ]
     }
   ]

@@ -166,5 +166,47 @@
       "employer_group": null,
       "function": "sales"
     }
+  },
+  {
+    "text": "Data Scientist\nGrameenphone Ltd.\nExperience: 3-5 years in machine learning\nSalary: Negotiable\nDhaka",
+    "expected": {
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "negotiable": true,
+      "experience_min": 3,
+      "experience_max": 5,
+      "city": "dhaka",
+      "employer_group": "telecom",
+      "function": "data_science"
+    }
+  },
+  {
+    "text": "Lecturer, Department of CSE\nEast West University\nSalary: Tk 40,000-50,000\nDhaka",
+    "expected": {
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "salary_period": "monthly",
+      "negotiable": false,
+      "experience_min": null,
+      "experience_max": null,
+      "city": "dhaka",
+      "employer_group": "private_university",
+      "function": "teaching"
+    }
+  },
+  {
+    "text": "Associate Data Analyst\nSureCash (TallyKhata)\nSalary: 30k-35k\nFreshers are welcome to apply\nDhaka",
+    "expected": {
+      "salary_min": 30000,
+      "salary_max": 35000,
+      "salary_period": "monthly",
+      "negotiable": false,
+      "experience_min": 0,
+      "experience_max": 1,
+      "city": "dhaka",
+      "employer_group": "fintech",
+      "function": "data"
+    }
   }
 ]

@@ -34,11 +34,11 @@ web/                 Next.js 16 app (deploy this folder)
 
 There is no open, crawlable Bangladesh salary dataset, and Bdjobs.com's robots.txt disallows crawlers, so it is not scraped. Instead:
 
-1. `pipeline/data/anchors.csv` holds **76 published salary figures from 30 sources**. They include bank MTO circulars (City, MTB, DBBL, BRAC Bank, Prime, AB, Meghna, SBAC, IDLC, IPDC), Glassdoor and Levels.fyi figures for named employers (Unilever, Grameenphone, bKash, Standard Chartered, Optimizely, Cefalo, Enosis, PRAN-RFL), the RMG minimum-wage gazette, and recruiter guides. Each row records its source, date and type.
-2. Estimates combine **job function** (14, e.g. finance, software, sales), **employer group** (14, e.g. multinational FMCG & tobacco, mobile operator, large private bank, top software company, NGO) and **experience**: `ln(monthly gross) = function + employer group + experience + city`. This is fitted by weighted ridge regression with priors.
+1. `pipeline/data/anchors.csv` holds **108 published salary figures from 60 sources**. They include bank MTO circulars (City, MTB, DBBL, BRAC Bank, Prime, AB, Meghna, SBAC, IDLC, IPDC), Glassdoor and Levels.fyi figures for named employers (Unilever, Grameenphone, bKash, Standard Chartered, Optimizely, Cefalo, Enosis, PRAN-RFL), the RMG minimum-wage gazette, and recruiter guides. Each row records its source, date and type.
+2. Estimates combine **job function** (20, e.g. finance, software, data science, product management), **employer group** (15, e.g. multinational FMCG & tobacco, mobile operator, large private bank, top software company, NGO) and **experience**: `ln(monthly gross) = function + employer group + experience + city`. This is fitted by weighted ridge regression with priors.
 3. `pipeline/data/taxonomy.json` lists the real companies in each group and which jobs each group hires for. `companies.json` links named companies to their published figures, which the salary check shows next to the estimate.
 4. Confidence is shown per job, employer and experience level. Combinations without a direct figure borrow the employer's general pay level and show a wider range.
-5. Leave-one-out validation gives an **18.9% median absolute error**, against 22.6% for the priors alone. Job circulars are reproduced within about 8%.
+5. Leave-one-out validation gives a **21.9% median absolute error**, against 28.2% for the priors alone. Job circulars are reproduced within about 8%.
 
 More data improves the model directly. Add rows to `anchors.csv`, or run `python ingest.py posts.csv` on job posts you are licensed to use, then rebuild.
 
@@ -56,7 +56,7 @@ python build.py              # writes web/src/data/*.json and reports/
 # 2. Web app (Node 20+)
 cd ../web
 npm install
-npm test                     # 644 tests
+npm test                     # 647 tests
 npm run dev                  # http://localhost:3000
 ```
 

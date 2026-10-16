@@ -80,6 +80,30 @@
     "source_url": "https://www.glassdoor.com/Monthly-Pay/GrameenPhone-Customer-Service-Representative-Dhaka-Monthly-Pay-EJI_IE405018.0,12_KO13,44_IL.45,50_IM1237.htm",
     "published": "2025-09",
     "source_type": "aggregator"
+   },
+   {
+    "function": "data_science",
+    "level": "mix",
+    "low": 140000.0,
+    "high": 140000.0,
+    "median": 140000,
+    "note": "Grameenphone median",
+    "source_name": "Glassdoor: Data Scientist salaries in Dhaka (Grameenphone)",
+    "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-data-scientist-salary-SRCH_IL.0,16_IM1237_KO17,31.htm",
+    "published": "2026",
+    "source_type": "aggregator"
+   },
+   {
+    "function": "product_manager",
+    "level": "mix",
+    "low": 100000.0,
+    "high": 100000.0,
+    "median": 100000,
+    "note": "Average base pay",
+    "source_name": "Glassdoor: Grameenphone Product Manager salaries",
+    "source_url": "https://www.glassdoor.com/Monthly-Pay/GrameenPhone-Product-Manager-Dhaka-Monthly-Pay-EJI_IE405018.0,12_KO13,28_IL.29,34_IS3812.htm",
+    "published": "2026-10",
+    "source_type": "aggregator"
    }
   ]
  },
@@ -212,6 +236,18 @@
     "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
     "published": "2025-06",
     "source_type": "job_circular"
+   },
+   {
+    "function": "it_support",
+    "level": "mix",
+    "low": 137000.0,
+    "high": 137000.0,
+    "median": 137000,
+    "note": "The City Bank median",
+    "source_name": "Glassdoor: IT Systems Administrator salaries in Dhaka (The City Bank)",
+    "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-it-systems-administrator-salary-SRCH_IL.0,16_IM1237_KO17,41.htm",
+    "published": "2026",
+    "source_type": "aggregator"
    }
   ]
  },
@@ -614,6 +650,78 @@
     "source_url": "https://www.glassdoor.com/Salary/Pubali-Bank-Senior-Principal-Officer-Bangladesh-EJI_IE545108.0,11_KO12,36_IL.37,47_IN27.htm?filter.payPeriod=MONTHLY",
     "published": "2025-06",
     "source_type": "aggregator"
+   }
+  ]
+ },
+ {
+  "name": "SSL Wireless",
+  "group": "local_software",
+  "figures": [
+   {
+    "function": "data_science",
+    "level": "mix",
+    "low": 23000.0,
+    "high": 23000.0,
+    "median": 23000,
+    "note": "SSL Wireless median",
+    "source_name": "Glassdoor: Data Scientist salaries in Dhaka (SSL Wireless)",
+    "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-data-scientist-salary-SRCH_IL.0,16_IM1237_KO17,31.htm",
+    "published": "2026",
+    "source_type": "aggregator"
+   }
+  ]
+ },
+ {
+  "name": "Transcom Group",
+  "group": "local_conglomerate",
+  "figures": [
+   {
+    "function": "supply_chain",
+    "level": "junior",
+    "low": 25000.0,
+    "high": 30000.0,
+    "median": 27386,
+    "note": "At least 1 year experience (seen via web search)",
+    "source_name": "Transcom Foods: Executive - Procurement job post",
+    "source_url": "https://bdjobs.com/h/details/1517219?ln=1",
+    "published": "2026-08",
+    "source_type": "job_post"
+   }
+  ]
+ },
+ {
+  "name": "BRAC University",
+  "group": "private_university",
+  "figures": [
+   {
+    "function": "teaching",
+    "level": "junior",
+    "low": 58000.0,
+    "high": 76000.0,
+    "median": 65000,
+    "note": "Mostly 1-3 years experience",
+    "source_name": "Glassdoor: BRAC University Lecturer salaries in Dhaka",
+    "source_url": "https://www.glassdoor.com/Monthly-Pay/Brac-University-Lecturer-Dhaka-Monthly-Pay-EJI_IE537788.0,15_KO16,24_IL.25,30_IM1237.htm",
+    "published": "2026",
+    "source_type": "aggregator"
+   }
+  ]
+ },
+ {
+  "name": "North South University",
+  "group": "private_university",
+  "figures": [
+   {
+    "function": "teaching",
+    "level": "junior",
+    "low": 105000.0,
+    "high": 105000.0,
+    "median": 105000,
+    "note": "North South University lecturer, including allowances",
+    "source_name": "Private University Faculty Salary Explorer (crowd-sourced)",
+    "source_url": "https://mhalder-dev.github.io/salary-explorer/",
+    "published": "2024-08",
+    "source_type": "blog"
    }
   ]
  }

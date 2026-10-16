@@ -168,7 +168,8 @@ def market_analysis(result: FitResult, bench: dict) -> dict:
     # Graduate entry pay by employer group: trainee/officer track (programme officer for NGOs/UN).
     entry_by_group = []
     for g in bench["groups"]:
-        fid = "officer" if "officer" in g["functions"] else ("program_officer" if "program_officer" in g["functions"] else "software")
+        main_job = {"private_university": "teaching", "ngo": "program_officer", "un_agency": "program_officer"}
+        fid = main_job.get(g["id"]) or ("officer" if "officer" in g["functions"] else "software")
         fn = bench["functions"][fid]
         if g["id"] not in fn["cells"]:
             continue

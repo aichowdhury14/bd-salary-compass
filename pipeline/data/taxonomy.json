@@ -86,7 +86,10 @@
         "hr_admin",
         "data",
         "business_analyst",
-        "engineering"
+        "engineering",
+        "data_science",
+        "supply_chain",
+        "risk_compliance"
       ],
       "prior": 2.2,
       "match": [
@@ -122,7 +125,12 @@
         "data",
         "business_analyst",
         "customer_service",
-        "engineering"
+        "engineering",
+        "data_science",
+        "product_manager",
+        "supply_chain",
+        "it_support",
+        "risk_compliance"
       ],
       "prior": 1.8,
       "match": [
@@ -142,7 +150,9 @@
         "bKash",
         "Nagad",
         "Pathao",
-        "ShopUp"
+        "ShopUp",
+        "SureCash · TallyKhata",
+        "Upay"
       ],
       "functions": [
         "officer",
@@ -154,7 +164,12 @@
         "data",
         "business_analyst",
         "customer_service",
-        "design"
+        "design",
+        "data_science",
+        "product_manager",
+        "supply_chain",
+        "it_support",
+        "risk_compliance"
       ],
       "prior": 1.6,
       "match": [
@@ -162,7 +177,9 @@
         "nagad",
         "pathao",
         "shopup",
-        "upay"
+        "upay",
+        "surecash",
+        "tallykhata"
       ],
       "sector": "corporate"
     },
@@ -185,7 +202,11 @@
         "software",
         "data",
         "business_analyst",
-        "customer_service"
+        "customer_service",
+        "data_science",
+        "product_manager",
+        "it_support",
+        "risk_compliance"
       ],
       "prior": 1.8,
       "match": [
@@ -220,7 +241,11 @@
         "software",
         "data",
         "business_analyst",
-        "customer_service"
+        "customer_service",
+        "data_science",
+        "product_manager",
+        "it_support",
+        "risk_compliance"
       ],
       "prior": 2.0,
       "match": [
@@ -257,7 +282,10 @@
         "hr_admin",
         "software",
         "data",
-        "customer_service"
+        "customer_service",
+        "data_science",
+        "it_support",
+        "risk_compliance"
       ],
       "prior": 1.6,
       "match": [
@@ -286,7 +314,9 @@
         "design",
         "hr_admin",
         "finance",
-        "sales"
+        "sales",
+        "data_science",
+        "product_manager"
       ],
       "prior": 1.8,
       "match": [
@@ -307,6 +337,14 @@
       "label": "Other software / IT company",
       "label_bn": "অন্যান্য সফটওয়্যার / আইটি কোম্পানি",
       "companies": [
+        "FinSource",
+        "Next Ventures",
+        "Pioneer Alpha",
+        "BJIT",
+        "DataSoft",
+        "Tiger IT",
+        "SSL Wireless",
+        "Kaz Software",
         "Local software houses",
         "IT-enabled services",
         "Tech startups"
@@ -320,7 +358,10 @@
         "marketing",
         "hr_admin",
         "finance",
-        "customer_service"
+        "customer_service",
+        "data_science",
+        "product_manager",
+        "it_support"
       ],
       "prior": 1.0,
       "match": [
@@ -329,7 +370,15 @@
         "software ltd",
         "software limited",
         "it company",
-        "tech startup"
+        "tech startup",
+        "finsource",
+        "next ventures",
+        "pioneer alpha",
+        "bjit",
+        "datasoft",
+        "tiger it",
+        "ssl wireless",
+        "kaz software"
       ],
       "sector": "tech"
     },
@@ -351,7 +400,12 @@
         "software",
         "data",
         "business_analyst",
-        "engineering"
+        "engineering",
+        "data_science",
+        "product_manager",
+        "supply_chain",
+        "it_support",
+        "risk_compliance"
       ],
       "prior": 1.6,
       "match": [
@@ -374,7 +428,9 @@
         "Meghna Group",
         "Bashundhara",
         "Akij",
-        "City Group"
+        "City Group",
+        "Walton",
+        "Transcom Group"
       ],
       "functions": [
         "officer",
@@ -388,7 +444,12 @@
         "engineering",
         "design",
         "customer_service",
-        "factory_worker"
+        "factory_worker",
+        "data_science",
+        "product_manager",
+        "supply_chain",
+        "it_support",
+        "risk_compliance"
       ],
       "prior": 1.0,
       "match": [
@@ -400,7 +461,9 @@
         "meghna group",
         "bashundhara",
         "akij",
-        "city group"
+        "city group",
+        "walton",
+        "transcom"
       ],
       "sector": "corporate"
     },
@@ -418,7 +481,10 @@
         "officer",
         "finance",
         "hr_admin",
-        "engineering"
+        "engineering",
+        "supply_chain",
+        "it_support",
+        "risk_compliance"
       ],
       "prior": 0.9,
       "match": [
@@ -449,11 +515,50 @@
         "software",
         "design",
         "customer_service",
-        "engineering"
+        "engineering",
+        "supply_chain",
+        "it_support"
       ],
       "prior": 0.7,
       "match": [],
       "sector": "corporate"
+    },
+    {
+      "id": "private_university",
+      "label": "Private university",
+      "label_bn": "বেসরকারি বিশ্ববিদ্যালয়",
+      "companies": [
+        "North South University",
+        "BRAC University",
+        "Independent University (IUB)",
+        "AIUB",
+        "East West University",
+        "Daffodil International University",
+        "ULAB"
+      ],
+      "functions": [
+        "teaching",
+        "finance",
+        "hr_admin",
+        "officer",
+        "it_support"
+      ],
+      "prior": 1.0,
+      "sector": "education",
+      "match": [
+        "north south university",
+        "nsu",
+        "brac university",
+        "bracu",
+        "independent university",
+        "iub",
+        "american international university",
+        "aiub",
+        "east west university",
+        "daffodil international university",
+        "university of liberal arts",
+        "ulab"
+      ]
     },
     {
       "id": "ngo",
@@ -472,7 +577,10 @@
         "finance",
         "hr_admin",
         "data",
-        "officer"
+        "officer",
+        "supply_chain",
+        "it_support",
+        "risk_compliance"
       ],
       "prior": 0.75,
       "match": [
@@ -777,7 +885,7 @@
       "title": "Data & analytics",
       "short": "Data analyst",
       "title_bn": "ডেটা ও অ্যানালিটিক্স",
-      "about": "Data analyst, BI, MIS, data science",
+      "about": "Data analyst, BI, MIS, reporting",
       "keywords": [
         "data analyst",
         "business intelligence",
@@ -785,7 +893,6 @@
         "mis executive",
         "mis officer",
         "reporting analyst",
-        "data scientist",
         "analytics"
       ],
       "skills": [
@@ -797,31 +904,30 @@
       ],
       "adjacent": [
         {
-          "function": "software",
-          "bridge": [
-            "Software engineering",
-            "APIs"
-          ]
-        },
-        {
           "function": "business_analyst",
           "bridge": [
             "Requirement analysis"
+          ]
+        },
+        {
+          "function": "data_science",
+          "bridge": [
+            "Machine learning",
+            "Python",
+            "Statistics"
           ]
         }
       ]
     },
     {
       "id": "business_analyst",
-      "title": "Business / product analyst",
+      "title": "Business / system analyst",
       "short": "Business analyst",
       "title_bn": "বিজনেস / প্রোডাক্ট অ্যানালিস্ট",
-      "about": "Requirements, product, process improvement",
+      "about": "Requirements, process improvement, system analysis",
       "keywords": [
         "business analyst",
         "product analyst",
-        "product owner",
-        "product manager",
         "system analyst"
       ],
       "skills": [
@@ -1048,6 +1154,216 @@
           ]
         }
       ]
+    },
+    {
+      "id": "data_science",
+      "title": "Data scientist / ML engineer",
+      "short": "Data scientist",
+      "title_bn": "ডেটা সায়েন্টিস্ট / এমএল ইঞ্জিনিয়ার",
+      "about": "Machine learning, predictive models, AI engineering, MLOps",
+      "keywords": [
+        "data scientist",
+        "data science",
+        "machine learning",
+        "ml engineer",
+        "ai engineer",
+        "artificial intelligence",
+        "deep learning",
+        "nlp",
+        "computer vision",
+        "mlops",
+        "predictive model"
+      ],
+      "skills": [
+        "Python (scikit-learn, pandas) and SQL",
+        "Statistics and experiment design",
+        "Model deployment / MLOps",
+        "Deep learning (PyTorch / TensorFlow)",
+        "Explaining models to business teams"
+      ],
+      "adjacent": [
+        {
+          "function": "product_manager",
+          "bridge": [
+            "Product sense",
+            "Stakeholder management"
+          ]
+        },
+        {
+          "function": "software",
+          "bridge": [
+            "Backend engineering",
+            "System design"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product_manager",
+      "title": "Product manager",
+      "short": "Product manager",
+      "title_bn": "প্রোডাক্ট ম্যানেজার",
+      "about": "Product management, product owner, associate / senior PM",
+      "keywords": [
+        "product manager",
+        "product owner",
+        "associate product manager",
+        "product management",
+        "apm"
+      ],
+      "skills": [
+        "Customer discovery and user research",
+        "Writing PRDs and roadmaps",
+        "Data-driven decisions (SQL, analytics)",
+        "Working with engineering in Agile teams"
+      ],
+      "adjacent": [
+        {
+          "function": "business_analyst",
+          "bridge": [
+            "Requirement analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supply_chain",
+      "title": "Supply chain & procurement",
+      "short": "Supply chain",
+      "title_bn": "সাপ্লাই চেইন ও প্রকিউরমেন্ট",
+      "about": "Procurement, sourcing, logistics, warehouse, inventory planning",
+      "keywords": [
+        "supply chain",
+        "procurement",
+        "purchase",
+        "sourcing executive",
+        "logistics",
+        "warehouse",
+        "inventory",
+        "commercial executive"
+      ],
+      "skills": [
+        "Vendor negotiation",
+        "ERP (SAP MM / Oracle)",
+        "Import & LC documentation",
+        "Inventory planning in Excel"
+      ],
+      "adjacent": [
+        {
+          "function": "finance",
+          "bridge": [
+            "Costing",
+            "Budgeting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "it_support",
+      "title": "IT support, network & systems",
+      "short": "IT / network",
+      "title_bn": "আইটি সাপোর্ট, নেটওয়ার্ক ও সিস্টেম",
+      "about": "Network engineers, system administrators, IT support, cloud infrastructure",
+      "keywords": [
+        "network engineer",
+        "system administrator",
+        "system admin",
+        "sysadmin",
+        "it support",
+        "it officer",
+        "support engineer",
+        "network support",
+        "infrastructure engineer",
+        "it executive",
+        "noc engineer",
+        "cloud engineer"
+      ],
+      "skills": [
+        "Networking (CCNA level)",
+        "Windows / Linux server administration",
+        "Cloud (AWS / Azure) basics",
+        "Information security (ISO 27001)"
+      ],
+      "adjacent": [
+        {
+          "function": "software",
+          "bridge": [
+            "Scripting (Python / PowerShell)",
+            "DevOps tools"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "risk_compliance",
+      "title": "Risk, compliance & audit",
+      "short": "Risk & compliance",
+      "title_bn": "রিস্ক, কমপ্লায়েন্স ও অডিট",
+      "about": "AML / compliance officers, risk analysts, internal audit, social compliance",
+      "keywords": [
+        "compliance officer",
+        "compliance",
+        "aml",
+        "risk analyst",
+        "risk management",
+        "internal audit",
+        "audit officer",
+        "credit risk",
+        "social compliance",
+        "fraud analyst"
+      ],
+      "skills": [
+        "AML / CFT and Bangladesh Bank regulations",
+        "Risk assessment frameworks",
+        "Audit sampling and reporting",
+        "CAMS / CIA / ACCA progress"
+      ],
+      "adjacent": [
+        {
+          "function": "data_science",
+          "bridge": [
+            "Python",
+            "Fraud and risk modelling"
+          ]
+        },
+        {
+          "function": "finance",
+          "bridge": [
+            "IFRS",
+            "Financial reporting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teaching",
+      "title": "University lecturer / faculty",
+      "short": "Lecturer",
+      "title_bn": "বিশ্ববিদ্যালয় শিক্ষক",
+      "about": "Lecturer, assistant professor and other faculty posts",
+      "keywords": [
+        "lecturer",
+        "assistant professor",
+        "associate professor",
+        "faculty member",
+        "faculty position",
+        "senior lecturer"
+      ],
+      "skills": [
+        "Postgraduate degree (PhD for promotion)",
+        "Research publications",
+        "Course design and teaching evaluations",
+        "Grant writing"
+      ],
+      "adjacent": [
+        {
+          "function": "data_science",
+          "bridge": [
+            "Applied research",
+            "Python"
+          ]
+        }
+      ]
     }
   ],
   "mix_level": {
@@ -1065,6 +1381,7 @@
     "top_software",
     "local_conglomerate",
     "un_agency",
+    "private_university",
     "ngo",
     "rmg",
     "other_mnc",
@@ -1078,7 +1395,8 @@
   },
   "sector_bound_functions": [
     "officer",
-    "program_officer"
+    "program_officer",
+    "teaching"
   ],
   "sector_note": "General trainee/officer and programme roles differ by sector, so career-switch suggestions for them stay within the same sector (banking, corporate, tech, development)."
 }

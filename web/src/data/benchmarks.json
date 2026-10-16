@@ -73,6 +73,7 @@
   "top_software",
   "local_conglomerate",
   "un_agency",
+  "private_university",
   "ngo",
   "rmg",
   "other_mnc",
@@ -81,7 +82,8 @@
  ],
  "sector_bound_functions": [
   "officer",
-  "program_officer"
+  "program_officer",
+  "teaching"
  ],
  "groups": [
   {
@@ -106,7 +108,10 @@
     "hr_admin",
     "data",
     "business_analyst",
-    "engineering"
+    "engineering",
+    "data_science",
+    "supply_chain",
+    "risk_compliance"
    ],
    "match": [
     "unilever",
@@ -120,7 +125,7 @@
     "jti",
     "emami"
    ],
-   "multiplier": 2.512,
+   "multiplier": 2.587,
    "experience_slope": 1.015
   },
   {
@@ -143,7 +148,12 @@
     "data",
     "business_analyst",
     "customer_service",
-    "engineering"
+    "engineering",
+    "data_science",
+    "product_manager",
+    "supply_chain",
+    "it_support",
+    "risk_compliance"
    ],
    "match": [
     "grameenphone",
@@ -152,8 +162,8 @@
     "banglalink",
     "airtel"
    ],
-   "multiplier": 2.066,
-   "experience_slope": 0.996
+   "multiplier": 2.164,
+   "experience_slope": 1.01
   },
   {
    "id": "fintech",
@@ -164,7 +174,9 @@
     "bKash",
     "Nagad",
     "Pathao",
-    "ShopUp"
+    "ShopUp",
+    "SureCash · TallyKhata",
+    "Upay"
    ],
    "functions": [
     "officer",
@@ -176,17 +188,24 @@
     "data",
     "business_analyst",
     "customer_service",
-    "design"
+    "design",
+    "data_science",
+    "product_manager",
+    "supply_chain",
+    "it_support",
+    "risk_compliance"
    ],
    "match": [
     "bkash",
     "nagad",
     "pathao",
     "shopup",
-    "upay"
+    "upay",
+    "surecash",
+    "tallykhata"
    ],
-   "multiplier": 1.581,
-   "experience_slope": 1.022
+   "multiplier": 1.492,
+   "experience_slope": 1.005
   },
   {
    "id": "foreign_bank",
@@ -208,7 +227,11 @@
     "software",
     "data",
     "business_analyst",
-    "customer_service"
+    "customer_service",
+    "data_science",
+    "product_manager",
+    "it_support",
+    "risk_compliance"
    ],
    "match": [
     "standard chartered",
@@ -218,8 +241,8 @@
     "commercial bank of ceylon",
     "state bank of india"
    ],
-   "multiplier": 2.042,
-   "experience_slope": 0.959
+   "multiplier": 2.071,
+   "experience_slope": 0.958
   },
   {
    "id": "large_bank",
@@ -244,7 +267,11 @@
     "software",
     "data",
     "business_analyst",
-    "customer_service"
+    "customer_service",
+    "data_science",
+    "product_manager",
+    "it_support",
+    "risk_compliance"
    ],
    "match": [
     "brac bank",
@@ -260,8 +287,8 @@
     "idlc",
     "ipdc"
    ],
-   "multiplier": 2.364,
-   "experience_slope": 0.871
+   "multiplier": 2.428,
+   "experience_slope": 0.889
   },
   {
    "id": "other_bank",
@@ -282,13 +309,16 @@
     "hr_admin",
     "software",
     "data",
-    "customer_service"
+    "customer_service",
+    "data_science",
+    "it_support",
+    "risk_compliance"
    ],
    "match": [
     "bank"
    ],
-   "multiplier": 1.959,
-   "experience_slope": 0.767
+   "multiplier": 2.016,
+   "experience_slope": 0.759
   },
   {
    "id": "top_software",
@@ -312,7 +342,9 @@
     "design",
     "hr_admin",
     "finance",
-    "sales"
+    "sales",
+    "data_science",
+    "product_manager"
    ],
    "match": [
     "optimizely",
@@ -325,8 +357,8 @@
     "brain station",
     "enosis"
    ],
-   "multiplier": 1.77,
-   "experience_slope": 1.073
+   "multiplier": 1.568,
+   "experience_slope": 1.05
   },
   {
    "id": "local_software",
@@ -334,6 +366,14 @@
    "label_bn": "অন্যান্য সফটওয়্যার / আইটি কোম্পানি",
    "sector": "tech",
    "companies": [
+    "FinSource",
+    "Next Ventures",
+    "Pioneer Alpha",
+    "BJIT",
+    "DataSoft",
+    "Tiger IT",
+    "SSL Wireless",
+    "Kaz Software",
     "Local software houses",
     "IT-enabled services",
     "Tech startups"
@@ -347,7 +387,10 @@
     "marketing",
     "hr_admin",
     "finance",
-    "customer_service"
+    "customer_service",
+    "data_science",
+    "product_manager",
+    "it_support"
    ],
    "match": [
     "software company",
@@ -355,10 +398,18 @@
     "software ltd",
     "software limited",
     "it company",
-    "tech startup"
+    "tech startup",
+    "finsource",
+    "next ventures",
+    "pioneer alpha",
+    "bjit",
+    "datasoft",
+    "tiger it",
+    "ssl wireless",
+    "kaz software"
    ],
-   "multiplier": 1.103,
-   "experience_slope": 1.051
+   "multiplier": 0.814,
+   "experience_slope": 1.041
   },
   {
    "id": "other_mnc",
@@ -379,7 +430,12 @@
     "software",
     "data",
     "business_analyst",
-    "engineering"
+    "engineering",
+    "data_science",
+    "product_manager",
+    "supply_chain",
+    "it_support",
+    "risk_compliance"
    ],
    "match": [
     "multinational",
@@ -387,8 +443,8 @@
     "global company",
     "foreign company"
    ],
-   "multiplier": 2.188,
-   "experience_slope": 1.012
+   "multiplier": 1.983,
+   "experience_slope": 0.999
   },
   {
    "id": "local_conglomerate",
@@ -403,7 +459,9 @@
     "Meghna Group",
     "Bashundhara",
     "Akij",
-    "City Group"
+    "City Group",
+    "Walton",
+    "Transcom Group"
    ],
    "functions": [
     "officer",
@@ -417,7 +475,12 @@
     "engineering",
     "design",
     "customer_service",
-    "factory_worker"
+    "factory_worker",
+    "data_science",
+    "product_manager",
+    "supply_chain",
+    "it_support",
+    "risk_compliance"
    ],
    "match": [
     "pran",
@@ -428,7 +491,9 @@
     "meghna group",
     "bashundhara",
     "akij",
-    "city group"
+    "city group",
+    "walton",
+    "transcom"
    ],
    "multiplier": 1.0,
    "experience_slope": 1.0
@@ -448,7 +513,10 @@
     "officer",
     "finance",
     "hr_admin",
-    "engineering"
+    "engineering",
+    "supply_chain",
+    "it_support",
+    "risk_compliance"
    ],
    "match": [
     "garments",
@@ -459,8 +527,8 @@
     "woven",
     "textile"
    ],
-   "multiplier": 0.761,
-   "experience_slope": 1.062
+   "multiplier": 0.658,
+   "experience_slope": 1.048
   },
   {
    "id": "sme",
@@ -480,11 +548,51 @@
     "software",
     "design",
     "customer_service",
-    "engineering"
+    "engineering",
+    "supply_chain",
+    "it_support"
    ],
    "match": [],
-   "multiplier": 0.593,
-   "experience_slope": 1.021
+   "multiplier": 0.585,
+   "experience_slope": 1.012
+  },
+  {
+   "id": "private_university",
+   "label": "Private university",
+   "label_bn": "বেসরকারি বিশ্ববিদ্যালয়",
+   "sector": "education",
+   "companies": [
+    "North South University",
+    "BRAC University",
+    "Independent University (IUB)",
+    "AIUB",
+    "East West University",
+    "Daffodil International University",
+    "ULAB"
+   ],
+   "functions": [
+    "teaching",
+    "finance",
+    "hr_admin",
+    "officer",
+    "it_support"
+   ],
+   "match": [
+    "north south university",
+    "nsu",
+    "brac university",
+    "bracu",
+    "independent university",
+    "iub",
+    "american international university",
+    "aiub",
+    "east west university",
+    "daffodil international university",
+    "university of liberal arts",
+    "ulab"
+   ],
+   "multiplier": 1.035,
+   "experience_slope": 1.027
   },
   {
    "id": "ngo",
@@ -504,7 +612,10 @@
     "finance",
     "hr_admin",
     "data",
-    "officer"
+    "officer",
+    "supply_chain",
+    "it_support",
+    "risk_compliance"
    ],
    "match": [
     "ngo",
@@ -520,7 +631,7 @@
     "development organization",
     "development organisation"
    ],
-   "multiplier": 0.58,
+   "multiplier": 0.589,
    "experience_slope": 1.0
   },
   {
@@ -547,8 +658,8 @@
     "united nations",
     "un agency"
    ],
-   "multiplier": 4.708,
-   "experience_slope": 1.013
+   "multiplier": 4.761,
+   "experience_slope": 1.014
   }
  ],
  "experience_credit": {
@@ -558,12 +669,12 @@
  },
  "level_multipliers": {
   "entry": 1.0,
-  "junior": 1.434,
-  "mid": 2.008,
-  "senior": 2.735,
-  "lead": 3.564
+  "junior": 1.419,
+  "mid": 2.011,
+  "senior": 2.852,
+  "lead": 3.433
  },
- "residual_sd": 0.17,
+ "residual_sd": 0.18,
  "functions": {
   "officer": {
    "title": "Management trainee / officer",
@@ -611,32 +722,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 11.2723,
-       "se": 0.0933,
+       "mu": 11.2742,
+       "se": 0.0932,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 11.6478,
-       "se": 0.1403,
+       "mu": 11.6392,
+       "se": 0.1388,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.9989,
-       "se": 0.2323,
+       "mu": 12.003,
+       "se": 0.2305,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 12.3226,
-       "se": 0.2962,
+       "mu": 12.3672,
+       "se": 0.2949,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.6019,
-       "se": 0.4087,
+       "mu": 12.5674,
+       "se": 0.4073,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -646,32 +757,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 11.0765,
-       "se": 0.1612,
+       "mu": 11.0954,
+       "se": 0.1457,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 11.433,
-       "se": 0.1787,
+       "mu": 11.4558,
+       "se": 0.1488,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.7651,
-       "se": 0.2455,
+       "mu": 11.8151,
+       "se": 0.2093,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 12.0697,
-       "se": 0.2982,
+       "mu": 12.1748,
+       "se": 0.2556,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.33,
-       "se": 0.4028,
+       "mu": 12.3705,
+       "se": 0.3578,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -681,32 +792,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.809,
-       "se": 0.2149,
+       "mu": 10.7235,
+       "se": 0.1894,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.1918,
-       "se": 0.2009,
+       "mu": 11.0786,
+       "se": 0.17,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.5503,
-       "se": 0.2215,
+       "mu": 11.4326,
+       "se": 0.1936,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.8813,
-       "se": 0.2325,
+       "mu": 11.7869,
+       "se": 0.1993,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.1679,
-       "se": 0.2645,
+       "mu": 11.9773,
+       "se": 0.2361,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -716,32 +827,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 11.0652,
-       "se": 0.1601,
+       "mu": 11.0519,
+       "se": 0.1599,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.3842,
-       "se": 0.1611,
+       "mu": 11.3593,
+       "se": 0.1604,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.6789,
-       "se": 0.2403,
+       "mu": 11.6655,
+       "se": 0.2384,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.9461,
-       "se": 0.2948,
+       "mu": 11.9722,
+       "se": 0.2933,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.169,
-       "se": 0.396,
+       "mu": 12.1149,
+       "se": 0.3952,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -751,32 +862,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 11.2117,
-       "se": 0.0432,
+       "mu": 11.2108,
+       "se": 0.0431,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 11.4343,
-       "se": 0.0548,
+       "mu": 11.4434,
+       "se": 0.0541,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 11.6326,
-       "se": 0.1286,
+       "mu": 11.6749,
+       "se": 0.1229,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.8034,
-       "se": 0.134,
+       "mu": 11.9068,
+       "se": 0.1253,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "lead": {
-       "mu": 11.9299,
-       "se": 0.1806,
+       "mu": 11.9747,
+       "se": 0.1776,
        "confidence": "high",
        "extra_sd": 0.0
       }
@@ -786,32 +897,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 11.0237,
-       "se": 0.0695,
+       "mu": 11.0246,
+       "se": 0.0694,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 11.1198,
-       "se": 0.0754,
+       "mu": 11.0987,
+       "se": 0.0742,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 11.1915,
-       "se": 0.1496,
+       "mu": 11.1718,
+       "se": 0.1465,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.2357,
-       "se": 0.1525,
+       "mu": 11.2452,
+       "se": 0.1517,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "lead": {
-       "mu": 11.275,
-       "se": 0.2655,
+       "mu": 11.2844,
+       "se": 0.2631,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -821,32 +932,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 11.1343,
-       "se": 0.2854,
+       "mu": 11.0085,
+       "se": 0.2779,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.5075,
-       "se": 0.2874,
+       "mu": 11.3577,
+       "se": 0.2793,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.8564,
-       "se": 0.3323,
+       "mu": 11.7058,
+       "se": 0.32,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 12.1778,
-       "se": 0.379,
+       "mu": 12.0542,
+       "se": 0.3677,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.4549,
-       "se": 0.47,
+       "mu": 12.2387,
+       "se": 0.4596,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -856,32 +967,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.3511,
-       "se": 0.0846,
+       "mu": 10.3237,
+       "se": 0.0825,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 10.7119,
-       "se": 0.096,
+       "mu": 10.6736,
+       "se": 0.0923,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.0484,
-       "se": 0.1365,
+       "mu": 11.0225,
+       "se": 0.134,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.3574,
-       "se": 0.1164,
+       "mu": 11.3717,
+       "se": 0.1129,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.622,
-       "se": 0.1738,
+       "mu": 11.557,
+       "se": 0.1714,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -891,32 +1002,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.0783,
-       "se": 0.3163,
+       "mu": 9.9054,
+       "se": 0.3066,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.4992,
-       "se": 0.3234,
+       "mu": 10.3023,
+       "se": 0.3132,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.8958,
-       "se": 0.3603,
+       "mu": 10.6981,
+       "se": 0.3462,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.2648,
-       "se": 0.3862,
+       "mu": 11.0942,
+       "se": 0.3729,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.5896,
-       "se": 0.4623,
+       "mu": 11.3265,
+       "se": 0.4491,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -926,34 +1037,69 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.8287,
-       "se": 0.2319,
+       "mu": 9.7876,
+       "se": 0.225,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.2104,
-       "se": 0.2453,
+       "mu": 10.1493,
+       "se": 0.235,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.5679,
-       "se": 0.2906,
+       "mu": 10.5099,
+       "se": 0.2786,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.8978,
-       "se": 0.3097,
+       "mu": 10.8709,
+       "se": 0.2997,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.1834,
-       "se": 0.4035,
+       "mu": 11.0679,
+       "se": 0.3882,
        "confidence": "medium",
        "extra_sd": 0.12
+      }
+     }
+    },
+    "private_university": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.3581,
+       "se": 0.3413,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.7344,
+       "se": 0.3541,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.1096,
+       "se": 0.4035,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.4852,
+       "se": 0.452,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.6969,
+       "se": 0.5363,
+       "confidence": "low",
+       "extra_sd": 0.25
       }
      }
     },
@@ -961,32 +1107,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.8063,
-       "se": 0.2712,
+       "mu": 9.7937,
+       "se": 0.2703,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.1671,
-       "se": 0.296,
+       "mu": 10.1437,
+       "se": 0.2946,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.5036,
-       "se": 0.3533,
+       "mu": 10.4925,
+       "se": 0.3522,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.8125,
-       "se": 0.4145,
+       "mu": 10.8418,
+       "se": 0.4129,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.0772,
-       "se": 0.5077,
+       "mu": 11.0271,
+       "se": 0.5069,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -1032,32 +1178,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1791,
-       "se": 0.193,
+       "mu": 11.2083,
+       "se": 0.1908,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5546,
-       "se": 0.2217,
+       "mu": 11.5732,
+       "se": 0.2189,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.9058,
-       "se": 0.2782,
+       "mu": 11.937,
+       "se": 0.2751,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.2294,
-       "se": 0.3432,
+       "mu": 12.3012,
+       "se": 0.3397,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.5088,
-       "se": 0.4451,
+       "mu": 12.5015,
+       "se": 0.4429,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1067,32 +1213,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9834,
-       "se": 0.2288,
+       "mu": 11.0295,
+       "se": 0.2165,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3398,
-       "se": 0.2407,
+       "mu": 11.3898,
+       "se": 0.2183,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.672,
-       "se": 0.2812,
+       "mu": 11.7491,
+       "se": 0.2493,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.9766,
-       "se": 0.3363,
+       "mu": 12.1088,
+       "se": 0.2975,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.2369,
-       "se": 0.4316,
+       "mu": 12.3045,
+       "se": 0.3899,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1102,32 +1248,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.7158,
-       "se": 0.2573,
+       "mu": 10.6576,
+       "se": 0.2376,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.0987,
-       "se": 0.2449,
+       "mu": 11.0126,
+       "se": 0.2216,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.4572,
-       "se": 0.2478,
+       "mu": 11.3666,
+       "se": 0.2243,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.7881,
-       "se": 0.2678,
+       "mu": 11.7209,
+       "se": 0.2389,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0748,
-       "se": 0.2957,
+       "mu": 11.9113,
+       "se": 0.2715,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1137,32 +1283,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.972,
-       "se": 0.2209,
+       "mu": 10.9859,
+       "se": 0.2194,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.2911,
-       "se": 0.2206,
+       "mu": 11.2933,
+       "se": 0.219,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.5858,
-       "se": 0.2703,
+       "mu": 11.5996,
+       "se": 0.2677,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.8529,
-       "se": 0.3278,
+       "mu": 11.9062,
+       "se": 0.3247,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0758,
-       "se": 0.4208,
+       "mu": 12.0489,
+       "se": 0.4198,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1172,32 +1318,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1186,
-       "se": 0.1742,
+       "mu": 11.1448,
+       "se": 0.172,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3412,
-       "se": 0.1787,
+       "mu": 11.3774,
+       "se": 0.1756,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.5395,
-       "se": 0.1974,
+       "mu": 11.6089,
+       "se": 0.1901,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.7103,
-       "se": 0.2157,
+       "mu": 11.8408,
+       "se": 0.2046,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8368,
-       "se": 0.2485,
+       "mu": 11.9088,
+       "se": 0.2426,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1207,32 +1353,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9305,
-       "se": 0.182,
+       "mu": 10.9586,
+       "se": 0.1796,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.0266,
-       "se": 0.1854,
+       "mu": 11.0327,
+       "se": 0.1833,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.0984,
-       "se": 0.211,
+       "mu": 11.1058,
+       "se": 0.2078,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.1426,
-       "se": 0.2269,
+       "mu": 11.1792,
+       "se": 0.2243,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.1818,
-       "se": 0.315,
+       "mu": 11.2184,
+       "se": 0.3132,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1242,32 +1388,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.8293,
-       "se": 0.2672,
+       "mu": 10.7078,
+       "se": 0.2524,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.2604,
-       "se": 0.2475,
+       "mu": 11.1069,
+       "se": 0.2272,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.6672,
-       "se": 0.2517,
+       "mu": 11.505,
+       "se": 0.2306,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0464,
-       "se": 0.2663,
+       "mu": 11.9034,
+       "se": 0.2396,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.3814,
-       "se": 0.3426,
+       "mu": 12.1379,
+       "se": 0.3214,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1277,32 +1423,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.3558,
-       "se": 0.3255,
+       "mu": 10.0525,
+       "se": 0.2849,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7666,
-       "se": 0.3298,
+       "mu": 10.4426,
+       "se": 0.2809,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.1531,
-       "se": 0.347,
+       "mu": 10.8317,
+       "se": 0.2964,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.5121,
-       "se": 0.3814,
+       "mu": 11.2211,
+       "se": 0.3203,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8267,
-       "se": 0.4504,
+       "mu": 11.4466,
+       "se": 0.3966,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1312,32 +1458,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.0412,
-       "se": 0.3181,
+       "mu": 10.9426,
+       "se": 0.3124,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.4144,
-       "se": 0.3198,
+       "mu": 11.2917,
+       "se": 0.314,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.7633,
-       "se": 0.3508,
+       "mu": 11.6398,
+       "se": 0.3409,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0847,
-       "se": 0.4024,
+       "mu": 11.9882,
+       "se": 0.3926,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.3617,
-       "se": 0.4892,
+       "mu": 12.1728,
+       "se": 0.4809,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1347,32 +1493,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.258,
-       "se": 0.1611,
+       "mu": 10.2577,
+       "se": 0.1586,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 10.6188,
-       "se": 0.1674,
+       "mu": 10.6076,
+       "se": 0.1642,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.9553,
-       "se": 0.1746,
+       "mu": 10.9565,
+       "se": 0.1716,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.2642,
-       "se": 0.1764,
+       "mu": 11.3057,
+       "se": 0.1711,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.5289,
-       "se": 0.2189,
+       "mu": 11.491,
+       "se": 0.2167,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -1382,32 +1528,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.7355,
-       "se": 0.1874,
+       "mu": 9.7216,
+       "se": 0.185,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 10.1173,
-       "se": 0.1947,
+       "mu": 10.0833,
+       "se": 0.1894,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.4747,
-       "se": 0.2272,
+       "mu": 10.4439,
+       "se": 0.2196,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.8046,
-       "se": 0.2554,
+       "mu": 10.8049,
+       "se": 0.2498,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.0902,
-       "se": 0.3586,
+       "mu": 11.002,
+       "se": 0.3481,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -1458,32 +1604,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1164,
-       "se": 0.2741,
+       "mu": 11.1523,
+       "se": 0.2725,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.4919,
-       "se": 0.296,
+       "mu": 11.5172,
+       "se": 0.2941,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.8431,
-       "se": 0.3474,
+       "mu": 11.881,
+       "se": 0.3447,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.1667,
-       "se": 0.3977,
+       "mu": 12.2452,
+       "se": 0.3947,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.446,
-       "se": 0.4865,
+       "mu": 12.4455,
+       "se": 0.4846,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1493,32 +1639,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9206,
-       "se": 0.3001,
+       "mu": 10.9735,
+       "se": 0.2905,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.2771,
-       "se": 0.3103,
+       "mu": 11.3339,
+       "se": 0.2929,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.6092,
-       "se": 0.3496,
+       "mu": 11.6932,
+       "se": 0.3235,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.9138,
-       "se": 0.3915,
+       "mu": 12.0528,
+       "se": 0.358,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.1741,
-       "se": 0.4739,
+       "mu": 12.2485,
+       "se": 0.4357,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1528,32 +1674,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6531,
-       "se": 0.321,
+       "mu": 10.6016,
+       "se": 0.3059,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.0359,
-       "se": 0.3124,
+       "mu": 10.9567,
+       "se": 0.2949,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.3944,
-       "se": 0.3224,
+       "mu": 11.3106,
+       "se": 0.3047,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.7254,
-       "se": 0.3338,
+       "mu": 11.665,
+       "se": 0.3113,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.012,
-       "se": 0.3541,
+       "mu": 11.8554,
+       "se": 0.3345,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1563,32 +1709,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.2931,
-       "se": 0.3793,
+       "mu": 9.9965,
+       "se": 0.3458,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7039,
-       "se": 0.3826,
+       "mu": 10.3867,
+       "se": 0.3421,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.0904,
-       "se": 0.4023,
+       "mu": 10.7757,
+       "se": 0.3598,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.4493,
-       "se": 0.4278,
+       "mu": 11.1651,
+       "se": 0.3747,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.764,
-       "se": 0.4874,
+       "mu": 11.3906,
+       "se": 0.4386,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1598,32 +1744,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9784,
-       "se": 0.3702,
+       "mu": 10.8866,
+       "se": 0.3653,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3517,
-       "se": 0.3723,
+       "mu": 11.2358,
+       "se": 0.3674,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.7006,
-       "se": 0.4051,
+       "mu": 11.5838,
+       "se": 0.3962,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0219,
-       "se": 0.4471,
+       "mu": 11.9323,
+       "se": 0.4382,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.299,
-       "se": 0.5247,
+       "mu": 12.1168,
+       "se": 0.517,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1633,32 +1779,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.1953,
-       "se": 0.2525,
+       "mu": 10.2017,
+       "se": 0.251,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.5561,
-       "se": 0.2583,
+       "mu": 10.5517,
+       "se": 0.2565,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.8925,
-       "se": 0.2726,
+       "mu": 10.9005,
+       "se": 0.2704,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.2015,
-       "se": 0.2689,
+       "mu": 11.2498,
+       "se": 0.2654,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.4661,
-       "se": 0.2959,
+       "mu": 11.4351,
+       "se": 0.2944,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -1668,32 +1814,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.6728,
-       "se": 0.2581,
+       "mu": 9.6656,
+       "se": 0.2563,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.0545,
-       "se": 0.2736,
+       "mu": 10.0273,
+       "se": 0.2699,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.412,
-       "se": 0.3134,
+       "mu": 10.388,
+       "se": 0.3076,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.7419,
-       "se": 0.3372,
+       "mu": 10.7489,
+       "se": 0.333,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.0275,
-       "se": 0.4243,
+       "mu": 10.946,
+       "se": 0.4157,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -1745,32 +1891,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1507,
-       "se": 0.197,
+       "mu": 11.1872,
+       "se": 0.194,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5262,
-       "se": 0.225,
+       "mu": 11.5521,
+       "se": 0.2216,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.8774,
-       "se": 0.2879,
+       "mu": 11.9159,
+       "se": 0.2841,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.201,
-       "se": 0.3479,
+       "mu": 12.2801,
+       "se": 0.3439,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
        "mu": 12.4804,
-       "se": 0.4492,
+       "se": 0.4466,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1780,32 +1926,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.955,
-       "se": 0.2324,
+       "mu": 11.0084,
+       "se": 0.2197,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3115,
-       "se": 0.2434,
+       "mu": 11.3688,
+       "se": 0.2207,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.6436,
-       "se": 0.2899,
+       "mu": 11.7281,
+       "se": 0.2583,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.9482,
-       "se": 0.34,
+       "mu": 12.0877,
+       "se": 0.3011,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.2085,
-       "se": 0.4345,
+       "mu": 12.2834,
+       "se": 0.3928,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1815,32 +1961,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6875,
-       "se": 0.2594,
+       "mu": 10.6365,
+       "se": 0.2396,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.0703,
-       "se": 0.246,
+       "mu": 10.9916,
+       "se": 0.2225,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.4288,
-       "se": 0.2558,
+       "mu": 11.3455,
+       "se": 0.2325,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.7598,
-       "se": 0.2703,
+       "mu": 11.6999,
+       "se": 0.2412,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0464,
-       "se": 0.2977,
+       "mu": 11.8903,
+       "se": 0.2733,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1850,32 +1996,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9437,
-       "se": 0.2243,
+       "mu": 10.9649,
+       "se": 0.2223,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.2627,
-       "se": 0.223,
+       "mu": 11.2722,
+       "se": 0.2209,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.5574,
-       "se": 0.2788,
+       "mu": 11.5785,
+       "se": 0.2755,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.8246,
-       "se": 0.3309,
+       "mu": 11.8851,
+       "se": 0.3274,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0474,
-       "se": 0.4231,
+       "mu": 12.0278,
+       "se": 0.4219,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1885,32 +2031,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.0902,
-       "se": 0.1778,
+       "mu": 11.1238,
+       "se": 0.1748,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3128,
-       "se": 0.1807,
+       "mu": 11.3564,
+       "se": 0.1768,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.5111,
-       "se": 0.2078,
+       "mu": 11.5879,
+       "se": 0.1996,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.6819,
-       "se": 0.2192,
+       "mu": 11.8197,
+       "se": 0.2071,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8084,
-       "se": 0.2512,
+       "mu": 11.8877,
+       "se": 0.2445,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1920,32 +2066,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9022,
-       "se": 0.1855,
+       "mu": 10.9375,
+       "se": 0.1824,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.9982,
-       "se": 0.1874,
+       "mu": 11.0117,
+       "se": 0.1847,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.07,
-       "se": 0.2208,
+       "mu": 11.0847,
+       "se": 0.2169,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.1142,
-       "se": 0.2303,
+       "mu": 11.1581,
+       "se": 0.2272,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.1535,
-       "se": 0.3172,
+       "mu": 11.1974,
+       "se": 0.3152,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1955,32 +2101,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.8009,
-       "se": 0.2698,
+       "mu": 10.6867,
+       "se": 0.2546,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.232,
-       "se": 0.249,
+       "mu": 11.0859,
+       "se": 0.2284,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.6388,
-       "se": 0.2598,
+       "mu": 11.4839,
+       "se": 0.2387,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0181,
-       "se": 0.2689,
+       "mu": 11.8823,
+       "se": 0.2419,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.353,
-       "se": 0.3443,
+       "mu": 12.1168,
+       "se": 0.3229,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1990,32 +2136,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.3275,
-       "se": 0.3303,
+       "mu": 10.0314,
+       "se": 0.2897,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7383,
-       "se": 0.3339,
+       "mu": 10.4216,
+       "se": 0.285,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.1248,
-       "se": 0.3561,
+       "mu": 10.8106,
+       "se": 0.3057,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.4837,
-       "se": 0.3864,
+       "mu": 11.2001,
+       "se": 0.3251,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.7983,
-       "se": 0.4546,
+       "mu": 11.4255,
+       "se": 0.4004,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2025,32 +2171,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 11.0128,
-       "se": 0.3088,
+       "mu": 10.9215,
+       "se": 0.3032,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.386,
-       "se": 0.3079,
+       "mu": 11.2707,
+       "se": 0.3023,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.7349,
-       "se": 0.3436,
+       "mu": 11.6187,
+       "se": 0.3336,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 12.0563,
-       "se": 0.3914,
+       "mu": 11.9672,
+       "se": 0.3816,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.3334,
-       "se": 0.4789,
+       "mu": 12.1517,
+       "se": 0.4709,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -2060,32 +2206,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.2296,
-       "se": 0.167,
+       "mu": 10.2366,
+       "se": 0.1638,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 10.5904,
-       "se": 0.1716,
+       "mu": 10.5866,
+       "se": 0.1679,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.9269,
-       "se": 0.1884,
+       "mu": 10.9354,
+       "se": 0.1846,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.2359,
-       "se": 0.183,
+       "mu": 11.2847,
+       "se": 0.177,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.5005,
-       "se": 0.224,
+       "mu": 11.47,
+       "se": 0.2214,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -2095,32 +2241,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.9567,
-       "se": 0.3495,
+       "mu": 9.8183,
+       "se": 0.3419,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.3777,
-       "se": 0.3555,
+       "mu": 10.2152,
+       "se": 0.3478,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.7743,
-       "se": 0.3852,
+       "mu": 10.611,
+       "se": 0.3735,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.1433,
-       "se": 0.4134,
+       "mu": 11.0072,
+       "se": 0.4019,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.4681,
-       "se": 0.4854,
+       "mu": 11.2394,
+       "se": 0.475,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2130,34 +2276,69 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.7072,
-       "se": 0.1749,
+       "mu": 9.7005,
+       "se": 0.173,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 10.0889,
-       "se": 0.1794,
+       "mu": 10.0622,
+       "se": 0.1746,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.4464,
-       "se": 0.2209,
+       "mu": 10.4229,
+       "se": 0.2137,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.7763,
-       "se": 0.243,
+       "mu": 10.7838,
+       "se": 0.2381,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.0619,
-       "se": 0.3488,
+       "mu": 10.9809,
+       "se": 0.339,
        "confidence": "medium",
        "extra_sd": 0.12
+      }
+     }
+    },
+    "private_university": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.271,
+       "se": 0.3695,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.6474,
+       "se": 0.3809,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.0226,
+       "se": 0.4231,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.3982,
+       "se": 0.4722,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.6098,
+       "se": 0.5543,
+       "confidence": "low",
+       "extra_sd": 0.25
       }
      }
     },
@@ -2165,32 +2346,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.6848,
-       "se": 0.3338,
+       "mu": 9.7067,
+       "se": 0.3304,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.0456,
-       "se": 0.3536,
+       "mu": 10.0566,
+       "se": 0.35,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.3821,
-       "se": 0.3985,
+       "mu": 10.4055,
+       "se": 0.3952,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.691,
-       "se": 0.457,
+       "mu": 10.7547,
+       "se": 0.453,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.9557,
-       "se": 0.543,
+       "mu": 10.94,
+       "se": 0.5409,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2235,32 +2416,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.8795,
-       "se": 0.1906,
+       "mu": 10.9388,
+       "se": 0.1876,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.255,
-       "se": 0.217,
+       "mu": 11.3037,
+       "se": 0.2134,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.6061,
-       "se": 0.2774,
+       "mu": 11.6676,
+       "se": 0.274,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.9298,
-       "se": 0.3455,
+       "mu": 12.0318,
+       "se": 0.3413,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.2091,
-       "se": 0.4449,
+       "mu": 12.232,
+       "se": 0.4424,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2270,32 +2451,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6837,
-       "se": 0.2274,
+       "mu": 10.76,
+       "se": 0.2138,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.0402,
-       "se": 0.2368,
+       "mu": 11.1204,
+       "se": 0.2123,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.3723,
-       "se": 0.2805,
+       "mu": 11.4797,
+       "se": 0.247,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.6769,
-       "se": 0.3386,
+       "mu": 11.8393,
+       "se": 0.2979,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.9372,
-       "se": 0.4311,
+       "mu": 12.0351,
+       "se": 0.3879,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2305,32 +2486,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.4162,
-       "se": 0.2555,
+       "mu": 10.3881,
+       "se": 0.236,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.799,
-       "se": 0.2398,
+       "mu": 10.7432,
+       "se": 0.2162,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.1575,
-       "se": 0.2451,
+       "mu": 11.0972,
+       "se": 0.2219,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.4885,
-       "se": 0.2682,
+       "mu": 11.4515,
+       "se": 0.2392,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.7751,
-       "se": 0.2923,
+       "mu": 11.6419,
+       "se": 0.2681,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2340,32 +2521,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6724,
-       "se": 0.2199,
+       "mu": 10.7165,
+       "se": 0.2179,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.9914,
-       "se": 0.217,
+       "mu": 11.0238,
+       "se": 0.2147,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.2861,
-       "se": 0.2702,
+       "mu": 11.3301,
+       "se": 0.2674,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.5533,
-       "se": 0.3308,
+       "mu": 11.6368,
+       "se": 0.327,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.7762,
-       "se": 0.4209,
+       "mu": 11.7795,
+       "se": 0.4198,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2375,32 +2556,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.8189,
-       "se": 0.1716,
+       "mu": 10.8754,
+       "se": 0.1686,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.0415,
-       "se": 0.1725,
+       "mu": 11.108,
+       "se": 0.1684,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.2399,
-       "se": 0.1956,
+       "mu": 11.3395,
+       "se": 0.1878,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.4106,
-       "se": 0.2184,
+       "mu": 11.5714,
+       "se": 0.2062,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.5371,
-       "se": 0.2471,
+       "mu": 11.6393,
+       "se": 0.2406,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2410,32 +2591,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6309,
-       "se": 0.1796,
+       "mu": 10.6891,
+       "se": 0.1766,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.727,
-       "se": 0.1785,
+       "mu": 10.7633,
+       "se": 0.1758,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.7987,
-       "se": 0.2074,
+       "mu": 10.8364,
+       "se": 0.2043,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.843,
-       "se": 0.2269,
+       "mu": 10.9098,
+       "se": 0.2238,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.8822,
-       "se": 0.3113,
+       "mu": 10.949,
+       "se": 0.3097,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2445,32 +2626,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.5296,
-       "se": 0.2657,
+       "mu": 10.4383,
+       "se": 0.2512,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.9607,
-       "se": 0.2421,
+       "mu": 10.8375,
+       "se": 0.2218,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.3675,
-       "se": 0.2482,
+       "mu": 11.2355,
+       "se": 0.2277,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.7468,
-       "se": 0.2655,
+       "mu": 11.634,
+       "se": 0.239,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0818,
-       "se": 0.3384,
+       "mu": 11.8685,
+       "se": 0.3175,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2480,32 +2661,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.0562,
-       "se": 0.3216,
+       "mu": 9.783,
+       "se": 0.2815,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.467,
-       "se": 0.3228,
+       "mu": 10.1732,
+       "se": 0.2737,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.8535,
-       "se": 0.3415,
+       "mu": 10.5623,
+       "se": 0.291,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.2124,
-       "se": 0.3779,
+       "mu": 10.9517,
+       "se": 0.3165,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.5271,
-       "se": 0.4445,
+       "mu": 11.1772,
+       "se": 0.3904,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2515,32 +2696,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.7415,
-       "se": 0.3059,
+       "mu": 10.6731,
+       "se": 0.3015,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.1148,
-       "se": 0.3038,
+       "mu": 11.0223,
+       "se": 0.2994,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.4637,
-       "se": 0.3368,
+       "mu": 11.3704,
+       "se": 0.3285,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.785,
-       "se": 0.3912,
+       "mu": 11.7188,
+       "se": 0.3826,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.0621,
-       "se": 0.4768,
+       "mu": 11.9033,
+       "se": 0.4701,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -2550,32 +2731,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.9583,
-       "se": 0.1571,
+       "mu": 9.9882,
+       "se": 0.1538,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.3192,
-       "se": 0.1593,
+       "mu": 10.3382,
+       "se": 0.1552,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 10.6556,
-       "se": 0.1709,
+       "mu": 10.6871,
+       "se": 0.1677,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 10.9646,
-       "se": 0.1778,
+       "mu": 11.0363,
+       "se": 0.1713,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.2292,
-       "se": 0.2154,
+       "mu": 11.2216,
+       "se": 0.2129,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -2585,32 +2766,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.6855,
-       "se": 0.3172,
+       "mu": 9.57,
+       "se": 0.3106,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.1064,
-       "se": 0.3197,
+       "mu": 9.9669,
+       "se": 0.313,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.503,
-       "se": 0.3467,
+       "mu": 10.3627,
+       "se": 0.3361,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.872,
-       "se": 0.3813,
+       "mu": 10.7588,
+       "se": 0.3706,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.1968,
-       "se": 0.4544,
+       "mu": 10.991,
+       "se": 0.445,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -2620,34 +2801,69 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.4359,
-       "se": 0.1941,
+       "mu": 9.4521,
+       "se": 0.1917,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.8176,
-       "se": 0.2004,
+       "mu": 9.8139,
+       "se": 0.1952,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.1751,
-       "se": 0.2373,
+       "mu": 10.1745,
+       "se": 0.2304,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.505,
-       "se": 0.2697,
+       "mu": 10.5355,
+       "se": 0.2643,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.7906,
-       "se": 0.3677,
+       "mu": 10.7325,
+       "se": 0.3578,
        "confidence": "medium",
        "extra_sd": 0.12
+      }
+     }
+    },
+    "private_university": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.0227,
+       "se": 0.3653,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.399,
+       "se": 0.3756,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.7742,
+       "se": 0.4161,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.1498,
+       "se": 0.4703,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.3615,
+       "se": 0.5511,
+       "confidence": "low",
+       "extra_sd": 0.25
       }
      }
     },
@@ -2655,32 +2871,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.4135,
-       "se": 0.3247,
+       "mu": 9.4583,
+       "se": 0.3213,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 9.7743,
-       "se": 0.3437,
+       "mu": 9.8083,
+       "se": 0.3401,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.1108,
-       "se": 0.3869,
+       "mu": 10.1571,
+       "se": 0.384,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.4197,
-       "se": 0.4519,
+       "mu": 10.5063,
+       "se": 0.4477,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.6844,
-       "se": 0.5369,
+       "mu": 10.6916,
+       "se": 0.535,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2737,32 +2953,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9868,
-       "se": 0.251,
+       "mu": 11.1927,
+       "se": 0.1889,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3433,
-       "se": 0.2555,
+       "mu": 11.553,
+       "se": 0.1734,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.6754,
-       "se": 0.2982,
+       "mu": 11.9123,
+       "se": 0.205,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.98,
-       "se": 0.3481,
+       "mu": 12.272,
+       "se": 0.2543,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.2403,
-       "se": 0.4406,
+       "mu": 12.4677,
+       "se": 0.3506,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2772,32 +2988,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.7193,
-       "se": 0.1808,
+       "mu": 10.8208,
+       "se": 0.1738,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.1021,
-       "se": 0.1349,
+       "mu": 11.1758,
+       "se": 0.1295,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.4606,
-       "se": 0.1311,
+       "mu": 11.5298,
+       "se": 0.1256,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 11.7916,
-       "se": 0.144,
+       "mu": 11.8841,
+       "se": 0.1385,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.0782,
-       "se": 0.1769,
+       "mu": 12.0745,
+       "se": 0.1757,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -2807,32 +3023,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9755,
-       "se": 0.2376,
+       "mu": 11.1491,
+       "se": 0.2128,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.2945,
-       "se": 0.232,
+       "mu": 11.4565,
+       "se": 0.2074,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.5892,
-       "se": 0.2857,
+       "mu": 11.7628,
+       "se": 0.2617,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.8564,
-       "se": 0.3392,
+       "mu": 12.0694,
+       "se": 0.3209,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0792,
-       "se": 0.4304,
+       "mu": 12.2121,
+       "se": 0.4157,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2842,32 +3058,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.122,
-       "se": 0.197,
+       "mu": 11.308,
+       "se": 0.1656,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3446,
-       "se": 0.1956,
+       "mu": 11.5406,
+       "se": 0.1638,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.5429,
-       "se": 0.2214,
+       "mu": 11.7721,
+       "se": 0.1848,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.7137,
-       "se": 0.2365,
+       "mu": 12.004,
+       "se": 0.2019,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8402,
-       "se": 0.2688,
+       "mu": 12.072,
+       "se": 0.2389,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2877,32 +3093,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.934,
-       "se": 0.2039,
+       "mu": 11.1218,
+       "se": 0.1738,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.03,
-       "se": 0.2015,
+       "mu": 11.1959,
+       "se": 0.1719,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.1018,
-       "se": 0.2331,
+       "mu": 11.269,
+       "se": 0.2026,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.146,
-       "se": 0.2461,
+       "mu": 11.3424,
+       "se": 0.2213,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.1853,
-       "se": 0.3304,
+       "mu": 11.3816,
+       "se": 0.3097,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2912,32 +3128,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.8327,
-       "se": 0.1823,
+       "mu": 10.871,
+       "se": 0.18,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.2638,
-       "se": 0.123,
+       "mu": 11.2701,
+       "se": 0.1211,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 11.6706,
-       "se": 0.1229,
+       "mu": 11.6682,
+       "se": 0.1202,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 12.0499,
-       "se": 0.1273,
+       "mu": 12.0666,
+       "se": 0.1254,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "lead": {
-       "mu": 12.3848,
-       "se": 0.2405,
+       "mu": 12.3011,
+       "se": 0.239,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -2947,32 +3163,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.3593,
-       "se": 0.1828,
+       "mu": 10.2157,
+       "se": 0.1725,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.7701,
-       "se": 0.1652,
+       "mu": 10.6058,
+       "se": 0.1487,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 11.1566,
-       "se": 0.1894,
+       "mu": 10.9949,
+       "se": 0.1718,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 11.5155,
-       "se": 0.2313,
+       "mu": 11.3843,
+       "se": 0.2039,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.8301,
-       "se": 0.3243,
+       "mu": 11.6098,
+       "se": 0.3034,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -2982,32 +3198,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.0446,
-       "se": 0.3368,
+       "mu": 11.1058,
+       "se": 0.32,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.4178,
-       "se": 0.3358,
+       "mu": 11.4549,
+       "se": 0.32,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.7667,
-       "se": 0.371,
+       "mu": 11.803,
+       "se": 0.3505,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0881,
-       "se": 0.4198,
+       "mu": 12.1514,
+       "se": 0.4031,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.3652,
-       "se": 0.5049,
+       "mu": 12.336,
+       "se": 0.4896,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3017,32 +3233,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.2614,
-       "se": 0.1829,
+       "mu": 10.4209,
+       "se": 0.157,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.6222,
-       "se": 0.1819,
+       "mu": 10.7708,
+       "se": 0.1568,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.9587,
-       "se": 0.1973,
+       "mu": 11.1197,
+       "se": 0.1706,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.2677,
-       "se": 0.1965,
+       "mu": 11.4689,
+       "se": 0.1726,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.5323,
-       "se": 0.2369,
+       "mu": 11.6542,
+       "se": 0.2163,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -3052,32 +3268,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.739,
-       "se": 0.2808,
+       "mu": 9.8848,
+       "se": 0.2513,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.1207,
-       "se": 0.2886,
+       "mu": 10.2465,
+       "se": 0.2562,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.4782,
-       "se": 0.3232,
+       "mu": 10.6071,
+       "se": 0.2877,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.8081,
-       "se": 0.3481,
+       "mu": 10.9681,
+       "se": 0.3171,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.0937,
-       "se": 0.4352,
+       "mu": 11.1652,
+       "se": 0.4017,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -3089,7 +3305,7 @@
    "title": "Data & analytics",
    "short": "Data analyst",
    "title_bn": "ডেটা ও অ্যানালিটিক্স",
-   "about": "Data analyst, BI, MIS, data science",
+   "about": "Data analyst, BI, MIS, reporting",
    "sigma": 0.28,
    "keywords": [
     "data analyst",
@@ -3098,7 +3314,6 @@
     "mis executive",
     "mis officer",
     "reporting analyst",
-    "data scientist",
     "analytics"
    ],
    "skills": [
@@ -3110,16 +3325,17 @@
    ],
    "adjacent": [
     {
-     "function": "software",
-     "bridge": [
-      "Software engineering",
-      "APIs"
-     ]
-    },
-    {
      "function": "business_analyst",
      "bridge": [
       "Requirement analysis"
+     ]
+    },
+    {
+     "function": "data_science",
+     "bridge": [
+      "Machine learning",
+      "Python",
+      "Statistics"
      ]
     }
    ],
@@ -3128,32 +3344,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6785,
-       "se": 0.2045,
+       "mu": 10.7881,
+       "se": 0.197,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.054,
-       "se": 0.228,
+       "mu": 11.153,
+       "se": 0.222,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.4052,
-       "se": 0.2898,
+       "mu": 11.5168,
+       "se": 0.2833,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.7288,
-       "se": 0.3475,
+       "mu": 11.881,
+       "se": 0.344,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0082,
-       "se": 0.4529,
+       "mu": 12.0813,
+       "se": 0.4495,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3163,32 +3379,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.4828,
-       "se": 0.2339,
+       "mu": 10.6093,
+       "se": 0.2046,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.8392,
-       "se": 0.2362,
+       "mu": 10.9697,
+       "se": 0.1925,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.1714,
-       "se": 0.2788,
+       "mu": 11.3289,
+       "se": 0.2239,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.476,
-       "se": 0.3245,
+       "mu": 11.6886,
+       "se": 0.2649,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.7363,
-       "se": 0.4238,
+       "mu": 11.8843,
+       "se": 0.3634,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3198,32 +3414,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.2153,
-       "se": 0.2282,
+       "mu": 10.2374,
+       "se": 0.2176,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.5981,
-       "se": 0.203,
+       "mu": 10.5924,
+       "se": 0.1918,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.9566,
-       "se": 0.2083,
+       "mu": 10.9464,
+       "se": 0.1977,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.2875,
-       "se": 0.2171,
+       "mu": 11.3007,
+       "se": 0.2049,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.5742,
-       "se": 0.2528,
+       "mu": 11.4911,
+       "se": 0.2438,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3233,32 +3449,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.4715,
-       "se": 0.2324,
+       "mu": 10.5657,
+       "se": 0.2257,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7905,
-       "se": 0.2278,
+       "mu": 10.8731,
+       "se": 0.2215,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.0852,
-       "se": 0.2823,
+       "mu": 11.1794,
+       "se": 0.2744,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.3524,
-       "se": 0.332,
+       "mu": 11.486,
+       "se": 0.3267,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.5752,
-       "se": 0.4284,
+       "mu": 11.6287,
+       "se": 0.4241,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3268,32 +3484,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.618,
-       "se": 0.1877,
+       "mu": 10.7246,
+       "se": 0.1789,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.8406,
-       "se": 0.1865,
+       "mu": 10.9572,
+       "se": 0.1774,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.0389,
-       "se": 0.2126,
+       "mu": 11.1887,
+       "se": 0.1981,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.2097,
-       "se": 0.2209,
+       "mu": 11.4206,
+       "se": 0.2062,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.3362,
-       "se": 0.2602,
+       "mu": 11.4886,
+       "se": 0.2484,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3303,32 +3519,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.4299,
-       "se": 0.1951,
+       "mu": 10.5384,
+       "se": 0.1865,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.526,
-       "se": 0.1952,
+       "mu": 10.6125,
+       "se": 0.187,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.5978,
-       "se": 0.229,
+       "mu": 10.6856,
+       "se": 0.2183,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.642,
-       "se": 0.2372,
+       "mu": 10.759,
+       "se": 0.2301,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.6812,
-       "se": 0.3294,
+       "mu": 10.7982,
+       "se": 0.3218,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3338,32 +3554,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.3287,
-       "se": 0.2406,
+       "mu": 10.2876,
+       "se": 0.2367,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7598,
-       "se": 0.2083,
+       "mu": 10.6867,
+       "se": 0.2021,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.1666,
-       "se": 0.2156,
+       "mu": 11.0848,
+       "se": 0.2087,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.5459,
-       "se": 0.2185,
+       "mu": 11.4832,
+       "se": 0.2097,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8808,
-       "se": 0.3091,
+       "mu": 11.7177,
+       "se": 0.3013,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3373,32 +3589,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.8552,
-       "se": 0.2469,
+       "mu": 9.6323,
+       "se": 0.2248,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.2661,
-       "se": 0.2367,
+       "mu": 10.0224,
+       "se": 0.2071,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.6525,
-       "se": 0.2557,
+       "mu": 10.4115,
+       "se": 0.225,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.0115,
-       "se": 0.2842,
+       "mu": 10.8009,
+       "se": 0.2436,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.3261,
-       "se": 0.3691,
+       "mu": 11.0264,
+       "se": 0.3356,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -3408,32 +3624,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.5406,
-       "se": 0.3361,
+       "mu": 10.5224,
+       "se": 0.3274,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.9138,
-       "se": 0.3363,
+       "mu": 10.8715,
+       "se": 0.3278,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.2627,
-       "se": 0.3719,
+       "mu": 11.2196,
+       "se": 0.3586,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.5841,
-       "se": 0.4175,
+       "mu": 11.568,
+       "se": 0.4064,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8611,
-       "se": 0.5064,
+       "mu": 11.7526,
+       "se": 0.4956,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3443,32 +3659,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.7574,
-       "se": 0.1771,
+       "mu": 9.8375,
+       "se": 0.171,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.1182,
-       "se": 0.1771,
+       "mu": 10.1875,
+       "se": 0.1713,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.4547,
-       "se": 0.1928,
+       "mu": 10.5363,
+       "se": 0.1855,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.7636,
-       "se": 0.1839,
+       "mu": 10.8855,
+       "se": 0.1785,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.0283,
-       "se": 0.2329,
+       "mu": 11.0708,
+       "se": 0.2277,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -3478,32 +3694,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.2126,
-       "se": 0.3181,
+       "mu": 9.3075,
+       "se": 0.3147,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 9.5734,
-       "se": 0.3365,
+       "mu": 9.6575,
+       "se": 0.3334,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 9.9099,
-       "se": 0.3831,
+       "mu": 10.0064,
+       "se": 0.3795,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.2188,
-       "se": 0.4421,
+       "mu": 10.3556,
+       "se": 0.4395,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.4834,
-       "se": 0.5341,
+       "mu": 10.5409,
+       "se": 0.5319,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3512,16 +3728,14 @@
    }
   },
   "business_analyst": {
-   "title": "Business / product analyst",
+   "title": "Business / system analyst",
    "short": "Business analyst",
    "title_bn": "বিজনেস / প্রোডাক্ট অ্যানালিস্ট",
-   "about": "Requirements, product, process improvement",
+   "about": "Requirements, process improvement, system analysis",
    "sigma": 0.28,
    "keywords": [
     "business analyst",
     "product analyst",
-    "product owner",
-    "product manager",
     "system analyst"
    ],
    "skills": [
@@ -3544,32 +3758,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.3447,
-       "se": 0.2799,
+       "mu": 11.4951,
+       "se": 0.2696,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.7202,
-       "se": 0.3016,
+       "mu": 11.86,
+       "se": 0.2932,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 12.0714,
-       "se": 0.3543,
+       "mu": 12.2239,
+       "se": 0.3458,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.395,
-       "se": 0.3996,
+       "mu": 12.5881,
+       "se": 0.3937,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.6744,
-       "se": 0.4882,
+       "mu": 12.7883,
+       "se": 0.4838,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3579,32 +3793,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.149,
-       "se": 0.3101,
+       "mu": 11.3163,
+       "se": 0.2778,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5054,
-       "se": 0.3201,
+       "mu": 11.6767,
+       "se": 0.2756,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.8376,
-       "se": 0.3604,
+       "mu": 12.036,
+       "se": 0.3042,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.1422,
-       "se": 0.3971,
+       "mu": 12.3956,
+       "se": 0.3327,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.4025,
-       "se": 0.4787,
+       "mu": 12.5914,
+       "se": 0.4108,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3614,32 +3828,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.8814,
-       "se": 0.2731,
+       "mu": 10.9444,
+       "se": 0.2686,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.2643,
-       "se": 0.264,
+       "mu": 11.2995,
+       "se": 0.2599,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.6228,
-       "se": 0.2795,
+       "mu": 11.6535,
+       "se": 0.2749,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.9537,
-       "se": 0.2878,
+       "mu": 12.0078,
+       "se": 0.281,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.2404,
-       "se": 0.3122,
+       "mu": 12.1982,
+       "se": 0.308,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3649,32 +3863,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1376,
-       "se": 0.3007,
+       "mu": 11.2728,
+       "se": 0.2906,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.4567,
-       "se": 0.303,
+       "mu": 11.5802,
+       "se": 0.2932,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.7514,
-       "se": 0.3513,
+       "mu": 11.8864,
+       "se": 0.3398,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0185,
-       "se": 0.3903,
+       "mu": 12.1931,
+       "se": 0.3806,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.2414,
-       "se": 0.4701,
+       "mu": 12.3358,
+       "se": 0.4625,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3684,32 +3898,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.2841,
-       "se": 0.2665,
+       "mu": 11.4317,
+       "se": 0.2548,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5068,
-       "se": 0.271,
+       "mu": 11.6643,
+       "se": 0.2594,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.7051,
-       "se": 0.2949,
+       "mu": 11.8958,
+       "se": 0.279,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.8759,
-       "se": 0.2973,
+       "mu": 12.1277,
+       "se": 0.2803,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0023,
-       "se": 0.3194,
+       "mu": 12.1956,
+       "se": 0.3054,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3719,32 +3933,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9949,
-       "se": 0.297,
+       "mu": 10.9946,
+       "se": 0.2963,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.426,
-       "se": 0.2761,
+       "mu": 11.3938,
+       "se": 0.2746,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.8328,
-       "se": 0.2866,
+       "mu": 11.7919,
+       "se": 0.2841,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.212,
-       "se": 0.2844,
+       "mu": 12.1903,
+       "se": 0.2801,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.547,
-       "se": 0.3509,
+       "mu": 12.4248,
+       "se": 0.3472,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3754,32 +3968,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.5214,
-       "se": 0.2734,
+       "mu": 10.3394,
+       "se": 0.262,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.9322,
-       "se": 0.2819,
+       "mu": 10.7295,
+       "se": 0.2656,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.3187,
-       "se": 0.3141,
+       "mu": 11.1186,
+       "se": 0.2961,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.6777,
-       "se": 0.3445,
+       "mu": 11.508,
+       "se": 0.317,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.9923,
-       "se": 0.4191,
+       "mu": 11.7335,
+       "se": 0.3948,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -3789,32 +4003,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.2068,
-       "se": 0.3814,
+       "mu": 11.2294,
+       "se": 0.3721,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.58,
-       "se": 0.3852,
+       "mu": 11.5786,
+       "se": 0.3765,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.9289,
-       "se": 0.4202,
+       "mu": 11.9267,
+       "se": 0.4071,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.2503,
-       "se": 0.4586,
+       "mu": 12.2751,
+       "se": 0.447,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.5273,
-       "se": 0.5358,
+       "mu": 12.4596,
+       "se": 0.5252,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3824,32 +4038,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.4236,
-       "se": 0.2586,
+       "mu": 10.5446,
+       "se": 0.2504,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7844,
-       "se": 0.2653,
+       "mu": 10.8945,
+       "se": 0.2575,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.1209,
-       "se": 0.2827,
+       "mu": 11.2434,
+       "se": 0.2733,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.4298,
-       "se": 0.274,
+       "mu": 11.5926,
+       "se": 0.2649,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.6945,
-       "se": 0.3014,
+       "mu": 11.7779,
+       "se": 0.2936,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3897,32 +4111,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.2275,
-       "se": 0.2167,
+       "mu": 10.2911,
+       "se": 0.2088,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.584,
-       "se": 0.2118,
+       "mu": 10.6515,
+       "se": 0.1947,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.9161,
-       "se": 0.2565,
+       "mu": 11.0107,
+       "se": 0.2298,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.2207,
-       "se": 0.3061,
+       "mu": 11.3704,
+       "se": 0.2725,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.481,
-       "se": 0.4017,
+       "mu": 11.5661,
+       "se": 0.3649,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -3932,32 +4146,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.96,
-       "se": 0.2663,
+       "mu": 9.9192,
+       "se": 0.2428,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.3428,
-       "se": 0.2458,
+       "mu": 10.2742,
+       "se": 0.2191,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.7013,
-       "se": 0.2553,
+       "mu": 10.6282,
+       "se": 0.2292,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.0323,
-       "se": 0.2699,
+       "mu": 10.9825,
+       "se": 0.2394,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.3189,
-       "se": 0.2941,
+       "mu": 11.1729,
+       "se": 0.2688,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -3967,32 +4181,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.2162,
-       "se": 0.1962,
+       "mu": 10.2475,
+       "se": 0.1948,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.5352,
-       "se": 0.1776,
+       "mu": 10.5549,
+       "se": 0.177,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.8299,
-       "se": 0.2381,
+       "mu": 10.8612,
+       "se": 0.2355,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.0971,
-       "se": 0.293,
+       "mu": 11.1678,
+       "se": 0.2906,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.32,
-       "se": 0.3884,
+       "mu": 11.3105,
+       "se": 0.3882,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -4002,32 +4216,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.3627,
-       "se": 0.1885,
+       "mu": 10.4064,
+       "se": 0.1865,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.5853,
-       "se": 0.186,
+       "mu": 10.639,
+       "se": 0.1837,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.7836,
-       "se": 0.2161,
+       "mu": 10.8706,
+       "se": 0.2089,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.9544,
-       "se": 0.2309,
+       "mu": 11.1024,
+       "se": 0.2205,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.0809,
-       "se": 0.2614,
+       "mu": 11.1704,
+       "se": 0.2554,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -4037,32 +4251,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.1747,
-       "se": 0.1963,
+       "mu": 10.2202,
+       "se": 0.1941,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.2708,
-       "se": 0.192,
+       "mu": 10.2943,
+       "se": 0.1908,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.3425,
-       "se": 0.2274,
+       "mu": 10.3674,
+       "se": 0.224,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.3867,
-       "se": 0.2395,
+       "mu": 10.4408,
+       "se": 0.2372,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.426,
-       "se": 0.3232,
+       "mu": 10.48,
+       "se": 0.3214,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -4072,32 +4286,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.6,
-       "se": 0.3052,
+       "mu": 9.3141,
+       "se": 0.2631,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.0108,
-       "se": 0.301,
+       "mu": 9.7043,
+       "se": 0.2497,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.3973,
-       "se": 0.3233,
+       "mu": 10.0933,
+       "se": 0.2711,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.7562,
-       "se": 0.3547,
+       "mu": 10.4827,
+       "se": 0.2919,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.0708,
-       "se": 0.4244,
+       "mu": 10.7082,
+       "se": 0.3704,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -4107,32 +4321,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.5021,
-       "se": 0.1876,
-       "confidence": "medium",
-       "extra_sd": 0.12
-      },
-      "junior": {
-       "mu": 9.8629,
+       "mu": 9.5193,
        "se": 0.1849,
        "confidence": "medium",
        "extra_sd": 0.12
       },
+      "junior": {
+       "mu": 9.8693,
+       "se": 0.1826,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
       "mid": {
-       "mu": 10.1994,
-       "se": 0.203,
+       "mu": 10.2181,
+       "se": 0.2002,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.5084,
-       "se": 0.201,
+       "mu": 10.5673,
+       "se": 0.197,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.773,
-       "se": 0.2375,
+       "mu": 10.7526,
+       "se": 0.236,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -4142,32 +4356,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 8.9797,
-       "se": 0.2652,
+       "mu": 9.3057,
+       "se": 0.2602,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.3614,
-       "se": 0.2695,
+       "mu": 9.3449,
+       "se": 0.2624,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 9.7189,
-       "se": 0.3057,
+       "mu": 9.7055,
+       "se": 0.2961,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.0488,
-       "se": 0.3289,
+       "mu": 10.0665,
+       "se": 0.3209,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.3344,
-       "se": 0.4164,
+       "mu": 10.2636,
+       "se": 0.404,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -4218,32 +4432,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.3336,
-       "se": 0.2575,
+       "mu": 10.3757,
+       "se": 0.2487,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7165,
-       "se": 0.235,
+       "mu": 10.7307,
+       "se": 0.2253,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.075,
-       "se": 0.2368,
+       "mu": 11.0847,
+       "se": 0.2268,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.4059,
-       "se": 0.2558,
+       "mu": 11.439,
+       "se": 0.2418,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.6926,
-       "se": 0.2783,
+       "mu": 11.6294,
+       "se": 0.2686,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -4253,32 +4467,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.447,
-       "se": 0.2647,
+       "mu": 10.4259,
+       "se": 0.2606,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.8782,
-       "se": 0.2343,
+       "mu": 10.825,
+       "se": 0.2281,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.285,
-       "se": 0.2373,
+       "mu": 11.2231,
+       "se": 0.2302,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.6642,
-       "se": 0.2506,
+       "mu": 11.6215,
+       "se": 0.2395,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.9992,
-       "se": 0.3248,
+       "mu": 11.856,
+       "se": 0.3166,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -4288,32 +4502,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.9736,
-       "se": 0.2871,
+       "mu": 9.7706,
+       "se": 0.2647,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.3844,
-       "se": 0.2828,
+       "mu": 10.1607,
+       "se": 0.2532,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.7709,
-       "se": 0.3012,
+       "mu": 10.5498,
+       "se": 0.2693,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.1298,
-       "se": 0.3383,
+       "mu": 10.9392,
+       "se": 0.296,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.4445,
-       "se": 0.4097,
+       "mu": 11.1647,
+       "se": 0.3734,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -4323,32 +4537,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.8758,
-       "se": 0.2016,
+       "mu": 9.9758,
+       "se": 0.1976,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.2366,
-       "se": 0.2006,
+       "mu": 10.3257,
+       "se": 0.197,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.5731,
-       "se": 0.2111,
+       "mu": 10.6746,
+       "se": 0.206,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.882,
-       "se": 0.216,
+       "mu": 11.0238,
+       "se": 0.2102,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.1467,
-       "se": 0.2494,
+       "mu": 11.2091,
+       "se": 0.2462,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -4358,32 +4572,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.3533,
-       "se": 0.2441,
+       "mu": 9.4397,
+       "se": 0.2347,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.7351,
-       "se": 0.2455,
+       "mu": 9.8014,
+       "se": 0.2335,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.0925,
-       "se": 0.2762,
+       "mu": 10.162,
+       "se": 0.2607,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.4224,
-       "se": 0.3028,
+       "mu": 10.523,
+       "se": 0.2898,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.708,
-       "se": 0.3928,
+       "mu": 10.7201,
+       "se": 0.3761,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -4427,32 +4641,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.3686,
-       "se": 0.2453,
+       "mu": 11.408,
+       "se": 0.2425,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.744,
-       "se": 0.2642,
+       "mu": 11.7729,
+       "se": 0.2613,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 12.0952,
-       "se": 0.3147,
+       "mu": 12.1367,
+       "se": 0.3112,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.4189,
-       "se": 0.3762,
+       "mu": 12.5009,
+       "se": 0.372,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.6982,
-       "se": 0.469,
+       "mu": 12.7012,
+       "se": 0.4667,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -4462,32 +4676,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1728,
-       "se": 0.2741,
+       "mu": 11.2292,
+       "se": 0.264,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5293,
-       "se": 0.2799,
+       "mu": 11.5896,
+       "se": 0.2615,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.8614,
-       "se": 0.3167,
+       "mu": 11.9489,
+       "se": 0.2893,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.166,
-       "se": 0.3693,
+       "mu": 12.3085,
+       "se": 0.3343,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.4263,
-       "se": 0.4555,
+       "mu": 12.5042,
+       "se": 0.4171,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -4497,32 +4711,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.2306,
-       "se": 0.3531,
+       "mu": 11.1423,
+       "se": 0.3472,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.6038,
-       "se": 0.3513,
+       "mu": 11.4915,
+       "se": 0.3456,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.9527,
-       "se": 0.381,
+       "mu": 11.8395,
+       "se": 0.3712,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.2741,
-       "se": 0.4314,
+       "mu": 12.188,
+       "se": 0.4212,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.5512,
-       "se": 0.5114,
+       "mu": 12.3725,
+       "se": 0.5032,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -4532,32 +4746,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.4474,
-       "se": 0.2227,
+       "mu": 10.4574,
+       "se": 0.2199,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.8082,
-       "se": 0.2223,
+       "mu": 10.8074,
+       "se": 0.2194,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.1447,
-       "se": 0.2301,
+       "mu": 11.1562,
+       "se": 0.2269,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.4537,
-       "se": 0.2361,
+       "mu": 11.5055,
+       "se": 0.2305,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.7183,
-       "se": 0.2659,
+       "mu": 11.6908,
+       "se": 0.2637,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -4567,32 +4781,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.1745,
-       "se": 0.3803,
+       "mu": 10.0391,
+       "se": 0.3724,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.5955,
-       "se": 0.3834,
+       "mu": 10.436,
+       "se": 0.3755,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.9921,
-       "se": 0.4078,
+       "mu": 10.8318,
+       "se": 0.3961,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.3611,
-       "se": 0.4399,
+       "mu": 11.228,
+       "se": 0.4279,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.6859,
-       "se": 0.5064,
+       "mu": 11.4602,
+       "se": 0.4957,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -4602,32 +4816,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.925,
-       "se": 0.2273,
+       "mu": 9.9213,
+       "se": 0.226,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.3067,
-       "se": 0.2237,
+       "mu": 10.283,
+       "se": 0.2206,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.6642,
-       "se": 0.25,
+       "mu": 10.6437,
+       "se": 0.2447,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.9941,
-       "se": 0.2758,
+       "mu": 11.0046,
+       "se": 0.2718,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.2797,
-       "se": 0.368,
+       "mu": 11.2017,
+       "se": 0.3597,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -4670,32 +4884,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.8804,
-       "se": 0.2136,
+       "mu": 9.8859,
+       "se": 0.213,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.3014,
-       "se": 0.1734,
+       "mu": 10.2828,
+       "se": 0.1723,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.698,
-       "se": 0.177,
+       "mu": 10.6786,
+       "se": 0.1751,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.067,
-       "se": 0.1843,
+       "mu": 11.0748,
+       "se": 0.1831,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.3918,
-       "se": 0.2814,
+       "mu": 11.307,
+       "se": 0.2795,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -4738,32 +4952,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.7128,
-       "se": 0.3185,
+       "mu": 9.8567,
+       "se": 0.3088,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 9.7898,
-       "se": 0.3185,
+       "mu": 9.9336,
+       "se": 0.3088,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 9.8783,
-       "se": 0.3185,
+       "mu": 10.0222,
+       "se": 0.3088,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.0129,
-       "se": 0.3185,
+       "mu": 10.1568,
+       "se": 0.3088,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.2434,
-       "se": 0.3185,
+       "mu": 10.3873,
+       "se": 0.3088,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -4773,31 +4987,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.4399,
+       "mu": 9.4384,
        "se": 0.1034,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 9.5169,
+       "mu": 9.5153,
        "se": 0.1034,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 9.6054,
+       "mu": 9.6039,
        "se": 0.1034,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 9.74,
+       "mu": 9.7385,
        "se": 0.1034,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 9.9706,
+       "mu": 9.969,
        "se": 0.1034,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4842,32 +5056,32 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.115,
+       "mu": 10.1226,
        "se": 0.2448,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.4758,
-       "se": 0.2691,
+       "mu": 10.4725,
+       "se": 0.2688,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.8123,
-       "se": 0.3346,
+       "mu": 10.8214,
+       "se": 0.3335,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.1212,
-       "se": 0.3982,
+       "mu": 11.1706,
+       "se": 0.397,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.3859,
-       "se": 0.4936,
+       "mu": 11.3559,
+       "se": 0.4934,
        "confidence": "medium",
        "extra_sd": 0.12
       }
@@ -4877,32 +5091,1969 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 12.2091,
-       "se": 0.2504,
+       "mu": 12.2129,
+       "se": 0.2501,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 12.5832,
+       "mu": 12.577,
        "se": 0.2337,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 12.933,
-       "se": 0.2858,
+       "mu": 12.9401,
+       "se": 0.2841,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 13.2552,
-       "se": 0.3307,
+       "mu": 13.3035,
+       "se": 0.3293,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 13.5331,
-       "se": 0.4211,
+       "mu": 13.503,
+       "se": 0.4209,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    }
+   }
+  },
+  "data_science": {
+   "title": "Data scientist / ML engineer",
+   "short": "Data scientist",
+   "title_bn": "ডেটা সায়েন্টিস্ট / এমএল ইঞ্জিনিয়ার",
+   "about": "Machine learning, predictive models, AI engineering, MLOps",
+   "sigma": 0.28,
+   "keywords": [
+    "data scientist",
+    "data science",
+    "machine learning",
+    "ml engineer",
+    "ai engineer",
+    "artificial intelligence",
+    "deep learning",
+    "nlp",
+    "computer vision",
+    "mlops",
+    "predictive model"
+   ],
+   "skills": [
+    "Python (scikit-learn, pandas) and SQL",
+    "Statistics and experiment design",
+    "Model deployment / MLOps",
+    "Deep learning (PyTorch / TensorFlow)",
+    "Explaining models to business teams"
+   ],
+   "adjacent": [
+    {
+     "function": "product_manager",
+     "bridge": [
+      "Product sense",
+      "Stakeholder management"
+     ]
+    },
+    {
+     "function": "software",
+     "bridge": [
+      "Backend engineering",
+      "System design"
+     ]
+    }
+   ],
+   "cells": {
+    "mnc_fmcg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.1124,
+       "se": 0.1988,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.4773,
+       "se": 0.2239,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.8412,
+       "se": 0.2842,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.2054,
+       "se": 0.349,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.4056,
+       "se": 0.4518,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "telecom": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.9336,
+       "se": 0.1896,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.294,
+       "se": 0.168,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.6533,
+       "se": 0.1946,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 12.0129,
+       "se": 0.2407,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.2087,
+       "se": 0.3396,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.5617,
+       "se": 0.1978,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.9168,
+       "se": 0.1645,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.2708,
+       "se": 0.1652,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.6251,
+       "se": 0.1778,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.8155,
+       "se": 0.2143,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "foreign_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.8901,
+       "se": 0.2251,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.1974,
+       "se": 0.2201,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.5037,
+       "se": 0.2717,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.8104,
+       "se": 0.3284,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.9531,
+       "se": 0.4231,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "large_bank": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 11.049,
+       "se": 0.1805,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.2816,
+       "se": 0.1783,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.5131,
+       "se": 0.1969,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.745,
+       "se": 0.2114,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.8129,
+       "se": 0.2491,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "other_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.8627,
+       "se": 0.1882,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.9369,
+       "se": 0.1871,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.01,
+       "se": 0.2158,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.0834,
+       "se": 0.2328,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.1226,
+       "se": 0.3203,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "top_software": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.6119,
+       "se": 0.2086,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.0111,
+       "se": 0.1648,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.4091,
+       "se": 0.1678,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.8076,
+       "se": 0.1742,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.0421,
+       "se": 0.2727,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "local_software": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.9566,
+       "se": 0.1713,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.3468,
+       "se": 0.1427,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 10.7359,
+       "se": 0.1621,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "senior": {
+       "mu": 11.1253,
+       "se": 0.1913,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.3508,
+       "se": 0.2949,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.8467,
+       "se": 0.3336,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.1959,
+       "se": 0.3344,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.544,
+       "se": 0.3643,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.8924,
+       "se": 0.4153,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.0769,
+       "se": 0.5015,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.1618,
+       "se": 0.1761,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.5118,
+       "se": 0.1762,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.8607,
+       "se": 0.1885,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.2099,
+       "se": 0.1893,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.3952,
+       "se": 0.2327,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    }
+   }
+  },
+  "product_manager": {
+   "title": "Product manager",
+   "short": "Product manager",
+   "title_bn": "প্রোডাক্ট ম্যানেজার",
+   "about": "Product management, product owner, associate / senior PM",
+   "sigma": 0.28,
+   "keywords": [
+    "product manager",
+    "product owner",
+    "associate product manager",
+    "product management",
+    "apm"
+   ],
+   "skills": [
+    "Customer discovery and user research",
+    "Writing PRDs and roadmaps",
+    "Data-driven decisions (SQL, analytics)",
+    "Working with engineering in Agile teams"
+   ],
+   "adjacent": [
+    {
+     "function": "business_analyst",
+     "bridge": [
+      "Requirement analysis"
+     ]
+    }
+   ],
+   "cells": {
+    "telecom": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 11.2099,
+       "se": 0.1737,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.5703,
+       "se": 0.1467,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.9296,
+       "se": 0.1833,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 12.2892,
+       "se": 0.2234,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.4849,
+       "se": 0.3291,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 10.838,
+       "se": 0.1742,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.1931,
+       "se": 0.1387,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 11.547,
+       "se": 0.154,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "senior": {
+       "mu": 11.9014,
+       "se": 0.1618,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.0918,
+       "se": 0.2082,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "foreign_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.1663,
+       "se": 0.2137,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.4737,
+       "se": 0.2076,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.78,
+       "se": 0.2673,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.0866,
+       "se": 0.3199,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.2293,
+       "se": 0.4184,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "large_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.3253,
+       "se": 0.1654,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.5579,
+       "se": 0.1626,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.7894,
+       "se": 0.1913,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.0212,
+       "se": 0.1989,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.0892,
+       "se": 0.2422,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "top_software": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.8882,
+       "se": 0.2076,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.2874,
+       "se": 0.1633,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.6854,
+       "se": 0.1758,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 12.0838,
+       "se": 0.1739,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.3183,
+       "se": 0.2758,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "local_software": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 10.2329,
+       "se": 0.1889,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.6231,
+       "se": 0.1657,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 11.0121,
+       "se": 0.1934,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.4015,
+       "se": 0.2136,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.627,
+       "se": 0.3141,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.123,
+       "se": 0.3245,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.4722,
+       "se": 0.3247,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.8202,
+       "se": 0.3593,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.1687,
+       "se": 0.407,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.3532,
+       "se": 0.4962,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.4381,
+       "se": 0.159,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.7881,
+       "se": 0.1577,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.1369,
+       "se": 0.1794,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.4862,
+       "se": 0.171,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.6715,
+       "se": 0.2214,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    }
+   }
+  },
+  "supply_chain": {
+   "title": "Supply chain & procurement",
+   "short": "Supply chain",
+   "title_bn": "সাপ্লাই চেইন ও প্রকিউরমেন্ট",
+   "about": "Procurement, sourcing, logistics, warehouse, inventory planning",
+   "sigma": 0.28,
+   "keywords": [
+    "supply chain",
+    "procurement",
+    "purchase",
+    "sourcing executive",
+    "logistics",
+    "warehouse",
+    "inventory",
+    "commercial executive"
+   ],
+   "skills": [
+    "Vendor negotiation",
+    "ERP (SAP MM / Oracle)",
+    "Import & LC documentation",
+    "Inventory planning in Excel"
+   ],
+   "adjacent": [
+    {
+     "function": "finance",
+     "bridge": [
+      "Costing",
+      "Budgeting"
+     ]
+    }
+   ],
+   "cells": {
+    "mnc_fmcg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.6036,
+       "se": 0.187,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.9685,
+       "se": 0.2112,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.3323,
+       "se": 0.2804,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.6965,
+       "se": 0.3427,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.8968,
+       "se": 0.4448,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "telecom": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.4248,
+       "se": 0.2121,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.7852,
+       "se": 0.2076,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.1445,
+       "se": 0.2512,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.5041,
+       "se": 0.2963,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.6998,
+       "se": 0.3875,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.0529,
+       "se": 0.2371,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.408,
+       "se": 0.2148,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.7619,
+       "se": 0.2298,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.1163,
+       "se": 0.2406,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.3067,
+       "se": 0.2708,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.3379,
+       "se": 0.2859,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.6871,
+       "se": 0.2797,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.0351,
+       "se": 0.3154,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.3836,
+       "se": 0.3659,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.5681,
+       "se": 0.4561,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.653,
+       "se": 0.1465,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.003,
+       "se": 0.1427,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 10.3518,
+       "se": 0.1678,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "senior": {
+       "mu": 10.7011,
+       "se": 0.1615,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 10.8864,
+       "se": 0.2059,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "rmg": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.3057,
+       "se": 0.2978,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 9.6316,
+       "se": 0.2973,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.0274,
+       "se": 0.327,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.4236,
+       "se": 0.3573,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 10.6558,
+       "se": 0.4341,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "sme": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.3057,
+       "se": 0.2547,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 9.4786,
+       "se": 0.2582,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 9.8393,
+       "se": 0.2956,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.2002,
+       "se": 0.3205,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 10.3973,
+       "se": 0.404,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "ngo": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 9.3057,
+       "se": 0.3043,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 9.473,
+       "se": 0.3218,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 9.8219,
+       "se": 0.373,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.1711,
+       "se": 0.4345,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 10.3564,
+       "se": 0.5243,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    }
+   }
+  },
+  "it_support": {
+   "title": "IT support, network & systems",
+   "short": "IT / network",
+   "title_bn": "আইটি সাপোর্ট, নেটওয়ার্ক ও সিস্টেম",
+   "about": "Network engineers, system administrators, IT support, cloud infrastructure",
+   "sigma": 0.28,
+   "keywords": [
+    "network engineer",
+    "system administrator",
+    "system admin",
+    "sysadmin",
+    "it support",
+    "it officer",
+    "support engineer",
+    "network support",
+    "infrastructure engineer",
+    "it executive",
+    "noc engineer",
+    "cloud engineer"
+   ],
+   "skills": [
+    "Networking (CCNA level)",
+    "Windows / Linux server administration",
+    "Cloud (AWS / Azure) basics",
+    "Information security (ISO 27001)"
+   ],
+   "adjacent": [
+    {
+     "function": "software",
+     "bridge": [
+      "Scripting (Python / PowerShell)",
+      "DevOps tools"
+     ]
+    }
+   ],
+   "cells": {
+    "telecom": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.6956,
+       "se": 0.1804,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.0559,
+       "se": 0.1732,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.4152,
+       "se": 0.2035,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.7749,
+       "se": 0.258,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.9706,
+       "se": 0.3602,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.3237,
+       "se": 0.2059,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.6787,
+       "se": 0.1808,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.0327,
+       "se": 0.1784,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.387,
+       "se": 0.196,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.5774,
+       "se": 0.236,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "foreign_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.652,
+       "se": 0.1998,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.9594,
+       "se": 0.1969,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.2657,
+       "se": 0.2484,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.5723,
+       "se": 0.311,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.715,
+       "se": 0.4117,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "large_bank": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 10.8109,
+       "se": 0.1435,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.0435,
+       "se": 0.1403,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.275,
+       "se": 0.1518,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "senior": {
+       "mu": 11.5069,
+       "se": 0.1696,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "lead": {
+       "mu": 11.5749,
+       "se": 0.2158,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "other_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.6247,
+       "se": 0.1527,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.6988,
+       "se": 0.1552,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.7719,
+       "se": 0.1825,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.8453,
+       "se": 0.2049,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 10.8845,
+       "se": 0.3036,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_software": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.7186,
+       "se": 0.2153,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.1087,
+       "se": 0.2008,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 10.4978,
+       "se": 0.2137,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "senior": {
+       "mu": 10.8872,
+       "se": 0.2424,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.1127,
+       "se": 0.3357,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.6086,
+       "se": 0.309,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.9578,
+       "se": 0.3102,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.3059,
+       "se": 0.3374,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.6543,
+       "se": 0.392,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.8388,
+       "se": 0.4833,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.9238,
+       "se": 0.1379,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.2737,
+       "se": 0.1409,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 10.6226,
+       "se": 0.1471,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "senior": {
+       "mu": 10.9718,
+       "se": 0.1505,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.1571,
+       "se": 0.2058,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "rmg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 9.5055,
+       "se": 0.3273,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 9.9024,
+       "se": 0.3325,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.2982,
+       "se": 0.3533,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.6943,
+       "se": 0.3879,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 10.9266,
+       "se": 0.4652,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "sme": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.3877,
+       "se": 0.2394,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 9.7494,
+       "se": 0.2476,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.11,
+       "se": 0.2763,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.471,
+       "se": 0.3083,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 10.6681,
+       "se": 0.399,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "private_university": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 9.9582,
+       "se": 0.3588,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.3345,
+       "se": 0.3699,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.7097,
+       "se": 0.4082,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.0853,
+       "se": 0.463,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.297,
+       "se": 0.5484,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "ngo": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 9.3938,
+       "se": 0.2997,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 9.7438,
+       "se": 0.3204,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.0927,
+       "se": 0.3636,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.4419,
+       "se": 0.4301,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 10.6272,
+       "se": 0.5239,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    }
+   }
+  },
+  "risk_compliance": {
+   "title": "Risk, compliance & audit",
+   "short": "Risk & compliance",
+   "title_bn": "রিস্ক, কমপ্লায়েন্স ও অডিট",
+   "about": "AML / compliance officers, risk analysts, internal audit, social compliance",
+   "sigma": 0.28,
+   "keywords": [
+    "compliance officer",
+    "compliance",
+    "aml",
+    "risk analyst",
+    "risk management",
+    "internal audit",
+    "audit officer",
+    "credit risk",
+    "social compliance",
+    "fraud analyst"
+   ],
+   "skills": [
+    "AML / CFT and Bangladesh Bank regulations",
+    "Risk assessment frameworks",
+    "Audit sampling and reporting",
+    "CAMS / CIA / ACCA progress"
+   ],
+   "adjacent": [
+    {
+     "function": "data_science",
+     "bridge": [
+      "Python",
+      "Fraud and risk modelling"
+     ]
+    },
+    {
+     "function": "finance",
+     "bridge": [
+      "IFRS",
+      "Financial reporting"
+     ]
+    }
+   ],
+   "cells": {
+    "mnc_fmcg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.7137,
+       "se": 0.173,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.0786,
+       "se": 0.2031,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.4425,
+       "se": 0.2677,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.8067,
+       "se": 0.3318,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.0069,
+       "se": 0.4387,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "telecom": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.5349,
+       "se": 0.2024,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.8953,
+       "se": 0.204,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.2546,
+       "se": 0.2424,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.6142,
+       "se": 0.2895,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.81,
+       "se": 0.3859,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.163,
+       "se": 0.2327,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.5181,
+       "se": 0.2156,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.8721,
+       "se": 0.2242,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.2264,
+       "se": 0.2359,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.4168,
+       "se": 0.2716,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "foreign_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.4914,
+       "se": 0.211,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.7987,
+       "se": 0.2104,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.105,
+       "se": 0.2659,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.4117,
+       "se": 0.3214,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.5544,
+       "se": 0.4193,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "large_bank": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 10.6503,
+       "se": 0.1498,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.8829,
+       "se": 0.1495,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 11.1144,
+       "se": 0.1708,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "senior": {
+       "mu": 11.3463,
+       "se": 0.1802,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.4142,
+       "se": 0.2234,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "other_bank": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.464,
+       "se": 0.1581,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.5382,
+       "se": 0.1574,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.6113,
+       "se": 0.1888,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.6847,
+       "se": 0.2003,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 10.7239,
+       "se": 0.2968,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.448,
+       "se": 0.2919,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.7972,
+       "se": 0.2901,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.1453,
+       "se": 0.3203,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.4937,
+       "se": 0.3707,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.6782,
+       "se": 0.4629,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.7631,
+       "se": 0.1471,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.1131,
+       "se": 0.1512,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.462,
+       "se": 0.1663,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.8112,
+       "se": 0.1605,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 10.9965,
+       "se": 0.2113,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "rmg": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.3449,
+       "se": 0.2839,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 9.7418,
+       "se": 0.2855,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.1376,
+       "se": 0.3096,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.5337,
+       "se": 0.3401,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 10.7659,
+       "se": 0.4217,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "ngo": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 9.3057,
+       "se": 0.3,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 9.5832,
+       "se": 0.3213,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 9.932,
+       "se": 0.3685,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.2812,
+       "se": 0.4309,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 10.4665,
+       "se": 0.5237,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    }
+   }
+  },
+  "teaching": {
+   "title": "University lecturer / faculty",
+   "short": "Lecturer",
+   "title_bn": "বিশ্ববিদ্যালয় শিক্ষক",
+   "about": "Lecturer, assistant professor and other faculty posts",
+   "sigma": 0.28,
+   "keywords": [
+    "lecturer",
+    "assistant professor",
+    "associate professor",
+    "faculty member",
+    "faculty position",
+    "senior lecturer"
+   ],
+   "skills": [
+    "Postgraduate degree (PhD for promotion)",
+    "Research publications",
+    "Course design and teaching evaluations",
+    "Grant writing"
+   ],
+   "adjacent": [
+    {
+     "function": "data_science",
+     "bridge": [
+      "Applied research",
+      "Python"
+     ]
+    }
+   ],
+   "cells": {
+    "private_university": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 10.6243,
+       "se": 0.1694,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.0006,
+       "se": 0.1406,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 11.3758,
+       "se": 0.2124,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.7514,
+       "se": 0.2692,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.9631,
+       "se": 0.375,
        "confidence": "medium",
        "extra_sd": 0.12
       }

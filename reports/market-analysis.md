@@ -4,14 +4,14 @@ _Generated 2026-10-16 by `pipeline/build.py` from cited sources. All salaries ar
 
 ## Key findings
 
-1. **Where you start matters more than what you studied.** A fresh graduate on a multinational FMCG trainee programme (Unilever, BAT and similar) earns a median of about **Tk 78,600** a month, and a trainee at a large private bank (City, MTB, DBBL, BRAC Bank) about **Tk 74,000**. A trainee or officer at a large local company (PRAN-RFL, Square, ACI) starts near **Tk 31,300**, and at a small business near **Tk 18,600**.
+1. **Where you start matters more than what you studied.** A fresh graduate on a multinational FMCG trainee programme (Unilever, BAT and similar) earns a median of about **Tk 78,800** a month, and a trainee at a large private bank (City, MTB, DBBL, BRAC Bank) about **Tk 73,900**. A trainee or officer at a large local company (PRAN-RFL, Square, ACI) starts near **Tk 30,400**, and at a small business near **Tk 17,800**.
 2. **Bank trainee pay is the best-documented number in the market.** 2025-26 circulars show MTO training pay of Tk 60,000-85,000, rising to Tk 73,000-1,00,000 on confirmation after a year.
-3. **In software, the employer decides.** Entry software engineers at most local IT companies earn a median of about Tk 31,500. Top product companies (Optimizely, Cefalo, Therap, SELISE, Brain Station 23, Enosis) start near Tk 50,700, and their Levels.fyi medians range from about Tk 81,000 (Enosis) to Tk 1,67,000 (Optimizely).
+3. **In software, the employer decides.** Entry software engineers at most local IT companies earn a median of about Tk 27,300. Top product companies (Optimizely, Cefalo, Therap, SELISE, Brain Station 23, Enosis) start near Tk 52,600, and their Levels.fyi medians range from about Tk 81,000 (Enosis) to Tk 1,67,000 (Optimizely).
 4. **Government jobs now compete for graduates.** At full implementation, Grade 9 (BCS cadre entry) is worth about **Tk 74,700** a month in Dhaka, including bonuses spread over the year. That is close to large-bank trainee pay, although the basic is only Tk 30,800 until December 2026.
 5. **For grades 1-11, the 2026 pay scale doesn't fully restore 2015 buying power.** Prices rose 111% between July 2015 and June 2026. Grades 1-11 got +100%, so their real starting basic is down 5.2%. Grades 12-20 got +115% to +142%, a real gain of 1.9% to 14.9%.
 6. **A frozen salary has lost 30% of its buying power since July 2022.** Inflation was still 8.34% in September 2026.
 7. **Salary up to Tk 50,000 a month is tax-free** (Tk 56,250 for women and people 65+). At Tk 100,000 a month the tax is Tk 45,000 a year. Investing Tk 240,000 in rebate-eligible schemes cuts it to Tk 21,000.
-8. **How fast pay grows depends on the employer.** A large-bank officer goes from about Tk 74,000 as a fresher to Tk 133,700 at 6-9 years, roughly 1.8x. Published Senior Principal Officer figures (median about Tk 70,000 across banks) confirm that bank ladders are flat. A multinational FMCG fast track goes from Tk 78,600 to about Tk 224,700, roughly 2.9x. When someone moves from another kind of employer, the app counts outside years at 75% for a similar job and 40% for a different job. This is an assumption, and the app shows it.
+8. **How fast pay grows depends on the employer.** A large-bank officer goes from about Tk 73,900 as a fresher to Tk 148,300 at 6-9 years, roughly 2.0x. Published Senior Principal Officer figures (median about Tk 70,000 across banks) confirm that bank ladders are flat. A multinational FMCG fast track goes from Tk 78,800 to about Tk 235,000, roughly 3.0x. When someone moves from another kind of employer, the app counts outside years at 75% for a similar job and 40% for a different job. This is an assumption, and the app shows it.
 
 ## 1. Fresh-graduate pay by employer
 
@@ -19,20 +19,21 @@ _Generated 2026-10-16 by `pipeline/build.py` from cited sources. All salaries ar
 
 | Employer group | Examples | Job | P25 | Median | P75 | Confidence |
 |---|---|---|---:|---:|---:|---|
-| UN agency (National Officer posts) | UNDP, UNICEF, WFP | Programme officer | 153,800 | 200,600 | 261,700 | medium |
-| Multinational FMCG & tobacco | Unilever Bangladesh, BAT Bangladesh, Nestlé Bangladesh | Trainee / officer | 64,400 | 78,600 | 95,900 | high |
-| Large private bank / finance company | BRAC Bank, The City Bank, Eastern Bank (EBL) | Trainee / officer | 61,100 | 74,000 | 89,600 | high |
-| Other multinational | Engineering, energy & electronics multinationals, Pharma & paint multinationals, International buying offices | Trainee / officer | 51,700 | 68,500 | 90,700 | medium |
-| Mobile operator | Grameenphone, Robi Axiata, Banglalink | Trainee / officer | 52,000 | 64,600 | 80,400 | high |
-| Foreign bank | Standard Chartered, HSBC, Citibank N.A. | Trainee / officer | 50,700 | 63,900 | 80,600 | medium |
-| Other private bank | AB Bank, Meghna Bank, Pubali Bank | Trainee / officer | 50,500 | 61,300 | 74,500 | high |
-| Top software company | Optimizely, Cefalo, Field Nation | Software engineer | 39,900 | 50,700 | 64,400 | medium |
-| Fintech, mobile money & tech platforms | bKash, Nagad, Pathao | Trainee / officer | 38,500 | 49,500 | 63,600 | medium |
-| Other software / IT company | Local software houses, IT-enabled services, Tech startups | Software engineer | 24,800 | 31,500 | 40,100 | medium |
-| Large local company / group | PRAN-RFL, Square, ACI | Trainee / officer | 25,700 | 31,300 | 38,100 | high |
-| Garments factory / buying house | Export garments factories, Buying houses | Trainee / officer | 17,100 | 23,800 | 33,200 | low |
-| Small / medium local business | Local SMEs, Shops, agencies and traders | Trainee / officer | 14,300 | 18,600 | 24,000 | medium |
-| NGO (local or international) | BRAC, ASA, BURO Bangladesh | Trainee / officer | 13,800 | 18,100 | 23,900 | medium |
+| UN agency (National Officer posts) | UNDP, UNICEF, WFP | Programme officer | 154,400 | 201,400 | 262,700 | medium |
+| Multinational FMCG & tobacco | Unilever Bangladesh, BAT Bangladesh, Nestlé Bangladesh | Trainee / officer | 64,500 | 78,800 | 96,100 | high |
+| Large private bank / finance company | BRAC Bank, The City Bank, Eastern Bank (EBL) | Trainee / officer | 61,100 | 73,900 | 89,500 | high |
+| Mobile operator | Grameenphone, Robi Axiata, Banglalink | Trainee / officer | 53,200 | 65,900 | 81,500 | high |
+| Foreign bank | Standard Chartered, HSBC, Citibank N.A. | Trainee / officer | 50,000 | 63,100 | 79,500 | medium |
+| Other private bank | AB Bank, Meghna Bank, Pubali Bank | Trainee / officer | 50,500 | 61,400 | 74,500 | high |
+| Other multinational | Engineering, energy & electronics multinationals, Pharma & paint multinationals, International buying offices | Trainee / officer | 45,700 | 60,400 | 79,700 | medium |
+| Top software company | Optimizely, Cefalo, Field Nation | Software engineer | 41,500 | 52,600 | 66,800 | medium |
+| Fintech, mobile money & tech platforms | bKash, Nagad, Pathao | Trainee / officer | 35,700 | 45,400 | 57,800 | medium |
+| Private university | North South University, BRAC University, Independent University (IUB) | Lecturer | 32,500 | 41,100 | 52,000 | medium |
+| Large local company / group | PRAN-RFL, Square, ACI | Trainee / officer | 25,000 | 30,400 | 37,100 | high |
+| Other software / IT company | FinSource, Next Ventures, Pioneer Alpha | Software engineer | 21,600 | 27,300 | 34,600 | medium |
+| NGO (local or international) | BRAC, ASA, BURO Bangladesh | Programme officer | 19,100 | 24,900 | 32,400 | medium |
+| Garments factory / buying house | Export garments factories, Buying houses | Trainee / officer | 14,500 | 20,000 | 27,800 | low |
+| Small / medium local business | Local SMEs, Shops, agencies and traders | Trainee / officer | 13,800 | 17,800 | 23,000 | medium |
 | Government Grade 9 (BCS cadre entry) | National Pay Scale 2026 | Grade 9 | | 74,700 | | official |
 | Government Grade 10 (Sub-Asst Engineer, Sr Staff Nurse) | National Pay Scale 2026 | Grade 10 | | 56,700 | | official |
 
@@ -44,20 +45,26 @@ UN National Officer pay (about Tk 2-3 lakh a month) comes from a single third-pa
 
 | Job | Entry median | Mid P25 | Mid median | Mid P75 | Senior median | Best-paying employer group (mid median) |
 |---|---:|---:|---:|---:|---:|---|
-| Engineering (civil, electrical, mechanical) | 34,500 | 53,500 | 69,200 | 89,500 | 94,200 | Large local company / group: 69,200 |
-| Business / product analyst | 33,600 | 49,200 | 67,600 | 92,800 | 92,000 | Other software / IT company: 82,300 |
-| Management trainee / officer | 31,300 | 50,200 | 62,800 | 78,700 | 85,600 | Multinational FMCG & tobacco: 162,600 |
-| Software engineering | 28,600 | 45,000 | 57,500 | 73,400 | 78,300 | Top software company: 117,100 |
-| Sales & distribution | 28,500 | 45,200 | 57,300 | 72,600 | 78,000 | Large local company / group: 57,300 |
-| Finance & accounts | 27,700 | 43,700 | 55,700 | 70,900 | 75,800 | Other multinational: 124,900 |
-| Marketing & brand | 26,800 | 40,800 | 53,800 | 70,800 | 73,200 | Large local company / group: 53,800 |
-| Programme / field officer (development) | 24,700 | 36,600 | 49,600 | 67,300 | 67,600 | UN agency (National Officer posts): 413,700 |
-| Merchandising (garments) | 19,500 | 34,900 | 44,300 | 56,100 | 64,000 | Garments factory / buying house: 44,300 |
-| HR & admin | 21,100 | 34,000 | 42,400 | 52,900 | 57,800 | Other multinational: 95,200 |
-| Design & creative | 19,500 | 30,400 | 39,100 | 50,200 | 53,200 | Other software / IT company: 47,600 |
-| Data & analytics | 17,300 | 27,200 | 34,700 | 44,300 | 47,300 | Other software / IT company: 42,300 |
-| Customer service / call centre | 13,400 | 21,000 | 26,900 | 34,400 | 36,600 | Mobile operator: 55,100 |
-| Factory worker / operator | 16,500 | 14,700 | 19,500 | 25,900 | 22,300 | Garments factory / buying house: 14,800 |
+| University lecturer / faculty | 41,100 | 67,900 | 87,200 | 112,000 | 126,900 | Private university: 87,200 |
+| Business / system analyst | 38,000 | 55,800 | 76,400 | 104,500 | 108,300 | Other software / IT company: 67,400 |
+| Engineering (civil, electrical, mechanical) | 34,800 | 54,200 | 70,000 | 90,400 | 99,300 | Large local company / group: 70,000 |
+| Product manager | 34,100 | 54,100 | 68,700 | 87,100 | 97,400 | Mobile operator: 151,700 |
+| Software engineering | 33,600 | 53,300 | 67,500 | 85,400 | 95,700 | Top software company: 116,800 |
+| Management trainee / officer | 30,400 | 48,900 | 61,200 | 76,600 | 86,800 | Multinational FMCG & tobacco: 163,200 |
+| Sales & distribution | 28,500 | 45,300 | 57,300 | 72,600 | 81,300 | Large local company / group: 57,300 |
+| Finance & accounts | 27,900 | 44,100 | 56,100 | 71,400 | 79,600 | Other multinational: 111,200 |
+| Marketing & brand | 26,900 | 41,200 | 54,200 | 71,300 | 76,900 | Large local company / group: 54,200 |
+| Data scientist / ML engineer | 25,900 | 39,200 | 52,100 | 69,100 | 73,900 | Mobile operator: 115,100 |
+| Programme / field officer (development) | 24,900 | 36,900 | 50,100 | 67,900 | 71,000 | UN agency (National Officer posts): 416,700 |
+| HR & admin | 21,800 | 35,100 | 43,800 | 54,600 | 62,100 | Other multinational: 86,700 |
+| Merchandising (garments) | 19,700 | 34,300 | 43,400 | 55,000 | 64,500 | Garments factory / buying house: 43,400 |
+| Design & creative | 21,500 | 33,700 | 43,200 | 55,400 | 61,300 | Large local company / group: 43,200 |
+| IT support, network & systems | 20,400 | 33,200 | 41,100 | 50,800 | 58,200 | Mobile operator: 90,700 |
+| Data & analytics | 18,700 | 29,600 | 37,700 | 47,900 | 53,400 | Large local company / group: 37,700 |
+| Risk, compliance & audit | 17,400 | 27,700 | 35,000 | 44,200 | 49,600 | Other multinational: 69,200 |
+| Supply chain & procurement | 15,600 | 25,100 | 31,300 | 39,000 | 44,400 | Other multinational: 62,000 |
+| Customer service / call centre | 13,600 | 21,400 | 27,400 | 35,000 | 38,800 | Mobile operator: 60,500 |
+| Factory worker / operator | 19,100 | 17,000 | 22,500 | 29,800 | 25,800 | Garments factory / buying house: 14,800 |
 
 Figures are for Dhaka, at a large local company (NGO roles at an NGO). Best-paying groups count only combinations with medium or high confidence.
 
@@ -110,9 +117,9 @@ Rules used: threshold Tk 4,00,000 (women/65+ Tk 4.5 lakh, disabled/third gender 
 
 ## 5. How good is the model?
 
-- Fitted to **82 salary figures from 35 sources**: bank MTO circulars, the minimum-wage gazette, Glassdoor and Levels.fyi figures, and recruiter and salary guides. The full list is in `pipeline/data/anchors.csv`.
-- **Leave-one-out test:** each figure is dropped and predicted from the rest. The median absolute error is **19.5%** (mean 24.6%) over 77 figures. A baseline that uses only the prior assumptions scores 25.0%. Those priors already encode general knowledge of the market, such as "multinationals pay more than SMEs", so the gap is modest. The data's main contribution is pinning down the actual levels.
-- Median error by source type: aggregator 22.4%, blog 22.8%, job_circular 8.9%, job_post 20.1%, news 1.5%, news_secondary 50.4%, recruiter 13.2%. Job circulars are reproduced closely; single secondary sources are the noisiest.
+- Fitted to **108 salary figures from 60 sources**: bank MTO circulars, the minimum-wage gazette, Glassdoor and Levels.fyi figures, and recruiter and salary guides. The full list is in `pipeline/data/anchors.csv`.
+- **Leave-one-out test:** each figure is dropped and predicted from the rest. The median absolute error is **21.9%** (mean 25.8%) over 103 figures. A baseline that uses only the prior assumptions scores 28.2%. Those priors already encode general knowledge of the market, such as "multinationals pay more than SMEs", so the gap is modest. The data's main contribution is pinning down the actual levels.
+- Median error by source type: aggregator 22.8%, blog 23.6%, job_circular 8.4%, job_post 29.7%, news 1.6%, news_secondary 51.5%, recruiter 12.2%. Job circulars are reproduced closely; single secondary sources are the noisiest.
 - Each employer-job combination carries a confidence label. A combination with no direct figure (for example HR at a foreign bank) borrows the employer's general pay level, so the range shown is wider.
 
 ## 6. Limitations
@@ -159,6 +166,31 @@ Rules used: threshold Tk 4,00,000 (women/65+ Tk 4.5 lakh, disabled/third gender 
 - Glassdoor: Dutch-Bangla Bank Relationship Manager salaries: <https://www.glassdoor.com/Salary/Dutch-Bangla-Bank-Relationship-Manager-Bangladesh-Salaries-EJI_IE547664.0,17_KO18,38_IL.39,49_IN27.htm>
 - Bayt.com: Dutch-Bangla Bank salaries: <https://www.bayt.com/en/bangladesh/salaries/companies/dutch-bangla-bank-ltd/>
 - Bayt.com: BRAC Bank salaries: <https://www.bayt.com/en/bangladesh/salaries/companies/brac-bank/>
+- Glassdoor: Data Scientist salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-bangladesh-data-scientist-salary-SRCH_IL.0,16_IM1237_KO17,31.htm>
+- Glassdoor: Machine Learning Engineer salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-bangladesh-machine-learning-engineer-salary-SRCH_IL.0,16_IM1237_KO17,42.htm>
+- Glassdoor: Senior Machine Learning Engineer salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-bangladesh-senior-machine-learning-engineer-salary-SRCH_IL.0,16_IM1237_KO17,49.htm>
+- Glassdoor: AI Engineer salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-bangladesh-artificial-intelligence-engineer-salary-SRCH_IL.0,16_IM1237_KO17,49.htm>
+- Glassdoor: Data Scientist salaries in Dhaka (Grameenphone): <https://www.glassdoor.com/Salaries/dhaka-bangladesh-data-scientist-salary-SRCH_IL.0,16_IM1237_KO17,31.htm>
+- Glassdoor: Data Scientist salaries in Dhaka (SSL Wireless): <https://www.glassdoor.com/Salaries/dhaka-bangladesh-data-scientist-salary-SRCH_IL.0,16_IM1237_KO17,31.htm>
+- Glassdoor: Product Manager salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-bangladesh-product-manager-salary-SRCH_IL.0,16_IM1237_KO17,32.htm>
+- Glassdoor: Senior Product Manager salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-bangladesh-senior-product-manager-salary-SRCH_IL.0,16_IM1237_KO17,39.htm>
+- Glassdoor: Junior Product Manager salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-junior-product-manager-salary-SRCH_IL.0,5_IM1237_KO6,28.htm>
+- Glassdoor: Associate Product Manager salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-associate-product-manager-salary-SRCH_IL.0,5_IM1237_KO6,31.htm>
+- Glassdoor: Grameenphone Product Manager salaries: <https://www.glassdoor.com/Monthly-Pay/GrameenPhone-Product-Manager-Dhaka-Monthly-Pay-EJI_IE405018.0,12_KO13,28_IL.29,34_IS3812.htm>
+- Glassdoor: Product Manager salaries in Dhaka (bKash, Pathao): <https://www.glassdoor.com/Salaries/dhaka-bangladesh-product-manager-salary-SRCH_IL.0,16_IM1237_KO17,32.htm>
+- Glassdoor: Supply Chain Executive salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-supply-chain-executive-salary-SRCH_IL.0,5_IS3812_KO6,28.htm>
+- Glassdoor: Procurement Executive salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-procurement-executive-salary-SRCH_IL.0,5_IC2267834_KO6,27.htm>
+- Transcom Foods: Executive - Procurement job post: <https://bdjobs.com/h/details/1517219?ln=1>
+- Glassdoor: Network Engineer salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-bangladesh-network-engineer-salary-SRCH_IL.0,16_IM1237_KO17,33.htm>
+- Glassdoor: Support Engineer salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-bangladesh-support-engineer-salary-SRCH_IL.0,16_IM1237_KO17,33.htm>
+- Glassdoor: IT Systems Administrator salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-bangladesh-it-systems-administrator-salary-SRCH_IL.0,16_IM1237_KO17,41.htm>
+- Glassdoor: IT Systems Administrator salaries in Dhaka (The City Bank): <https://www.glassdoor.com/Salaries/dhaka-bangladesh-it-systems-administrator-salary-SRCH_IL.0,16_IM1237_KO17,41.htm>
+- Glassdoor: Compliance Officer salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-bangladesh-compliance-officer-salary-SRCH_IL.0,16_IM1237_KO17,35.htm>
+- Glassdoor: Senior Compliance Officer salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-senior-compliance-officer-salary-SRCH_IL.0,5_IC2267834_KO6,31.htm>
+- Glassdoor: Audit Officer salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-bangladesh-audit-officer-salary-SRCH_IL.0,16_IM1237_KO17,30.htm>
+- Glassdoor: Internal Audit Officer salaries in Dhaka: <https://www.glassdoor.com/Salaries/dhaka-bangladesh-internal-audit-officer-salary-SRCH_IL.0,16_IM1237_KO17,39.htm>
+- Glassdoor: BRAC University Lecturer salaries in Dhaka: <https://www.glassdoor.com/Monthly-Pay/Brac-University-Lecturer-Dhaka-Monthly-Pay-EJI_IE537788.0,15_KO16,24_IL.25,30_IM1237.htm>
+- Private University Faculty Salary Explorer (crowd-sourced): <https://mhalder-dev.github.io/salary-explorer/>
 - The Business Standard: Gazette issued for National Pay Scale 2026: <https://www.tbsnews.net/bangladesh/gazette-issued-national-pay-scale-2026-1547116>
 - The Daily Star: Govt approves National Pay Scale 2026: <https://www.thedailystar.net/news/governance/news/govt-approves-national-pay-scale-2026-4261321>
 - Grade table cross-checked: bdjobs52.com pay scale calculator; eTothyo (31 Aug 2026): <https://etothyo.com/new-pay-scale-salary-structure/>

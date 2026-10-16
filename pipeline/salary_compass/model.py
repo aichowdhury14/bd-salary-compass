@@ -34,6 +34,7 @@ SOURCE_QUALITY = {"official": 1.0, "job_circular": 0.95, "news": 0.85, "aggregat
                   "job_post": 0.7, "blog": 0.6, "news_secondary": 0.5}
 OBS_SD = 0.18                               # how much independent anchors disagree, in log terms
 MIN_STEP = math.log(1.04)                   # each experience level pays at least 4% more than the last
+FLOOR = math.log(11_000)                    # lowest published formal-sector monthly pay (Paylab customer support ~11k)
 
 
 def load_taxonomy() -> dict:
@@ -278,7 +279,7 @@ def export_benchmarks(result: FitResult) -> dict:
             prev = -math.inf
             for lvl in LEVELS:
                 mu, se = result.cell(fid, lvl, gid)
-                mu = max(mu, prev + MIN_STEP)       # pay never falls with experience
+                mu = max(mu, prev + MIN_STEP, FLOOR)  # never falls with experience, never below the floor
                 prev = mu
                 conf = confidence_label(fid, gid, result.anchors, lvl)
                 levels[lvl] = {"mu": round(mu, 4), "se": round(se, 4), "confidence": conf, "extra_sd": extra[conf]}
