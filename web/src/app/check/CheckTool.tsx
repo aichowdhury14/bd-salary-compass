@@ -13,6 +13,7 @@ import { SalaryRange } from "@/components/SalaryRange";
 import { AiCoach } from "@/components/AiCoach";
 import { ForecastCard } from "@/components/ForecastCard";
 import { NegotiationScript } from "@/components/NegotiationScript";
+import { HundredDots, RaiseCheckCard, TakeHomeLine, WhatIfCard } from "@/components/PayInsights";
 
 // The paid AI coach (Claude) is off: the site is free to run. Set NEXT_PUBLIC_AI_COACH=on plus ANTHROPIC_API_KEY to enable it.
 const AI_COACH_ENABLED = process.env.NEXT_PUBLIC_AI_COACH === "on";
@@ -132,6 +133,10 @@ export function CheckTool() {
                 <div className="mt-6">
                   <SalaryRange stats={a.stats} you={salary} />
                 </div>
+                <div className="mt-5">
+                  <p className="eyebrow mb-2.5">100 people like you</p>
+                  <HundredDots percentile={a.percentile} />
+                </div>
               </div>
               <div className="tear" />
               <div className="p-5 sm:p-7 grid grid-cols-2 sm:grid-cols-3 gap-5 bg-[color-mix(in_srgb,var(--surface-2)_45%,transparent)]">
@@ -143,6 +148,9 @@ export function CheckTool() {
                   sub={`${pct(Math.abs(a.gapToMedian) / salary)} of your pay`}
                   tone={a.gapToMedian > 0 ? "bad" : "good"}
                 />
+                <div className="col-span-2 sm:col-span-3">
+                  <TakeHomeLine monthlyGross={salary} />
+                </div>
               </div>
               {a.stats.confidence !== "high" && (
                 <div className="px-5 sm:px-7 pb-5">
@@ -155,6 +163,10 @@ export function CheckTool() {
                 </div>
               )}
             </section>
+
+            <WhatIfCard functionId={fnId} groupId={groupId} years={years} city={city} jobLabel={jobFunction(fnId).short} />
+
+            <RaiseCheckCard monthlyGross={salary} />
 
             <Card eyebrow="Transparent" title="How we calculated this">
               <ol className="text-sm grid gap-2.5">

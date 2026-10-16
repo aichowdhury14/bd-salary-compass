@@ -11,6 +11,7 @@ import { assess } from "./recommend";
 import { tk, tkShort, parseAmount, monthName } from "./format";
 import { cagr, forecast } from "./forecast";
 import { buildScript, targetAsk, toBnDigits } from "./script";
+import { raiseCheck, takeHome, whatIf } from "./paycheck";
 
 describe("tax (parity with Python pipeline)", () => {
   it.each(taxVectors.map((v, i) => [i, v] as const))("vector %i", (_i, v) => {
@@ -272,5 +273,44 @@ describe("negotiation script (free, template-based)", () => {
     expect(bn.text).not.toContain(toBnDigits("৳1,10,000"));
     expect(bn.text).toMatch(/[\u0980-\u09FF]/);
     for (const t of [en.text, bn.text]) expect(t).not.toMatch(/undefined|NaN|\$\{/);
+  });
+});
+
+describe("salary check explanations", () => {
+  it("take-home: tax-free salary keeps all of it; PF lowers cash but earns a rebate", () => {
+    const low = takeHome(40000);
+    expect(low.monthlyTax).toBe(0);
+    expect(low.takeHome).toBe(40000);
+    expect(low.takeHomeWithPf).toBe(40000 - 2400);
+    const high = takeHome(110000);
+    expect(high.annualIncome).toBe(110000 * 12 + 66000 * 2);
+    expect(high.takeHome).toBeLessThan(110000);
+    // PF counts as an investment, so the tax with PF is lower than without
+    expect(110000 - high.takeHomeWithPf - high.pfMonthly).toBeLessThan(high.monthlyTax);
+    expect(takeHome(0).takeHome).toBe(0);
+  });
+
+  it("raise check: separates real from nominal raises", () => {
+    const r = raiseCheck(100000, 110000, 0.0834)!;
+    expect(r.nominal).toBeCloseTo(0.1);
+    expect(r.real).toBeCloseTo(1.1 / 1.0834 - 1, 5);
+    expect(r.verdict).toBe("beat");
+    expect(raiseCheck(100000, 105000, 0.0834)!.verdict).toBe("lost");
+    expect(raiseCheck(100000, 105000, 0.0834)!.shortfall).toBe(3340);
+    expect(raiseCheck(100000, 108300, 0.0834)!.verdict).toBe("kept_up");
+    expect(raiseCheck(0, 100000)).toBeNull();
+  });
+
+  it("what-if: includes you, compares bank officers only with banks, and grows with experience", () => {
+    const w = whatIf({ functionId: "officer", groupId: "large_bank", years: 5, city: "dhaka" });
+    expect(w.employers.filter((r) => r.current)).toHaveLength(1);
+    expect(w.employers.every((r) => /bank/i.test(r.label))).toBe(true);
+    const exp = w.experience.map((r) => r.typical);
+    expect([...exp].sort((a, b) => a - b)).toEqual(exp);
+    expect(w.cities.find((r) => r.key === "dhaka")!.current).toBe(true);
+    expect(w.cities.find((r) => r.key === "district")!.change).toBeLessThan(0);
+    // specialist jobs compare across sectors
+    const ds = whatIf({ functionId: "data_science", groupId: "large_bank", years: 5, city: "dhaka" });
+    expect(ds.employers.some((r) => r.key === "telecom")).toBe(true);
   });
 });
