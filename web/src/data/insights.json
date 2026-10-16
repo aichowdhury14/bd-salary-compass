@@ -1,0 +1,1146 @@
+{
+ "inflation": {
+  "factor_jul2015_to_jun2026": 2.1103,
+  "factor_jul2022_to_jun2026": 1.4305,
+  "purchasing_power_lost_if_frozen_since_2022": 0.301,
+  "latest_point_to_point": {
+   "month": "2026-09",
+   "rate": 0.0834,
+   "food": 0.0722,
+   "non_food": 0.093
+  },
+  "fy_series": [
+   {
+    "fy": "FY2015-16",
+    "rate": 0.0592
+   },
+   {
+    "fy": "FY2016-17",
+    "rate": 0.0544
+   },
+   {
+    "fy": "FY2017-18",
+    "rate": 0.0578
+   },
+   {
+    "fy": "FY2018-19",
+    "rate": 0.0548
+   },
+   {
+    "fy": "FY2019-20",
+    "rate": 0.0565
+   },
+   {
+    "fy": "FY2020-21",
+    "rate": 0.0556
+   },
+   {
+    "fy": "FY2021-22",
+    "rate": 0.0615
+   },
+   {
+    "fy": "FY2022-23",
+    "rate": 0.0902
+   },
+   {
+    "fy": "FY2023-24",
+    "rate": 0.0973
+   },
+   {
+    "fy": "FY2024-25",
+    "rate": 0.1003
+   },
+   {
+    "fy": "FY2025-26",
+    "rate": 0.0868
+   }
+  ]
+ },
+ "payscale": {
+  "grades": [
+   {
+    "grade": 1,
+    "start_2015": 78000,
+    "start_2026": 156000,
+    "nominal_increase": 1.0,
+    "real_change": -0.0523,
+    "phase_basic": {
+     "p1": 109200,
+     "p2": 132600,
+     "full": 156000
+    }
+   },
+   {
+    "grade": 2,
+    "start_2015": 66000,
+    "start_2026": 132000,
+    "nominal_increase": 1.0,
+    "real_change": -0.0523,
+    "phase_basic": {
+     "p1": 92400,
+     "p2": 112200,
+     "full": 132000
+    }
+   },
+   {
+    "grade": 3,
+    "start_2015": 56500,
+    "start_2026": 113000,
+    "nominal_increase": 1.0,
+    "real_change": -0.0523,
+    "phase_basic": {
+     "p1": 79100,
+     "p2": 96050,
+     "full": 113000
+    }
+   },
+   {
+    "grade": 4,
+    "start_2015": 50000,
+    "start_2026": 100000,
+    "nominal_increase": 1.0,
+    "real_change": -0.0523,
+    "phase_basic": {
+     "p1": 70000,
+     "p2": 85000,
+     "full": 100000
+    }
+   },
+   {
+    "grade": 5,
+    "start_2015": 43000,
+    "start_2026": 86000,
+    "nominal_increase": 1.0,
+    "real_change": -0.0523,
+    "phase_basic": {
+     "p1": 60200,
+     "p2": 73100,
+     "full": 86000
+    }
+   },
+   {
+    "grade": 6,
+    "start_2015": 35500,
+    "start_2026": 71000,
+    "nominal_increase": 1.0,
+    "real_change": -0.0523,
+    "phase_basic": {
+     "p1": 49700,
+     "p2": 60350,
+     "full": 71000
+    }
+   },
+   {
+    "grade": 7,
+    "start_2015": 29000,
+    "start_2026": 58000,
+    "nominal_increase": 1.0,
+    "real_change": -0.0523,
+    "phase_basic": {
+     "p1": 40600,
+     "p2": 49300,
+     "full": 58000
+    }
+   },
+   {
+    "grade": 8,
+    "start_2015": 23000,
+    "start_2026": 46000,
+    "nominal_increase": 1.0,
+    "real_change": -0.0523,
+    "phase_basic": {
+     "p1": 32200,
+     "p2": 39100,
+     "full": 46000
+    }
+   },
+   {
+    "grade": 9,
+    "start_2015": 22000,
+    "start_2026": 44000,
+    "nominal_increase": 1.0,
+    "real_change": -0.0523,
+    "phase_basic": {
+     "p1": 30800,
+     "p2": 37400,
+     "full": 44000
+    }
+   },
+   {
+    "grade": 10,
+    "start_2015": 16000,
+    "start_2026": 32000,
+    "nominal_increase": 1.0,
+    "real_change": -0.0523,
+    "phase_basic": {
+     "p1": 24000,
+     "p2": 28000,
+     "full": 32000
+    }
+   },
+   {
+    "grade": 11,
+    "start_2015": 12500,
+    "start_2026": 25000,
+    "nominal_increase": 1.0,
+    "real_change": -0.0523,
+    "phase_basic": {
+     "p1": 18750,
+     "p2": 21875,
+     "full": 25000
+    }
+   },
+   {
+    "grade": 12,
+    "start_2015": 11300,
+    "start_2026": 24300,
+    "nominal_increase": 1.1504,
+    "real_change": 0.019,
+    "phase_basic": {
+     "p1": 17800,
+     "p2": 21050,
+     "full": 24300
+    }
+   },
+   {
+    "grade": 13,
+    "start_2015": 11000,
+    "start_2026": 24000,
+    "nominal_increase": 1.1818,
+    "real_change": 0.0339,
+    "phase_basic": {
+     "p1": 17500,
+     "p2": 20750,
+     "full": 24000
+    }
+   },
+   {
+    "grade": 14,
+    "start_2015": 10200,
+    "start_2026": 23500,
+    "nominal_increase": 1.3039,
+    "real_change": 0.0918,
+    "phase_basic": {
+     "p1": 16850,
+     "p2": 20175,
+     "full": 23500
+    }
+   },
+   {
+    "grade": 15,
+    "start_2015": 9700,
+    "start_2026": 22800,
+    "nominal_increase": 1.3505,
+    "real_change": 0.1138,
+    "phase_basic": {
+     "p1": 16250,
+     "p2": 19525,
+     "full": 22800
+    }
+   },
+   {
+    "grade": 16,
+    "start_2015": 9300,
+    "start_2026": 21900,
+    "nominal_increase": 1.3548,
+    "real_change": 0.1159,
+    "phase_basic": {
+     "p1": 15600,
+     "p2": 18750,
+     "full": 21900
+    }
+   },
+   {
+    "grade": 17,
+    "start_2015": 9000,
+    "start_2026": 21400,
+    "nominal_increase": 1.3778,
+    "real_change": 0.1267,
+    "phase_basic": {
+     "p1": 15200,
+     "p2": 18300,
+     "full": 21400
+    }
+   },
+   {
+    "grade": 18,
+    "start_2015": 8800,
+    "start_2026": 21000,
+    "nominal_increase": 1.3864,
+    "real_change": 0.1308,
+    "phase_basic": {
+     "p1": 14900,
+     "p2": 17950,
+     "full": 21000
+    }
+   },
+   {
+    "grade": 19,
+    "start_2015": 8500,
+    "start_2026": 20500,
+    "nominal_increase": 1.4118,
+    "real_change": 0.1429,
+    "phase_basic": {
+     "p1": 14500,
+     "p2": 17500,
+     "full": 20500
+    }
+   },
+   {
+    "grade": 20,
+    "start_2015": 8250,
+    "start_2026": 20000,
+    "nominal_increase": 1.4242,
+    "real_change": 0.1488,
+    "phase_basic": {
+     "p1": 14125,
+     "p2": 17062,
+     "full": 20000
+    }
+   }
+  ],
+  "top_bottom_ratio_2015": 9.45,
+  "top_bottom_ratio_2026": 7.8
+ },
+ "tax": {
+  "curve": [
+   {
+    "monthly_gross": 20000,
+    "annual_tax": 0,
+    "effective_rate": 0.0,
+    "marginal_rate": 0.0,
+    "monthly_take_home": 20000,
+    "annual_tax_with_max_rebate": 0,
+    "investment_for_max_rebate": 0
+   },
+   {
+    "monthly_gross": 25000,
+    "annual_tax": 0,
+    "effective_rate": 0.0,
+    "marginal_rate": 0.0,
+    "monthly_take_home": 25000,
+    "annual_tax_with_max_rebate": 0,
+    "investment_for_max_rebate": 0
+   },
+   {
+    "monthly_gross": 30000,
+    "annual_tax": 0,
+    "effective_rate": 0.0,
+    "marginal_rate": 0.0,
+    "monthly_take_home": 30000,
+    "annual_tax_with_max_rebate": 0,
+    "investment_for_max_rebate": 0
+   },
+   {
+    "monthly_gross": 35000,
+    "annual_tax": 0,
+    "effective_rate": 0.0,
+    "marginal_rate": 0.0,
+    "monthly_take_home": 35000,
+    "annual_tax_with_max_rebate": 0,
+    "investment_for_max_rebate": 0
+   },
+   {
+    "monthly_gross": 40000,
+    "annual_tax": 0,
+    "effective_rate": 0.0,
+    "marginal_rate": 0.0,
+    "monthly_take_home": 40000,
+    "annual_tax_with_max_rebate": 0,
+    "investment_for_max_rebate": 0
+   },
+   {
+    "monthly_gross": 45000,
+    "annual_tax": 0,
+    "effective_rate": 0.0,
+    "marginal_rate": 0.0,
+    "monthly_take_home": 45000,
+    "annual_tax_with_max_rebate": 0,
+    "investment_for_max_rebate": 0
+   },
+   {
+    "monthly_gross": 50000,
+    "annual_tax": 0,
+    "effective_rate": 0.0,
+    "marginal_rate": 0.0,
+    "monthly_take_home": 50000,
+    "annual_tax_with_max_rebate": 0,
+    "investment_for_max_rebate": 0
+   },
+   {
+    "monthly_gross": 55000,
+    "annual_tax": 5000,
+    "effective_rate": 0.0076,
+    "marginal_rate": 0.1,
+    "monthly_take_home": 54583,
+    "annual_tax_with_max_rebate": 5000,
+    "investment_for_max_rebate": 40000
+   },
+   {
+    "monthly_gross": 60000,
+    "annual_tax": 8000,
+    "effective_rate": 0.0111,
+    "marginal_rate": 0.1,
+    "monthly_take_home": 59333,
+    "annual_tax_with_max_rebate": 5000,
+    "investment_for_max_rebate": 80000
+   },
+   {
+    "monthly_gross": 65000,
+    "annual_tax": 12000,
+    "effective_rate": 0.0154,
+    "marginal_rate": 0.1,
+    "monthly_take_home": 64000,
+    "annual_tax_with_max_rebate": 5000,
+    "investment_for_max_rebate": 120000
+   },
+   {
+    "monthly_gross": 70000,
+    "annual_tax": 16000,
+    "effective_rate": 0.019,
+    "marginal_rate": 0.1,
+    "monthly_take_home": 68667,
+    "annual_tax_with_max_rebate": 5000,
+    "investment_for_max_rebate": 160000
+   },
+   {
+    "monthly_gross": 75000,
+    "annual_tax": 20000,
+    "effective_rate": 0.0222,
+    "marginal_rate": 0.1,
+    "monthly_take_home": 73333,
+    "annual_tax_with_max_rebate": 5000,
+    "investment_for_max_rebate": 180000
+   },
+   {
+    "monthly_gross": 80000,
+    "annual_tax": 24000,
+    "effective_rate": 0.025,
+    "marginal_rate": 0.1,
+    "monthly_take_home": 78000,
+    "annual_tax_with_max_rebate": 5000,
+    "investment_for_max_rebate": 192000
+   },
+   {
+    "monthly_gross": 85000,
+    "annual_tax": 28000,
+    "effective_rate": 0.0275,
+    "marginal_rate": 0.1,
+    "monthly_take_home": 82667,
+    "annual_tax_with_max_rebate": 7600,
+    "investment_for_max_rebate": 204000
+   },
+   {
+    "monthly_gross": 90000,
+    "annual_tax": 33000,
+    "effective_rate": 0.0306,
+    "marginal_rate": 0.15,
+    "monthly_take_home": 87250,
+    "annual_tax_with_max_rebate": 11400,
+    "investment_for_max_rebate": 216000
+   },
+   {
+    "monthly_gross": 95000,
+    "annual_tax": 39000,
+    "effective_rate": 0.0342,
+    "marginal_rate": 0.15,
+    "monthly_take_home": 91750,
+    "annual_tax_with_max_rebate": 16200,
+    "investment_for_max_rebate": 228000
+   },
+   {
+    "monthly_gross": 100000,
+    "annual_tax": 45000,
+    "effective_rate": 0.0375,
+    "marginal_rate": 0.15,
+    "monthly_take_home": 96250,
+    "annual_tax_with_max_rebate": 21000,
+    "investment_for_max_rebate": 240000
+   },
+   {
+    "monthly_gross": 125000,
+    "annual_tax": 75000,
+    "effective_rate": 0.05,
+    "marginal_rate": 0.15,
+    "monthly_take_home": 118750,
+    "annual_tax_with_max_rebate": 45000,
+    "investment_for_max_rebate": 300000
+   },
+   {
+    "monthly_gross": 150000,
+    "annual_tax": 130000,
+    "effective_rate": 0.0722,
+    "marginal_rate": 0.2,
+    "monthly_take_home": 139167,
+    "annual_tax_with_max_rebate": 91000,
+    "investment_for_max_rebate": 390000
+   },
+   {
+    "monthly_gross": 175000,
+    "annual_tax": 190000,
+    "effective_rate": 0.0905,
+    "marginal_rate": 0.2,
+    "monthly_take_home": 159167,
+    "annual_tax_with_max_rebate": 142000,
+    "investment_for_max_rebate": 480000
+   },
+   {
+    "monthly_gross": 200000,
+    "annual_tax": 265000,
+    "effective_rate": 0.1104,
+    "marginal_rate": 0.25,
+    "monthly_take_home": 177917,
+    "annual_tax_with_max_rebate": 208000,
+    "investment_for_max_rebate": 570000
+   },
+   {
+    "monthly_gross": 225000,
+    "annual_tax": 340000,
+    "effective_rate": 0.1259,
+    "marginal_rate": 0.25,
+    "monthly_take_home": 196667,
+    "annual_tax_with_max_rebate": 274000,
+    "investment_for_max_rebate": 660000
+   },
+   {
+    "monthly_gross": 250000,
+    "annual_tax": 415000,
+    "effective_rate": 0.1383,
+    "marginal_rate": 0.25,
+    "monthly_take_home": 215417,
+    "annual_tax_with_max_rebate": 340000,
+    "investment_for_max_rebate": 750000
+   },
+   {
+    "monthly_gross": 275000,
+    "annual_tax": 490000,
+    "effective_rate": 0.1485,
+    "marginal_rate": 0.25,
+    "monthly_take_home": 234167,
+    "annual_tax_with_max_rebate": 406000,
+    "investment_for_max_rebate": 840000
+   },
+   {
+    "monthly_gross": 300000,
+    "annual_tax": 565000,
+    "effective_rate": 0.1569,
+    "marginal_rate": 0.25,
+    "monthly_take_home": 252917,
+    "annual_tax_with_max_rebate": 472000,
+    "investment_for_max_rebate": 930000
+   },
+   {
+    "monthly_gross": 325000,
+    "annual_tax": 640000,
+    "effective_rate": 0.1641,
+    "marginal_rate": 0.25,
+    "monthly_take_home": 271667,
+    "annual_tax_with_max_rebate": 538000,
+    "investment_for_max_rebate": 1020000
+   },
+   {
+    "monthly_gross": 350000,
+    "annual_tax": 720000,
+    "effective_rate": 0.1714,
+    "marginal_rate": 0.3,
+    "monthly_take_home": 290000,
+    "annual_tax_with_max_rebate": 609000,
+    "investment_for_max_rebate": 1110000
+   },
+   {
+    "monthly_gross": 375000,
+    "annual_tax": 810000,
+    "effective_rate": 0.18,
+    "marginal_rate": 0.3,
+    "monthly_take_home": 307500,
+    "annual_tax_with_max_rebate": 690000,
+    "investment_for_max_rebate": 1200000
+   },
+   {
+    "monthly_gross": 400000,
+    "annual_tax": 900000,
+    "effective_rate": 0.1875,
+    "marginal_rate": 0.3,
+    "monthly_take_home": 325000,
+    "annual_tax_with_max_rebate": 771000,
+    "investment_for_max_rebate": 1290000
+   },
+   {
+    "monthly_gross": 425000,
+    "annual_tax": 990000,
+    "effective_rate": 0.1941,
+    "marginal_rate": 0.3,
+    "monthly_take_home": 342500,
+    "annual_tax_with_max_rebate": 852000,
+    "investment_for_max_rebate": 1380000
+   },
+   {
+    "monthly_gross": 450000,
+    "annual_tax": 1080000,
+    "effective_rate": 0.2,
+    "marginal_rate": 0.3,
+    "monthly_take_home": 360000,
+    "annual_tax_with_max_rebate": 933000,
+    "investment_for_max_rebate": 1470000
+   },
+   {
+    "monthly_gross": 475000,
+    "annual_tax": 1170000,
+    "effective_rate": 0.2053,
+    "marginal_rate": 0.3,
+    "monthly_take_home": 377500,
+    "annual_tax_with_max_rebate": 1014000,
+    "investment_for_max_rebate": 1560000
+   },
+   {
+    "monthly_gross": 500000,
+    "annual_tax": 1260000,
+    "effective_rate": 0.21,
+    "marginal_rate": 0.3,
+    "monthly_take_home": 395000,
+    "annual_tax_with_max_rebate": 1095000,
+    "investment_for_max_rebate": 1650000
+   }
+  ],
+  "tax_free_monthly_salary": {
+   "general": 50000,
+   "woman_or_senior": 56250,
+   "disabled": 65625,
+   "third_gender": 65625,
+   "freedom_fighter": 68750
+  },
+  "rules_label": "Finance Act 2026 (assessment years 2026-27 and 2027-28)"
+ },
+ "market": {
+  "officer_curves": {
+   "large_bank": {
+    "entry": 74000.0,
+    "junior": 92400.0,
+    "mid": 112700.0,
+    "senior": 133700.0,
+    "lead": 151700.0
+   },
+   "mnc_fmcg": {
+    "entry": 78600.0,
+    "junior": 114400.0,
+    "mid": 162600.0,
+    "senior": 224700.0,
+    "lead": 297100.0
+   },
+   "local_conglomerate": {
+    "entry": 31300.0,
+    "junior": 44900.0,
+    "mid": 62800.0,
+    "senior": 85600.0,
+    "lead": 111500.0
+   }
+  },
+  "functions": [
+   {
+    "function": "engineering",
+    "title": "Engineering (civil, electrical, mechanical)",
+    "short": "Engineer",
+    "group": "local_conglomerate",
+    "group_label": "Large local company / group",
+    "confidence": "medium",
+    "entry_p50": 34500.0,
+    "mid_p25": 53500.0,
+    "mid_p50": 69200.0,
+    "mid_p75": 89500.0,
+    "senior_p50": 94200.0,
+    "best_group": "local_conglomerate",
+    "best_group_label": "Large local company / group",
+    "best_mid_p50": 69200.0,
+    "best_confidence": "medium"
+   },
+   {
+    "function": "business_analyst",
+    "title": "Business / product analyst",
+    "short": "Business analyst",
+    "group": "local_conglomerate",
+    "group_label": "Large local company / group",
+    "confidence": "low",
+    "entry_p50": 33600.0,
+    "mid_p25": 49200.0,
+    "mid_p50": 67600.0,
+    "mid_p75": 92800.0,
+    "senior_p50": 92000.0,
+    "best_group": "local_software",
+    "best_group_label": "Other software / IT company",
+    "best_mid_p50": 82300.0,
+    "best_confidence": "medium"
+   },
+   {
+    "function": "officer",
+    "title": "Management trainee / officer",
+    "short": "Trainee / officer",
+    "group": "local_conglomerate",
+    "group_label": "Large local company / group",
+    "confidence": "medium",
+    "entry_p50": 31300.0,
+    "mid_p25": 50200.0,
+    "mid_p50": 62800.0,
+    "mid_p75": 78700.0,
+    "senior_p50": 85600.0,
+    "best_group": "mnc_fmcg",
+    "best_group_label": "Multinational FMCG & tobacco",
+    "best_mid_p50": 162600.0,
+    "best_confidence": "medium"
+   },
+   {
+    "function": "software",
+    "title": "Software engineering",
+    "short": "Software engineer",
+    "group": "local_conglomerate",
+    "group_label": "Large local company / group",
+    "confidence": "medium",
+    "entry_p50": 28600.0,
+    "mid_p25": 45000.0,
+    "mid_p50": 57500.0,
+    "mid_p75": 73400.0,
+    "senior_p50": 78300.0,
+    "best_group": "top_software",
+    "best_group_label": "Top software company",
+    "best_mid_p50": 117100.0,
+    "best_confidence": "high"
+   },
+   {
+    "function": "sales",
+    "title": "Sales & distribution",
+    "short": "Sales",
+    "group": "local_conglomerate",
+    "group_label": "Large local company / group",
+    "confidence": "medium",
+    "entry_p50": 28500.0,
+    "mid_p25": 45200.0,
+    "mid_p50": 57300.0,
+    "mid_p75": 72600.0,
+    "senior_p50": 78000.0,
+    "best_group": "local_conglomerate",
+    "best_group_label": "Large local company / group",
+    "best_mid_p50": 57300.0,
+    "best_confidence": "medium"
+   },
+   {
+    "function": "finance",
+    "title": "Finance & accounts",
+    "short": "Finance",
+    "group": "local_conglomerate",
+    "group_label": "Large local company / group",
+    "confidence": "medium",
+    "entry_p50": 27700.0,
+    "mid_p25": 43700.0,
+    "mid_p50": 55700.0,
+    "mid_p75": 70900.0,
+    "senior_p50": 75800.0,
+    "best_group": "other_mnc",
+    "best_group_label": "Other multinational",
+    "best_mid_p50": 124900.0,
+    "best_confidence": "medium"
+   },
+   {
+    "function": "marketing",
+    "title": "Marketing & brand",
+    "short": "Marketing",
+    "group": "local_conglomerate",
+    "group_label": "Large local company / group",
+    "confidence": "medium",
+    "entry_p50": 26800.0,
+    "mid_p25": 40800.0,
+    "mid_p50": 53800.0,
+    "mid_p75": 70800.0,
+    "senior_p50": 73200.0,
+    "best_group": "local_conglomerate",
+    "best_group_label": "Large local company / group",
+    "best_mid_p50": 53800.0,
+    "best_confidence": "medium"
+   },
+   {
+    "function": "program_officer",
+    "title": "Programme / field officer (development)",
+    "short": "Programme officer",
+    "group": "ngo",
+    "group_label": "NGO (local or international)",
+    "confidence": "medium",
+    "entry_p50": 24700.0,
+    "mid_p25": 36600.0,
+    "mid_p50": 49600.0,
+    "mid_p75": 67300.0,
+    "senior_p50": 67600.0,
+    "best_group": "un_agency",
+    "best_group_label": "UN agency (National Officer posts)",
+    "best_mid_p50": 413700.0,
+    "best_confidence": "medium"
+   },
+   {
+    "function": "merchandising",
+    "title": "Merchandising (garments)",
+    "short": "Merchandiser",
+    "group": "rmg",
+    "group_label": "Garments factory / buying house",
+    "confidence": "medium",
+    "entry_p50": 19500.0,
+    "mid_p25": 34900.0,
+    "mid_p50": 44300.0,
+    "mid_p75": 56100.0,
+    "senior_p50": 64000.0,
+    "best_group": "rmg",
+    "best_group_label": "Garments factory / buying house",
+    "best_mid_p50": 44300.0,
+    "best_confidence": "medium"
+   },
+   {
+    "function": "hr_admin",
+    "title": "HR & admin",
+    "short": "HR & admin",
+    "group": "local_conglomerate",
+    "group_label": "Large local company / group",
+    "confidence": "high",
+    "entry_p50": 21100.0,
+    "mid_p25": 34000.0,
+    "mid_p50": 42400.0,
+    "mid_p75": 52900.0,
+    "senior_p50": 57800.0,
+    "best_group": "other_mnc",
+    "best_group_label": "Other multinational",
+    "best_mid_p50": 95200.0,
+    "best_confidence": "medium"
+   },
+   {
+    "function": "design",
+    "title": "Design & creative",
+    "short": "Designer",
+    "group": "local_conglomerate",
+    "group_label": "Large local company / group",
+    "confidence": "medium",
+    "entry_p50": 19500.0,
+    "mid_p25": 30400.0,
+    "mid_p50": 39100.0,
+    "mid_p75": 50200.0,
+    "senior_p50": 53200.0,
+    "best_group": "local_software",
+    "best_group_label": "Other software / IT company",
+    "best_mid_p50": 47600.0,
+    "best_confidence": "medium"
+   },
+   {
+    "function": "data",
+    "title": "Data & analytics",
+    "short": "Data analyst",
+    "group": "local_conglomerate",
+    "group_label": "Large local company / group",
+    "confidence": "medium",
+    "entry_p50": 17300.0,
+    "mid_p25": 27200.0,
+    "mid_p50": 34700.0,
+    "mid_p75": 44300.0,
+    "senior_p50": 47300.0,
+    "best_group": "local_software",
+    "best_group_label": "Other software / IT company",
+    "best_mid_p50": 42300.0,
+    "best_confidence": "medium"
+   },
+   {
+    "function": "customer_service",
+    "title": "Customer service / call centre",
+    "short": "Customer service",
+    "group": "local_conglomerate",
+    "group_label": "Large local company / group",
+    "confidence": "medium",
+    "entry_p50": 13400.0,
+    "mid_p25": 21000.0,
+    "mid_p50": 26900.0,
+    "mid_p75": 34400.0,
+    "senior_p50": 36600.0,
+    "best_group": "telecom",
+    "best_group_label": "Mobile operator",
+    "best_mid_p50": 55100.0,
+    "best_confidence": "medium"
+   },
+   {
+    "function": "factory_worker",
+    "title": "Factory worker / operator",
+    "short": "Factory operator",
+    "group": "local_conglomerate",
+    "group_label": "Large local company / group",
+    "confidence": "low",
+    "entry_p50": 16500.0,
+    "mid_p25": 14700.0,
+    "mid_p50": 19500.0,
+    "mid_p75": 25900.0,
+    "senior_p50": 22300.0,
+    "best_group": "rmg",
+    "best_group_label": "Garments factory / buying house",
+    "best_mid_p50": 14800.0,
+    "best_confidence": "medium"
+   }
+  ],
+  "entry_by_group": [
+   {
+    "group": "un_agency",
+    "label": "UN agency (National Officer posts)",
+    "function": "program_officer",
+    "function_short": "Programme officer",
+    "examples": [
+     "UNDP",
+     "UNICEF",
+     "WFP"
+    ],
+    "entry_p50": 200600.0,
+    "entry_p25": 153800.0,
+    "entry_p75": 261700.0,
+    "confidence": "medium"
+   },
+   {
+    "group": "mnc_fmcg",
+    "label": "Multinational FMCG & tobacco",
+    "function": "officer",
+    "function_short": "Trainee / officer",
+    "examples": [
+     "Unilever Bangladesh",
+     "BAT Bangladesh",
+     "Nestlé Bangladesh"
+    ],
+    "entry_p50": 78600.0,
+    "entry_p25": 64400.0,
+    "entry_p75": 95900.0,
+    "confidence": "high"
+   },
+   {
+    "group": "large_bank",
+    "label": "Large private bank / finance company",
+    "function": "officer",
+    "function_short": "Trainee / officer",
+    "examples": [
+     "BRAC Bank",
+     "The City Bank",
+     "Eastern Bank (EBL)"
+    ],
+    "entry_p50": 74000.0,
+    "entry_p25": 61100.0,
+    "entry_p75": 89600.0,
+    "confidence": "high"
+   },
+   {
+    "group": "other_mnc",
+    "label": "Other multinational",
+    "function": "officer",
+    "function_short": "Trainee / officer",
+    "examples": [
+     "Engineering, energy & electronics multinationals",
+     "Pharma & paint multinationals",
+     "International buying offices"
+    ],
+    "entry_p50": 68500.0,
+    "entry_p25": 51700.0,
+    "entry_p75": 90700.0,
+    "confidence": "medium"
+   },
+   {
+    "group": "telecom",
+    "label": "Mobile operator",
+    "function": "officer",
+    "function_short": "Trainee / officer",
+    "examples": [
+     "Grameenphone",
+     "Robi Axiata",
+     "Banglalink"
+    ],
+    "entry_p50": 64600.0,
+    "entry_p25": 52000.0,
+    "entry_p75": 80400.0,
+    "confidence": "high"
+   },
+   {
+    "group": "foreign_bank",
+    "label": "Foreign bank",
+    "function": "officer",
+    "function_short": "Trainee / officer",
+    "examples": [
+     "Standard Chartered",
+     "HSBC",
+     "Citibank N.A."
+    ],
+    "entry_p50": 63900.0,
+    "entry_p25": 50700.0,
+    "entry_p75": 80600.0,
+    "confidence": "medium"
+   },
+   {
+    "group": "other_bank",
+    "label": "Other private bank",
+    "function": "officer",
+    "function_short": "Trainee / officer",
+    "examples": [
+     "AB Bank",
+     "Meghna Bank",
+     "Pubali Bank"
+    ],
+    "entry_p50": 61300.0,
+    "entry_p25": 50500.0,
+    "entry_p75": 74500.0,
+    "confidence": "high"
+   },
+   {
+    "group": "top_software",
+    "label": "Top software company",
+    "function": "software",
+    "function_short": "Software engineer",
+    "examples": [
+     "Optimizely",
+     "Cefalo",
+     "Field Nation"
+    ],
+    "entry_p50": 50700.0,
+    "entry_p25": 39900.0,
+    "entry_p75": 64400.0,
+    "confidence": "medium"
+   },
+   {
+    "group": "fintech",
+    "label": "Fintech, mobile money & tech platforms",
+    "function": "officer",
+    "function_short": "Trainee / officer",
+    "examples": [
+     "bKash",
+     "Nagad",
+     "Pathao"
+    ],
+    "entry_p50": 49500.0,
+    "entry_p25": 38500.0,
+    "entry_p75": 63600.0,
+    "confidence": "medium"
+   },
+   {
+    "group": "local_software",
+    "label": "Other software / IT company",
+    "function": "software",
+    "function_short": "Software engineer",
+    "examples": [
+     "Local software houses",
+     "IT-enabled services",
+     "Tech startups"
+    ],
+    "entry_p50": 31500.0,
+    "entry_p25": 24800.0,
+    "entry_p75": 40100.0,
+    "confidence": "medium"
+   },
+   {
+    "group": "local_conglomerate",
+    "label": "Large local company / group",
+    "function": "officer",
+    "function_short": "Trainee / officer",
+    "examples": [
+     "PRAN-RFL",
+     "Square",
+     "ACI"
+    ],
+    "entry_p50": 31300.0,
+    "entry_p25": 25700.0,
+    "entry_p75": 38100.0,
+    "confidence": "high"
+   },
+   {
+    "group": "rmg",
+    "label": "Garments factory / buying house",
+    "function": "officer",
+    "function_short": "Trainee / officer",
+    "examples": [
+     "Export garments factories",
+     "Buying houses"
+    ],
+    "entry_p50": 23800.0,
+    "entry_p25": 17100.0,
+    "entry_p75": 33200.0,
+    "confidence": "low"
+   },
+   {
+    "group": "sme",
+    "label": "Small / medium local business",
+    "function": "officer",
+    "function_short": "Trainee / officer",
+    "examples": [
+     "Local SMEs",
+     "Shops, agencies and traders"
+    ],
+    "entry_p50": 18600.0,
+    "entry_p25": 14300.0,
+    "entry_p75": 24000.0,
+    "confidence": "medium"
+   },
+   {
+    "group": "ngo",
+    "label": "NGO (local or international)",
+    "function": "officer",
+    "function_short": "Trainee / officer",
+    "examples": [
+     "BRAC",
+     "ASA",
+     "BURO Bangladesh"
+    ],
+    "entry_p50": 18100.0,
+    "entry_p25": 13800.0,
+    "entry_p75": 23900.0,
+    "confidence": "medium"
+   }
+  ],
+  "level_multipliers": {
+   "entry": 1.0,
+   "junior": 1.434,
+   "mid": 2.008,
+   "senior": 2.735,
+   "lead": 3.564
+  },
+  "group_multipliers": {
+   "mnc_fmcg": 2.512,
+   "telecom": 2.066,
+   "fintech": 1.581,
+   "foreign_bank": 2.042,
+   "large_bank": 2.364,
+   "other_bank": 1.959,
+   "top_software": 1.77,
+   "local_software": 1.103,
+   "other_mnc": 2.188,
+   "local_conglomerate": 1.0,
+   "rmg": 0.761,
+   "sme": 0.593,
+   "ngo": 0.58,
+   "un_agency": 4.708
+  },
+  "reference_group": "local_conglomerate",
+  "n_anchors": 82,
+  "n_sources": 35
+ },
+ "govt_entry": [
+  {
+   "grade": 9,
+   "label": "Government Grade 9 (BCS cadre entry)",
+   "monthly": 74700,
+   "phase1_basic": 30800,
+   "note": "Full 2026 scale in Dhaka: basic 44,000 + house rent 19,800 + medical 3,000, with 2 festival bonuses and Boishakhi spread over 12 months."
+  },
+  {
+   "grade": 10,
+   "label": "Government Grade 10 (Sub-Asst Engineer, Sr Staff Nurse)",
+   "monthly": 56700,
+   "phase1_basic": 24000,
+   "note": "Full 2026 scale in Dhaka: basic 32,000 + house rent 16,000 + medical 3,000, with 2 festival bonuses and Boishakhi spread over 12 months."
+  }
+ ],
+ "validation": {
+  "n_evaluated": 77,
+  "median_abs_pct_error": 19.5,
+  "mean_abs_pct_error": 24.6,
+  "baseline_median_abs_pct_error": 25.0,
+  "by_source_type": {
+   "aggregator": 22.4,
+   "blog": 22.8,
+   "job_circular": 8.9,
+   "job_post": 20.1,
+   "news": 1.5,
+   "news_secondary": 50.4,
+   "recruiter": 13.2
+  }
+ }
+}

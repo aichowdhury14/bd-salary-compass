@@ -1,0 +1,25 @@
+{
+  "label": "Bangladesh consumer price inflation (BBS)",
+  "fiscal_year_average": [
+    { "fy": "FY2015-16", "rate": 0.0592 },
+    { "fy": "FY2016-17", "rate": 0.0544 },
+    { "fy": "FY2017-18", "rate": 0.0578 },
+    { "fy": "FY2018-19", "rate": 0.0548 },
+    { "fy": "FY2019-20", "rate": 0.0565 },
+    { "fy": "FY2020-21", "rate": 0.0556 },
+    { "fy": "FY2021-22", "rate": 0.0615 },
+    { "fy": "FY2022-23", "rate": 0.0902 },
+    { "fy": "FY2023-24", "rate": 0.0973 },
+    { "fy": "FY2024-25", "rate": 0.1003 },
+    { "fy": "FY2025-26", "rate": 0.0868 }
+  ],
+  "latest_point_to_point": { "month": "2026-09", "rate": 0.0834, "food": 0.0722, "non_food": 0.0930 },
+  "notes": [
+    "12-month average inflation per fiscal year (July-June). FY2024-25 (10.03%) and FY2025-26 (8.68%) are from BBS releases reported in The Financial Express (July 2026); earlier years are BBS annual averages.",
+    "September 2026 point-to-point inflation 8.34% (food 7.22%, non-food 9.30%) per BBS, reported by UNB and Dhaka Tribune (Oct 2026)."
+  ],
+  "sources": [
+    { "name": "The Financial Express: Average annual inflation cools to 8.68% in FY26", "url": "https://thefinancialexpress.com.bd/economy/average-annual-inflation-cools-to-868-per-cent-in-fy26", "date": "2026-07" },
+    { "name": "UNB: Food inflation rises, pushes up overall inflation in September", "url": "https://unb.com.bd/category/Business/food-inflation-rises-pushes-up-overall-inflation-in-september/197246", "date": "2026-10" }
+  ]
+}

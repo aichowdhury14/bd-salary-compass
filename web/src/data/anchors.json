@@ -1,0 +1,1807 @@
+[
+ {
+  "id": "unilever_mt_glassdoor",
+  "function": "officer",
+  "low": 70000.0,
+  "high": 96000.0,
+  "median": 88000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "mnc_fmcg": 1.0
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: Unilever Management Trainee salaries in Dhaka",
+  "source_url": "https://www.glassdoor.com/Monthly-Pay/Unilever-Management-Trainee-Dhaka-Monthly-Pay-EJI_IE3513.0,8_KO9,27_IL.28,33_IM1237.htm",
+  "published": "2026",
+  "note": "Unilever Future Leaders Programme; base about 88k; Unilever does not publish the figure",
+  "model_median": 78610,
+  "residual_pct": 11.9
+ },
+ {
+  "id": "bat_mt_nextjobz",
+  "function": "officer",
+  "low": 100000.0,
+  "high": 130000.0,
+  "median": 114018,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "mnc_fmcg": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "BAT Bangladesh management trainee programme (unofficial estimate)",
+  "model_median": 78610,
+  "residual_pct": 45.0
+ },
+ {
+  "id": "fmcg_entry_nextjobz",
+  "function": "officer",
+  "low": 75000.0,
+  "high": 130000.0,
+  "median": 98742,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "mnc_fmcg": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "FMCG & consumer goods graduate entry range",
+  "model_median": 78610,
+  "residual_pct": 25.6
+ },
+ {
+  "id": "emami_mt_circular",
+  "function": "officer",
+  "low": 55000.0,
+  "high": 60000.0,
+  "median": 57446,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "mnc_fmcg": 1.0
+  },
+  "range_type": "offer_band",
+  "source_type": "job_circular",
+  "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+  "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+  "published": "2025-11",
+  "note": "Emami Bangladesh (FMCG) MTO circular",
+  "model_median": 78610,
+  "residual_pct": -26.9
+ },
+ {
+  "id": "gp_mt_glassdoor",
+  "function": "officer",
+  "low": 48000.0,
+  "high": 79000.0,
+  "median": 60000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "telecom": 1.0
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: Grameenphone Management Trainee salaries in Dhaka",
+  "source_url": "https://www.glassdoor.com/Monthly-Pay/GrameenPhone-Management-Trainee-Dhaka-Monthly-Pay-EJI_IE405018.0,12_KO13,31_IL.32,37_IM1237.htm",
+  "published": "2024-11",
+  "note": "Median base; small sample",
+  "model_median": 64635,
+  "residual_pct": -7.2
+ },
+ {
+  "id": "telecom_fintech_entry_nextjobz",
+  "function": "officer",
+  "low": 65000.0,
+  "high": 90000.0,
+  "median": 76485,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "telecom": 0.5,
+   "fintech": 0.5
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Telecom & fintech graduate entry range",
+  "model_median": 56542,
+  "residual_pct": 35.3
+ },
+ {
+  "id": "gp_csr_glassdoor",
+  "function": "customer_service",
+  "low": 33000.0,
+  "high": 114000.0,
+  "median": 40000,
+  "level": {
+   "entry": 0.2,
+   "junior": 0.35,
+   "mid": 0.3,
+   "senior": 0.15
+  },
+  "group": {
+   "telecom": 1.0
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: Grameenphone Customer Service Representative salaries in Dhaka",
+  "source_url": "https://www.glassdoor.com/Monthly-Pay/GrameenPhone-Customer-Service-Representative-Dhaka-Monthly-Pay-EJI_IE405018.0,12_KO13,44_IL.45,50_IM1237.htm",
+  "published": "2025-09",
+  "note": "Median of 5 submissions",
+  "model_median": 44704,
+  "residual_pct": -10.5
+ },
+ {
+  "id": "cs_paylab",
+  "function": "customer_service",
+  "low": 11093.0,
+  "high": 32080.0,
+  "median": 18864,
+  "level": {
+   "entry": 0.2,
+   "junior": 0.35,
+   "mid": 0.3,
+   "senior": 0.15
+  },
+  "group": {
+   "sme": 0.4,
+   "local_conglomerate": 0.3,
+   "local_software": 0.3
+  },
+  "range_type": "typical_range",
+  "source_type": "aggregator",
+  "source_name": "Paylab: Customer support salaries in Bangladesh",
+  "source_url": "https://paylab.com/bd/gehalter/kundendienst",
+  "published": "2026",
+  "note": "Gross range for customer support roles",
+  "model_median": 18800,
+  "residual_pct": 0.3
+ },
+ {
+  "id": "city_mto",
+  "function": "officer",
+  "low": 80000.0,
+  "high": 80000.0,
+  "median": 80000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+  "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+  "published": "2025-06",
+  "note": "The City Bank MTO training period",
+  "model_median": 73990,
+  "residual_pct": 8.1
+ },
+ {
+  "id": "city_mto_confirmed",
+  "function": "officer",
+  "low": 100000.0,
+  "high": 100000.0,
+  "median": 100000,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+  "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+  "published": "2025-06",
+  "note": "The City Bank on confirmation as Executive Officer",
+  "model_median": 92441,
+  "residual_pct": 8.2
+ },
+ {
+  "id": "mtb_mto",
+  "function": "officer",
+  "low": 75000.0,
+  "high": 75000.0,
+  "median": 75000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+  "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+  "published": "2025-05",
+  "note": "Mutual Trust Bank MTO training period",
+  "model_median": 73990,
+  "residual_pct": 1.4
+ },
+ {
+  "id": "mtb_mto_confirmed",
+  "function": "officer",
+  "low": 93500.0,
+  "high": 93500.0,
+  "median": 93500,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+  "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+  "published": "2025-05",
+  "note": "Mutual Trust Bank on confirmation as Senior Officer",
+  "model_median": 92441,
+  "residual_pct": 1.1
+ },
+ {
+  "id": "dbbl_mto",
+  "function": "officer",
+  "low": 70000.0,
+  "high": 70000.0,
+  "median": 70000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "Dutch-Bangla Bank MTO circular 2026",
+  "source_url": "https://thecvguy.net/bank-jobs/dutch-bangla-bank-plc-mto-job-circular-2026/",
+  "published": "2026-09",
+  "note": "1-year probation",
+  "model_median": 73990,
+  "residual_pct": -5.4
+ },
+ {
+  "id": "dbbl_mto_confirmed",
+  "function": "officer",
+  "low": 97483.0,
+  "high": 97483.0,
+  "median": 97483,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "Dutch-Bangla Bank MTO circular 2026",
+  "source_url": "https://thecvguy.net/bank-jobs/dutch-bangla-bank-plc-mto-job-circular-2026/",
+  "published": "2026-09",
+  "note": "On confirmation as Senior Officer",
+  "model_median": 92441,
+  "residual_pct": 5.5
+ },
+ {
+  "id": "bracbank_mto",
+  "function": "officer",
+  "low": 65000.0,
+  "high": 65000.0,
+  "median": 65000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "BRAC Bank MTO circular 2026 (reported)",
+  "source_url": "https://www.glassdoor.com/Monthly-Pay/BRAC-Bank-Management-Trainee-Dhaka-Monthly-Pay-EJI_IE227450.0,9_KO10,28_IL.29,34_IM1237.htm",
+  "published": "2026-06",
+  "note": "1-year training period; Glassdoor base about 70k",
+  "model_median": 73990,
+  "residual_pct": -12.2
+ },
+ {
+  "id": "prime_mto",
+  "function": "officer",
+  "low": 85000.0,
+  "high": 85000.0,
+  "median": 85000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "Bank MTO jobs in Bangladesh: every 2026 circular compared",
+  "source_url": "https://thecvguy.net/career-tips/bank-mto-jobs-bangladesh/",
+  "published": "2026",
+  "note": "Prime Bank probation pay",
+  "model_median": 73990,
+  "residual_pct": 14.9
+ },
+ {
+  "id": "prime_mto_confirmed",
+  "function": "officer",
+  "low": 100000.0,
+  "high": 100000.0,
+  "median": 100000,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "Bank MTO jobs in Bangladesh: every 2026 circular compared",
+  "source_url": "https://thecvguy.net/career-tips/bank-mto-jobs-bangladesh/",
+  "published": "2026",
+  "note": "Prime Bank Executive Officer on confirmation",
+  "model_median": 92441,
+  "residual_pct": 8.2
+ },
+ {
+  "id": "ipdc_mto",
+  "function": "officer",
+  "low": 75000.0,
+  "high": 75000.0,
+  "median": 75000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+  "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+  "published": "2025-08",
+  "note": "IPDC Finance; Assistant Manager at 90k on confirmation",
+  "model_median": 73990,
+  "residual_pct": 1.4
+ },
+ {
+  "id": "idlc_mto",
+  "function": "officer",
+  "low": 75000.0,
+  "high": 75000.0,
+  "median": 75000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "news",
+  "source_name": "Prothom Alo: 11 organisations offer jobs without prior experience",
+  "source_url": "https://en.prothomalo.com/youth/employment/s0nj8vwh1l",
+  "published": "2026-04",
+  "note": "IDLC Finance training period",
+  "model_median": 73990,
+  "residual_pct": 1.4
+ },
+ {
+  "id": "ab_mto",
+  "function": "officer",
+  "low": 75000.0,
+  "high": 75000.0,
+  "median": 75000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "other_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+  "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+  "published": "2026-02",
+  "note": "AB Bank 2-year traineeship",
+  "model_median": 61308,
+  "residual_pct": 22.3
+ },
+ {
+  "id": "ab_mto_confirmed",
+  "function": "officer",
+  "low": 90000.0,
+  "high": 90000.0,
+  "median": 90000,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "other_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+  "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+  "published": "2026-02",
+  "note": "AB Bank Principal Officer on confirmation",
+  "model_median": 67492,
+  "residual_pct": 33.3
+ },
+ {
+  "id": "meghna_mto",
+  "function": "officer",
+  "low": 60000.0,
+  "high": 60000.0,
+  "median": 60000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "other_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+  "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+  "published": "2026-05",
+  "note": "Meghna Bank MTO",
+  "model_median": 61308,
+  "residual_pct": -2.1
+ },
+ {
+  "id": "meghna_mto_confirmed",
+  "function": "officer",
+  "low": 72864.0,
+  "high": 72864.0,
+  "median": 72864,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "other_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+  "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+  "published": "2026-05",
+  "note": "Meghna Bank Senior Officer on confirmation",
+  "model_median": 67492,
+  "residual_pct": 8.0
+ },
+ {
+  "id": "sbac_mto",
+  "function": "officer",
+  "low": 48000.0,
+  "high": 48000.0,
+  "median": 48000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "other_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "job_circular",
+  "source_name": "Bank MTO jobs in Bangladesh: every 2026 circular compared",
+  "source_url": "https://thecvguy.net/career-tips/bank-mto-jobs-bangladesh/",
+  "published": "2026",
+  "note": "SBAC Bank probation pay (lowest of nine circulars)",
+  "model_median": 61308,
+  "residual_pct": -21.7
+ },
+ {
+  "id": "bank_local_nextjobz",
+  "function": "officer",
+  "low": 55000.0,
+  "high": 83000.0,
+  "median": 67565,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Top private banks graduate entry",
+  "model_median": 73990,
+  "residual_pct": -8.7
+ },
+ {
+  "id": "bank_intl_nextjobz",
+  "function": "officer",
+  "low": 75000.0,
+  "high": 110000.0,
+  "median": 90830,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "foreign_bank": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "International banks graduate entry",
+  "model_median": 63907,
+  "residual_pct": 42.1
+ },
+ {
+  "id": "scb_officer_glassdoor",
+  "function": "customer_service",
+  "low": 29000.0,
+  "high": 50000.0,
+  "median": 38079,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "foreign_bank": 1.0
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: Standard Chartered Bank salaries in Bangladesh",
+  "source_url": "https://www.glassdoor.com/Salary/Standard-Chartered-Bank-Bangladesh-Salaries-EI_IE226853.0,23_IL.24,34_IN27.htm",
+  "published": "2026",
+  "note": "Officer base pay; mostly operations and service officers",
+  "model_median": 37617,
+  "residual_pct": 1.2
+ },
+ {
+  "id": "scb_senior_officer_bayt",
+  "function": "officer",
+  "low": 61469.0,
+  "high": 61469.0,
+  "median": 61469,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "foreign_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "aggregator",
+  "source_name": "Bayt.com: Standard Chartered Bangladesh salaries",
+  "source_url": "https://www.bayt.com/en/bangladesh/salaries/companies/standard-chartered-bangladesh/",
+  "published": "2026",
+  "note": "Senior officer monthly average (the post MTOs are usually confirmed into)",
+  "model_median": 87922,
+  "residual_pct": -30.1
+ },
+ {
+  "id": "optimizely_levels",
+  "function": "software",
+  "low": 167000.0,
+  "high": 167000.0,
+  "median": 167000,
+  "level": {
+   "junior": 0.3,
+   "mid": 0.4,
+   "senior": 0.3
+  },
+  "group": {
+   "top_software": 1.0
+  },
+  "range_type": "point",
+  "source_type": "aggregator",
+  "source_name": "BD Tech Jobs citing Levels.fyi: highest paying software companies 2026",
+  "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+  "published": "2026-02",
+  "note": "Optimizely median total compensation (all levels)",
+  "model_median": 116117,
+  "residual_pct": 43.8
+ },
+ {
+  "id": "cefalo_levels",
+  "function": "software",
+  "low": 141000.0,
+  "high": 141000.0,
+  "median": 141000,
+  "level": {
+   "junior": 0.3,
+   "mid": 0.4,
+   "senior": 0.3
+  },
+  "group": {
+   "top_software": 1.0
+  },
+  "range_type": "point",
+  "source_type": "aggregator",
+  "source_name": "BD Tech Jobs citing Levels.fyi: highest paying software companies 2026",
+  "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+  "published": "2026-02",
+  "note": "Cefalo median total compensation (all levels)",
+  "model_median": 116117,
+  "residual_pct": 21.4
+ },
+ {
+  "id": "enosis_levels",
+  "function": "software",
+  "low": 81000.0,
+  "high": 81000.0,
+  "median": 81000,
+  "level": {
+   "junior": 0.3,
+   "mid": 0.4,
+   "senior": 0.3
+  },
+  "group": {
+   "top_software": 1.0
+  },
+  "range_type": "point",
+  "source_type": "aggregator",
+  "source_name": "BD Tech Jobs citing Levels.fyi: highest paying software companies 2026",
+  "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+  "published": "2026-02",
+  "note": "Enosis Solutions median total compensation (all levels)",
+  "model_median": 116117,
+  "residual_pct": -30.2
+ },
+ {
+  "id": "top_sw_entry_bdtech",
+  "function": "software",
+  "low": 40000.0,
+  "high": 120000.0,
+  "median": 60000,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "top_software": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "BD Tech Jobs: highest paying software companies 2026",
+  "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+  "published": "2026-02",
+  "note": "Low end of published ranges at 8 top firms (Enosis 40k ... Optimizely 120k)",
+  "model_median": 77949,
+  "residual_pct": -23.0
+ },
+ {
+  "id": "cefalo_senior_bdtech",
+  "function": "software",
+  "low": 200000.0,
+  "high": 280000.0,
+  "median": 236643,
+  "level": {
+   "senior": 1.0
+  },
+  "group": {
+   "top_software": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "BD Tech Jobs: highest paying software companies 2026",
+  "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+  "published": "2026-02",
+  "note": "Cefalo senior",
+  "model_median": 171077,
+  "residual_pct": 38.3
+ },
+ {
+  "id": "enosis_senior_bdtech",
+  "function": "software",
+  "low": 120000.0,
+  "high": 160000.0,
+  "median": 138564,
+  "level": {
+   "senior": 1.0
+  },
+  "group": {
+   "top_software": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "BD Tech Jobs: highest paying software companies 2026",
+  "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+  "published": "2026-02",
+  "note": "Enosis senior and team leads",
+  "model_median": 171077,
+  "residual_pct": -19.0
+ },
+ {
+  "id": "bkash_swe_glassdoor",
+  "function": "software",
+  "low": 45750.0,
+  "high": 100000.0,
+  "median": 50000,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "fintech": 1.0
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: bKash Software Engineer salaries in Dhaka",
+  "source_url": "https://www.glassdoor.com/Salary/Bkash-Software-Engineer-Dhaka-Salaries-EJI_IE555424.0,5_KO6,23_IL.24,29_IM1237.htm",
+  "published": "2026",
+  "note": "Average base 6 lakh a year; mostly 1-3 years experience",
+  "model_median": 66310,
+  "residual_pct": -24.6
+ },
+ {
+  "id": "bkash_mid_bdtech",
+  "function": "software",
+  "low": 80000.0,
+  "high": 150000.0,
+  "median": 109545,
+  "level": {
+   "mid": 1.0
+  },
+  "group": {
+   "fintech": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "BD Tech Jobs: highest paying software companies 2026",
+  "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+  "published": "2026-02",
+  "note": "bKash mid-level engineers",
+  "model_median": 94902,
+  "residual_pct": 15.4
+ },
+ {
+  "id": "bkash_senior_bdtech",
+  "function": "software",
+  "low": 150000.0,
+  "high": 250000.0,
+  "median": 193649,
+  "level": {
+   "senior": 1.0
+  },
+  "group": {
+   "fintech": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "BD Tech Jobs: highest paying software companies 2026",
+  "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+  "published": "2026-02",
+  "note": "bKash senior engineers",
+  "model_median": 132131,
+  "residual_pct": 46.6
+ },
+ {
+  "id": "bkash_lead_glassdoor",
+  "function": "software",
+  "low": 108000.0,
+  "high": 178000.0,
+  "median": 150000,
+  "level": {
+   "lead": 1.0
+  },
+  "group": {
+   "fintech": 1.0
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: bKash Lead Engineer salaries in Dhaka",
+  "source_url": "https://www.glassdoor.com/Monthly-Pay/Bkash-Lead-Engineer-Dhaka-Monthly-Pay-EJI_IE555424.0,5_KO6,19_IL.20,25_IM1237.htm",
+  "published": "2026",
+  "note": "Median total pay",
+  "model_median": 175997,
+  "residual_pct": -14.8
+ },
+ {
+  "id": "pathao_mid_bdtech",
+  "function": "software",
+  "low": 70000.0,
+  "high": 150000.0,
+  "median": 102470,
+  "level": {
+   "mid": 1.0
+  },
+  "group": {
+   "fintech": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "BD Tech Jobs: highest paying software companies 2026",
+  "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+  "published": "2026-02",
+  "note": "Pathao mid-level engineers",
+  "model_median": 94902,
+  "residual_pct": 8.0
+ },
+ {
+  "id": "swe_glassdoor",
+  "function": "software",
+  "low": 32000.0,
+  "high": 68000.0,
+  "median": 49000,
+  "level": {
+   "entry": 0.2,
+   "junior": 0.35,
+   "mid": 0.3,
+   "senior": 0.15
+  },
+  "group": {
+   "local_software": 0.5000000000000001,
+   "top_software": 0.20000000000000004,
+   "fintech": 0.10000000000000002,
+   "sme": 0.10000000000000002,
+   "local_conglomerate": 0.10000000000000002
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: Software Engineer salaries in Dhaka",
+  "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-software-engineer-salary-SRCH_IL.0,16_IM1237_KO17,34.htm",
+  "published": "2026-09",
+  "note": "Total pay; all levels and employers",
+  "model_median": 57829,
+  "residual_pct": -15.3
+ },
+ {
+  "id": "swe_multiplier_entry",
+  "function": "software",
+  "low": 25000.0,
+  "high": 47000.0,
+  "median": 34278,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "local_software": 0.6,
+   "sme": 0.2,
+   "local_conglomerate": 0.2
+  },
+  "range_type": "typical_range",
+  "source_type": "aggregator",
+  "source_name": "Multiplier: Average salary in Bangladesh 2026",
+  "source_url": "https://www.usemultiplier.com/bangladesh/average-salary",
+  "published": "2026",
+  "note": "Entry-level engineers",
+  "model_median": 27327,
+  "residual_pct": 25.4
+ },
+ {
+  "id": "swe_wits_junior",
+  "function": "software",
+  "low": 20000.0,
+  "high": 45000.0,
+  "median": 30000,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "local_software": 0.7,
+   "sme": 0.3
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "whatisthesalary.com: Software engineer salary in Bangladesh",
+  "source_url": "https://whatisthesalary.com/it-salaries/software-engineer-salary-in-bangladesh/",
+  "published": "2026",
+  "note": "Junior band",
+  "model_median": 39154,
+  "residual_pct": -23.4
+ },
+ {
+  "id": "swe_wits_mid",
+  "function": "software",
+  "low": 50000.0,
+  "high": 80000.0,
+  "median": 63246,
+  "level": {
+   "mid": 1.0
+  },
+  "group": {
+   "local_software": 0.7,
+   "sme": 0.3
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "whatisthesalary.com: Software engineer salary in Bangladesh",
+  "source_url": "https://whatisthesalary.com/it-salaries/software-engineer-salary-in-bangladesh/",
+  "published": "2026",
+  "note": "Mid band; Dhaka commonly 60-75k",
+  "model_median": 57127,
+  "residual_pct": 10.7
+ },
+ {
+  "id": "swe_wits_senior",
+  "function": "software",
+  "low": 80000.0,
+  "high": 150000.0,
+  "median": 109545,
+  "level": {
+   "senior": 1.0
+  },
+  "group": {
+   "local_software": 0.7,
+   "sme": 0.3
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "whatisthesalary.com: Software engineer salary in Bangladesh",
+  "source_url": "https://whatisthesalary.com/it-salaries/software-engineer-salary-in-bangladesh/",
+  "published": "2026",
+  "note": "Senior band",
+  "model_median": 81086,
+  "residual_pct": 35.1
+ },
+ {
+  "id": "da_glassdoor",
+  "function": "data",
+  "low": 22000.0,
+  "high": 57000.0,
+  "median": 33000,
+  "level": {
+   "entry": 0.2,
+   "junior": 0.35,
+   "mid": 0.3,
+   "senior": 0.15
+  },
+  "group": {
+   "local_software": 0.30000000000000004,
+   "local_conglomerate": 0.30000000000000004,
+   "fintech": 0.10000000000000002,
+   "telecom": 0.10000000000000002,
+   "large_bank": 0.10000000000000002,
+   "sme": 0.10000000000000002
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: Data Analyst salaries in Dhaka",
+  "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-data-analyst-salary-SRCH_IL.0,16_IM1237_KO17,29.htm",
+  "published": "2026-09",
+  "note": "Total pay across levels",
+  "model_median": 33940,
+  "residual_pct": -2.8
+ },
+ {
+  "id": "da_glassdoor_senior",
+  "function": "data",
+  "low": 28000.0,
+  "high": 128000.0,
+  "median": 59867,
+  "level": {
+   "senior": 1.0
+  },
+  "group": {
+   "local_software": 0.30000000000000004,
+   "local_conglomerate": 0.30000000000000004,
+   "fintech": 0.10000000000000002,
+   "telecom": 0.10000000000000002,
+   "large_bank": 0.10000000000000002,
+   "sme": 0.10000000000000002
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: Senior Data Analyst salaries in Dhaka",
+  "source_url": "https://www.glassdoor.com/Salaries/dhaka-senior-data-analyst-salary-SRCH_IL.0,5_IC2267834_KO6,25.htm",
+  "published": "2026",
+  "note": "Small sample (13)",
+  "model_median": 57541,
+  "residual_pct": 4.0
+ },
+ {
+  "id": "ba_nextjobz_entry",
+  "function": "business_analyst",
+  "low": 35000.0,
+  "high": 60000.0,
+  "median": 45826,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "local_software": 0.4,
+   "fintech": 0.2,
+   "large_bank": 0.2,
+   "local_conglomerate": 0.2
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Entry business analyst",
+  "model_median": 45543,
+  "residual_pct": 0.6
+ },
+ {
+  "id": "gd_glassdoor",
+  "function": "design",
+  "low": 17000.0,
+  "high": 37000.0,
+  "median": 27000,
+  "level": {
+   "entry": 0.2,
+   "junior": 0.35,
+   "mid": 0.3,
+   "senior": 0.15
+  },
+  "group": {
+   "sme": 0.4,
+   "local_conglomerate": 0.3,
+   "local_software": 0.3
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: Graphic Designer salaries in Dhaka",
+  "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-graphic-designer-salary-SRCH_IL.0,16_IM1237_KO17,33.htm",
+  "published": "2026-08",
+  "note": "Total pay across levels",
+  "model_median": 27318,
+  "residual_pct": -1.2
+ },
+ {
+  "id": "acc_nextjobz_entry",
+  "function": "finance",
+  "low": 18000.0,
+  "high": 35000.0,
+  "median": 25100,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "local_conglomerate": 0.5,
+   "sme": 0.5
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Accounts / finance officer",
+  "model_median": 21341,
+  "residual_pct": 17.6
+ },
+ {
+  "id": "acc_multiplier_entry",
+  "function": "finance",
+  "low": 14000.0,
+  "high": 23000.0,
+  "median": 17944,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "sme": 0.6,
+   "local_conglomerate": 0.4
+  },
+  "range_type": "typical_range",
+  "source_type": "aggregator",
+  "source_name": "Multiplier: Average salary in Bangladesh 2026",
+  "source_url": "https://www.usemultiplier.com/bangladesh/average-salary",
+  "published": "2026",
+  "note": "Entry-level accountant",
+  "model_median": 20255,
+  "residual_pct": -11.4
+ },
+ {
+  "id": "acc_multiplier_senior",
+  "function": "finance",
+  "low": 28000.0,
+  "high": 100000.0,
+  "median": 52915,
+  "level": {
+   "senior": 1.0
+  },
+  "group": {
+   "sme": 0.6,
+   "local_conglomerate": 0.4
+  },
+  "range_type": "typical_range",
+  "source_type": "aggregator",
+  "source_name": "Multiplier: Average salary in Bangladesh 2026",
+  "source_url": "https://www.usemultiplier.com/bangladesh/average-salary",
+  "published": "2026",
+  "note": "Senior accountant",
+  "model_median": 57532,
+  "residual_pct": -8.0
+ },
+ {
+  "id": "acc_manpower",
+  "function": "finance",
+  "low": 40000.0,
+  "high": 70000.0,
+  "median": 52915,
+  "level": {
+   "junior": 0.5,
+   "mid": 0.5
+  },
+  "group": {
+   "local_conglomerate": 0.6,
+   "sme": 0.2,
+   "other_mnc": 0.2
+  },
+  "range_type": "typical_range",
+  "source_type": "recruiter",
+  "source_name": "ManpowerBD: Bangladesh salary benchmarks 2026",
+  "source_url": "https://manpower.com.bd/insights/bangladesh-salary-benchmarks",
+  "published": "2026",
+  "note": "Accountant / finance executive",
+  "model_median": 50053,
+  "residual_pct": 5.7
+ },
+ {
+  "id": "hr_glassdoor",
+  "function": "hr_admin",
+  "low": 20000.0,
+  "high": 30000.0,
+  "median": 25000,
+  "level": {
+   "entry": 0.2,
+   "junior": 0.35,
+   "mid": 0.3,
+   "senior": 0.15
+  },
+  "group": {
+   "local_conglomerate": 0.4,
+   "sme": 0.4,
+   "rmg": 0.2
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: HR Executive salaries in Dhaka",
+  "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-hr-executive-salary-SRCH_IL.0,16_IM1237_KO17,29.htm",
+  "published": "2026",
+  "note": "Typical base pay",
+  "model_median": 27167,
+  "residual_pct": -8.0
+ },
+ {
+  "id": "hr_nextjobz_entry",
+  "function": "hr_admin",
+  "low": 15000.0,
+  "high": 25000.0,
+  "median": 19365,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "local_conglomerate": 0.5,
+   "sme": 0.5
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Entry HR executive",
+  "model_median": 16271,
+  "residual_pct": 19.0
+ },
+ {
+  "id": "hr_manpower_mid",
+  "function": "hr_admin",
+  "low": 25000.0,
+  "high": 55000.0,
+  "median": 37081,
+  "level": {
+   "junior": 0.5,
+   "mid": 0.5
+  },
+  "group": {
+   "local_conglomerate": 0.6,
+   "sme": 0.2,
+   "other_mnc": 0.2
+  },
+  "range_type": "typical_range",
+  "source_type": "recruiter",
+  "source_name": "ManpowerBD: Bangladesh salary benchmarks 2026",
+  "source_url": "https://manpower.com.bd/insights/bangladesh-salary-benchmarks",
+  "published": "2026",
+  "note": "Admin & HR mid-level (2-5 years)",
+  "model_median": 38160,
+  "residual_pct": -2.8
+ },
+ {
+  "id": "sales_manpower_entry",
+  "function": "sales",
+  "low": 14000.0,
+  "high": 32000.0,
+  "median": 21166,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "local_conglomerate": 0.6,
+   "sme": 0.4
+  },
+  "range_type": "typical_range",
+  "source_type": "recruiter",
+  "source_name": "ManpowerBD: Bangladesh salary benchmarks 2026",
+  "source_url": "https://manpower.com.bd/insights/bangladesh-salary-benchmarks",
+  "published": "2026",
+  "note": "Sales & marketing entry",
+  "model_median": 23133,
+  "residual_pct": -8.5
+ },
+ {
+  "id": "sales_manpower_mid",
+  "function": "sales",
+  "low": 28000.0,
+  "high": 65000.0,
+  "median": 42661,
+  "level": {
+   "mid": 1.0
+  },
+  "group": {
+   "local_conglomerate": 0.6,
+   "sme": 0.4
+  },
+  "range_type": "typical_range",
+  "source_type": "recruiter",
+  "source_name": "ManpowerBD: Bangladesh salary benchmarks 2026",
+  "source_url": "https://manpower.com.bd/insights/bangladesh-salary-benchmarks",
+  "published": "2026",
+  "note": "Sales & marketing mid",
+  "model_median": 47244,
+  "residual_pct": -9.7
+ },
+ {
+  "id": "sales_manpower_senior",
+  "function": "sales",
+  "low": 55000.0,
+  "high": 120000.0,
+  "median": 81240,
+  "level": {
+   "senior": 1.0
+  },
+  "group": {
+   "local_conglomerate": 0.6,
+   "sme": 0.4
+  },
+  "range_type": "typical_range",
+  "source_type": "recruiter",
+  "source_name": "ManpowerBD: Bangladesh salary benchmarks 2026",
+  "source_url": "https://manpower.com.bd/insights/bangladesh-salary-benchmarks",
+  "published": "2026",
+  "note": "Sales & marketing senior",
+  "model_median": 64886,
+  "residual_pct": 25.2
+ },
+ {
+  "id": "sales_nextjobz_entry",
+  "function": "sales",
+  "low": 15000.0,
+  "high": 30000.0,
+  "median": 21213,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "local_conglomerate": 0.5,
+   "sme": 0.5
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Entry sales executive",
+  "model_median": 21955,
+  "residual_pct": -3.4
+ },
+ {
+  "id": "mkt_nextjobz_entry",
+  "function": "marketing",
+  "low": 15000.0,
+  "high": 28000.0,
+  "median": 20494,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "local_conglomerate": 0.5,
+   "sme": 0.5
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Entry marketing executive",
+  "model_median": 20620,
+  "residual_pct": -0.6
+ },
+ {
+  "id": "civil_glassdoor",
+  "function": "engineering",
+  "low": 30000.0,
+  "high": 67000.0,
+  "median": 44000,
+  "level": {
+   "entry": 0.2,
+   "junior": 0.35,
+   "mid": 0.3,
+   "senior": 0.15
+  },
+  "group": {
+   "local_conglomerate": 0.5,
+   "sme": 0.5
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: Civil Engineer salaries in Dhaka",
+  "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-civil-engineer-salary-SRCH_IL.0,16_IM1237_KO17,31.htm",
+  "published": "2026-09",
+  "note": "Median about 43-44k",
+  "model_median": 43795,
+  "residual_pct": 0.5
+ },
+ {
+  "id": "merch_entry",
+  "function": "merchandising",
+  "low": 15000.0,
+  "high": 15000.0,
+  "median": 15000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "rmg": 1.0
+  },
+  "range_type": "point",
+  "source_type": "news_secondary",
+  "source_name": "PCTechMag citing The Business Standard: career paths in apparel",
+  "source_url": "https://pctechmag.com/2026/08/career-paths-for-professionals-in-manufacturing-and-apparel-industries/",
+  "published": "2026-08",
+  "note": "Starting salary",
+  "model_median": 19544,
+  "residual_pct": -23.3
+ },
+ {
+  "id": "merch_asst_posting",
+  "function": "merchandising",
+  "low": 30000.0,
+  "high": 40000.0,
+  "median": 34641,
+  "level": {
+   "junior": 0.5,
+   "mid": 0.5
+  },
+  "group": {
+   "rmg": 1.0
+  },
+  "range_type": "offer_band",
+  "source_type": "job_post",
+  "source_name": "Buying-house job posting in Gulshan-1 (seen in web search Oct 2026; original URL not captured)",
+  "source_url": "",
+  "published": "2026",
+  "note": "Assistant Merchandiser 2-4 years",
+  "model_median": 36303,
+  "residual_pct": -4.6
+ },
+ {
+  "id": "merch_senior_posting",
+  "function": "merchandising",
+  "low": 70000.0,
+  "high": 80000.0,
+  "median": 74833,
+  "level": {
+   "senior": 1.0
+  },
+  "group": {
+   "rmg": 1.0
+  },
+  "range_type": "offer_band",
+  "source_type": "job_post",
+  "source_name": "Buying-house job posting in Gulshan-1 (seen in web search Oct 2026; original URL not captured)",
+  "source_url": "",
+  "published": "2026",
+  "note": "Senior Merchandiser 8-10 years",
+  "model_median": 64024,
+  "residual_pct": 16.9
+ },
+ {
+  "id": "rmg_minimum_wage",
+  "function": "factory_worker",
+  "low": 12500.0,
+  "high": 12500.0,
+  "median": 12500,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "rmg": 1.0
+  },
+  "range_type": "point",
+  "source_type": "official",
+  "source_name": "Minimum Wage Board gazette for RMG workers (Dec 2023; still in force Oct 2026)",
+  "source_url": "https://en.ittefaq.com.bd/6792/tk-12-500-finalised-as-minimum-rmg-wage",
+  "published": "2023-12",
+  "note": "Legal minimum gross for the entry grade; overtime is extra",
+  "model_median": 12581,
+  "residual_pct": -0.6
+ },
+ {
+  "id": "ngo_sector_entry",
+  "function": "program_officer",
+  "low": 15000.0,
+  "high": 35000.0,
+  "median": 22913,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "ngo": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "NGO & development sector entry range",
+  "model_median": 24711,
+  "residual_pct": -7.3
+ },
+ {
+  "id": "un_noa_dhaka",
+  "function": "program_officer",
+  "low": 319000.0,
+  "high": 319000.0,
+  "median": 319000,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "un_agency": 1.0
+  },
+  "range_type": "point",
+  "source_type": "aggregator",
+  "source_name": "UNjobnet: UN NO-A salary in Dhaka (scale effective Oct 2024)",
+  "source_url": "https://www.unjobnet.org/countries/bangladesh/Dhaka/salary/no-a",
+  "published": "2024-10",
+  "note": "National Officer A step 1: about Tk 38.3 lakh a year net; third-party transcription of the UN scale",
+  "model_median": 291609,
+  "residual_pct": 9.4
+ },
+ {
+  "id": "pran_mt_glassdoor",
+  "function": "officer",
+  "low": 25000.0,
+  "high": 25000.0,
+  "median": 25000,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "local_conglomerate": 1.0
+  },
+  "range_type": "point",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: PRAN-RFL Center Management Trainee salaries",
+  "source_url": "https://www.glassdoor.com/Monthly-Pay/PRAN-RFL-Center-Management-Trainee-Bangladesh-Monthly-Pay-EJI_IE530328.0,15_KO16,34_IL.35,45_IN27.htm",
+  "published": "2026",
+  "note": "Base about 25k; RFL circulars say negotiable",
+  "model_median": 31293,
+  "residual_pct": -20.1
+ },
+ {
+  "id": "gen_midtier_entry",
+  "function": "officer",
+  "low": 25000.0,
+  "high": 45000.0,
+  "median": 33541,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "local_conglomerate": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Mid-tier local companies",
+  "model_median": 31293,
+  "residual_pct": 7.2
+ },
+ {
+  "id": "gen_small_entry",
+  "function": "officer",
+  "low": 10000.0,
+  "high": 25000.0,
+  "median": 15811,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "sme": 0.6,
+   "ngo": 0.4
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Small local firms / NGOs",
+  "model_median": 18393,
+  "residual_pct": -14.0
+ },
+ {
+  "id": "gen_local_entry",
+  "function": "officer",
+  "low": 20000.0,
+  "high": 35000.0,
+  "median": 26458,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "local_conglomerate": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Local track year 0-1",
+  "model_median": 31293,
+  "residual_pct": -15.5
+ },
+ {
+  "id": "gen_local_junior",
+  "function": "officer",
+  "low": 30000.0,
+  "high": 60000.0,
+  "median": 42426,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "local_conglomerate": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Local track 2-3 years",
+  "model_median": 44889,
+  "residual_pct": -5.5
+ },
+ {
+  "id": "gen_local_senior",
+  "function": "officer",
+  "low": 60000.0,
+  "high": 100000.0,
+  "median": 77460,
+  "level": {
+   "senior": 1.0
+  },
+  "group": {
+   "local_conglomerate": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Local track 5+ years",
+  "model_median": 85593,
+  "residual_pct": -9.5
+ },
+ {
+  "id": "gen_mnc_entry",
+  "function": "officer",
+  "low": 75000.0,
+  "high": 130000.0,
+  "median": 98742,
+  "level": {
+   "entry": 1.0
+  },
+  "group": {
+   "mnc_fmcg": 0.4,
+   "other_mnc": 0.4,
+   "telecom": 0.2
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Top MNC graduate programmes (selective)",
+  "model_median": 71534,
+  "residual_pct": 38.0
+ },
+ {
+  "id": "gen_mnc_junior",
+  "function": "officer",
+  "low": 80000.0,
+  "high": 150000.0,
+  "median": 109545,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "mnc_fmcg": 0.4,
+   "other_mnc": 0.3,
+   "telecom": 0.3
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Tech / MNC track 2-3 years",
+  "model_median": 102873,
+  "residual_pct": 6.5
+ },
+ {
+  "id": "gen_mnc_senior",
+  "function": "officer",
+  "low": 150000.0,
+  "high": 300000.0,
+  "median": 212132,
+  "level": {
+   "senior": 1.0
+  },
+  "group": {
+   "mnc_fmcg": 0.4,
+   "other_mnc": 0.3,
+   "telecom": 0.3
+  },
+  "range_type": "typical_range",
+  "source_type": "blog",
+  "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+  "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+  "published": "2026-04",
+  "note": "Tech / MNC track 5+ years",
+  "model_median": 199441,
+  "residual_pct": 6.4
+ },
+ {
+  "id": "spo_glassdoor_dhaka",
+  "function": "officer",
+  "low": 46000.0,
+  "high": 135000.0,
+  "median": 70000,
+  "level": {
+   "senior": 1.0
+  },
+  "group": {
+   "large_bank": 0.4,
+   "other_bank": 0.6
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: Senior Principal Officer salaries in Dhaka",
+  "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-senior-principal-officer-salary-SRCH_IL.0,16_IM1237_KO17,41.htm",
+  "published": "2025-10",
+  "note": "Senior Principal Officer across banks (usually 6-10 years); median total pay",
+  "model_median": 95112,
+  "residual_pct": -26.4
+ },
+ {
+  "id": "pubali_spo_glassdoor",
+  "function": "officer",
+  "low": 42083.0,
+  "high": 42083.0,
+  "median": 42083,
+  "level": {
+   "senior": 1.0
+  },
+  "group": {
+   "other_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: Pubali Bank Senior Principal Officer salaries",
+  "source_url": "https://www.glassdoor.com/Salary/Pubali-Bank-Senior-Principal-Officer-Bangladesh-EJI_IE545108.0,11_KO12,36_IL.37,47_IN27.htm?filter.payPeriod=MONTHLY",
+  "published": "2025-06",
+  "note": "Average base 5.05 lakh a year",
+  "model_median": 75792,
+  "residual_pct": -44.5
+ },
+ {
+  "id": "dbbl_rm_glassdoor",
+  "function": "officer",
+  "low": 56000.0,
+  "high": 168000.0,
+  "median": 112000,
+  "level": {
+   "mid": 0.5,
+   "senior": 0.5
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "p25_p75",
+  "source_type": "aggregator",
+  "source_name": "Glassdoor: Dutch-Bangla Bank Relationship Manager salaries",
+  "source_url": "https://www.glassdoor.com/Salary/Dutch-Bangla-Bank-Relationship-Manager-Bangladesh-Salaries-EJI_IE547664.0,17_KO18,38_IL.39,49_IN27.htm",
+  "published": "2026",
+  "note": "Relationship Manager; average base 1.12 lakh a month; small sample",
+  "model_median": 122765,
+  "residual_pct": -8.8
+ },
+ {
+  "id": "dbbl_avp_bayt",
+  "function": "officer",
+  "low": 125000.0,
+  "high": 125000.0,
+  "median": 125000,
+  "level": {
+   "senior": 0.5,
+   "lead": 0.5
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "aggregator",
+  "source_name": "Bayt.com: Dutch-Bangla Bank salaries",
+  "source_url": "https://www.bayt.com/en/bangladesh/salaries/companies/dutch-bangla-bank-ltd/",
+  "published": "2026",
+  "note": "Assistant Vice President average",
+  "model_median": 142436,
+  "residual_pct": -12.2
+ },
+ {
+  "id": "dbbl_manager_bayt",
+  "function": "officer",
+  "low": 150000.0,
+  "high": 150000.0,
+  "median": 150000,
+  "level": {
+   "lead": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "point",
+  "source_type": "aggregator",
+  "source_name": "Bayt.com: Dutch-Bangla Bank salaries",
+  "source_url": "https://www.bayt.com/en/bangladesh/salaries/companies/dutch-bangla-bank-ltd/",
+  "published": "2026",
+  "note": "Manager average",
+  "model_median": 151735,
+  "residual_pct": -1.1
+ },
+ {
+  "id": "bracbank_so_bayt",
+  "function": "officer",
+  "low": 57000.0,
+  "high": 65000.0,
+  "median": 60869,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "large_bank": 1.0
+  },
+  "range_type": "typical_range",
+  "source_type": "aggregator",
+  "source_name": "Bayt.com: BRAC Bank salaries",
+  "source_url": "https://www.bayt.com/en/bangladesh/salaries/companies/brac-bank/",
+  "published": "2026",
+  "note": "Senior Officer average range",
+  "model_median": 92441,
+  "residual_pct": -34.2
+ }
+]

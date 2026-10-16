@@ -1,0 +1,170 @@
+[
+  {
+    "text": "Senior Software Engineer\nSalary: Tk. 80000 - 120000 (Monthly)\nExperience: 4 to 6 years\nJob Location: Dhaka (Gulshan)",
+    "expected": {
+      "salary_min": 80000,
+      "salary_max": 120000,
+      "salary_period": "monthly",
+      "negotiable": false,
+      "experience_min": 4,
+      "experience_max": 6,
+      "city": "dhaka",
+      "employer_group": null,
+      "function": "software"
+    }
+  },
+  {
+    "text": "Accounts Officer\nবেতন: ২৫,০০০-৩০,০০০ টাকা\nঅভিজ্ঞতা: ন্যূনতম ২ বছর\nকর্মস্থল: চট্টগ্রাম",
+    "expected": {
+      "salary_min": 25000,
+      "salary_max": 30000,
+      "salary_period": "monthly",
+      "negotiable": false,
+      "experience_min": 2,
+      "experience_max": null,
+      "city": "chattogram",
+      "employer_group": null,
+      "function": "finance"
+    }
+  },
+  {
+    "text": "Sales Executive\nSalary: Negotiable\nFreshers are encouraged to apply\nLocation: Sylhet",
+    "expected": {
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "negotiable": true,
+      "experience_min": 0,
+      "experience_max": 1,
+      "city": "other_city",
+      "employer_group": null,
+      "function": "sales"
+    }
+  },
+  {
+    "text": "Program Officer - NGO\nSalary: BDT 4,80,000 - 6,00,000 per annum\nAt least 3 years experience\nCox's Bazar",
+    "expected": {
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "salary_period": "yearly",
+      "negotiable": false,
+      "experience_min": 3,
+      "experience_max": null,
+      "city": null,
+      "employer_group": "ngo",
+      "function": "program_officer"
+    }
+  },
+  {
+    "text": "Data Analyst\nSalary 35k-45k\n2-3 years experience in SQL\nMultinational company, Dhaka",
+    "expected": {
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "salary_period": "monthly",
+      "negotiable": false,
+      "experience_min": 2,
+      "experience_max": 3,
+      "city": "dhaka",
+      "employer_group": "other_mnc",
+      "function": "data"
+    }
+  },
+  {
+    "text": "Merchandiser\nSalary: Tk 30,000\n3 yrs\nNarayanganj",
+    "expected": {
+      "salary_min": 30000,
+      "salary_max": 30000,
+      "salary_period": "monthly",
+      "negotiable": false,
+      "experience_min": 3,
+      "experience_max": null,
+      "city": "dhaka",
+      "employer_group": null,
+      "function": "merchandising"
+    }
+  },
+  {
+    "text": "Management Trainee Officer (MTO)\nThe City Bank PLC\nSalary: Tk 80,000 per month during training\nFreshers are welcome to apply\nHead Office, Gulshan, Dhaka",
+    "expected": {
+      "salary_min": 80000,
+      "salary_max": 80000,
+      "salary_period": "monthly",
+      "negotiable": false,
+      "experience_min": 0,
+      "experience_max": 1,
+      "city": "dhaka",
+      "employer_group": "large_bank",
+      "function": "officer"
+    }
+  },
+  {
+    "text": "Software Engineer (Backend) at bKash Limited\nExperience: 2 to 4 years\nSalary: 70k-100k\nLocation: Dhaka",
+    "expected": {
+      "salary_min": 70000,
+      "salary_max": 100000,
+      "salary_period": "monthly",
+      "negotiable": false,
+      "experience_min": 2,
+      "experience_max": 4,
+      "city": "dhaka",
+      "employer_group": "fintech",
+      "function": "software"
+    }
+  },
+  {
+    "text": "Territory Sales Officer\nUnilever Bangladesh Limited\nSalary: Negotiable\nMinimum 1 year experience in FMCG\nJob location: Rajshahi",
+    "expected": {
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "negotiable": true,
+      "experience_min": 1,
+      "experience_max": null,
+      "city": "other_city",
+      "employer_group": "mnc_fmcg",
+      "function": "sales"
+    }
+  },
+  {
+    "text": "Junior Officer\nSalary: 35,000 TK to 45,000 TK\nAge: 22 to 30 years\nExperience: 1-2 years\nLocation: Khulna",
+    "expected": {
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "salary_period": "monthly",
+      "negotiable": false,
+      "experience_min": 1,
+      "experience_max": 2,
+      "city": "other_city",
+      "employer_group": null,
+      "function": "officer"
+    }
+  },
+  {
+    "text": "Senior Executive, Accounts\nACI Limited\nAge at most 32 years\nMinimum 3 years of experience\nSalary: Tk 6,00,000 - 7,20,000 (Yearly)\nDhaka",
+    "expected": {
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "salary_period": "yearly",
+      "negotiable": false,
+      "experience_min": 3,
+      "experience_max": null,
+      "city": "dhaka",
+      "employer_group": "local_conglomerate",
+      "function": "finance"
+    }
+  },
+  {
+    "text": "Sales Executive\nAge: 25-35 years\nSalary: Tk. 18,000 - Tk. 22,000 + TA/DA\nNo experience required",
+    "expected": {
+      "salary_min": 18000,
+      "salary_max": 22000,
+      "salary_period": "monthly",
+      "negotiable": false,
+      "experience_min": 0,
+      "experience_max": 1,
+      "city": null,
+      "employer_group": null,
+      "function": "sales"
+    }
+  }
+]

@@ -1,0 +1,4914 @@
+{
+ "model": "log-normal, weighted ridge fit to cited anchors",
+ "levels": [
+  {
+   "id": "entry",
+   "label": "Fresher (under 1 yr)",
+   "label_bn": "নতুন (১ বছরের কম)",
+   "min_years": 0,
+   "max_years": 1
+  },
+  {
+   "id": "junior",
+   "label": "Junior (1-2 yrs)",
+   "label_bn": "জুনিয়র (১-২ বছর)",
+   "min_years": 1,
+   "max_years": 3
+  },
+  {
+   "id": "mid",
+   "label": "Mid-level (3-5 yrs)",
+   "label_bn": "মিড-লেভেল (৩-৫ বছর)",
+   "min_years": 3,
+   "max_years": 6
+  },
+  {
+   "id": "senior",
+   "label": "Senior (6-9 yrs)",
+   "label_bn": "সিনিয়র (৬-৯ বছর)",
+   "min_years": 6,
+   "max_years": 10
+  },
+  {
+   "id": "lead",
+   "label": "Manager / lead (10+ yrs)",
+   "label_bn": "ম্যানেজার (১০+ বছর)",
+   "min_years": 10,
+   "max_years": 40
+  }
+ ],
+ "cities": [
+  {
+   "id": "dhaka",
+   "label": "Dhaka area",
+   "label_bn": "ঢাকা অঞ্চল",
+   "multiplier": 1.0
+  },
+  {
+   "id": "chattogram",
+   "label": "Chattogram",
+   "label_bn": "চট্টগ্রাম",
+   "multiplier": 0.92
+  },
+  {
+   "id": "other_city",
+   "label": "Other city (Sylhet, Khulna, Rajshahi...)",
+   "label_bn": "অন্যান্য শহর",
+   "multiplier": 0.82
+  },
+  {
+   "id": "district",
+   "label": "District town / rural",
+   "label_bn": "জেলা শহর / গ্রাম",
+   "multiplier": 0.72
+  }
+ ],
+ "city_note": "City adjustments are assumptions: almost every published figure is for Dhaka.",
+ "match_order": [
+  "mnc_fmcg",
+  "telecom",
+  "fintech",
+  "foreign_bank",
+  "large_bank",
+  "top_software",
+  "local_conglomerate",
+  "un_agency",
+  "ngo",
+  "rmg",
+  "other_mnc",
+  "other_bank",
+  "local_software"
+ ],
+ "sector_bound_functions": [
+  "officer",
+  "program_officer"
+ ],
+ "groups": [
+  {
+   "id": "mnc_fmcg",
+   "label": "Multinational FMCG & tobacco",
+   "label_bn": "বহুজাতিক এফএমসিজি ও তামাক",
+   "sector": "corporate",
+   "companies": [
+    "Unilever Bangladesh",
+    "BAT Bangladesh",
+    "Nestlé Bangladesh",
+    "Reckitt Bangladesh",
+    "Marico Bangladesh",
+    "Japan Tobacco (JTI)",
+    "Emami Bangladesh"
+   ],
+   "functions": [
+    "officer",
+    "sales",
+    "marketing",
+    "finance",
+    "hr_admin",
+    "data",
+    "business_analyst",
+    "engineering"
+   ],
+   "match": [
+    "unilever",
+    "british american tobacco",
+    "bat bangladesh",
+    "nestle",
+    "nestlé",
+    "reckitt",
+    "marico",
+    "japan tobacco",
+    "jti",
+    "emami"
+   ],
+   "multiplier": 2.512,
+   "experience_slope": 1.015
+  },
+  {
+   "id": "telecom",
+   "label": "Mobile operator",
+   "label_bn": "মোবাইল অপারেটর",
+   "sector": "corporate",
+   "companies": [
+    "Grameenphone",
+    "Robi Axiata",
+    "Banglalink"
+   ],
+   "functions": [
+    "officer",
+    "sales",
+    "marketing",
+    "finance",
+    "hr_admin",
+    "software",
+    "data",
+    "business_analyst",
+    "customer_service",
+    "engineering"
+   ],
+   "match": [
+    "grameenphone",
+    "robi axiata",
+    "robi",
+    "banglalink",
+    "airtel"
+   ],
+   "multiplier": 2.066,
+   "experience_slope": 0.996
+  },
+  {
+   "id": "fintech",
+   "label": "Fintech, mobile money & tech platforms",
+   "label_bn": "ফিনটেক ও মোবাইল ব্যাংকিং",
+   "sector": "corporate",
+   "companies": [
+    "bKash",
+    "Nagad",
+    "Pathao",
+    "ShopUp"
+   ],
+   "functions": [
+    "officer",
+    "sales",
+    "marketing",
+    "finance",
+    "hr_admin",
+    "software",
+    "data",
+    "business_analyst",
+    "customer_service",
+    "design"
+   ],
+   "match": [
+    "bkash",
+    "nagad",
+    "pathao",
+    "shopup",
+    "upay"
+   ],
+   "multiplier": 1.581,
+   "experience_slope": 1.022
+  },
+  {
+   "id": "foreign_bank",
+   "label": "Foreign bank",
+   "label_bn": "বিদেশি ব্যাংক",
+   "sector": "banking",
+   "companies": [
+    "Standard Chartered",
+    "HSBC",
+    "Citibank N.A.",
+    "Woori Bank",
+    "Commercial Bank of Ceylon"
+   ],
+   "functions": [
+    "officer",
+    "sales",
+    "finance",
+    "hr_admin",
+    "software",
+    "data",
+    "business_analyst",
+    "customer_service"
+   ],
+   "match": [
+    "standard chartered",
+    "hsbc",
+    "citibank",
+    "woori bank",
+    "commercial bank of ceylon",
+    "state bank of india"
+   ],
+   "multiplier": 2.042,
+   "experience_slope": 0.959
+  },
+  {
+   "id": "large_bank",
+   "label": "Large private bank / finance company",
+   "label_bn": "বড় বেসরকারি ব্যাংক / আর্থিক প্রতিষ্ঠান",
+   "sector": "banking",
+   "companies": [
+    "BRAC Bank",
+    "The City Bank",
+    "Eastern Bank (EBL)",
+    "Dutch-Bangla Bank",
+    "Prime Bank",
+    "Mutual Trust Bank",
+    "IDLC Finance",
+    "IPDC Finance"
+   ],
+   "functions": [
+    "officer",
+    "sales",
+    "finance",
+    "hr_admin",
+    "software",
+    "data",
+    "business_analyst",
+    "customer_service"
+   ],
+   "match": [
+    "brac bank",
+    "city bank",
+    "eastern bank",
+    "ebl",
+    "dutch-bangla",
+    "dutch bangla",
+    "dbbl",
+    "prime bank",
+    "mutual trust bank",
+    "mtb",
+    "idlc",
+    "ipdc"
+   ],
+   "multiplier": 2.364,
+   "experience_slope": 0.871
+  },
+  {
+   "id": "other_bank",
+   "label": "Other private bank",
+   "label_bn": "অন্যান্য বেসরকারি ব্যাংক",
+   "sector": "banking",
+   "companies": [
+    "AB Bank",
+    "Meghna Bank",
+    "Pubali Bank",
+    "SBAC Bank",
+    "Other commercial banks"
+   ],
+   "functions": [
+    "officer",
+    "sales",
+    "finance",
+    "hr_admin",
+    "software",
+    "data",
+    "customer_service"
+   ],
+   "match": [
+    "bank"
+   ],
+   "multiplier": 1.959,
+   "experience_slope": 0.767
+  },
+  {
+   "id": "top_software",
+   "label": "Top software company",
+   "label_bn": "শীর্ষ সফটওয়্যার কোম্পানি",
+   "sector": "tech",
+   "companies": [
+    "Optimizely",
+    "Cefalo",
+    "Field Nation",
+    "Samsung R&D Institute BD",
+    "Therap BD",
+    "SELISE",
+    "Brain Station 23",
+    "Enosis Solutions"
+   ],
+   "functions": [
+    "software",
+    "data",
+    "business_analyst",
+    "design",
+    "hr_admin",
+    "finance",
+    "sales"
+   ],
+   "match": [
+    "optimizely",
+    "cefalo",
+    "field nation",
+    "samsung r&d",
+    "srbd",
+    "therap",
+    "selise",
+    "brain station",
+    "enosis"
+   ],
+   "multiplier": 1.77,
+   "experience_slope": 1.073
+  },
+  {
+   "id": "local_software",
+   "label": "Other software / IT company",
+   "label_bn": "অন্যান্য সফটওয়্যার / আইটি কোম্পানি",
+   "sector": "tech",
+   "companies": [
+    "Local software houses",
+    "IT-enabled services",
+    "Tech startups"
+   ],
+   "functions": [
+    "software",
+    "data",
+    "business_analyst",
+    "design",
+    "sales",
+    "marketing",
+    "hr_admin",
+    "finance",
+    "customer_service"
+   ],
+   "match": [
+    "software company",
+    "software firm",
+    "software ltd",
+    "software limited",
+    "it company",
+    "tech startup"
+   ],
+   "multiplier": 1.103,
+   "experience_slope": 1.051
+  },
+  {
+   "id": "other_mnc",
+   "label": "Other multinational",
+   "label_bn": "অন্যান্য বহুজাতিক",
+   "sector": "corporate",
+   "companies": [
+    "Engineering, energy & electronics multinationals",
+    "Pharma & paint multinationals",
+    "International buying offices"
+   ],
+   "functions": [
+    "officer",
+    "sales",
+    "marketing",
+    "finance",
+    "hr_admin",
+    "software",
+    "data",
+    "business_analyst",
+    "engineering"
+   ],
+   "match": [
+    "multinational",
+    "mnc",
+    "global company",
+    "foreign company"
+   ],
+   "multiplier": 2.188,
+   "experience_slope": 1.012
+  },
+  {
+   "id": "local_conglomerate",
+   "label": "Large local company / group",
+   "label_bn": "বড় দেশীয় কোম্পানি / গ্রুপ",
+   "sector": "corporate",
+   "companies": [
+    "PRAN-RFL",
+    "Square",
+    "ACI",
+    "Beximco",
+    "Meghna Group",
+    "Bashundhara",
+    "Akij",
+    "City Group"
+   ],
+   "functions": [
+    "officer",
+    "sales",
+    "marketing",
+    "finance",
+    "hr_admin",
+    "software",
+    "data",
+    "business_analyst",
+    "engineering",
+    "design",
+    "customer_service",
+    "factory_worker"
+   ],
+   "match": [
+    "pran",
+    "rfl",
+    "square",
+    "aci",
+    "beximco",
+    "meghna group",
+    "bashundhara",
+    "akij",
+    "city group"
+   ],
+   "multiplier": 1.0,
+   "experience_slope": 1.0
+  },
+  {
+   "id": "rmg",
+   "label": "Garments factory / buying house",
+   "label_bn": "গার্মেন্টস / বায়িং হাউস",
+   "sector": "corporate",
+   "companies": [
+    "Export garments factories",
+    "Buying houses"
+   ],
+   "functions": [
+    "merchandising",
+    "factory_worker",
+    "officer",
+    "finance",
+    "hr_admin",
+    "engineering"
+   ],
+   "match": [
+    "garments",
+    "garment",
+    "buying house",
+    "apparel",
+    "knit",
+    "woven",
+    "textile"
+   ],
+   "multiplier": 0.761,
+   "experience_slope": 1.062
+  },
+  {
+   "id": "sme",
+   "label": "Small / medium local business",
+   "label_bn": "ছোট / মাঝারি প্রতিষ্ঠান",
+   "sector": "corporate",
+   "companies": [
+    "Local SMEs",
+    "Shops, agencies and traders"
+   ],
+   "functions": [
+    "officer",
+    "sales",
+    "marketing",
+    "finance",
+    "hr_admin",
+    "software",
+    "design",
+    "customer_service",
+    "engineering"
+   ],
+   "match": [],
+   "multiplier": 0.593,
+   "experience_slope": 1.021
+  },
+  {
+   "id": "ngo",
+   "label": "NGO (local or international)",
+   "label_bn": "এনজিও",
+   "sector": "development",
+   "companies": [
+    "BRAC",
+    "ASA",
+    "BURO Bangladesh",
+    "Save the Children",
+    "CARE Bangladesh",
+    "World Vision"
+   ],
+   "functions": [
+    "program_officer",
+    "finance",
+    "hr_admin",
+    "data",
+    "officer"
+   ],
+   "match": [
+    "ngo",
+    "ingo",
+    "brac",
+    "asa",
+    "buro",
+    "save the children",
+    "care bangladesh",
+    "world vision",
+    "non-profit",
+    "nonprofit",
+    "development organization",
+    "development organisation"
+   ],
+   "multiplier": 0.58,
+   "experience_slope": 1.0
+  },
+  {
+   "id": "un_agency",
+   "label": "UN agency (National Officer posts)",
+   "label_bn": "জাতিসংঘ সংস্থা",
+   "sector": "development",
+   "companies": [
+    "UNDP",
+    "UNICEF",
+    "WFP",
+    "UNHCR",
+    "IOM"
+   ],
+   "functions": [
+    "program_officer"
+   ],
+   "match": [
+    "undp",
+    "unicef",
+    "wfp",
+    "unhcr",
+    "iom",
+    "united nations",
+    "un agency"
+   ],
+   "multiplier": 4.708,
+   "experience_slope": 1.013
+  }
+ ],
+ "experience_credit": {
+  "same_job_other_employer": 0.75,
+  "different_job": 0.4,
+  "note": "Assumption: years at a different kind of employer count 75% if you did the same kind of job there, 40% if it was a different job. Employers in Bangladesh, especially banks, often give only partial credit for outside experience."
+ },
+ "level_multipliers": {
+  "entry": 1.0,
+  "junior": 1.434,
+  "mid": 2.008,
+  "senior": 2.735,
+  "lead": 3.564
+ },
+ "residual_sd": 0.17,
+ "functions": {
+  "officer": {
+   "title": "Management trainee / officer",
+   "short": "Trainee / officer",
+   "title_bn": "ম্যানেজমেন্ট ট্রেইনি / অফিসার",
+   "about": "Graduate programmes (MT, MTO) and general officer roles: banking, operations, commercial",
+   "sigma": 0.28,
+   "keywords": [
+    "management trainee",
+    "mto",
+    "trainee officer",
+    "future leader",
+    "probationary officer",
+    "junior officer",
+    "senior officer",
+    "principal officer",
+    "officer",
+    "executive",
+    "coordinator",
+    "assistant manager"
+   ],
+   "skills": [
+    "Clear written and spoken English",
+    "Excel and presentations",
+    "Problem-solving case interviews",
+    "A professional diploma for your sector (e.g. banking diploma)"
+   ],
+   "adjacent": [
+    {
+     "function": "business_analyst",
+     "bridge": [
+      "SQL",
+      "Requirement writing"
+     ]
+    },
+    {
+     "function": "sales",
+     "bridge": [
+      "Target-based sales record"
+     ]
+    }
+   ],
+   "cells": {
+    "mnc_fmcg": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 11.2723,
+       "se": 0.0933,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "junior": {
+       "mu": 11.6478,
+       "se": 0.1403,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.9989,
+       "se": 0.2323,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 12.3226,
+       "se": 0.2962,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.6019,
+       "se": 0.4087,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "telecom": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 11.0765,
+       "se": 0.1612,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "junior": {
+       "mu": 11.433,
+       "se": 0.1787,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.7651,
+       "se": 0.2455,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 12.0697,
+       "se": 0.2982,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.33,
+       "se": 0.4028,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.809,
+       "se": 0.2149,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.1918,
+       "se": 0.2009,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.5503,
+       "se": 0.2215,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.8813,
+       "se": 0.2325,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.1679,
+       "se": 0.2645,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "foreign_bank": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 11.0652,
+       "se": 0.1601,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.3842,
+       "se": 0.1611,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.6789,
+       "se": 0.2403,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.9461,
+       "se": 0.2948,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.169,
+       "se": 0.396,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "large_bank": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 11.2117,
+       "se": 0.0432,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "junior": {
+       "mu": 11.4343,
+       "se": 0.0548,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 11.6326,
+       "se": 0.1286,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.8034,
+       "se": 0.134,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "lead": {
+       "mu": 11.9299,
+       "se": 0.1806,
+       "confidence": "high",
+       "extra_sd": 0.0
+      }
+     }
+    },
+    "other_bank": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 11.0237,
+       "se": 0.0695,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "junior": {
+       "mu": 11.1198,
+       "se": 0.0754,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 11.1915,
+       "se": 0.1496,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.2357,
+       "se": 0.1525,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "lead": {
+       "mu": 11.275,
+       "se": 0.2655,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 11.1343,
+       "se": 0.2854,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.5075,
+       "se": 0.2874,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.8564,
+       "se": 0.3323,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 12.1778,
+       "se": 0.379,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.4549,
+       "se": 0.47,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 10.3511,
+       "se": 0.0846,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "junior": {
+       "mu": 10.7119,
+       "se": 0.096,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.0484,
+       "se": 0.1365,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.3574,
+       "se": 0.1164,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.622,
+       "se": 0.1738,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "rmg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.0783,
+       "se": 0.3163,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.4992,
+       "se": 0.3234,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.8958,
+       "se": 0.3603,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.2648,
+       "se": 0.3862,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.5896,
+       "se": 0.4623,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "sme": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.8287,
+       "se": 0.2319,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.2104,
+       "se": 0.2453,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.5679,
+       "se": 0.2906,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.8978,
+       "se": 0.3097,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.1834,
+       "se": 0.4035,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "ngo": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.8063,
+       "se": 0.2712,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.1671,
+       "se": 0.296,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.5036,
+       "se": 0.3533,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.8125,
+       "se": 0.4145,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.0772,
+       "se": 0.5077,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    }
+   }
+  },
+  "sales": {
+   "title": "Sales & distribution",
+   "short": "Sales",
+   "title_bn": "সেলস ও ডিস্ট্রিবিউশন",
+   "about": "Territory, area, key account, corporate and B2B sales",
+   "sigma": 0.28,
+   "keywords": [
+    "sales executive",
+    "sales officer",
+    "territory officer",
+    "territory sales",
+    "area manager",
+    "business development",
+    "key account",
+    "corporate sales",
+    "dealer",
+    "distribution"
+   ],
+   "skills": [
+    "A record of hitting targets",
+    "Distributor and channel management",
+    "Negotiation",
+    "CRM tools"
+   ],
+   "adjacent": [
+    {
+     "function": "marketing",
+     "bridge": [
+      "Digital marketing",
+      "Brand campaigns"
+     ]
+    }
+   ],
+   "cells": {
+    "mnc_fmcg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.1791,
+       "se": 0.193,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.5546,
+       "se": 0.2217,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.9058,
+       "se": 0.2782,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.2294,
+       "se": 0.3432,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.5088,
+       "se": 0.4451,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "telecom": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.9834,
+       "se": 0.2288,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.3398,
+       "se": 0.2407,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.672,
+       "se": 0.2812,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.9766,
+       "se": 0.3363,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.2369,
+       "se": 0.4316,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.7158,
+       "se": 0.2573,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.0987,
+       "se": 0.2449,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.4572,
+       "se": 0.2478,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.7881,
+       "se": 0.2678,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.0748,
+       "se": 0.2957,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "foreign_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.972,
+       "se": 0.2209,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.2911,
+       "se": 0.2206,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.5858,
+       "se": 0.2703,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.8529,
+       "se": 0.3278,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.0758,
+       "se": 0.4208,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "large_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.1186,
+       "se": 0.1742,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.3412,
+       "se": 0.1787,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.5395,
+       "se": 0.1974,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.7103,
+       "se": 0.2157,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.8368,
+       "se": 0.2485,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "other_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.9305,
+       "se": 0.182,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.0266,
+       "se": 0.1854,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.0984,
+       "se": 0.211,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.1426,
+       "se": 0.2269,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.1818,
+       "se": 0.315,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "top_software": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.8293,
+       "se": 0.2672,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.2604,
+       "se": 0.2475,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.6672,
+       "se": 0.2517,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.0464,
+       "se": 0.2663,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.3814,
+       "se": 0.3426,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_software": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.3558,
+       "se": 0.3255,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.7666,
+       "se": 0.3298,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.1531,
+       "se": 0.347,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.5121,
+       "se": 0.3814,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.8267,
+       "se": 0.4504,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.0412,
+       "se": 0.3181,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.4144,
+       "se": 0.3198,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.7633,
+       "se": 0.3508,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.0847,
+       "se": 0.4024,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.3617,
+       "se": 0.4892,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 10.258,
+       "se": 0.1611,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "junior": {
+       "mu": 10.6188,
+       "se": 0.1674,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.9553,
+       "se": 0.1746,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.2642,
+       "se": 0.1764,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.5289,
+       "se": 0.2189,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "sme": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.7355,
+       "se": 0.1874,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "junior": {
+       "mu": 10.1173,
+       "se": 0.1947,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.4747,
+       "se": 0.2272,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.8046,
+       "se": 0.2554,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.0902,
+       "se": 0.3586,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    }
+   }
+  },
+  "marketing": {
+   "title": "Marketing & brand",
+   "short": "Marketing",
+   "title_bn": "মার্কেটিং ও ব্র্যান্ড",
+   "about": "Brand, digital marketing, communications, content",
+   "sigma": 0.28,
+   "keywords": [
+    "marketing executive",
+    "digital marketing",
+    "brand executive",
+    "brand manager",
+    "social media",
+    "content",
+    "seo",
+    "performance marketing",
+    "communication"
+   ],
+   "skills": [
+    "Meta & Google Ads",
+    "Analytics (GA4)",
+    "Bangla and English copywriting",
+    "Campaign reporting"
+   ],
+   "adjacent": [
+    {
+     "function": "data",
+     "bridge": [
+      "Marketing analytics",
+      "SQL"
+     ]
+    },
+    {
+     "function": "sales",
+     "bridge": [
+      "Field sales experience"
+     ]
+    }
+   ],
+   "cells": {
+    "mnc_fmcg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.1164,
+       "se": 0.2741,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.4919,
+       "se": 0.296,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.8431,
+       "se": 0.3474,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.1667,
+       "se": 0.3977,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.446,
+       "se": 0.4865,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "telecom": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.9206,
+       "se": 0.3001,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.2771,
+       "se": 0.3103,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.6092,
+       "se": 0.3496,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.9138,
+       "se": 0.3915,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.1741,
+       "se": 0.4739,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.6531,
+       "se": 0.321,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.0359,
+       "se": 0.3124,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.3944,
+       "se": 0.3224,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.7254,
+       "se": 0.3338,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.012,
+       "se": 0.3541,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_software": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.2931,
+       "se": 0.3793,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.7039,
+       "se": 0.3826,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.0904,
+       "se": 0.4023,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.4493,
+       "se": 0.4278,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.764,
+       "se": 0.4874,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.9784,
+       "se": 0.3702,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.3517,
+       "se": 0.3723,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.7006,
+       "se": 0.4051,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.0219,
+       "se": 0.4471,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.299,
+       "se": 0.5247,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.1953,
+       "se": 0.2525,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.5561,
+       "se": 0.2583,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.8925,
+       "se": 0.2726,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.2015,
+       "se": 0.2689,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.4661,
+       "se": 0.2959,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "sme": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.6728,
+       "se": 0.2581,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.0545,
+       "se": 0.2736,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.412,
+       "se": 0.3134,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.7419,
+       "se": 0.3372,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.0275,
+       "se": 0.4243,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    }
+   }
+  },
+  "finance": {
+   "title": "Finance & accounts",
+   "short": "Finance",
+   "title_bn": "ফিন্যান্স ও হিসাব",
+   "about": "Accounts, audit, tax & VAT, treasury, FP&A",
+   "sigma": 0.28,
+   "keywords": [
+    "accountant",
+    "accounts officer",
+    "accounts executive",
+    "finance executive",
+    "finance officer",
+    "audit",
+    "tax",
+    "vat",
+    "account"
+   ],
+   "skills": [
+    "ERP (SAP / Oracle) or Tally",
+    "VAT and tax returns",
+    "IFRS basics",
+    "ICAB CA / ICMAB CMA / ACCA progress"
+   ],
+   "adjacent": [
+    {
+     "function": "data",
+     "bridge": [
+      "Power BI",
+      "SQL"
+     ]
+    },
+    {
+     "function": "business_analyst",
+     "bridge": [
+      "Financial modelling",
+      "Process mapping"
+     ]
+    }
+   ],
+   "cells": {
+    "mnc_fmcg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.1507,
+       "se": 0.197,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.5262,
+       "se": 0.225,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.8774,
+       "se": 0.2879,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.201,
+       "se": 0.3479,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.4804,
+       "se": 0.4492,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "telecom": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.955,
+       "se": 0.2324,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.3115,
+       "se": 0.2434,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.6436,
+       "se": 0.2899,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.9482,
+       "se": 0.34,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.2085,
+       "se": 0.4345,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.6875,
+       "se": 0.2594,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.0703,
+       "se": 0.246,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.4288,
+       "se": 0.2558,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.7598,
+       "se": 0.2703,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.0464,
+       "se": 0.2977,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "foreign_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.9437,
+       "se": 0.2243,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.2627,
+       "se": 0.223,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.5574,
+       "se": 0.2788,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.8246,
+       "se": 0.3309,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.0474,
+       "se": 0.4231,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "large_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.0902,
+       "se": 0.1778,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.3128,
+       "se": 0.1807,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.5111,
+       "se": 0.2078,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.6819,
+       "se": 0.2192,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.8084,
+       "se": 0.2512,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "other_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.9022,
+       "se": 0.1855,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.9982,
+       "se": 0.1874,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.07,
+       "se": 0.2208,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.1142,
+       "se": 0.2303,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.1535,
+       "se": 0.3172,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "top_software": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.8009,
+       "se": 0.2698,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.232,
+       "se": 0.249,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.6388,
+       "se": 0.2598,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.0181,
+       "se": 0.2689,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.353,
+       "se": 0.3443,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_software": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.3275,
+       "se": 0.3303,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.7383,
+       "se": 0.3339,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.1248,
+       "se": 0.3561,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.4837,
+       "se": 0.3864,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.7983,
+       "se": 0.4546,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 11.0128,
+       "se": 0.3088,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.386,
+       "se": 0.3079,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.7349,
+       "se": 0.3436,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 12.0563,
+       "se": 0.3914,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.3334,
+       "se": 0.4789,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 10.2296,
+       "se": 0.167,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "junior": {
+       "mu": 10.5904,
+       "se": 0.1716,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.9269,
+       "se": 0.1884,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.2359,
+       "se": 0.183,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.5005,
+       "se": 0.224,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "rmg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 9.9567,
+       "se": 0.3495,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.3777,
+       "se": 0.3555,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.7743,
+       "se": 0.3852,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.1433,
+       "se": 0.4134,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.4681,
+       "se": 0.4854,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "sme": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.7072,
+       "se": 0.1749,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "junior": {
+       "mu": 10.0889,
+       "se": 0.1794,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.4464,
+       "se": 0.2209,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.7763,
+       "se": 0.243,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.0619,
+       "se": 0.3488,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "ngo": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 9.6848,
+       "se": 0.3338,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.0456,
+       "se": 0.3536,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.3821,
+       "se": 0.3985,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.691,
+       "se": 0.457,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 10.9557,
+       "se": 0.543,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    }
+   }
+  },
+  "hr_admin": {
+   "title": "HR & admin",
+   "short": "HR & admin",
+   "title_bn": "এইচআর ও অ্যাডমিন",
+   "about": "Recruitment, payroll, people operations, administration, compliance",
+   "sigma": 0.28,
+   "keywords": [
+    "hr executive",
+    "human resources",
+    "hr officer",
+    "admin officer",
+    "admin executive",
+    "hr & admin",
+    "talent acquisition",
+    "recruitment",
+    "payroll"
+   ],
+   "skills": [
+    "Bangladesh Labour Act",
+    "Payroll and tax deduction",
+    "HRIS tools",
+    "PGD in HRM"
+   ],
+   "adjacent": [
+    {
+     "function": "data",
+     "bridge": [
+      "HR analytics",
+      "Excel / Power BI"
+     ]
+    }
+   ],
+   "cells": {
+    "mnc_fmcg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.8795,
+       "se": 0.1906,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.255,
+       "se": 0.217,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.6061,
+       "se": 0.2774,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.9298,
+       "se": 0.3455,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.2091,
+       "se": 0.4449,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "telecom": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.6837,
+       "se": 0.2274,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.0402,
+       "se": 0.2368,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.3723,
+       "se": 0.2805,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.6769,
+       "se": 0.3386,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.9372,
+       "se": 0.4311,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.4162,
+       "se": 0.2555,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.799,
+       "se": 0.2398,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.1575,
+       "se": 0.2451,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.4885,
+       "se": 0.2682,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.7751,
+       "se": 0.2923,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "foreign_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.6724,
+       "se": 0.2199,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.9914,
+       "se": 0.217,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.2861,
+       "se": 0.2702,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.5533,
+       "se": 0.3308,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.7762,
+       "se": 0.4209,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "large_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.8189,
+       "se": 0.1716,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.0415,
+       "se": 0.1725,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.2399,
+       "se": 0.1956,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.4106,
+       "se": 0.2184,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.5371,
+       "se": 0.2471,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "other_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.6309,
+       "se": 0.1796,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.727,
+       "se": 0.1785,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.7987,
+       "se": 0.2074,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.843,
+       "se": 0.2269,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 10.8822,
+       "se": 0.3113,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "top_software": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.5296,
+       "se": 0.2657,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.9607,
+       "se": 0.2421,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.3675,
+       "se": 0.2482,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.7468,
+       "se": 0.2655,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.0818,
+       "se": 0.3384,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_software": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.0562,
+       "se": 0.3216,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.467,
+       "se": 0.3228,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.8535,
+       "se": 0.3415,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.2124,
+       "se": 0.3779,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.5271,
+       "se": 0.4445,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.7415,
+       "se": 0.3059,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.1148,
+       "se": 0.3038,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.4637,
+       "se": 0.3368,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.785,
+       "se": 0.3912,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.0621,
+       "se": 0.4768,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.9583,
+       "se": 0.1571,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.3192,
+       "se": 0.1593,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 10.6556,
+       "se": 0.1709,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "senior": {
+       "mu": 10.9646,
+       "se": 0.1778,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.2292,
+       "se": 0.2154,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "rmg": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.6855,
+       "se": 0.3172,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.1064,
+       "se": 0.3197,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.503,
+       "se": 0.3467,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.872,
+       "se": 0.3813,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.1968,
+       "se": 0.4544,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "sme": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.4359,
+       "se": 0.1941,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 9.8176,
+       "se": 0.2004,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.1751,
+       "se": 0.2373,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.505,
+       "se": 0.2697,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 10.7906,
+       "se": 0.3677,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "ngo": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 9.4135,
+       "se": 0.3247,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 9.7743,
+       "se": 0.3437,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.1108,
+       "se": 0.3869,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.4197,
+       "se": 0.4519,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 10.6844,
+       "se": 0.5369,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    }
+   }
+  },
+  "software": {
+   "title": "Software engineering",
+   "short": "Software engineer",
+   "title_bn": "সফটওয়্যার ইঞ্জিনিয়ারিং",
+   "about": "Backend, frontend, mobile, QA, DevOps",
+   "sigma": 0.28,
+   "keywords": [
+    "software engineer",
+    "software developer",
+    "developer",
+    "programmer",
+    "backend",
+    "frontend",
+    "full stack",
+    "fullstack",
+    "mobile app developer",
+    "android developer",
+    "ios developer",
+    "web developer",
+    "sqa",
+    "devops"
+   ],
+   "skills": [
+    "Data structures & algorithms",
+    "One backend stack (Node.js, Java, Python, .NET, PHP)",
+    "React or Flutter",
+    "SQL and system design",
+    "English for foreign clients"
+   ],
+   "adjacent": [
+    {
+     "function": "data",
+     "bridge": [
+      "Python (pandas)",
+      "Data pipelines"
+     ]
+    },
+    {
+     "function": "business_analyst",
+     "bridge": [
+      "Requirement analysis"
+     ]
+    }
+   ],
+   "cells": {
+    "telecom": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.9868,
+       "se": 0.251,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.3433,
+       "se": 0.2555,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.6754,
+       "se": 0.2982,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.98,
+       "se": 0.3481,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.2403,
+       "se": 0.4406,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 10.7193,
+       "se": 0.1808,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.1021,
+       "se": 0.1349,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.4606,
+       "se": 0.1311,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "senior": {
+       "mu": 11.7916,
+       "se": 0.144,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 12.0782,
+       "se": 0.1769,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "foreign_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.9755,
+       "se": 0.2376,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.2945,
+       "se": 0.232,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.5892,
+       "se": 0.2857,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.8564,
+       "se": 0.3392,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.0792,
+       "se": 0.4304,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "large_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.122,
+       "se": 0.197,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.3446,
+       "se": 0.1956,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.5429,
+       "se": 0.2214,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.7137,
+       "se": 0.2365,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.8402,
+       "se": 0.2688,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "other_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.934,
+       "se": 0.2039,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.03,
+       "se": 0.2015,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.1018,
+       "se": 0.2331,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.146,
+       "se": 0.2461,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.1853,
+       "se": 0.3304,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "top_software": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 10.8327,
+       "se": 0.1823,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 11.2638,
+       "se": 0.123,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 11.6706,
+       "se": 0.1229,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "senior": {
+       "mu": 12.0499,
+       "se": 0.1273,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "lead": {
+       "mu": 12.3848,
+       "se": 0.2405,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "local_software": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 10.3593,
+       "se": 0.1828,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.7701,
+       "se": 0.1652,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "mid": {
+       "mu": 11.1566,
+       "se": 0.1894,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "senior": {
+       "mu": 11.5155,
+       "se": 0.2313,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.8301,
+       "se": 0.3243,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.0446,
+       "se": 0.3368,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.4178,
+       "se": 0.3358,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.7667,
+       "se": 0.371,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.0881,
+       "se": 0.4198,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.3652,
+       "se": 0.5049,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.2614,
+       "se": 0.1829,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.6222,
+       "se": 0.1819,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.9587,
+       "se": 0.1973,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.2677,
+       "se": 0.1965,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.5323,
+       "se": 0.2369,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "sme": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.739,
+       "se": 0.2808,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.1207,
+       "se": 0.2886,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.4782,
+       "se": 0.3232,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.8081,
+       "se": 0.3481,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.0937,
+       "se": 0.4352,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    }
+   }
+  },
+  "data": {
+   "title": "Data & analytics",
+   "short": "Data analyst",
+   "title_bn": "ডেটা ও অ্যানালিটিক্স",
+   "about": "Data analyst, BI, MIS, data science",
+   "sigma": 0.28,
+   "keywords": [
+    "data analyst",
+    "business intelligence",
+    "bi analyst",
+    "mis executive",
+    "mis officer",
+    "reporting analyst",
+    "data scientist",
+    "analytics"
+   ],
+   "skills": [
+    "Advanced SQL",
+    "Power BI or Tableau",
+    "Python (pandas)",
+    "Statistics and A/B testing",
+    "Business storytelling"
+   ],
+   "adjacent": [
+    {
+     "function": "software",
+     "bridge": [
+      "Software engineering",
+      "APIs"
+     ]
+    },
+    {
+     "function": "business_analyst",
+     "bridge": [
+      "Requirement analysis"
+     ]
+    }
+   ],
+   "cells": {
+    "mnc_fmcg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.6785,
+       "se": 0.2045,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.054,
+       "se": 0.228,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.4052,
+       "se": 0.2898,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.7288,
+       "se": 0.3475,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.0082,
+       "se": 0.4529,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "telecom": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.4828,
+       "se": 0.2339,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.8392,
+       "se": 0.2362,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.1714,
+       "se": 0.2788,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.476,
+       "se": 0.3245,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.7363,
+       "se": 0.4238,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.2153,
+       "se": 0.2282,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.5981,
+       "se": 0.203,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.9566,
+       "se": 0.2083,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.2875,
+       "se": 0.2171,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.5742,
+       "se": 0.2528,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "foreign_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.4715,
+       "se": 0.2324,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.7905,
+       "se": 0.2278,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.0852,
+       "se": 0.2823,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.3524,
+       "se": 0.332,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.5752,
+       "se": 0.4284,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "large_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.618,
+       "se": 0.1877,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.8406,
+       "se": 0.1865,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.0389,
+       "se": 0.2126,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.2097,
+       "se": 0.2209,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.3362,
+       "se": 0.2602,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "other_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.4299,
+       "se": 0.1951,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.526,
+       "se": 0.1952,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.5978,
+       "se": 0.229,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.642,
+       "se": 0.2372,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 10.6812,
+       "se": 0.3294,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "top_software": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.3287,
+       "se": 0.2406,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.7598,
+       "se": 0.2083,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.1666,
+       "se": 0.2156,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.5459,
+       "se": 0.2185,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.8808,
+       "se": 0.3091,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_software": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.8552,
+       "se": 0.2469,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.2661,
+       "se": 0.2367,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.6525,
+       "se": 0.2557,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.0115,
+       "se": 0.2842,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.3261,
+       "se": 0.3691,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.5406,
+       "se": 0.3361,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.9138,
+       "se": 0.3363,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.2627,
+       "se": 0.3719,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.5841,
+       "se": 0.4175,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.8611,
+       "se": 0.5064,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.7574,
+       "se": 0.1771,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.1182,
+       "se": 0.1771,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.4547,
+       "se": 0.1928,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.7636,
+       "se": 0.1839,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.0283,
+       "se": 0.2329,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "ngo": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 9.2126,
+       "se": 0.3181,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 9.5734,
+       "se": 0.3365,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 9.9099,
+       "se": 0.3831,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.2188,
+       "se": 0.4421,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 10.4834,
+       "se": 0.5341,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    }
+   }
+  },
+  "business_analyst": {
+   "title": "Business / product analyst",
+   "short": "Business analyst",
+   "title_bn": "বিজনেস / প্রোডাক্ট অ্যানালিস্ট",
+   "about": "Requirements, product, process improvement",
+   "sigma": 0.28,
+   "keywords": [
+    "business analyst",
+    "product analyst",
+    "product owner",
+    "product manager",
+    "system analyst"
+   ],
+   "skills": [
+    "Requirement documents (BRD / SRS)",
+    "Process mapping",
+    "SQL",
+    "Jira and Agile"
+   ],
+   "adjacent": [
+    {
+     "function": "data",
+     "bridge": [
+      "SQL",
+      "Power BI"
+     ]
+    }
+   ],
+   "cells": {
+    "mnc_fmcg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.3447,
+       "se": 0.2799,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.7202,
+       "se": 0.3016,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 12.0714,
+       "se": 0.3543,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.395,
+       "se": 0.3996,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.6744,
+       "se": 0.4882,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "telecom": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.149,
+       "se": 0.3101,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.5054,
+       "se": 0.3201,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.8376,
+       "se": 0.3604,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.1422,
+       "se": 0.3971,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.4025,
+       "se": 0.4787,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.8814,
+       "se": 0.2731,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.2643,
+       "se": 0.264,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.6228,
+       "se": 0.2795,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.9537,
+       "se": 0.2878,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.2404,
+       "se": 0.3122,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "foreign_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.1376,
+       "se": 0.3007,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.4567,
+       "se": 0.303,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.7514,
+       "se": 0.3513,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.0185,
+       "se": 0.3903,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.2414,
+       "se": 0.4701,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "large_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.2841,
+       "se": 0.2665,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.5068,
+       "se": 0.271,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.7051,
+       "se": 0.2949,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.8759,
+       "se": 0.2973,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.0023,
+       "se": 0.3194,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "top_software": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.9949,
+       "se": 0.297,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.426,
+       "se": 0.2761,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.8328,
+       "se": 0.2866,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.212,
+       "se": 0.2844,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.547,
+       "se": 0.3509,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_software": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.5214,
+       "se": 0.2734,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.9322,
+       "se": 0.2819,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.3187,
+       "se": 0.3141,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.6777,
+       "se": 0.3445,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.9923,
+       "se": 0.4191,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.2068,
+       "se": 0.3814,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.58,
+       "se": 0.3852,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.9289,
+       "se": 0.4202,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.2503,
+       "se": 0.4586,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.5273,
+       "se": 0.5358,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.4236,
+       "se": 0.2586,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.7844,
+       "se": 0.2653,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.1209,
+       "se": 0.2827,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.4298,
+       "se": 0.274,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.6945,
+       "se": 0.3014,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    }
+   }
+  },
+  "customer_service": {
+   "title": "Customer service / call centre",
+   "short": "Customer service",
+   "title_bn": "কাস্টমার সার্ভিস / কল সেন্টার",
+   "about": "Contact centre agents, service desks, customer care",
+   "sigma": 0.28,
+   "keywords": [
+    "customer service",
+    "call center",
+    "call centre",
+    "contact center",
+    "customer care",
+    "customer support",
+    "service desk"
+   ],
+   "skills": [
+    "Clear Bangla and English",
+    "CRM and ticketing tools",
+    "Complaint resolution",
+    "Typing speed"
+   ],
+   "adjacent": [
+    {
+     "function": "sales",
+     "bridge": [
+      "Target-based selling"
+     ]
+    },
+    {
+     "function": "officer",
+     "bridge": [
+      "Graduate programme application"
+     ]
+    }
+   ],
+   "cells": {
+    "telecom": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.2275,
+       "se": 0.2167,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.584,
+       "se": 0.2118,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.9161,
+       "se": 0.2565,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.2207,
+       "se": 0.3061,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.481,
+       "se": 0.4017,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "fintech": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 9.96,
+       "se": 0.2663,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.3428,
+       "se": 0.2458,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.7013,
+       "se": 0.2553,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.0323,
+       "se": 0.2699,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.3189,
+       "se": 0.2941,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "foreign_bank": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.2162,
+       "se": 0.1962,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.5352,
+       "se": 0.1776,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.8299,
+       "se": 0.2381,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.0971,
+       "se": 0.293,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.32,
+       "se": 0.3884,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "large_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.3627,
+       "se": 0.1885,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.5853,
+       "se": 0.186,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.7836,
+       "se": 0.2161,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.9544,
+       "se": 0.2309,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.0809,
+       "se": 0.2614,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "other_bank": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.1747,
+       "se": 0.1963,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.2708,
+       "se": 0.192,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.3425,
+       "se": 0.2274,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.3867,
+       "se": 0.2395,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 10.426,
+       "se": 0.3232,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_software": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.6,
+       "se": 0.3052,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.0108,
+       "se": 0.301,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.3973,
+       "se": 0.3233,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.7562,
+       "se": 0.3547,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.0708,
+       "se": 0.4244,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.5021,
+       "se": 0.1876,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 9.8629,
+       "se": 0.1849,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.1994,
+       "se": 0.203,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.5084,
+       "se": 0.201,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 10.773,
+       "se": 0.2375,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "sme": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 8.9797,
+       "se": 0.2652,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 9.3614,
+       "se": 0.2695,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 9.7189,
+       "se": 0.3057,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.0488,
+       "se": 0.3289,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 10.3344,
+       "se": 0.4164,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    }
+   }
+  },
+  "design": {
+   "title": "Design & creative",
+   "short": "Designer",
+   "title_bn": "ডিজাইন ও ক্রিয়েটিভ",
+   "about": "Graphic, UI/UX, motion, video",
+   "sigma": 0.28,
+   "keywords": [
+    "graphic designer",
+    "ui designer",
+    "ux designer",
+    "ui/ux",
+    "visualizer",
+    "motion graphics",
+    "video editor",
+    "creative designer"
+   ],
+   "skills": [
+    "Figma (UI)",
+    "Adobe Photoshop / Illustrator",
+    "Motion (After Effects)",
+    "A strong portfolio"
+   ],
+   "adjacent": [
+    {
+     "function": "marketing",
+     "bridge": [
+      "Content strategy",
+      "Ads"
+     ]
+    },
+    {
+     "function": "software",
+     "bridge": [
+      "HTML/CSS",
+      "React"
+     ]
+    }
+   ],
+   "cells": {
+    "fintech": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.3336,
+       "se": 0.2575,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.7165,
+       "se": 0.235,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.075,
+       "se": 0.2368,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.4059,
+       "se": 0.2558,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.6926,
+       "se": 0.2783,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "top_software": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.447,
+       "se": 0.2647,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.8782,
+       "se": 0.2343,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.285,
+       "se": 0.2373,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.6642,
+       "se": 0.2506,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.9992,
+       "se": 0.3248,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_software": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.9736,
+       "se": 0.2871,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.3844,
+       "se": 0.2828,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.7709,
+       "se": 0.3012,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.1298,
+       "se": 0.3383,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.4445,
+       "se": 0.4097,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.8758,
+       "se": 0.2016,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.2366,
+       "se": 0.2006,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.5731,
+       "se": 0.2111,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.882,
+       "se": 0.216,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.1467,
+       "se": 0.2494,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "sme": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.3533,
+       "se": 0.2441,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 9.7351,
+       "se": 0.2455,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.0925,
+       "se": 0.2762,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.4224,
+       "se": 0.3028,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 10.708,
+       "se": 0.3928,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    }
+   }
+  },
+  "engineering": {
+   "title": "Engineering (civil, electrical, mechanical)",
+   "short": "Engineer",
+   "title_bn": "ইঞ্জিনিয়ারিং",
+   "about": "Site, project, maintenance and production engineers",
+   "sigma": 0.28,
+   "keywords": [
+    "civil engineer",
+    "site engineer",
+    "structural engineer",
+    "project engineer",
+    "electrical engineer",
+    "mechanical engineer",
+    "maintenance engineer",
+    "production engineer"
+   ],
+   "skills": [
+    "AutoCAD / ETABS",
+    "Estimation and BOQ",
+    "BNBC code",
+    "Site safety",
+    "PMP"
+   ],
+   "adjacent": [
+    {
+     "function": "business_analyst",
+     "bridge": [
+      "Project planning"
+     ]
+    }
+   ],
+   "cells": {
+    "mnc_fmcg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.3686,
+       "se": 0.2453,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.744,
+       "se": 0.2642,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 12.0952,
+       "se": 0.3147,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.4189,
+       "se": 0.3762,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.6982,
+       "se": 0.469,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "telecom": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.1728,
+       "se": 0.2741,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.5293,
+       "se": 0.2799,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.8614,
+       "se": 0.3167,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.166,
+       "se": 0.3693,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.4263,
+       "se": 0.4555,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "other_mnc": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 11.2306,
+       "se": 0.3531,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 11.6038,
+       "se": 0.3513,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 11.9527,
+       "se": 0.381,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 12.2741,
+       "se": 0.4314,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 12.5512,
+       "se": 0.5114,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "local_conglomerate": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.4474,
+       "se": 0.2227,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.8082,
+       "se": 0.2223,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 11.1447,
+       "se": 0.2301,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.4537,
+       "se": 0.2361,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.7183,
+       "se": 0.2659,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "rmg": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 10.1745,
+       "se": 0.3803,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 10.5955,
+       "se": 0.3834,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 10.9921,
+       "se": 0.4078,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 11.3611,
+       "se": 0.4399,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 11.6859,
+       "se": 0.5064,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "sme": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 9.925,
+       "se": 0.2273,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.3067,
+       "se": 0.2237,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.6642,
+       "se": 0.25,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 10.9941,
+       "se": 0.2758,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.2797,
+       "se": 0.368,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    }
+   }
+  },
+  "merchandising": {
+   "title": "Merchandising (garments)",
+   "short": "Merchandiser",
+   "title_bn": "মার্চেন্ডাইজিং",
+   "about": "Buyer communication, costing, production follow-up",
+   "sigma": 0.28,
+   "keywords": [
+    "merchandiser",
+    "merchandising",
+    "buying house",
+    "apparel",
+    "knit",
+    "woven",
+    "sourcing"
+   ],
+   "skills": [
+    "Costing and consumption",
+    "Buyer communication in English",
+    "Fabric & trims",
+    "Time-and-action follow-up"
+   ],
+   "adjacent": [
+    {
+     "function": "sales",
+     "bridge": [
+      "Business development",
+      "Buyer acquisition"
+     ]
+    }
+   ],
+   "cells": {
+    "rmg": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.8804,
+       "se": 0.2136,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.3014,
+       "se": 0.1734,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.698,
+       "se": 0.177,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.067,
+       "se": 0.1843,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.3918,
+       "se": 0.2814,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    }
+   }
+  },
+  "factory_worker": {
+   "title": "Factory worker / operator",
+   "short": "Factory operator",
+   "title_bn": "কারখানা শ্রমিক / অপারেটর",
+   "about": "Sewing and machine operators, helpers, line supervisors",
+   "sigma": 0.12,
+   "keywords": [
+    "sewing operator",
+    "machine operator",
+    "helper",
+    "garment worker",
+    "operator",
+    "quality inspector",
+    "line supervisor"
+   ],
+   "skills": [
+    "Operating several machine types",
+    "Quality inspection",
+    "Line supervision"
+   ],
+   "adjacent": [
+    {
+     "function": "merchandising",
+     "bridge": [
+      "English",
+      "Costing",
+      "Computer skills"
+     ]
+    }
+   ],
+   "cells": {
+    "local_conglomerate": {
+     "confidence": "low",
+     "levels": {
+      "entry": {
+       "mu": 9.7128,
+       "se": 0.3185,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "junior": {
+       "mu": 9.7898,
+       "se": 0.3185,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "mid": {
+       "mu": 9.8783,
+       "se": 0.3185,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "senior": {
+       "mu": 10.0129,
+       "se": 0.3185,
+       "confidence": "low",
+       "extra_sd": 0.25
+      },
+      "lead": {
+       "mu": 10.2434,
+       "se": 0.3185,
+       "confidence": "low",
+       "extra_sd": 0.25
+      }
+     }
+    },
+    "rmg": {
+     "confidence": "high",
+     "levels": {
+      "entry": {
+       "mu": 9.4399,
+       "se": 0.1034,
+       "confidence": "high",
+       "extra_sd": 0.0
+      },
+      "junior": {
+       "mu": 9.5169,
+       "se": 0.1034,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 9.6054,
+       "se": 0.1034,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 9.74,
+       "se": 0.1034,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 9.9706,
+       "se": 0.1034,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    }
+   }
+  },
+  "program_officer": {
+   "title": "Programme / field officer (development)",
+   "short": "Programme officer",
+   "title_bn": "প্রোগ্রাম / ফিল্ড অফিসার",
+   "about": "Project, programme, field and M&E roles in NGOs and UN agencies",
+   "sigma": 0.28,
+   "keywords": [
+    "program officer",
+    "programme officer",
+    "field officer",
+    "project officer",
+    "monitoring",
+    "m&e",
+    "community",
+    "humanitarian"
+   ],
+   "skills": [
+    "Monitoring & evaluation",
+    "Proposal and report writing",
+    "Kobo / ODK data collection",
+    "Donor compliance"
+   ],
+   "adjacent": [
+    {
+     "function": "data",
+     "bridge": [
+      "Survey analysis",
+      "Power BI"
+     ]
+    }
+   ],
+   "cells": {
+    "ngo": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 10.115,
+       "se": 0.2448,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 10.4758,
+       "se": 0.2691,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 10.8123,
+       "se": 0.3346,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 11.1212,
+       "se": 0.3982,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 11.3859,
+       "se": 0.4936,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    },
+    "un_agency": {
+     "confidence": "medium",
+     "levels": {
+      "entry": {
+       "mu": 12.2091,
+       "se": 0.2504,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "junior": {
+       "mu": 12.5832,
+       "se": 0.2337,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "mid": {
+       "mu": 12.933,
+       "se": 0.2858,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "senior": {
+       "mu": 13.2552,
+       "se": 0.3307,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      },
+      "lead": {
+       "mu": 13.5331,
+       "se": 0.4211,
+       "confidence": "medium",
+       "extra_sd": 0.12
+      }
+     }
+    }
+   }
+  }
+ }
+}

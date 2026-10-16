@@ -1,0 +1,65 @@
+{
+  "label": "National Pay Scale 2026 (government employees)",
+  "effective": "2026-07-01",
+  "gazette": "Gazette dated 17 Sep 2026, issued by the Finance Division on 19 Sep 2026",
+  "increment_rate": 0.05,
+  "increment_note": "Annual increment steps are estimated at 5% compounding, rounded to the nearest Tk 10 and capped at the grade maximum (the 2015 scale used the same rule). Check your own pay fixation sheet.",
+  "grades": [
+    { "grade": 1,  "start_2015": 78000, "max_2015": 78000, "start_2026": 156000, "max_2026": 156000 },
+    { "grade": 2,  "start_2015": 66000, "max_2015": 76490, "start_2026": 132000, "max_2026": 153000 },
+    { "grade": 3,  "start_2015": 56500, "max_2015": 74400, "start_2026": 113000, "max_2026": 148800 },
+    { "grade": 4,  "start_2015": 50000, "max_2015": 71200, "start_2026": 100000, "max_2026": 142400 },
+    { "grade": 5,  "start_2015": 43000, "max_2015": 69850, "start_2026": 86000,  "max_2026": 139700 },
+    { "grade": 6,  "start_2015": 35500, "max_2015": 67010, "start_2026": 71000,  "max_2026": 134000 },
+    { "grade": 7,  "start_2015": 29000, "max_2015": 63410, "start_2026": 58000,  "max_2026": 126800 },
+    { "grade": 8,  "start_2015": 23000, "max_2015": 55470, "start_2026": 46000,  "max_2026": 110800 },
+    { "grade": 9,  "start_2015": 22000, "max_2015": 53060, "start_2026": 44000,  "max_2026": 105900 },
+    { "grade": 10, "start_2015": 16000, "max_2015": 38640, "start_2026": 32000,  "max_2026": 77300 },
+    { "grade": 11, "start_2015": 12500, "max_2015": 30230, "start_2026": 25000,  "max_2026": 60500 },
+    { "grade": 12, "start_2015": 11300, "max_2015": 27300, "start_2026": 24300,  "max_2026": 58700 },
+    { "grade": 13, "start_2015": 11000, "max_2015": 26590, "start_2026": 24000,  "max_2026": 58000 },
+    { "grade": 14, "start_2015": 10200, "max_2015": 24680, "start_2026": 23500,  "max_2026": 56800 },
+    { "grade": 15, "start_2015": 9700,  "max_2015": 23490, "start_2026": 22800,  "max_2026": 55200 },
+    { "grade": 16, "start_2015": 9300,  "max_2015": 22490, "start_2026": 21900,  "max_2026": 52900 },
+    { "grade": 17, "start_2015": 9000,  "max_2015": 21800, "start_2026": 21400,  "max_2026": 51900 },
+    { "grade": 18, "start_2015": 8800,  "max_2015": 21310, "start_2026": 21000,  "max_2026": 50900 },
+    { "grade": 19, "start_2015": 8500,  "max_2015": 20570, "start_2026": 20500,  "max_2026": 49600 },
+    { "grade": 20, "start_2015": 8250,  "max_2015": 20010, "start_2026": 20000,  "max_2026": 48400 }
+  ],
+  "phases": [
+    { "id": "p1", "label": "Jul-Dec 2026", "from": "2026-07-01", "to": "2026-12-31", "share_grade_1_9": 0.40, "share_grade_10_20": 0.50 },
+    { "id": "p2", "label": "Jan-Jun 2027", "from": "2027-01-01", "to": "2027-06-30", "share_grade_1_9": 0.70, "share_grade_10_20": 0.75 },
+    { "id": "full", "label": "From Jul 2027", "from": "2027-07-01", "to": null, "share_grade_1_9": 1.0, "share_grade_10_20": 1.0 }
+  ],
+  "phase_note": "During a phase the basic is the old basic plus the stated share of the increase. Arrears are paid from 1 July 2026, net of the special allowance already received.",
+  "house_rent": {
+    "note": "New house-rent rates take effect from 1 January 2028. Bands for 'other city corporations' are assumed to follow the same grade bands as Dhaka.",
+    "bands": [
+      { "grades": [16, 20], "dhaka": 0.60, "other_city": 0.50, "elsewhere": 0.45 },
+      { "grades": [10, 15], "dhaka": 0.50, "other_city": 0.40, "elsewhere": 0.35 },
+      { "grades": [5, 9],   "dhaka": 0.45, "other_city": 0.35, "elsewhere": 0.30 },
+      { "grades": [1, 4],   "dhaka": 0.40, "other_city": 0.30, "elsewhere": 0.25 }
+    ]
+  },
+  "medical": { "up_to_50": 3000, "above_50": 4000 },
+  "festival_bonus_per_year_in_basics": 2,
+  "boishakhi_rate": 0.15,
+  "boishakhi_note": "Bangla New Year allowance falls from 20% to 15% of basic from 1 January 2028.",
+  "education_allowance_per_child": 500,
+  "education_allowance_max_children": 2,
+  "common_entry_grades": [
+    { "post": "BCS cadre officer (Admin, Police, Foreign, etc.)", "grade": 9 },
+    { "post": "Lecturer, govt college (BCS General Education)", "grade": 9 },
+    { "post": "Assistant Surgeon / Medical Officer (BCS Health)", "grade": 9 },
+    { "post": "Sub-Assistant Engineer", "grade": 10 },
+    { "post": "Senior Staff Nurse", "grade": 10 },
+    { "post": "Govt primary school assistant teacher", "grade": 13 },
+    { "post": "Office Sohayok (MLSS)", "grade": 20 }
+  ],
+  "common_entry_grades_note": "Typical entry grades; check the recruitment circular or appointment letter for your post.",
+  "sources": [
+    { "name": "The Business Standard: Gazette issued for National Pay Scale 2026", "url": "https://www.tbsnews.net/bangladesh/gazette-issued-national-pay-scale-2026-1547116", "date": "2026-09-19" },
+    { "name": "The Daily Star: Govt approves National Pay Scale 2026", "url": "https://www.thedailystar.net/news/governance/news/govt-approves-national-pay-scale-2026-4261321", "date": "2026-08-31" },
+    { "name": "Grade table cross-checked: bdjobs52.com pay scale calculator; eTothyo (31 Aug 2026)", "url": "https://etothyo.com/new-pay-scale-salary-structure/", "date": "2026-08-31" }
+  ]
+}

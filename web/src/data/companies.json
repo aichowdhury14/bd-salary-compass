@@ -1,0 +1,620 @@
+[
+ {
+  "name": "Unilever Bangladesh",
+  "group": "mnc_fmcg",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 70000.0,
+    "high": 96000.0,
+    "median": 88000,
+    "note": "Unilever Future Leaders Programme; base about 88k; Unilever does not publish the figure",
+    "source_name": "Glassdoor: Unilever Management Trainee salaries in Dhaka",
+    "source_url": "https://www.glassdoor.com/Monthly-Pay/Unilever-Management-Trainee-Dhaka-Monthly-Pay-EJI_IE3513.0,8_KO9,27_IL.28,33_IM1237.htm",
+    "published": "2026",
+    "source_type": "aggregator"
+   }
+  ]
+ },
+ {
+  "name": "BAT Bangladesh",
+  "group": "mnc_fmcg",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 100000.0,
+    "high": 130000.0,
+    "median": 114018,
+    "note": "BAT Bangladesh management trainee programme (unofficial estimate)",
+    "source_name": "NextJobz: Fresh graduate salary in Bangladesh 2026",
+    "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
+    "published": "2026-04",
+    "source_type": "blog"
+   }
+  ]
+ },
+ {
+  "name": "Emami Bangladesh",
+  "group": "mnc_fmcg",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 55000.0,
+    "high": 60000.0,
+    "median": 57446,
+    "note": "Emami Bangladesh (FMCG) MTO circular",
+    "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+    "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+    "published": "2025-11",
+    "source_type": "job_circular"
+   }
+  ]
+ },
+ {
+  "name": "Grameenphone",
+  "group": "telecom",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 48000.0,
+    "high": 79000.0,
+    "median": 60000,
+    "note": "Median base; small sample",
+    "source_name": "Glassdoor: Grameenphone Management Trainee salaries in Dhaka",
+    "source_url": "https://www.glassdoor.com/Monthly-Pay/GrameenPhone-Management-Trainee-Dhaka-Monthly-Pay-EJI_IE405018.0,12_KO13,31_IL.32,37_IM1237.htm",
+    "published": "2024-11",
+    "source_type": "aggregator"
+   },
+   {
+    "function": "customer_service",
+    "level": "mix",
+    "low": 33000.0,
+    "high": 114000.0,
+    "median": 40000,
+    "note": "Median of 5 submissions",
+    "source_name": "Glassdoor: Grameenphone Customer Service Representative salaries in Dhaka",
+    "source_url": "https://www.glassdoor.com/Monthly-Pay/GrameenPhone-Customer-Service-Representative-Dhaka-Monthly-Pay-EJI_IE405018.0,12_KO13,44_IL.45,50_IM1237.htm",
+    "published": "2025-09",
+    "source_type": "aggregator"
+   }
+  ]
+ },
+ {
+  "name": "bKash",
+  "group": "fintech",
+  "figures": [
+   {
+    "function": "software",
+    "level": "junior",
+    "low": 45750.0,
+    "high": 100000.0,
+    "median": 50000,
+    "note": "Average base 6 lakh a year; mostly 1-3 years experience",
+    "source_name": "Glassdoor: bKash Software Engineer salaries in Dhaka",
+    "source_url": "https://www.glassdoor.com/Salary/Bkash-Software-Engineer-Dhaka-Salaries-EJI_IE555424.0,5_KO6,23_IL.24,29_IM1237.htm",
+    "published": "2026",
+    "source_type": "aggregator"
+   },
+   {
+    "function": "software",
+    "level": "mid",
+    "low": 80000.0,
+    "high": 150000.0,
+    "median": 109545,
+    "note": "bKash mid-level engineers",
+    "source_name": "BD Tech Jobs: highest paying software companies 2026",
+    "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+    "published": "2026-02",
+    "source_type": "blog"
+   },
+   {
+    "function": "software",
+    "level": "senior",
+    "low": 150000.0,
+    "high": 250000.0,
+    "median": 193649,
+    "note": "bKash senior engineers",
+    "source_name": "BD Tech Jobs: highest paying software companies 2026",
+    "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+    "published": "2026-02",
+    "source_type": "blog"
+   },
+   {
+    "function": "software",
+    "level": "lead",
+    "low": 108000.0,
+    "high": 178000.0,
+    "median": 150000,
+    "note": "Median total pay",
+    "source_name": "Glassdoor: bKash Lead Engineer salaries in Dhaka",
+    "source_url": "https://www.glassdoor.com/Monthly-Pay/Bkash-Lead-Engineer-Dhaka-Monthly-Pay-EJI_IE555424.0,5_KO6,19_IL.20,25_IM1237.htm",
+    "published": "2026",
+    "source_type": "aggregator"
+   }
+  ]
+ },
+ {
+  "name": "Pathao",
+  "group": "fintech",
+  "figures": [
+   {
+    "function": "software",
+    "level": "mid",
+    "low": 70000.0,
+    "high": 150000.0,
+    "median": 102470,
+    "note": "Pathao mid-level engineers",
+    "source_name": "BD Tech Jobs: highest paying software companies 2026",
+    "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+    "published": "2026-02",
+    "source_type": "blog"
+   }
+  ]
+ },
+ {
+  "name": "Standard Chartered",
+  "group": "foreign_bank",
+  "figures": [
+   {
+    "function": "customer_service",
+    "level": "junior",
+    "low": 29000.0,
+    "high": 50000.0,
+    "median": 38079,
+    "note": "Officer base pay; mostly operations and service officers",
+    "source_name": "Glassdoor: Standard Chartered Bank salaries in Bangladesh",
+    "source_url": "https://www.glassdoor.com/Salary/Standard-Chartered-Bank-Bangladesh-Salaries-EI_IE226853.0,23_IL.24,34_IN27.htm",
+    "published": "2026",
+    "source_type": "aggregator"
+   },
+   {
+    "function": "officer",
+    "level": "junior",
+    "low": 61469.0,
+    "high": 61469.0,
+    "median": 61469,
+    "note": "Senior officer monthly average (the post MTOs are usually confirmed into)",
+    "source_name": "Bayt.com: Standard Chartered Bangladesh salaries",
+    "source_url": "https://www.bayt.com/en/bangladesh/salaries/companies/standard-chartered-bangladesh/",
+    "published": "2026",
+    "source_type": "aggregator"
+   }
+  ]
+ },
+ {
+  "name": "The City Bank",
+  "group": "large_bank",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 80000.0,
+    "high": 80000.0,
+    "median": 80000,
+    "note": "The City Bank MTO training period",
+    "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+    "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+    "published": "2025-06",
+    "source_type": "job_circular"
+   },
+   {
+    "function": "officer",
+    "level": "junior",
+    "low": 100000.0,
+    "high": 100000.0,
+    "median": 100000,
+    "note": "The City Bank on confirmation as Executive Officer",
+    "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+    "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+    "published": "2025-06",
+    "source_type": "job_circular"
+   }
+  ]
+ },
+ {
+  "name": "Mutual Trust Bank",
+  "group": "large_bank",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 75000.0,
+    "high": 75000.0,
+    "median": 75000,
+    "note": "Mutual Trust Bank MTO training period",
+    "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+    "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+    "published": "2025-05",
+    "source_type": "job_circular"
+   },
+   {
+    "function": "officer",
+    "level": "junior",
+    "low": 93500.0,
+    "high": 93500.0,
+    "median": 93500,
+    "note": "Mutual Trust Bank on confirmation as Senior Officer",
+    "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+    "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+    "published": "2025-05",
+    "source_type": "job_circular"
+   }
+  ]
+ },
+ {
+  "name": "Dutch-Bangla Bank",
+  "group": "large_bank",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 70000.0,
+    "high": 70000.0,
+    "median": 70000,
+    "note": "1-year probation",
+    "source_name": "Dutch-Bangla Bank MTO circular 2026",
+    "source_url": "https://thecvguy.net/bank-jobs/dutch-bangla-bank-plc-mto-job-circular-2026/",
+    "published": "2026-09",
+    "source_type": "job_circular"
+   },
+   {
+    "function": "officer",
+    "level": "junior",
+    "low": 97483.0,
+    "high": 97483.0,
+    "median": 97483,
+    "note": "On confirmation as Senior Officer",
+    "source_name": "Dutch-Bangla Bank MTO circular 2026",
+    "source_url": "https://thecvguy.net/bank-jobs/dutch-bangla-bank-plc-mto-job-circular-2026/",
+    "published": "2026-09",
+    "source_type": "job_circular"
+   },
+   {
+    "function": "officer",
+    "level": "mix",
+    "low": 56000.0,
+    "high": 168000.0,
+    "median": 112000,
+    "note": "Relationship Manager; average base 1.12 lakh a month; small sample",
+    "source_name": "Glassdoor: Dutch-Bangla Bank Relationship Manager salaries",
+    "source_url": "https://www.glassdoor.com/Salary/Dutch-Bangla-Bank-Relationship-Manager-Bangladesh-Salaries-EJI_IE547664.0,17_KO18,38_IL.39,49_IN27.htm",
+    "published": "2026",
+    "source_type": "aggregator"
+   },
+   {
+    "function": "officer",
+    "level": "mix",
+    "low": 125000.0,
+    "high": 125000.0,
+    "median": 125000,
+    "note": "Assistant Vice President average",
+    "source_name": "Bayt.com: Dutch-Bangla Bank salaries",
+    "source_url": "https://www.bayt.com/en/bangladesh/salaries/companies/dutch-bangla-bank-ltd/",
+    "published": "2026",
+    "source_type": "aggregator"
+   },
+   {
+    "function": "officer",
+    "level": "lead",
+    "low": 150000.0,
+    "high": 150000.0,
+    "median": 150000,
+    "note": "Manager average",
+    "source_name": "Bayt.com: Dutch-Bangla Bank salaries",
+    "source_url": "https://www.bayt.com/en/bangladesh/salaries/companies/dutch-bangla-bank-ltd/",
+    "published": "2026",
+    "source_type": "aggregator"
+   }
+  ]
+ },
+ {
+  "name": "BRAC Bank",
+  "group": "large_bank",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 65000.0,
+    "high": 65000.0,
+    "median": 65000,
+    "note": "1-year training period; Glassdoor base about 70k",
+    "source_name": "BRAC Bank MTO circular 2026 (reported)",
+    "source_url": "https://www.glassdoor.com/Monthly-Pay/BRAC-Bank-Management-Trainee-Dhaka-Monthly-Pay-EJI_IE227450.0,9_KO10,28_IL.29,34_IM1237.htm",
+    "published": "2026-06",
+    "source_type": "job_circular"
+   },
+   {
+    "function": "officer",
+    "level": "junior",
+    "low": 57000.0,
+    "high": 65000.0,
+    "median": 60869,
+    "note": "Senior Officer average range",
+    "source_name": "Bayt.com: BRAC Bank salaries",
+    "source_url": "https://www.bayt.com/en/bangladesh/salaries/companies/brac-bank/",
+    "published": "2026",
+    "source_type": "aggregator"
+   }
+  ]
+ },
+ {
+  "name": "Prime Bank",
+  "group": "large_bank",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 85000.0,
+    "high": 85000.0,
+    "median": 85000,
+    "note": "Prime Bank probation pay",
+    "source_name": "Bank MTO jobs in Bangladesh: every 2026 circular compared",
+    "source_url": "https://thecvguy.net/career-tips/bank-mto-jobs-bangladesh/",
+    "published": "2026",
+    "source_type": "job_circular"
+   },
+   {
+    "function": "officer",
+    "level": "junior",
+    "low": 100000.0,
+    "high": 100000.0,
+    "median": 100000,
+    "note": "Prime Bank Executive Officer on confirmation",
+    "source_name": "Bank MTO jobs in Bangladesh: every 2026 circular compared",
+    "source_url": "https://thecvguy.net/career-tips/bank-mto-jobs-bangladesh/",
+    "published": "2026",
+    "source_type": "job_circular"
+   }
+  ]
+ },
+ {
+  "name": "IDLC Finance",
+  "group": "large_bank",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 75000.0,
+    "high": 75000.0,
+    "median": 75000,
+    "note": "IDLC Finance training period",
+    "source_name": "Prothom Alo: 11 organisations offer jobs without prior experience",
+    "source_url": "https://en.prothomalo.com/youth/employment/s0nj8vwh1l",
+    "published": "2026-04",
+    "source_type": "news"
+   }
+  ]
+ },
+ {
+  "name": "IPDC Finance",
+  "group": "large_bank",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 75000.0,
+    "high": 75000.0,
+    "median": 75000,
+    "note": "IPDC Finance; Assistant Manager at 90k on confirmation",
+    "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+    "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+    "published": "2025-08",
+    "source_type": "job_circular"
+   }
+  ]
+ },
+ {
+  "name": "AB Bank",
+  "group": "other_bank",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 75000.0,
+    "high": 75000.0,
+    "median": 75000,
+    "note": "AB Bank 2-year traineeship",
+    "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+    "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+    "published": "2026-02",
+    "source_type": "job_circular"
+   },
+   {
+    "function": "officer",
+    "level": "junior",
+    "low": 90000.0,
+    "high": 90000.0,
+    "median": 90000,
+    "note": "AB Bank Principal Officer on confirmation",
+    "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+    "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+    "published": "2026-02",
+    "source_type": "job_circular"
+   }
+  ]
+ },
+ {
+  "name": "Meghna Bank",
+  "group": "other_bank",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 60000.0,
+    "high": 60000.0,
+    "median": 60000,
+    "note": "Meghna Bank MTO",
+    "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+    "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+    "published": "2026-05",
+    "source_type": "job_circular"
+   },
+   {
+    "function": "officer",
+    "level": "junior",
+    "low": 72864.0,
+    "high": 72864.0,
+    "median": 72864,
+    "note": "Meghna Bank Senior Officer on confirmation",
+    "source_name": "MTO salary in Bangladesh 2026: what circulars really pay",
+    "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
+    "published": "2026-05",
+    "source_type": "job_circular"
+   }
+  ]
+ },
+ {
+  "name": "SBAC Bank",
+  "group": "other_bank",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 48000.0,
+    "high": 48000.0,
+    "median": 48000,
+    "note": "SBAC Bank probation pay (lowest of nine circulars)",
+    "source_name": "Bank MTO jobs in Bangladesh: every 2026 circular compared",
+    "source_url": "https://thecvguy.net/career-tips/bank-mto-jobs-bangladesh/",
+    "published": "2026",
+    "source_type": "job_circular"
+   }
+  ]
+ },
+ {
+  "name": "Optimizely",
+  "group": "top_software",
+  "figures": [
+   {
+    "function": "software",
+    "level": "mix",
+    "low": 167000.0,
+    "high": 167000.0,
+    "median": 167000,
+    "note": "Optimizely median total compensation (all levels)",
+    "source_name": "BD Tech Jobs citing Levels.fyi: highest paying software companies 2026",
+    "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+    "published": "2026-02",
+    "source_type": "aggregator"
+   }
+  ]
+ },
+ {
+  "name": "Cefalo",
+  "group": "top_software",
+  "figures": [
+   {
+    "function": "software",
+    "level": "mix",
+    "low": 141000.0,
+    "high": 141000.0,
+    "median": 141000,
+    "note": "Cefalo median total compensation (all levels)",
+    "source_name": "BD Tech Jobs citing Levels.fyi: highest paying software companies 2026",
+    "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+    "published": "2026-02",
+    "source_type": "aggregator"
+   },
+   {
+    "function": "software",
+    "level": "senior",
+    "low": 200000.0,
+    "high": 280000.0,
+    "median": 236643,
+    "note": "Cefalo senior",
+    "source_name": "BD Tech Jobs: highest paying software companies 2026",
+    "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+    "published": "2026-02",
+    "source_type": "blog"
+   }
+  ]
+ },
+ {
+  "name": "Enosis Solutions",
+  "group": "top_software",
+  "figures": [
+   {
+    "function": "software",
+    "level": "mix",
+    "low": 81000.0,
+    "high": 81000.0,
+    "median": 81000,
+    "note": "Enosis Solutions median total compensation (all levels)",
+    "source_name": "BD Tech Jobs citing Levels.fyi: highest paying software companies 2026",
+    "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+    "published": "2026-02",
+    "source_type": "aggregator"
+   },
+   {
+    "function": "software",
+    "level": "senior",
+    "low": 120000.0,
+    "high": 160000.0,
+    "median": 138564,
+    "note": "Enosis senior and team leads",
+    "source_name": "BD Tech Jobs: highest paying software companies 2026",
+    "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
+    "published": "2026-02",
+    "source_type": "blog"
+   }
+  ]
+ },
+ {
+  "name": "PRAN-RFL",
+  "group": "local_conglomerate",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "entry",
+    "low": 25000.0,
+    "high": 25000.0,
+    "median": 25000,
+    "note": "Base about 25k; RFL circulars say negotiable",
+    "source_name": "Glassdoor: PRAN-RFL Center Management Trainee salaries",
+    "source_url": "https://www.glassdoor.com/Monthly-Pay/PRAN-RFL-Center-Management-Trainee-Bangladesh-Monthly-Pay-EJI_IE530328.0,15_KO16,34_IL.35,45_IN27.htm",
+    "published": "2026",
+    "source_type": "aggregator"
+   }
+  ]
+ },
+ {
+  "name": "UN agencies (National Officer A)",
+  "group": "un_agency",
+  "figures": [
+   {
+    "function": "program_officer",
+    "level": "junior",
+    "low": 319000.0,
+    "high": 319000.0,
+    "median": 319000,
+    "note": "National Officer A step 1: about Tk 38.3 lakh a year net; third-party transcription of the UN scale",
+    "source_name": "UNjobnet: UN NO-A salary in Dhaka (scale effective Oct 2024)",
+    "source_url": "https://www.unjobnet.org/countries/bangladesh/Dhaka/salary/no-a",
+    "published": "2024-10",
+    "source_type": "aggregator"
+   }
+  ]
+ },
+ {
+  "name": "Pubali Bank",
+  "group": "other_bank",
+  "figures": [
+   {
+    "function": "officer",
+    "level": "senior",
+    "low": 42083.0,
+    "high": 42083.0,
+    "median": 42083,
+    "note": "Average base 5.05 lakh a year",
+    "source_name": "Glassdoor: Pubali Bank Senior Principal Officer salaries",
+    "source_url": "https://www.glassdoor.com/Salary/Pubali-Bank-Senior-Principal-Officer-Bangladesh-EJI_IE545108.0,11_KO12,36_IL.37,47_IN27.htm?filter.payPeriod=MONTHLY",
+    "published": "2025-06",
+    "source_type": "aggregator"
+   }
+  ]
+ }
+]

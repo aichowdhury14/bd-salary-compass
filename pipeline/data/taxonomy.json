@@ -1,0 +1,1084 @@
+{
+  "levels": [
+    {
+      "id": "entry",
+      "label": "Fresher (under 1 yr)",
+      "label_bn": "নতুন (১ বছরের কম)",
+      "min_years": 0,
+      "max_years": 1
+    },
+    {
+      "id": "junior",
+      "label": "Junior (1-2 yrs)",
+      "label_bn": "জুনিয়র (১-২ বছর)",
+      "min_years": 1,
+      "max_years": 3
+    },
+    {
+      "id": "mid",
+      "label": "Mid-level (3-5 yrs)",
+      "label_bn": "মিড-লেভেল (৩-৫ বছর)",
+      "min_years": 3,
+      "max_years": 6
+    },
+    {
+      "id": "senior",
+      "label": "Senior (6-9 yrs)",
+      "label_bn": "সিনিয়র (৬-৯ বছর)",
+      "min_years": 6,
+      "max_years": 10
+    },
+    {
+      "id": "lead",
+      "label": "Manager / lead (10+ yrs)",
+      "label_bn": "ম্যানেজার (১০+ বছর)",
+      "min_years": 10,
+      "max_years": 40
+    }
+  ],
+  "cities": [
+    {
+      "id": "dhaka",
+      "label": "Dhaka area",
+      "label_bn": "ঢাকা অঞ্চল",
+      "multiplier": 1.0
+    },
+    {
+      "id": "chattogram",
+      "label": "Chattogram",
+      "label_bn": "চট্টগ্রাম",
+      "multiplier": 0.92
+    },
+    {
+      "id": "other_city",
+      "label": "Other city (Sylhet, Khulna, Rajshahi...)",
+      "label_bn": "অন্যান্য শহর",
+      "multiplier": 0.82
+    },
+    {
+      "id": "district",
+      "label": "District town / rural",
+      "label_bn": "জেলা শহর / গ্রাম",
+      "multiplier": 0.72
+    }
+  ],
+  "city_note": "City adjustments are assumptions: almost every published figure is for Dhaka.",
+  "reference_group": "local_conglomerate",
+  "groups": [
+    {
+      "id": "mnc_fmcg",
+      "label": "Multinational FMCG & tobacco",
+      "label_bn": "বহুজাতিক এফএমসিজি ও তামাক",
+      "companies": [
+        "Unilever Bangladesh",
+        "BAT Bangladesh",
+        "Nestlé Bangladesh",
+        "Reckitt Bangladesh",
+        "Marico Bangladesh",
+        "Japan Tobacco (JTI)",
+        "Emami Bangladesh"
+      ],
+      "functions": [
+        "officer",
+        "sales",
+        "marketing",
+        "finance",
+        "hr_admin",
+        "data",
+        "business_analyst",
+        "engineering"
+      ],
+      "prior": 2.2,
+      "match": [
+        "unilever",
+        "british american tobacco",
+        "bat bangladesh",
+        "nestle",
+        "nestlé",
+        "reckitt",
+        "marico",
+        "japan tobacco",
+        "jti",
+        "emami"
+      ],
+      "sector": "corporate"
+    },
+    {
+      "id": "telecom",
+      "label": "Mobile operator",
+      "label_bn": "মোবাইল অপারেটর",
+      "companies": [
+        "Grameenphone",
+        "Robi Axiata",
+        "Banglalink"
+      ],
+      "functions": [
+        "officer",
+        "sales",
+        "marketing",
+        "finance",
+        "hr_admin",
+        "software",
+        "data",
+        "business_analyst",
+        "customer_service",
+        "engineering"
+      ],
+      "prior": 1.8,
+      "match": [
+        "grameenphone",
+        "robi axiata",
+        "robi",
+        "banglalink",
+        "airtel"
+      ],
+      "sector": "corporate"
+    },
+    {
+      "id": "fintech",
+      "label": "Fintech, mobile money & tech platforms",
+      "label_bn": "ফিনটেক ও মোবাইল ব্যাংকিং",
+      "companies": [
+        "bKash",
+        "Nagad",
+        "Pathao",
+        "ShopUp"
+      ],
+      "functions": [
+        "officer",
+        "sales",
+        "marketing",
+        "finance",
+        "hr_admin",
+        "software",
+        "data",
+        "business_analyst",
+        "customer_service",
+        "design"
+      ],
+      "prior": 1.6,
+      "match": [
+        "bkash",
+        "nagad",
+        "pathao",
+        "shopup",
+        "upay"
+      ],
+      "sector": "corporate"
+    },
+    {
+      "id": "foreign_bank",
+      "label": "Foreign bank",
+      "label_bn": "বিদেশি ব্যাংক",
+      "companies": [
+        "Standard Chartered",
+        "HSBC",
+        "Citibank N.A.",
+        "Woori Bank",
+        "Commercial Bank of Ceylon"
+      ],
+      "functions": [
+        "officer",
+        "sales",
+        "finance",
+        "hr_admin",
+        "software",
+        "data",
+        "business_analyst",
+        "customer_service"
+      ],
+      "prior": 1.8,
+      "match": [
+        "standard chartered",
+        "hsbc",
+        "citibank",
+        "woori bank",
+        "commercial bank of ceylon",
+        "state bank of india"
+      ],
+      "sector": "banking"
+    },
+    {
+      "id": "large_bank",
+      "label": "Large private bank / finance company",
+      "label_bn": "বড় বেসরকারি ব্যাংক / আর্থিক প্রতিষ্ঠান",
+      "companies": [
+        "BRAC Bank",
+        "The City Bank",
+        "Eastern Bank (EBL)",
+        "Dutch-Bangla Bank",
+        "Prime Bank",
+        "Mutual Trust Bank",
+        "IDLC Finance",
+        "IPDC Finance"
+      ],
+      "functions": [
+        "officer",
+        "sales",
+        "finance",
+        "hr_admin",
+        "software",
+        "data",
+        "business_analyst",
+        "customer_service"
+      ],
+      "prior": 2.0,
+      "match": [
+        "brac bank",
+        "city bank",
+        "eastern bank",
+        "ebl",
+        "dutch-bangla",
+        "dutch bangla",
+        "dbbl",
+        "prime bank",
+        "mutual trust bank",
+        "mtb",
+        "idlc",
+        "ipdc"
+      ],
+      "sector": "banking"
+    },
+    {
+      "id": "other_bank",
+      "label": "Other private bank",
+      "label_bn": "অন্যান্য বেসরকারি ব্যাংক",
+      "companies": [
+        "AB Bank",
+        "Meghna Bank",
+        "Pubali Bank",
+        "SBAC Bank",
+        "Other commercial banks"
+      ],
+      "functions": [
+        "officer",
+        "sales",
+        "finance",
+        "hr_admin",
+        "software",
+        "data",
+        "customer_service"
+      ],
+      "prior": 1.6,
+      "match": [
+        "bank"
+      ],
+      "sector": "banking"
+    },
+    {
+      "id": "top_software",
+      "label": "Top software company",
+      "label_bn": "শীর্ষ সফটওয়্যার কোম্পানি",
+      "companies": [
+        "Optimizely",
+        "Cefalo",
+        "Field Nation",
+        "Samsung R&D Institute BD",
+        "Therap BD",
+        "SELISE",
+        "Brain Station 23",
+        "Enosis Solutions"
+      ],
+      "functions": [
+        "software",
+        "data",
+        "business_analyst",
+        "design",
+        "hr_admin",
+        "finance",
+        "sales"
+      ],
+      "prior": 1.8,
+      "match": [
+        "optimizely",
+        "cefalo",
+        "field nation",
+        "samsung r&d",
+        "srbd",
+        "therap",
+        "selise",
+        "brain station",
+        "enosis"
+      ],
+      "sector": "tech"
+    },
+    {
+      "id": "local_software",
+      "label": "Other software / IT company",
+      "label_bn": "অন্যান্য সফটওয়্যার / আইটি কোম্পানি",
+      "companies": [
+        "Local software houses",
+        "IT-enabled services",
+        "Tech startups"
+      ],
+      "functions": [
+        "software",
+        "data",
+        "business_analyst",
+        "design",
+        "sales",
+        "marketing",
+        "hr_admin",
+        "finance",
+        "customer_service"
+      ],
+      "prior": 1.0,
+      "match": [
+        "software company",
+        "software firm",
+        "software ltd",
+        "software limited",
+        "it company",
+        "tech startup"
+      ],
+      "sector": "tech"
+    },
+    {
+      "id": "other_mnc",
+      "label": "Other multinational",
+      "label_bn": "অন্যান্য বহুজাতিক",
+      "companies": [
+        "Engineering, energy & electronics multinationals",
+        "Pharma & paint multinationals",
+        "International buying offices"
+      ],
+      "functions": [
+        "officer",
+        "sales",
+        "marketing",
+        "finance",
+        "hr_admin",
+        "software",
+        "data",
+        "business_analyst",
+        "engineering"
+      ],
+      "prior": 1.6,
+      "match": [
+        "multinational",
+        "mnc",
+        "global company",
+        "foreign company"
+      ],
+      "sector": "corporate"
+    },
+    {
+      "id": "local_conglomerate",
+      "label": "Large local company / group",
+      "label_bn": "বড় দেশীয় কোম্পানি / গ্রুপ",
+      "companies": [
+        "PRAN-RFL",
+        "Square",
+        "ACI",
+        "Beximco",
+        "Meghna Group",
+        "Bashundhara",
+        "Akij",
+        "City Group"
+      ],
+      "functions": [
+        "officer",
+        "sales",
+        "marketing",
+        "finance",
+        "hr_admin",
+        "software",
+        "data",
+        "business_analyst",
+        "engineering",
+        "design",
+        "customer_service",
+        "factory_worker"
+      ],
+      "prior": 1.0,
+      "match": [
+        "pran",
+        "rfl",
+        "square",
+        "aci",
+        "beximco",
+        "meghna group",
+        "bashundhara",
+        "akij",
+        "city group"
+      ],
+      "sector": "corporate"
+    },
+    {
+      "id": "rmg",
+      "label": "Garments factory / buying house",
+      "label_bn": "গার্মেন্টস / বায়িং হাউস",
+      "companies": [
+        "Export garments factories",
+        "Buying houses"
+      ],
+      "functions": [
+        "merchandising",
+        "factory_worker",
+        "officer",
+        "finance",
+        "hr_admin",
+        "engineering"
+      ],
+      "prior": 0.9,
+      "match": [
+        "garments",
+        "garment",
+        "buying house",
+        "apparel",
+        "knit",
+        "woven",
+        "textile"
+      ],
+      "sector": "corporate"
+    },
+    {
+      "id": "sme",
+      "label": "Small / medium local business",
+      "label_bn": "ছোট / মাঝারি প্রতিষ্ঠান",
+      "companies": [
+        "Local SMEs",
+        "Shops, agencies and traders"
+      ],
+      "functions": [
+        "officer",
+        "sales",
+        "marketing",
+        "finance",
+        "hr_admin",
+        "software",
+        "design",
+        "customer_service",
+        "engineering"
+      ],
+      "prior": 0.7,
+      "match": [],
+      "sector": "corporate"
+    },
+    {
+      "id": "ngo",
+      "label": "NGO (local or international)",
+      "label_bn": "এনজিও",
+      "companies": [
+        "BRAC",
+        "ASA",
+        "BURO Bangladesh",
+        "Save the Children",
+        "CARE Bangladesh",
+        "World Vision"
+      ],
+      "functions": [
+        "program_officer",
+        "finance",
+        "hr_admin",
+        "data",
+        "officer"
+      ],
+      "prior": 0.75,
+      "match": [
+        "ngo",
+        "ingo",
+        "brac",
+        "asa",
+        "buro",
+        "save the children",
+        "care bangladesh",
+        "world vision",
+        "non-profit",
+        "nonprofit",
+        "development organization",
+        "development organisation"
+      ],
+      "sector": "development"
+    },
+    {
+      "id": "un_agency",
+      "label": "UN agency (National Officer posts)",
+      "label_bn": "জাতিসংঘ সংস্থা",
+      "companies": [
+        "UNDP",
+        "UNICEF",
+        "WFP",
+        "UNHCR",
+        "IOM"
+      ],
+      "functions": [
+        "program_officer"
+      ],
+      "prior": 4.0,
+      "match": [
+        "undp",
+        "unicef",
+        "wfp",
+        "unhcr",
+        "iom",
+        "united nations",
+        "un agency"
+      ],
+      "sector": "development"
+    }
+  ],
+  "priors": {
+    "level_multiplier": {
+      "entry": 1.0,
+      "junior": 1.45,
+      "mid": 2.0,
+      "senior": 3.0,
+      "lead": 4.2
+    },
+    "level_prior_sd": 0.2,
+    "group_prior_sd": 0.35,
+    "function_base_prior": 30000,
+    "function_base_prior_sd": 1.0,
+    "cell_sigma": 0.28,
+    "extra_sd_by_confidence": {
+      "high": 0.0,
+      "medium": 0.12,
+      "low": 0.25
+    },
+    "group_slope_prior_sd": 0.1
+  },
+  "functions": [
+    {
+      "id": "officer",
+      "title": "Management trainee / officer",
+      "short": "Trainee / officer",
+      "title_bn": "ম্যানেজমেন্ট ট্রেইনি / অফিসার",
+      "about": "Graduate programmes (MT, MTO) and general officer roles: banking, operations, commercial",
+      "keywords": [
+        "management trainee",
+        "mto",
+        "trainee officer",
+        "future leader",
+        "probationary officer",
+        "junior officer",
+        "senior officer",
+        "principal officer",
+        "officer",
+        "executive",
+        "coordinator",
+        "assistant manager"
+      ],
+      "skills": [
+        "Clear written and spoken English",
+        "Excel and presentations",
+        "Problem-solving case interviews",
+        "A professional diploma for your sector (e.g. banking diploma)"
+      ],
+      "adjacent": [
+        {
+          "function": "business_analyst",
+          "bridge": [
+            "SQL",
+            "Requirement writing"
+          ]
+        },
+        {
+          "function": "sales",
+          "bridge": [
+            "Target-based sales record"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sales",
+      "title": "Sales & distribution",
+      "short": "Sales",
+      "title_bn": "সেলস ও ডিস্ট্রিবিউশন",
+      "about": "Territory, area, key account, corporate and B2B sales",
+      "keywords": [
+        "sales executive",
+        "sales officer",
+        "territory officer",
+        "territory sales",
+        "area manager",
+        "business development",
+        "key account",
+        "corporate sales",
+        "dealer",
+        "distribution"
+      ],
+      "skills": [
+        "A record of hitting targets",
+        "Distributor and channel management",
+        "Negotiation",
+        "CRM tools"
+      ],
+      "adjacent": [
+        {
+          "function": "marketing",
+          "bridge": [
+            "Digital marketing",
+            "Brand campaigns"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "title": "Marketing & brand",
+      "short": "Marketing",
+      "title_bn": "মার্কেটিং ও ব্র্যান্ড",
+      "about": "Brand, digital marketing, communications, content",
+      "keywords": [
+        "marketing executive",
+        "digital marketing",
+        "brand executive",
+        "brand manager",
+        "social media",
+        "content",
+        "seo",
+        "performance marketing",
+        "communication"
+      ],
+      "skills": [
+        "Meta & Google Ads",
+        "Analytics (GA4)",
+        "Bangla and English copywriting",
+        "Campaign reporting"
+      ],
+      "adjacent": [
+        {
+          "function": "data",
+          "bridge": [
+            "Marketing analytics",
+            "SQL"
+          ]
+        },
+        {
+          "function": "sales",
+          "bridge": [
+            "Field sales experience"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "title": "Finance & accounts",
+      "short": "Finance",
+      "title_bn": "ফিন্যান্স ও হিসাব",
+      "about": "Accounts, audit, tax & VAT, treasury, FP&A",
+      "keywords": [
+        "accountant",
+        "accounts officer",
+        "accounts executive",
+        "finance executive",
+        "finance officer",
+        "audit",
+        "tax",
+        "vat",
+        "account"
+      ],
+      "skills": [
+        "ERP (SAP / Oracle) or Tally",
+        "VAT and tax returns",
+        "IFRS basics",
+        "ICAB CA / ICMAB CMA / ACCA progress"
+      ],
+      "adjacent": [
+        {
+          "function": "data",
+          "bridge": [
+            "Power BI",
+            "SQL"
+          ]
+        },
+        {
+          "function": "business_analyst",
+          "bridge": [
+            "Financial modelling",
+            "Process mapping"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hr_admin",
+      "title": "HR & admin",
+      "short": "HR & admin",
+      "title_bn": "এইচআর ও অ্যাডমিন",
+      "about": "Recruitment, payroll, people operations, administration, compliance",
+      "keywords": [
+        "hr executive",
+        "human resources",
+        "hr officer",
+        "admin officer",
+        "admin executive",
+        "hr & admin",
+        "talent acquisition",
+        "recruitment",
+        "payroll"
+      ],
+      "skills": [
+        "Bangladesh Labour Act",
+        "Payroll and tax deduction",
+        "HRIS tools",
+        "PGD in HRM"
+      ],
+      "adjacent": [
+        {
+          "function": "data",
+          "bridge": [
+            "HR analytics",
+            "Excel / Power BI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software",
+      "title": "Software engineering",
+      "short": "Software engineer",
+      "title_bn": "সফটওয়্যার ইঞ্জিনিয়ারিং",
+      "about": "Backend, frontend, mobile, QA, DevOps",
+      "keywords": [
+        "software engineer",
+        "software developer",
+        "developer",
+        "programmer",
+        "backend",
+        "frontend",
+        "full stack",
+        "fullstack",
+        "mobile app developer",
+        "android developer",
+        "ios developer",
+        "web developer",
+        "sqa",
+        "devops"
+      ],
+      "skills": [
+        "Data structures & algorithms",
+        "One backend stack (Node.js, Java, Python, .NET, PHP)",
+        "React or Flutter",
+        "SQL and system design",
+        "English for foreign clients"
+      ],
+      "adjacent": [
+        {
+          "function": "data",
+          "bridge": [
+            "Python (pandas)",
+            "Data pipelines"
+          ]
+        },
+        {
+          "function": "business_analyst",
+          "bridge": [
+            "Requirement analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "title": "Data & analytics",
+      "short": "Data analyst",
+      "title_bn": "ডেটা ও অ্যানালিটিক্স",
+      "about": "Data analyst, BI, MIS, data science",
+      "keywords": [
+        "data analyst",
+        "business intelligence",
+        "bi analyst",
+        "mis executive",
+        "mis officer",
+        "reporting analyst",
+        "data scientist",
+        "analytics"
+      ],
+      "skills": [
+        "Advanced SQL",
+        "Power BI or Tableau",
+        "Python (pandas)",
+        "Statistics and A/B testing",
+        "Business storytelling"
+      ],
+      "adjacent": [
+        {
+          "function": "software",
+          "bridge": [
+            "Software engineering",
+            "APIs"
+          ]
+        },
+        {
+          "function": "business_analyst",
+          "bridge": [
+            "Requirement analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business_analyst",
+      "title": "Business / product analyst",
+      "short": "Business analyst",
+      "title_bn": "বিজনেস / প্রোডাক্ট অ্যানালিস্ট",
+      "about": "Requirements, product, process improvement",
+      "keywords": [
+        "business analyst",
+        "product analyst",
+        "product owner",
+        "product manager",
+        "system analyst"
+      ],
+      "skills": [
+        "Requirement documents (BRD / SRS)",
+        "Process mapping",
+        "SQL",
+        "Jira and Agile"
+      ],
+      "adjacent": [
+        {
+          "function": "data",
+          "bridge": [
+            "SQL",
+            "Power BI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customer_service",
+      "title": "Customer service / call centre",
+      "short": "Customer service",
+      "title_bn": "কাস্টমার সার্ভিস / কল সেন্টার",
+      "about": "Contact centre agents, service desks, customer care",
+      "keywords": [
+        "customer service",
+        "call center",
+        "call centre",
+        "contact center",
+        "customer care",
+        "customer support",
+        "service desk"
+      ],
+      "skills": [
+        "Clear Bangla and English",
+        "CRM and ticketing tools",
+        "Complaint resolution",
+        "Typing speed"
+      ],
+      "adjacent": [
+        {
+          "function": "sales",
+          "bridge": [
+            "Target-based selling"
+          ]
+        },
+        {
+          "function": "officer",
+          "bridge": [
+            "Graduate programme application"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "title": "Design & creative",
+      "short": "Designer",
+      "title_bn": "ডিজাইন ও ক্রিয়েটিভ",
+      "about": "Graphic, UI/UX, motion, video",
+      "keywords": [
+        "graphic designer",
+        "ui designer",
+        "ux designer",
+        "ui/ux",
+        "visualizer",
+        "motion graphics",
+        "video editor",
+        "creative designer"
+      ],
+      "skills": [
+        "Figma (UI)",
+        "Adobe Photoshop / Illustrator",
+        "Motion (After Effects)",
+        "A strong portfolio"
+      ],
+      "adjacent": [
+        {
+          "function": "marketing",
+          "bridge": [
+            "Content strategy",
+            "Ads"
+          ]
+        },
+        {
+          "function": "software",
+          "bridge": [
+            "HTML/CSS",
+            "React"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "title": "Engineering (civil, electrical, mechanical)",
+      "short": "Engineer",
+      "title_bn": "ইঞ্জিনিয়ারিং",
+      "about": "Site, project, maintenance and production engineers",
+      "keywords": [
+        "civil engineer",
+        "site engineer",
+        "structural engineer",
+        "project engineer",
+        "electrical engineer",
+        "mechanical engineer",
+        "maintenance engineer",
+        "production engineer"
+      ],
+      "skills": [
+        "AutoCAD / ETABS",
+        "Estimation and BOQ",
+        "BNBC code",
+        "Site safety",
+        "PMP"
+      ],
+      "adjacent": [
+        {
+          "function": "business_analyst",
+          "bridge": [
+            "Project planning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "merchandising",
+      "title": "Merchandising (garments)",
+      "short": "Merchandiser",
+      "title_bn": "মার্চেন্ডাইজিং",
+      "about": "Buyer communication, costing, production follow-up",
+      "keywords": [
+        "merchandiser",
+        "merchandising",
+        "buying house",
+        "apparel",
+        "knit",
+        "woven",
+        "sourcing"
+      ],
+      "skills": [
+        "Costing and consumption",
+        "Buyer communication in English",
+        "Fabric & trims",
+        "Time-and-action follow-up"
+      ],
+      "adjacent": [
+        {
+          "function": "sales",
+          "bridge": [
+            "Business development",
+            "Buyer acquisition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "factory_worker",
+      "title": "Factory worker / operator",
+      "short": "Factory operator",
+      "title_bn": "কারখানা শ্রমিক / অপারেটর",
+      "about": "Sewing and machine operators, helpers, line supervisors",
+      "keywords": [
+        "sewing operator",
+        "machine operator",
+        "helper",
+        "garment worker",
+        "operator",
+        "quality inspector",
+        "line supervisor"
+      ],
+      "skills": [
+        "Operating several machine types",
+        "Quality inspection",
+        "Line supervision"
+      ],
+      "level_multiplier_override": {
+        "entry": 1.0,
+        "junior": 1.08,
+        "mid": 1.18,
+        "senior": 1.35,
+        "lead": 1.7
+      },
+      "sigma": 0.12,
+      "adjacent": [
+        {
+          "function": "merchandising",
+          "bridge": [
+            "English",
+            "Costing",
+            "Computer skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "program_officer",
+      "title": "Programme / field officer (development)",
+      "short": "Programme officer",
+      "title_bn": "প্রোগ্রাম / ফিল্ড অফিসার",
+      "about": "Project, programme, field and M&E roles in NGOs and UN agencies",
+      "keywords": [
+        "program officer",
+        "programme officer",
+        "field officer",
+        "project officer",
+        "monitoring",
+        "m&e",
+        "community",
+        "humanitarian"
+      ],
+      "skills": [
+        "Monitoring & evaluation",
+        "Proposal and report writing",
+        "Kobo / ODK data collection",
+        "Donor compliance"
+      ],
+      "adjacent": [
+        {
+          "function": "data",
+          "bridge": [
+            "Survey analysis",
+            "Power BI"
+          ]
+        }
+      ]
+    }
+  ],
+  "mix_level": {
+    "entry": 0.2,
+    "junior": 0.35,
+    "mid": 0.3,
+    "senior": 0.15
+  },
+  "match_order": [
+    "mnc_fmcg",
+    "telecom",
+    "fintech",
+    "foreign_bank",
+    "large_bank",
+    "top_software",
+    "local_conglomerate",
+    "un_agency",
+    "ngo",
+    "rmg",
+    "other_mnc",
+    "other_bank",
+    "local_software"
+  ],
+  "experience_credit": {
+    "same_job_other_employer": 0.75,
+    "different_job": 0.4,
+    "note": "Assumption: years at a different kind of employer count 75% if you did the same kind of job there, 40% if it was a different job. Employers in Bangladesh, especially banks, often give only partial credit for outside experience."
+  },
+  "sector_bound_functions": [
+    "officer",
+    "program_officer"
+  ],
+  "sector_note": "General trainee/officer and programme roles differ by sector, so career-switch suggestions for them stay within the same sector (banking, corporate, tech, development)."
+}

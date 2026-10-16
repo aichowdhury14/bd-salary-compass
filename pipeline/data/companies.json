@@ -1,0 +1,183 @@
+{
+  "note": "Published or crowd-reported figures for named employers. Each figure links to a row in anchors.csv; companies without a figure are listed in taxonomy.json as examples only.",
+  "companies": [
+    {
+      "name": "Unilever Bangladesh",
+      "group": "mnc_fmcg",
+      "anchors": [
+        "unilever_mt_glassdoor"
+      ]
+    },
+    {
+      "name": "BAT Bangladesh",
+      "group": "mnc_fmcg",
+      "anchors": [
+        "bat_mt_nextjobz"
+      ]
+    },
+    {
+      "name": "Emami Bangladesh",
+      "group": "mnc_fmcg",
+      "anchors": [
+        "emami_mt_circular"
+      ]
+    },
+    {
+      "name": "Grameenphone",
+      "group": "telecom",
+      "anchors": [
+        "gp_mt_glassdoor",
+        "gp_csr_glassdoor"
+      ]
+    },
+    {
+      "name": "bKash",
+      "group": "fintech",
+      "anchors": [
+        "bkash_swe_glassdoor",
+        "bkash_mid_bdtech",
+        "bkash_senior_bdtech",
+        "bkash_lead_glassdoor"
+      ]
+    },
+    {
+      "name": "Pathao",
+      "group": "fintech",
+      "anchors": [
+        "pathao_mid_bdtech"
+      ]
+    },
+    {
+      "name": "Standard Chartered",
+      "group": "foreign_bank",
+      "anchors": [
+        "scb_officer_glassdoor",
+        "scb_senior_officer_bayt"
+      ]
+    },
+    {
+      "name": "The City Bank",
+      "group": "large_bank",
+      "anchors": [
+        "city_mto",
+        "city_mto_confirmed"
+      ]
+    },
+    {
+      "name": "Mutual Trust Bank",
+      "group": "large_bank",
+      "anchors": [
+        "mtb_mto",
+        "mtb_mto_confirmed"
+      ]
+    },
+    {
+      "name": "Dutch-Bangla Bank",
+      "group": "large_bank",
+      "anchors": [
+        "dbbl_mto",
+        "dbbl_mto_confirmed",
+        "dbbl_rm_glassdoor",
+        "dbbl_avp_bayt",
+        "dbbl_manager_bayt"
+      ]
+    },
+    {
+      "name": "BRAC Bank",
+      "group": "large_bank",
+      "anchors": [
+        "bracbank_mto",
+        "bracbank_so_bayt"
+      ]
+    },
+    {
+      "name": "Prime Bank",
+      "group": "large_bank",
+      "anchors": [
+        "prime_mto",
+        "prime_mto_confirmed"
+      ]
+    },
+    {
+      "name": "IDLC Finance",
+      "group": "large_bank",
+      "anchors": [
+        "idlc_mto"
+      ]
+    },
+    {
+      "name": "IPDC Finance",
+      "group": "large_bank",
+      "anchors": [
+        "ipdc_mto"
+      ]
+    },
+    {
+      "name": "AB Bank",
+      "group": "other_bank",
+      "anchors": [
+        "ab_mto",
+        "ab_mto_confirmed"
+      ]
+    },
+    {
+      "name": "Meghna Bank",
+      "group": "other_bank",
+      "anchors": [
+        "meghna_mto",
+        "meghna_mto_confirmed"
+      ]
+    },
+    {
+      "name": "SBAC Bank",
+      "group": "other_bank",
+      "anchors": [
+        "sbac_mto"
+      ]
+    },
+    {
+      "name": "Optimizely",
+      "group": "top_software",
+      "anchors": [
+        "optimizely_levels"
+      ]
+    },
+    {
+      "name": "Cefalo",
+      "group": "top_software",
+      "anchors": [
+        "cefalo_levels",
+        "cefalo_senior_bdtech"
+      ]
+    },
+    {
+      "name": "Enosis Solutions",
+      "group": "top_software",
+      "anchors": [
+        "enosis_levels",
+        "enosis_senior_bdtech"
+      ]
+    },
+    {
+      "name": "PRAN-RFL",
+      "group": "local_conglomerate",
+      "anchors": [
+        "pran_mt_glassdoor"
+      ]
+    },
+    {
+      "name": "UN agencies (National Officer A)",
+      "group": "un_agency",
+      "anchors": [
+        "un_noa_dhaka"
+      ]
+    },
+    {
+      "name": "Pubali Bank",
+      "group": "other_bank",
+      "anchors": [
+        "pubali_spo_glassdoor"
+      ]
+    }
+  ]
+}

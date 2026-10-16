@@ -1,0 +1,37 @@
+{
+  "id": "fa2026",
+  "label": "Finance Act 2026 (assessment years 2026-27 and 2027-28)",
+  "label_bn": "অর্থ আইন ২০২৬ (করবর্ষ ২০২৬-২৭ ও ২০২৭-২৮)",
+  "applies_to": "Resident individuals with salary income. The same rates apply to the return filed in 2026-27 and to monthly salary tax deduction during income year 2026-27.",
+  "thresholds": {
+    "general": 400000,
+    "woman_or_senior": 450000,
+    "disabled": 525000,
+    "third_gender": 525000,
+    "freedom_fighter": 550000
+  },
+  "parent_of_disabled_extra": 50000,
+  "slabs": [
+    { "width": 300000, "rate": 0.10 },
+    { "width": 400000, "rate": 0.15 },
+    { "width": 500000, "rate": 0.20 },
+    { "width": 2000000, "rate": 0.25 },
+    { "width": null, "rate": 0.30 }
+  ],
+  "employment_exemption": { "fraction": 0.3333333333333333, "cap": 500000 },
+  "rebate": { "income_rate": 0.03, "investment_rate": 0.10, "cap": 750000 },
+  "minimum_tax": { "regular": 5000, "new_taxpayer": 1000 },
+  "confidence_notes": [
+    "General threshold Tk 4,00,000 is confirmed by The Daily Star report on the passed Finance Bill (29 June 2026).",
+    "Category thresholds (women/65+ Tk 4.5 lakh, disabled & third gender Tk 5.25 lakh, gazetted war-wounded freedom fighters & July warriors Tk 5.5 lakh) follow the enacted figures reported by Roy Law Nexus (Aug 2026); the Finance Bill had proposed Tk 25,000 less for each. Some guides still show the bill figures.",
+    "Slab widths, investment rebate (lowest of 3% of taxable income, 10% of investment, Tk 7.5 lakh) and the flat Tk 5,000 minimum tax follow the KPMG/Rahman Rahman Huq summary of Finance Bill 2026 and post-Act guides.",
+    "Salary exemption (lower of one-third of salary or Tk 5 lakh) follows Roy Law Nexus and Arthonitee guides.",
+    "Verify against the Finance Act 2026 gazette on nbr.gov.bd before filing."
+  ],
+  "sources": [
+    { "name": "The Daily Star: Finance bill passed, tax-free income threshold set at Tk 4 lakh for FY2026-27", "url": "https://www.thedailystar.net/business/bangladesh-budget-2025-26/news/finance-bill-passed-tax-free-income-threshold-set-tk-4-lakh-fy2026-27-4211511", "date": "2026-06-29" },
+    { "name": "Roy Law Nexus: Bangladesh Income Tax Guide 2026-27", "url": "https://roylawnexus.com/legal-insights/bangladesh-income-tax-2026-finance-act-amendments", "date": "2026-08-23" },
+    { "name": "KPMG Bangladesh (Rahman Rahman Huq): Salient features of Finance Bill 2026", "url": "https://assets.kpmg.com/content/dam/kpmg/bd/pdf/Salient_features_of_Finance_Bill_2026(Tax-and_VAT).pdf", "date": "2026-06-11" },
+    { "name": "Arthonitee: Bangladesh tax changes for 2026-27", "url": "https://www.arthonitee.com/guides/bangladesh-tax-changes-2026-27", "date": "2026-07-09" }
+  ]
+}

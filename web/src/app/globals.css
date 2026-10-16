@@ -1,0 +1,180 @@
+@import "tailwindcss";
+
+/* "Ledger" theme: paper, navy ink and gold. Numbers in mono, like a payslip. */
+:root {
+  color-scheme: light;
+  --bg: #f3efe6;
+  --surface: #fffcf5;
+  --surface-2: #ece6d9;
+  --ink: #141b2d;
+  --ink-2: #4b5165;
+  --muted: #7c7f8c;
+  --line: #ddd5c4;
+  --rule: rgba(20, 27, 45, 0.06);
+  --brand: #1b2a55;          /* navy: primary actions */
+  --brand-ink: #fffcf5;
+  --gold: #8f6414;           /* gold for text (AA on paper) */
+  --gold-2: #c8973a;         /* gold for marks and fills */
+  --gold-soft: #f3e4bf;
+  --good: #1f6f4a;
+  --good-soft: #dcefe3;
+  --bad: #a3271f;
+  --bad-soft: #f6dfdb;
+  --warn: #8a5a00;
+  --warn-soft: #f6e8c8;
+  /* chart tokens */
+  --chart-surface: #fffcf5;
+  --series-1: #2a5bd7;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --series-gold: #c8973a;
+  --grid: #e6dfd0;
+  --axis: #c9c0ad;
+  --diverge-neg: #e34948;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0a0f1d;
+    --surface: #111829;
+    --surface-2: #18213a;
+    --ink: #ede7d9;
+    --ink-2: #b7b9c6;
+    --muted: #80859a;
+    --line: #243052;
+    --rule: rgba(237, 231, 217, 0.05);
+    --brand: #e2b350;
+    --brand-ink: #0a0f1d;
+    --gold: #e2b350;
+    --gold-2: #e2b350;
+    --gold-soft: #33290f;
+    --good: #4cc38a;
+    --good-soft: #10291f;
+    --bad: #f08a80;
+    --bad-soft: #351816;
+    --warn: #f0b24a;
+    --warn-soft: #32250c;
+    --chart-surface: #111829;
+    --series-1: #5b86f0;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --series-gold: #e2b350;
+    --grid: #1f2945;
+    --axis: #34406a;
+    --diverge-neg: #e66767;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0a0f1d;
+  --surface: #111829;
+  --surface-2: #18213a;
+  --ink: #ede7d9;
+  --ink-2: #b7b9c6;
+  --muted: #80859a;
+  --line: #243052;
+  --rule: rgba(237, 231, 217, 0.05);
+  --brand: #e2b350;
+  --brand-ink: #0a0f1d;
+  --gold: #e2b350;
+  --gold-2: #e2b350;
+  --gold-soft: #33290f;
+  --good: #4cc38a;
+  --good-soft: #10291f;
+  --bad: #f08a80;
+  --bad-soft: #351816;
+  --warn: #f0b24a;
+  --warn-soft: #32250c;
+  --chart-surface: #111829;
+  --series-1: #5b86f0;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-gold: #e2b350;
+  --grid: #1f2945;
+  --axis: #34406a;
+  --diverge-neg: #e66767;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-gold: var(--gold);
+  --color-gold-2: var(--gold-2);
+  --color-gold-soft: var(--gold-soft);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --font-sans: var(--font-plex-sans), var(--font-bengali), system-ui, sans-serif;
+  --font-serif: var(--font-plex-serif), var(--font-bengali), Georgia, serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, "Cascadia Mono", monospace;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-plex-sans), var(--font-bengali), system-ui, sans-serif;
+}
+
+/* Faint ledger rules behind the hero */
+.ledger {
+  background-image: repeating-linear-gradient(to bottom, transparent 0 31px, var(--rule) 31px 32px);
+}
+
+/* Payslip edge: a dashed tear line */
+.tear {
+  border-top: 1.5px dashed var(--line);
+}
+
+.num {
+  font-family: var(--font-plex-mono), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.eyebrow {
+  font-family: var(--font-plex-mono), ui-monospace, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.ticker-track {
+  animation: ticker 60s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track { animation: none; }
+}
+
+input[type="range"] {
+  accent-color: var(--gold-2);
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold-2);
+  outline-offset: 2px;
+}
