@@ -15,7 +15,7 @@ export function SiteFooter() {
         <div>
           <p className="eyebrow mb-1">Data</p>
           <p className="text-ink-2">
-            Updated October 2026. <Link className="underline underline-offset-2" href="/methodology">Sources & method</Link>
+            Updated November 2026. <Link className="underline underline-offset-2" href="/methodology">Sources & method</Link>
           </p>
         </div>
       </div>

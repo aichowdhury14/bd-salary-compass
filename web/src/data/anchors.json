@@ -1430,10 +1430,10 @@
   },
   "range_type": "point",
   "source_type": "official",
-  "source_name": "Minimum Wage Board gazette for RMG workers (Dec 2023; still in force Oct 2026)",
+  "source_name": "Minimum Wage Board gazette for RMG workers (Dec 2023; still in force Nov 2026)",
   "source_url": "https://en.ittefaq.com.bd/6792/tk-12-500-finalised-as-minimum-rmg-wage",
   "published": "2023-12",
-  "note": "Legal minimum gross for the entry grade; overtime is extra",
+  "note": "Legal minimum gross for the entry grade; overtime is extra. A new wage board was announced on 30 Oct 2026 and a revision is expected (unions demand Tk 30-37k)",
   "model_median": 12561,
   "residual_pct": -0.5
  },

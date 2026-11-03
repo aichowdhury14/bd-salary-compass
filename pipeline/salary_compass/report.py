@@ -104,6 +104,7 @@ def render(a: dict, charts: list[str]) -> str:
         "- No public, crawlable dataset of Bangladeshi salaries exists, and Bdjobs.com's robots.txt disallows crawlers, so Bdjobs was not scraped. With a licensed job-post feed, `pipeline/ingest.py` can turn posts into more anchors.",
         "- Several big employers (Unilever, BAT, Grameenphone, bKash, BRAC Bank, EBL) don't publish salaries. Their figures are crowd-reported (Glassdoor, Levels.fyi) or come from career blogs, with small samples.",
         "- City adjustments outside Dhaka are assumptions. Pharma medical promotion officers are not covered.",
+        "- Garment worker pay uses the Tk 12,500 minimum wage of December 2023. A new minimum wage board was announced on 30 October 2026, so expect this figure to change.",
         "- Tax rules come from post-Act guides and the Finance Bill summary. Check them against the Finance Act 2026 gazette before filing.",
         "",
         "## Sources",

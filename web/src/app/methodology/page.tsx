@@ -155,6 +155,9 @@ export default function Page() {
           <ul className="text-sm text-ink-2 list-disc pl-5 space-y-1.5">
             <li>Estimates, not offers. Pay varies a lot between individual companies, and the figures are monthly gross before tax.</li>
             <li>Nearly all figures are from Dhaka. Pay outside Dhaka uses assumed adjustments.</li>
+            <li>
+              Garment worker pay uses the Tk 12,500 minimum wage set in December 2023. A new minimum wage board was announced on 30 October 2026, and the figure will be updated once a new wage is gazetted (<a className="underline" href="https://www.daily-sun.com/bangladesh/906332/minimum-wage-board-for-garment-workers-to-be-formed-on-sunday" target="_blank" rel="noopener noreferrer">Daily Sun</a>).
+            </li>
             <li>Pharma medical promotion officers (MPOs), a large job category, are not included: no published MPO salary figure was found.</li>
             <li>Senior and manager pay is extrapolated from the shared experience curve and is less certain.</li>
             <li>Unilever, BAT, Grameenphone, bKash and several banks don&apos;t publish salaries; their figures are crowd-reported or from career blogs, with small samples.</li>
