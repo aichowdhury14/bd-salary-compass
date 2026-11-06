@@ -10,7 +10,7 @@ import { tk, tkK, pct } from "@/lib/format";
 import { Card, ConfidenceBadge, Field, Note, NumberInput, Segmented, Select, Stat } from "@/components/ui";
 import { EmployerSelect, FunctionSelect, GOVT, parseEmployer } from "@/components/EmployerJobPicker";
 import { SalaryRange } from "@/components/SalaryRange";
-import { AiCoach } from "@/components/AiCoach";
+import { ChatCoach } from "@/components/ChatCoach";
 import { ForecastCard } from "@/components/ForecastCard";
 import { NegotiationScript } from "@/components/NegotiationScript";
 import { HundredDots, RaiseCheckCard, TakeHomeLine, WhatIfCard } from "@/components/PayInsights";
@@ -272,21 +272,14 @@ export function CheckTool() {
             </Card>
 
             {AI_COACH_ENABLED && (
-              <details className="group rounded-xl border border-line bg-surface p-4 sm:p-6">
-                <summary className="cursor-pointer list-none flex items-center justify-between gap-3">
-                  <span>
-                    <span className="eyebrow block mb-1">Optional · AI</span>
-                    <span className="font-serif text-lg font-semibold">Get a personalised script from AI (free)</span>
-                  </span>
-                  <span className="text-gold text-sm group-open:hidden">Open ↓</span>
-                </summary>
-                <div className="mt-4">
-                  <AiCoach
-                    profile={{ role: `${jobFunction(fnId).title} at ${where}`, level: levelLabel(level), employer: group(groupId).label, city: bench.cities.find((c) => c.id === city)!.label, years, monthlyGross: salary, skills: jobFunction(fnId).skills }}
-                    assessment={a}
-                  />
-                </div>
-              </details>
+              <Card eyebrow="Free · AI · English or বাংলা" title="Ask the AI coach">
+                {/* key: changing the job, salary or experience above starts a fresh chat with the new figures */}
+                <ChatCoach
+                  key={`${fnId}|${groupId}|${city}|${years}|${salary}`}
+                  profile={{ role: `${jobFunction(fnId).title} at ${where}`, level: levelLabel(level), employer: group(groupId).label, city: bench.cities.find((c) => c.id === city)!.label, years, monthlyGross: salary, skills: jobFunction(fnId).skills }}
+                  assessment={a}
+                />
+              </Card>
             )}
           </>
         ) : (

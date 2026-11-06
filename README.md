@@ -62,7 +62,7 @@ npm run dev                  # http://localhost:3000
 
 ### Optional free AI coach
 
-The salary check can show an AI coach that writes a personalised script and 90-day plan in English or Bangla. It uses free-tier AI services, so it costs nothing:
+The salary check can show an AI coach as a chat: starter questions, follow-ups, and replies in the language the visitor writes in (English or Bangla). It knows the visitor's results, and the conversation stays in the browser; nothing is saved. Each chat is capped at 10 questions and only the recent turns are re-sent, which keeps requests inside the free limits (`web/src/lib/chat.ts`). It uses free-tier AI services, so it costs nothing:
 
 | Order | Provider | Default model | Free allowance |
 |---|---|---|---|
