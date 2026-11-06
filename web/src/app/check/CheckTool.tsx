@@ -10,13 +10,12 @@ import { tk, tkK, pct } from "@/lib/format";
 import { Card, ConfidenceBadge, Field, Note, NumberInput, Segmented, Select, Stat } from "@/components/ui";
 import { EmployerSelect, FunctionSelect, GOVT, parseEmployer } from "@/components/EmployerJobPicker";
 import { SalaryRange } from "@/components/SalaryRange";
-import { ChatCoach } from "@/components/ChatCoach";
+import { useCoach, useShareSalary } from "@/components/coach/CoachProvider";
 import { ForecastCard } from "@/components/ForecastCard";
 import { NegotiationScript } from "@/components/NegotiationScript";
 import { HundredDots, RaiseCheckCard, TakeHomeLine, WhatIfCard } from "@/components/PayInsights";
 
-// The free AI coach (Groq, with Cloudflare Workers AI as backup) shows only with NEXT_PUBLIC_AI_COACH=on
-// plus GROQ_API_KEY and/or CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN. See README.
+// The AI coach itself floats on every page (see app/layout.tsx); this page shares its results with it.
 const AI_COACH_ENABLED = process.env.NEXT_PUBLIC_AI_COACH === "on";
 
 const KIND_LABEL: Record<RecKind, string> = {
@@ -61,6 +60,18 @@ export function CheckTool() {
   };
   const figures = !isGovt && fnId ? publishedFigures(groupId, fnId, company) : [];
   const where = company ?? (isGovt ? "government" : group(groupId).label);
+
+  // Let the AI coach (floating on every page) give advice about these results.
+  const { setOpen: openCoach } = useCoach();
+  useShareSalary(
+    a && fnId
+      ? {
+          profile: { role: `${jobFunction(fnId).title} at ${where}`, level: levelLabel(level), employer: group(groupId).label, city: bench.cities.find((c) => c.id === city)!.label, years, monthlyGross: salary, skills: jobFunction(fnId).skills },
+          assessment: a,
+        }
+      : null,
+    `${fnId}|${groupId}|${company}|${city}|${years}|${salary}`,
+  );
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,340px)_minmax(0,1fr)] items-start">
@@ -272,13 +283,16 @@ export function CheckTool() {
             </Card>
 
             {AI_COACH_ENABLED && (
-              <Card eyebrow="Free · AI · English or বাংলা" title="Ask the AI coach">
-                {/* key: changing the job, salary or experience above starts a fresh chat with the new figures */}
-                <ChatCoach
-                  key={`${fnId}|${groupId}|${city}|${years}|${salary}`}
-                  profile={{ role: `${jobFunction(fnId).title} at ${where}`, level: levelLabel(level), employer: group(groupId).label, city: bench.cities.find((c) => c.id === city)!.label, years, monthlyGross: salary, skills: jobFunction(fnId).skills }}
-                  assessment={a}
-                />
+              <Card eyebrow="Free · AI · English or বাংলা">
+                <div className="flex flex-wrap items-center justify-between gap-3">
+                  <p className="text-ink-2 text-sm max-w-md">
+                    Questions about these results? The AI coach has read them and can write a raise script, plan a job switch, or answer
+                    follow-ups.
+                  </p>
+                  <button type="button" onClick={() => openCoach(true)} className="rounded-lg bg-brand px-4 py-2.5 text-sm font-medium text-brand-ink hover:opacity-90">
+                    Ask the AI coach
+                  </button>
+                </div>
               </Card>
             )}
           </>

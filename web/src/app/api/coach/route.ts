@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { configuredProviders, openFirst } from "@/lib/coach";
 import { languageRule, MAX_QUESTION_CHARS, MAX_QUESTIONS, recentHistory } from "@/lib/chat";
+import { pageFor, PAGES, SITE_FACTS } from "@/lib/siteFacts";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -12,13 +13,8 @@ const MAX_TOKENS_FOLLOW_UP = 800;
 
 const Turn = z.object({ role: z.enum(["user", "assistant"]), content: z.string().max(8_000) });
 
-const Body = z.object({
-  messages: z
-    .array(Turn)
-    .min(1)
-    .max(MAX_QUESTIONS * 2)
-    .refine((m) => m[m.length - 1].role === "user", "The last message must be a question.")
-    .refine((m) => m.every((t) => t.role === "assistant" || t.content.length <= MAX_QUESTION_CHARS), "Question too long."),
+// Present only after the visitor has used the Salary check (kept while they move to other pages).
+const SalaryResults = z.object({
   profile: z.object({
     role: z.string().max(80),
     level: z.string().max(40),
@@ -38,12 +34,24 @@ const Body = z.object({
   skills: z.array(z.string().max(160)).max(8),
 });
 
-const SYSTEM = `You are a practical career and pay coach for people working in Bangladesh, chatting with one person on a salary-check website.
+const Body = z.object({
+  page: z.string().max(40).default("/"),
+  messages: z
+    .array(Turn)
+    .min(1)
+    .max(MAX_QUESTIONS * 2)
+    .refine((m) => m[m.length - 1].role === "user", "The last message must be a question.")
+    .refine((m) => m.every((t) => t.role === "assistant" || t.content.length <= MAX_QUESTION_CHARS), "Question too long."),
+  salary: SalaryResults.optional(),
+});
 
-The CONTEXT below holds their job profile, monthly gross salary (rounded), market estimates for comparable people, and recommendations the website already computed.
+const SYSTEM = `You are the AI coach on BD Salary Compass, a free website about pay, income tax and careers in Bangladesh. You chat with one visitor, who can open you from any page of the website.
+
+SITE FACTS below are the website's own data. THIS PERSON'S RESULTS appear only if they have used the Salary check.
 
 Ground rules:
-- Use only the salary figures in CONTEXT. Do not invent market numbers, company names or statistics, and do not do your own percentage arithmetic: when you suggest a target, use a figure from CONTEXT such as the median or 75th percentile. If the estimate's confidence is low, say the range is uncertain.
+- Use only figures from SITE FACTS or THIS PERSON'S RESULTS. Never invent salaries, company names or statistics, and do not do your own percentage arithmetic or tax calculations: quote a figure or example from the facts, or link the tool that works it out (their exact tax: [Take-home & tax](/tax); their fair pay: [Salary check](/check)). If an estimate's confidence is low, say the range is uncertain.
+- When a website tool would answer better, link it in Markdown exactly as listed in WEBSITE TOOLS. Do not link anything else.
 - Know the local context: festival bonuses (usually two basics a year), provident fund and gratuity, the annual increment and appraisal cycle (often January or July), notice periods, probation, and the job boards and LinkedIn used in Bangladesh. Negotiation is usually polite and indirect, and often in a mix of Bangla and English.
 - When asked for a plan or script, structure it as: 1) Where you stand (two lines). 2) What to say: a short script they can adapt. 3) A 90-day plan with three concrete skill or visibility actions. 4) Watch-outs: one or two risks. Keep it under 350 words.
 - For other questions and follow-ups, answer directly in under 150 words unless they ask for more.
@@ -71,7 +79,7 @@ const tk = (n: number) => `Tk ${Math.round(n).toLocaleString("en-IN")}`;
 export async function POST(req: Request) {
   const providers = configuredProviders();
   if (process.env.NEXT_PUBLIC_AI_COACH !== "on" || providers.length === 0) {
-    return Response.json({ error: "The AI coach is not configured on this server yet. The recommendations above still work." }, { status: 503 });
+    return Response.json({ error: "The AI coach is not configured on this server yet. The website's tools still work." }, { status: 503 });
   }
   const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "local";
   if (limited(ip)) {
@@ -89,22 +97,33 @@ export async function POST(req: Request) {
   if (!parsed.success) return Response.json({ error: "Invalid request." }, { status: 400 });
   const b = parsed.data;
 
-  const context = [
-    `Role: ${b.profile.role}; level: ${b.profile.level}; ${b.profile.years} years' experience; employer type: ${b.profile.employer}; location: ${b.profile.city}.`,
-    `Monthly gross salary: ${tk(b.profile.monthlyGross)}.`,
-    `Market estimate for comparable people: 25th percentile ${tk(b.market.p25)}, median ${tk(b.market.p50)}, 75th percentile ${tk(b.market.p75)}. This person is at about the ${b.market.percentile}th percentile. Estimate confidence: ${b.market.confidence}.`,
-    `Skills commonly asked for in this role in Bangladesh: ${b.skills.join("; ")}.`,
-    `The website's computed recommendations: ${b.recommendations.map((r, i) => `(${i + 1}) ${r}`).join(" ")}`,
-  ].join("\n");
+  const s = b.salary;
+  const results = s
+    ? [
+        `Role: ${s.profile.role}; level: ${s.profile.level}; ${s.profile.years} years' experience; employer type: ${s.profile.employer}; location: ${s.profile.city}.`,
+        `Monthly gross salary: ${tk(s.profile.monthlyGross)}.`,
+        `Market estimate for comparable people: 25th percentile ${tk(s.market.p25)}, median ${tk(s.market.p50)}, 75th percentile ${tk(s.market.p75)}. This person is at about the ${s.market.percentile}th percentile. Estimate confidence: ${s.market.confidence}.`,
+        `Skills commonly asked for in this role in Bangladesh: ${s.skills.join("; ")}.`,
+        `The website's computed recommendations: ${s.recommendations.map((r, i) => `(${i + 1}) ${r}`).join(" ")}`,
+      ].join("\n")
+    : "Not available: they have not used the Salary check yet. For questions about their own pay, suggest it.";
+  const page = PAGES[pageFor(b.page)];
   const history = recentHistory(b.messages);
   const latest = history[history.length - 1].content;
   const firstQuestion = b.messages.filter((t) => t.role === "user").length === 1;
+  const system = [
+    SYSTEM,
+    `SITE FACTS:\n${SITE_FACTS}`,
+    `THIS PERSON'S RESULTS:\n${results}`,
+    `The visitor is on the "${page}" page.`,
+    languageRule(latest),
+  ].join("\n\n");
 
   let opened;
   try {
     opened = await openFirst(
       providers,
-      [{ role: "system", content: `${SYSTEM}\n\nCONTEXT:\n${context}\n\n${languageRule(latest)}` }, ...history],
+      [{ role: "system", content: system }, ...history],
       { maxTokens: firstQuestion ? MAX_TOKENS_FIRST : MAX_TOKENS_FOLLOW_UP, signal: req.signal }, // stop generating if the visitor leaves
     );
   } catch {
@@ -116,8 +135,8 @@ export async function POST(req: Request) {
     return Response.json(
       {
         error: badKeys
-          ? "The AI coach is misconfigured on the server. The negotiation script above works without AI."
-          : "Today's free AI allowance is used up or the service is busy. Please try again later; the negotiation script above works without AI.",
+          ? "The AI coach is misconfigured on the server. The website's tools all work without AI."
+          : "Today's free AI allowance is used up or the service is busy. Please try again later; the website's tools all work without AI.",
         detail: opened.failures.join(", "),
       },
       { status: 503 },

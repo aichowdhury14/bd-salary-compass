@@ -1,10 +1,24 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 
-/** Minimal, safe Markdown (headings, lists, bold, paragraphs) built as React elements; no HTML injection. */
+// **bold** and [label](/path) links. Only paths on this site become links (AI answers use them to point
+// at the tools); anything else, such as an outside URL, stays plain text.
+const TOKEN = /(\*\*[^*]+\*\*|\[[^\]\n]+\]\(\/[\w\-/#?=&]*\))/g;
+const LINK = /^\[([^\]]+)\]\((\/[^)]*)\)$/;
+
+/** Minimal, safe Markdown (headings, lists, bold, internal links, paragraphs) built as React elements; no HTML injection. */
 function inline(text: string): ReactNode[] {
-  return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
-    part.startsWith("**") && part.endsWith("**") ? <strong key={i}>{part.slice(2, -2)}</strong> : part,
-  );
+  return text.split(TOKEN).map((part, i) => {
+    if (part.startsWith("**") && part.endsWith("**")) return <strong key={i}>{part.slice(2, -2)}</strong>;
+    const link = LINK.exec(part);
+    if (link)
+      return (
+        <Link key={i} href={link[2]} className="font-medium text-gold underline underline-offset-2 hover:opacity-80">
+          {link[1]}
+        </Link>
+      );
+    return part;
+  });
 }
 
 export function SimpleMarkdown({ text }: { text: string }) {

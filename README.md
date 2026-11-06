@@ -62,7 +62,7 @@ npm run dev                  # http://localhost:3000
 
 ### Optional free AI coach
 
-The salary check can show an AI coach as a chat: starter questions, follow-ups, and replies in the language the visitor writes in (English or Bangla). It knows the visitor's results, and the conversation stays in the browser; nothing is saved. Each chat is capped at 10 questions and only the recent turns are re-sent, which keeps requests inside the free limits (`web/src/lib/chat.ts`). It uses free-tier AI services, so it costs nothing:
+Every page can show an AI coach: a floating "Ask AI" chat with starter questions for that page, follow-ups, and replies in the language the visitor writes in (English or Bangla). The conversation carries on as the visitor moves between pages. It answers from the site's own data (`web/src/lib/siteFacts.ts`: fresh-graduate pay by employer type, tax rules with worked examples, inflation), links to the right tool, and after a Salary check it also knows that visitor's results. The conversation stays in the browser; nothing is saved. Each chat is capped at 10 questions and only the recent turns are re-sent, which keeps requests inside the free limits (`web/src/lib/chat.ts`). It uses free-tier AI services, so it costs nothing:
 
 | Order | Provider | Default model | Free allowance |
 |---|---|---|---|

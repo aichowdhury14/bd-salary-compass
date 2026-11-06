@@ -2,7 +2,13 @@ import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Mono, IBM_Plex_Sans, IBM_Plex_Serif, Noto_Sans_Bengali } from "next/font/google";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { CoachProvider } from "@/components/coach/CoachProvider";
+import { ChatWidget } from "@/components/coach/ChatWidget";
 import "./globals.css";
+
+// The free AI coach (Groq, with Cloudflare Workers AI as backup) shows on every page only with
+// NEXT_PUBLIC_AI_COACH=on plus GROQ_API_KEY and/or CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN. See README.
+const AI_COACH_ENABLED = process.env.NEXT_PUBLIC_AI_COACH === "on";
 
 const sans = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600"], variable: "--font-plex-sans", display: "swap" });
 const serif = IBM_Plex_Serif({ subsets: ["latin"], weight: ["500", "600"], variable: "--font-plex-serif", display: "swap" });
@@ -33,9 +39,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${sans.variable} ${serif.variable} ${mono.variable} ${bengali.variable}`}>
       <body className="min-h-dvh flex flex-col antialiased">
-        <SiteHeader />
-        <main className="flex-1 w-full max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-10">{children}</main>
-        <SiteFooter />
+        <CoachProvider>
+          <SiteHeader />
+          <main className="flex-1 w-full max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-10">{children}</main>
+          <SiteFooter />
+          {AI_COACH_ENABLED && <ChatWidget />}
+        </CoachProvider>
       </body>
     </html>
   );
