@@ -56,6 +56,9 @@ describe("coach providers", () => {
     expect(r.ok && r.provider.id).toBe("cloudflare");
     expect(r.ok && (await collect(r.text))).toBe("নমস্কার");
     expect(calls.map((c) => c.url.includes("groq"))).toEqual([true, false]);
+    // Gemma 4's thinking must be off, or the answer comes back empty
+    expect(calls[1].body).toMatchObject({ chat_template_kwargs: { enable_thinking: false } });
+    expect(calls[0].body).not.toHaveProperty("chat_template_kwargs");
   });
 
   it("falls back on network errors too, and reports every failure when all providers fail", async () => {

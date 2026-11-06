@@ -9,6 +9,7 @@ export interface Provider {
   url: string;
   key: string;
   model: string;
+  extra?: Record<string, unknown>; // provider-specific request fields
 }
 
 export interface ChatMessage {
@@ -37,6 +38,9 @@ export function configuredProviders(env: Record<string, string | undefined> = pr
       key: env.CLOUDFLARE_API_TOKEN,
       // ~25 Neurons per answer, so the free 10,000 a day covers roughly 390 answers; good at Bangla.
       model: env.CLOUDFLARE_MODEL || "@cf/google/gemma-4-26b-a4b-it",
+      // Gemma 4 "thinks" first by default: in testing all 120 tokens went to hidden reasoning and the
+      // answer was empty. This switches thinking off (reasoning_effort "none" did not).
+      extra: { chat_template_kwargs: { enable_thinking: false } },
     });
   }
   return providers;
@@ -66,6 +70,7 @@ export async function openFirst(
           max_tokens: opts.maxTokens,
           temperature: 0.6,
           stream: true,
+          ...provider.extra,
         }),
         signal: opts.signal,
       });
