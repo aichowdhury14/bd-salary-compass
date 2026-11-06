@@ -10,7 +10,6 @@ import { SimpleMarkdown } from "../SimpleMarkdown";
 import { useCoach, type SalaryContext } from "./CoachProvider";
 
 interface Message extends ChatTurn {
-  by?: string; // which model wrote it
   failed?: boolean;
   stopped?: boolean;
 }
@@ -178,7 +177,7 @@ export function ChatWidget() {
         const data = await res.json().catch(() => ({}));
         throw new Error(data.error ?? `Request failed (${res.status})`);
       }
-      const by = res.headers.get("x-coach-model") ?? undefined;
+      // The model's name stays in the x-coach-model response header for debugging; it isn't shown.
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
       let answer = "";
@@ -187,7 +186,7 @@ export function ChatWidget() {
         if (done) break;
         answer += decoder.decode(value, { stream: true });
         const soFar = answer;
-        updateLast((m) => ({ ...m, content: soFar, by }));
+        updateLast((m) => ({ ...m, content: soFar }));
       }
     } catch (e) {
       if ((e as Error).name === "AbortError") updateLast((m) => ({ ...m, stopped: true }));
@@ -335,7 +334,6 @@ export function ChatWidget() {
                           <button type="button" onClick={() => copy(i)} className="underline hover:text-ink">
                             {copied === i ? "Copied" : "Copy"}
                           </button>
-                          {m.by && <span>· {m.by}</span>}
                         </p>
                       )}
                     </>
