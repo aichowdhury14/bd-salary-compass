@@ -615,24 +615,24 @@
   "officer_curves": {
    "large_bank": {
     "entry": 73900.0,
-    "junior": 93300.0,
-    "mid": 117600.0,
-    "senior": 148300.0,
-    "lead": 158700.0
+    "junior": 93400.0,
+    "mid": 117500.0,
+    "senior": 148200.0,
+    "lead": 158500.0
    },
    "mnc_fmcg": {
     "entry": 78800.0,
-    "junior": 113500.0,
-    "mid": 163200.0,
-    "senior": 235000.0,
-    "lead": 287000.0
+    "junior": 113700.0,
+    "mid": 163300.0,
+    "senior": 235100.0,
+    "lead": 287200.0
    },
    "local_conglomerate": {
     "entry": 30400.0,
-    "junior": 43200.0,
+    "junior": 43300.0,
     "mid": 61200.0,
-    "senior": 86800.0,
-    "lead": 104500.0
+    "senior": 86900.0,
+    "lead": 104600.0
    }
   },
   "functions": [
@@ -643,14 +643,14 @@
     "group": "private_university",
     "group_label": "Private university",
     "confidence": "medium",
-    "entry_p50": 41100.0,
-    "mid_p25": 67900.0,
-    "mid_p50": 87200.0,
-    "mid_p75": 112000.0,
-    "senior_p50": 126900.0,
+    "entry_p50": 43800.0,
+    "mid_p25": 73600.0,
+    "mid_p50": 94100.0,
+    "mid_p75": 120300.0,
+    "senior_p50": 137800.0,
     "best_group": "private_university",
     "best_group_label": "Private university",
-    "best_mid_p50": 87200.0,
+    "best_mid_p50": 94100.0,
     "best_confidence": "medium"
    },
    {
@@ -661,13 +661,13 @@
     "group_label": "Large local company / group",
     "confidence": "low",
     "entry_p50": 38000.0,
-    "mid_p25": 55800.0,
+    "mid_p25": 55900.0,
     "mid_p50": 76400.0,
     "mid_p75": 104500.0,
-    "senior_p50": 108300.0,
+    "senior_p50": 108400.0,
     "best_group": "local_software",
     "best_group_label": "Other software / IT company",
-    "best_mid_p50": 67400.0,
+    "best_mid_p50": 67500.0,
     "best_confidence": "medium"
    },
    {
@@ -696,12 +696,12 @@
     "confidence": "medium",
     "entry_p50": 34100.0,
     "mid_p25": 54100.0,
-    "mid_p50": 68700.0,
+    "mid_p50": 68600.0,
     "mid_p75": 87100.0,
     "senior_p50": 97400.0,
     "best_group": "telecom",
     "best_group_label": "Mobile operator",
-    "best_mid_p50": 151700.0,
+    "best_mid_p50": 151600.0,
     "best_confidence": "medium"
    },
    {
@@ -711,14 +711,14 @@
     "group": "local_conglomerate",
     "group_label": "Large local company / group",
     "confidence": "medium",
-    "entry_p50": 33600.0,
+    "entry_p50": 33500.0,
     "mid_p25": 53300.0,
     "mid_p50": 67500.0,
     "mid_p75": 85400.0,
     "senior_p50": 95700.0,
     "best_group": "top_software",
     "best_group_label": "Top software company",
-    "best_mid_p50": 116800.0,
+    "best_mid_p50": 116700.0,
     "best_confidence": "high"
    },
    {
@@ -731,11 +731,11 @@
     "entry_p50": 30400.0,
     "mid_p25": 48900.0,
     "mid_p50": 61200.0,
-    "mid_p75": 76600.0,
-    "senior_p50": 86800.0,
+    "mid_p75": 76700.0,
+    "senior_p50": 86900.0,
     "best_group": "mnc_fmcg",
     "best_group_label": "Multinational FMCG & tobacco",
-    "best_mid_p50": 163200.0,
+    "best_mid_p50": 163300.0,
     "best_confidence": "medium"
    },
    {
@@ -769,7 +769,7 @@
     "senior_p50": 79600.0,
     "best_group": "other_mnc",
     "best_group_label": "Other multinational",
-    "best_mid_p50": 111200.0,
+    "best_mid_p50": 111100.0,
     "best_confidence": "medium"
    },
    {
@@ -782,7 +782,7 @@
     "entry_p50": 26900.0,
     "mid_p25": 41200.0,
     "mid_p50": 54200.0,
-    "mid_p75": 71300.0,
+    "mid_p75": 71400.0,
     "senior_p50": 76900.0,
     "best_group": "local_conglomerate",
     "best_group_label": "Large local company / group",
@@ -803,7 +803,7 @@
     "senior_p50": 73900.0,
     "best_group": "telecom",
     "best_group_label": "Mobile operator",
-    "best_mid_p50": 115100.0,
+    "best_mid_p50": 115000.0,
     "best_confidence": "medium"
    },
    {
@@ -817,10 +817,10 @@
     "mid_p25": 36900.0,
     "mid_p50": 50100.0,
     "mid_p75": 67900.0,
-    "senior_p50": 71000.0,
+    "senior_p50": 71100.0,
     "best_group": "un_agency",
     "best_group_label": "UN agency (National Officer posts)",
-    "best_mid_p50": 416700.0,
+    "best_mid_p50": 416300.0,
     "best_confidence": "medium"
    },
    {
@@ -830,14 +830,14 @@
     "group": "local_conglomerate",
     "group_label": "Large local company / group",
     "confidence": "high",
-    "entry_p50": 21800.0,
+    "entry_p50": 21700.0,
     "mid_p25": 35100.0,
     "mid_p50": 43800.0,
     "mid_p75": 54600.0,
     "senior_p50": 62100.0,
     "best_group": "other_mnc",
     "best_group_label": "Other multinational",
-    "best_mid_p50": 86700.0,
+    "best_mid_p50": 86600.0,
     "best_confidence": "medium"
    },
    {
@@ -847,8 +847,8 @@
     "group": "rmg",
     "group_label": "Garments factory / buying house",
     "confidence": "medium",
-    "entry_p50": 19700.0,
-    "mid_p25": 34300.0,
+    "entry_p50": 19600.0,
+    "mid_p25": 34200.0,
     "mid_p50": 43400.0,
     "mid_p75": 55000.0,
     "senior_p50": 64500.0,
@@ -883,7 +883,7 @@
     "confidence": "high",
     "entry_p50": 20400.0,
     "mid_p25": 33200.0,
-    "mid_p50": 41100.0,
+    "mid_p50": 41000.0,
     "mid_p75": 50800.0,
     "senior_p50": 58200.0,
     "best_group": "telecom",
@@ -900,12 +900,12 @@
     "confidence": "medium",
     "entry_p50": 18700.0,
     "mid_p25": 29600.0,
-    "mid_p50": 37700.0,
+    "mid_p50": 37600.0,
     "mid_p75": 47900.0,
     "senior_p50": 53400.0,
     "best_group": "local_conglomerate",
     "best_group_label": "Large local company / group",
-    "best_mid_p50": 37700.0,
+    "best_mid_p50": 37600.0,
     "best_confidence": "medium"
    },
    {
@@ -932,14 +932,14 @@
     "group": "local_conglomerate",
     "group_label": "Large local company / group",
     "confidence": "high",
-    "entry_p50": 15600.0,
+    "entry_p50": 15500.0,
     "mid_p25": 25100.0,
     "mid_p50": 31300.0,
     "mid_p75": 39000.0,
     "senior_p50": 44400.0,
     "best_group": "other_mnc",
     "best_group_label": "Other multinational",
-    "best_mid_p50": 62000.0,
+    "best_mid_p50": 61900.0,
     "best_confidence": "medium"
    },
    {
@@ -988,9 +988,9 @@
      "UNICEF",
      "WFP"
     ],
-    "entry_p50": 201400.0,
-    "entry_p25": 154400.0,
-    "entry_p75": 262700.0,
+    "entry_p50": 201000.0,
+    "entry_p25": 154100.0,
+    "entry_p75": 262300.0,
     "confidence": "medium"
    },
    {
@@ -1019,7 +1019,7 @@
      "Eastern Bank (EBL)"
     ],
     "entry_p50": 73900.0,
-    "entry_p25": 61100.0,
+    "entry_p25": 61000.0,
     "entry_p75": 89500.0,
     "confidence": "high"
    },
@@ -1033,7 +1033,7 @@
      "Robi Axiata",
      "Banglalink"
     ],
-    "entry_p50": 65900.0,
+    "entry_p50": 65800.0,
     "entry_p25": 53200.0,
     "entry_p75": 81500.0,
     "confidence": "high"
@@ -1048,7 +1048,7 @@
      "HSBC",
      "Citibank N.A."
     ],
-    "entry_p50": 63100.0,
+    "entry_p50": 63000.0,
     "entry_p25": 50000.0,
     "entry_p75": 79500.0,
     "confidence": "medium"
@@ -1063,7 +1063,7 @@
      "Meghna Bank",
      "Pubali Bank"
     ],
-    "entry_p50": 61400.0,
+    "entry_p50": 61300.0,
     "entry_p25": 50500.0,
     "entry_p75": 74500.0,
     "confidence": "high"
@@ -1078,7 +1078,7 @@
      "Pharma & paint multinationals",
      "International buying offices"
     ],
-    "entry_p50": 60400.0,
+    "entry_p50": 60300.0,
     "entry_p25": 45700.0,
     "entry_p75": 79700.0,
     "confidence": "medium"
@@ -1093,9 +1093,9 @@
      "Cefalo",
      "Field Nation"
     ],
-    "entry_p50": 52600.0,
-    "entry_p25": 41500.0,
-    "entry_p75": 66800.0,
+    "entry_p50": 52500.0,
+    "entry_p25": 41400.0,
+    "entry_p75": 66700.0,
     "confidence": "medium"
    },
    {
@@ -1109,7 +1109,7 @@
      "Pathao"
     ],
     "entry_p50": 45400.0,
-    "entry_p25": 35700.0,
+    "entry_p25": 35600.0,
     "entry_p75": 57800.0,
     "confidence": "medium"
    },
@@ -1123,9 +1123,9 @@
      "BRAC University",
      "Independent University (IUB)"
     ],
-    "entry_p50": 41100.0,
-    "entry_p25": 32500.0,
-    "entry_p75": 52000.0,
+    "entry_p50": 43800.0,
+    "entry_p25": 34800.0,
+    "entry_p75": 55300.0,
     "confidence": "medium"
    },
    {
@@ -1140,7 +1140,7 @@
     ],
     "entry_p50": 30400.0,
     "entry_p25": 25000.0,
-    "entry_p75": 37100.0,
+    "entry_p75": 37000.0,
     "confidence": "high"
    },
    {
@@ -1183,7 +1183,7 @@
      "Buying houses"
     ],
     "entry_p50": 20000.0,
-    "entry_p25": 14500.0,
+    "entry_p25": 14400.0,
     "entry_p75": 27800.0,
     "confidence": "low"
    },
@@ -1204,30 +1204,30 @@
   ],
   "level_multipliers": {
    "entry": 1.0,
-   "junior": 1.419,
-   "mid": 2.011,
-   "senior": 2.852,
-   "lead": 3.433
+   "junior": 1.422,
+   "mid": 2.013,
+   "senior": 2.855,
+   "lead": 3.436
   },
   "group_multipliers": {
-   "mnc_fmcg": 2.587,
+   "mnc_fmcg": 2.588,
    "telecom": 2.164,
-   "fintech": 1.492,
+   "fintech": 1.491,
    "foreign_bank": 2.071,
    "large_bank": 2.428,
    "other_bank": 2.016,
    "top_software": 1.568,
-   "local_software": 0.814,
-   "other_mnc": 1.983,
+   "local_software": 0.815,
+   "other_mnc": 1.982,
    "local_conglomerate": 1.0,
    "rmg": 0.658,
    "sme": 0.585,
-   "private_university": 1.035,
+   "private_university": 1.042,
    "ngo": 0.589,
-   "un_agency": 4.761
+   "un_agency": 4.757
   },
   "reference_group": "local_conglomerate",
-  "n_anchors": 108,
+  "n_anchors": 110,
   "n_sources": 60
  },
  "govt_entry": [
@@ -1247,17 +1247,17 @@
   }
  ],
  "validation": {
-  "n_evaluated": 103,
-  "median_abs_pct_error": 21.9,
-  "mean_abs_pct_error": 25.8,
-  "baseline_median_abs_pct_error": 28.2,
+  "n_evaluated": 105,
+  "median_abs_pct_error": 21.8,
+  "mean_abs_pct_error": 25.7,
+  "baseline_median_abs_pct_error": 29.2,
   "by_source_type": {
    "aggregator": 22.8,
    "blog": 23.6,
    "job_circular": 8.4,
    "job_post": 29.7,
    "news": 1.6,
-   "news_secondary": 51.5,
+   "news_secondary": 51.3,
    "recruiter": 12.2
   }
  }

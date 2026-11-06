@@ -17,7 +17,7 @@
   "source_url": "https://www.glassdoor.com/Monthly-Pay/Unilever-Management-Trainee-Dhaka-Monthly-Pay-EJI_IE3513.0,8_KO9,27_IL.28,33_IM1237.htm",
   "published": "2026",
   "note": "Unilever Future Leaders Programme; base about 88k; Unilever does not publish the figure",
-  "model_median": 78766,
+  "model_median": 78757,
   "residual_pct": 11.7
  },
  {
@@ -38,7 +38,7 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "BAT Bangladesh management trainee programme (unofficial estimate)",
-  "model_median": 78766,
+  "model_median": 78757,
   "residual_pct": 44.8
  },
  {
@@ -59,7 +59,7 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "FMCG & consumer goods graduate entry range",
-  "model_median": 78766,
+  "model_median": 78757,
   "residual_pct": 25.4
  },
  {
@@ -80,7 +80,7 @@
   "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
   "published": "2025-11",
   "note": "Emami Bangladesh (FMCG) MTO circular",
-  "model_median": 78766,
+  "model_median": 78757,
   "residual_pct": -27.1
  },
  {
@@ -101,7 +101,7 @@
   "source_url": "https://www.glassdoor.com/Monthly-Pay/GrameenPhone-Management-Trainee-Dhaka-Monthly-Pay-EJI_IE405018.0,12_KO13,31_IL.32,37_IM1237.htm",
   "published": "2024-11",
   "note": "Median base; small sample",
-  "model_median": 65870,
+  "model_median": 65849,
   "residual_pct": -8.9
  },
  {
@@ -123,8 +123,8 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "Telecom & fintech graduate entry range",
-  "model_median": 54693,
-  "residual_pct": 39.8
+  "model_median": 54662,
+  "residual_pct": 39.9
  },
  {
   "id": "gp_csr_glassdoor",
@@ -147,7 +147,7 @@
   "source_url": "https://www.glassdoor.com/Monthly-Pay/GrameenPhone-Customer-Service-Representative-Dhaka-Monthly-Pay-EJI_IE405018.0,12_KO13,44_IL.45,50_IM1237.htm",
   "published": "2025-09",
   "note": "Median of 5 submissions",
-  "model_median": 48777,
+  "model_median": 48770,
   "residual_pct": -18.0
  },
  {
@@ -173,7 +173,7 @@
   "source_url": "https://paylab.com/bd/gehalter/kundendienst",
   "published": "2026",
   "note": "Gross range for customer support roles",
-  "model_median": 17259,
+  "model_median": 17257,
   "residual_pct": 9.3
  },
  {
@@ -194,8 +194,8 @@
   "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
   "published": "2025-06",
   "note": "The City Bank MTO training period",
-  "model_median": 73924,
-  "residual_pct": 8.2
+  "model_median": 73894,
+  "residual_pct": 8.3
  },
  {
   "id": "city_mto_confirmed",
@@ -215,8 +215,8 @@
   "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
   "published": "2025-06",
   "note": "The City Bank on confirmation as Executive Officer",
-  "model_median": 93284,
-  "residual_pct": 7.2
+  "model_median": 93387,
+  "residual_pct": 7.1
  },
  {
   "id": "mtb_mto",
@@ -236,7 +236,7 @@
   "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
   "published": "2025-05",
   "note": "Mutual Trust Bank MTO training period",
-  "model_median": 73924,
+  "model_median": 73894,
   "residual_pct": 1.5
  },
  {
@@ -257,8 +257,8 @@
   "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
   "published": "2025-05",
   "note": "Mutual Trust Bank on confirmation as Senior Officer",
-  "model_median": 93284,
-  "residual_pct": 0.2
+  "model_median": 93387,
+  "residual_pct": 0.1
  },
  {
   "id": "dbbl_mto",
@@ -278,7 +278,7 @@
   "source_url": "https://thecvguy.net/bank-jobs/dutch-bangla-bank-plc-mto-job-circular-2026/",
   "published": "2026-09",
   "note": "1-year probation",
-  "model_median": 73924,
+  "model_median": 73894,
   "residual_pct": -5.3
  },
  {
@@ -299,8 +299,8 @@
   "source_url": "https://thecvguy.net/bank-jobs/dutch-bangla-bank-plc-mto-job-circular-2026/",
   "published": "2026-09",
   "note": "On confirmation as Senior Officer",
-  "model_median": 93284,
-  "residual_pct": 4.5
+  "model_median": 93387,
+  "residual_pct": 4.4
  },
  {
   "id": "bracbank_mto",
@@ -320,8 +320,8 @@
   "source_url": "https://www.glassdoor.com/Monthly-Pay/BRAC-Bank-Management-Trainee-Dhaka-Monthly-Pay-EJI_IE227450.0,9_KO10,28_IL.29,34_IM1237.htm",
   "published": "2026-06",
   "note": "1-year training period; Glassdoor base about 70k",
-  "model_median": 73924,
-  "residual_pct": -12.1
+  "model_median": 73894,
+  "residual_pct": -12.0
  },
  {
   "id": "prime_mto",
@@ -341,7 +341,7 @@
   "source_url": "https://thecvguy.net/career-tips/bank-mto-jobs-bangladesh/",
   "published": "2026",
   "note": "Prime Bank probation pay",
-  "model_median": 73924,
+  "model_median": 73894,
   "residual_pct": 15.0
  },
  {
@@ -362,8 +362,8 @@
   "source_url": "https://thecvguy.net/career-tips/bank-mto-jobs-bangladesh/",
   "published": "2026",
   "note": "Prime Bank Executive Officer on confirmation",
-  "model_median": 93284,
-  "residual_pct": 7.2
+  "model_median": 93387,
+  "residual_pct": 7.1
  },
  {
   "id": "ipdc_mto",
@@ -383,7 +383,7 @@
   "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
   "published": "2025-08",
   "note": "IPDC Finance; Assistant Manager at 90k on confirmation",
-  "model_median": 73924,
+  "model_median": 73894,
   "residual_pct": 1.5
  },
  {
@@ -404,7 +404,7 @@
   "source_url": "https://en.prothomalo.com/youth/employment/s0nj8vwh1l",
   "published": "2026-04",
   "note": "IDLC Finance training period",
-  "model_median": 73924,
+  "model_median": 73894,
   "residual_pct": 1.5
  },
  {
@@ -425,8 +425,8 @@
   "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
   "published": "2026-02",
   "note": "AB Bank 2-year traineeship",
-  "model_median": 61363,
-  "residual_pct": 22.2
+  "model_median": 61332,
+  "residual_pct": 22.3
  },
  {
   "id": "ab_mto_confirmed",
@@ -446,8 +446,8 @@
   "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
   "published": "2026-02",
   "note": "AB Bank Principal Officer on confirmation",
-  "model_median": 66086,
-  "residual_pct": 36.2
+  "model_median": 66161,
+  "residual_pct": 36.0
  },
  {
   "id": "meghna_mto",
@@ -467,7 +467,7 @@
   "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
   "published": "2026-05",
   "note": "Meghna Bank MTO",
-  "model_median": 61363,
+  "model_median": 61332,
   "residual_pct": -2.2
  },
  {
@@ -488,8 +488,8 @@
   "source_url": "https://thecvguy.net/career-tips/mto-salary-in-bangladesh/",
   "published": "2026-05",
   "note": "Meghna Bank Senior Officer on confirmation",
-  "model_median": 66086,
-  "residual_pct": 10.3
+  "model_median": 66161,
+  "residual_pct": 10.1
  },
  {
   "id": "sbac_mto",
@@ -509,8 +509,8 @@
   "source_url": "https://thecvguy.net/career-tips/bank-mto-jobs-bangladesh/",
   "published": "2026",
   "note": "SBAC Bank probation pay (lowest of nine circulars)",
-  "model_median": 61363,
-  "residual_pct": -21.8
+  "model_median": 61332,
+  "residual_pct": -21.7
  },
  {
   "id": "bank_local_nextjobz",
@@ -530,7 +530,7 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "Top private banks graduate entry",
-  "model_median": 73924,
+  "model_median": 73894,
   "residual_pct": -8.6
  },
  {
@@ -551,8 +551,8 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "International banks graduate entry",
-  "model_median": 63063,
-  "residual_pct": 44.0
+  "model_median": 63006,
+  "residual_pct": 44.2
  },
  {
   "id": "scb_officer_glassdoor",
@@ -572,8 +572,8 @@
   "source_url": "https://www.glassdoor.com/Salary/Standard-Chartered-Bank-Bangladesh-Salaries-EI_IE226853.0,23_IL.24,34_IN27.htm",
   "published": "2026",
   "note": "Officer base pay; mostly operations and service officers",
-  "model_median": 38365,
-  "residual_pct": -0.7
+  "model_median": 38374,
+  "residual_pct": -0.8
  },
  {
   "id": "scb_senior_officer_bayt",
@@ -593,8 +593,8 @@
   "source_url": "https://www.bayt.com/en/bangladesh/salaries/companies/standard-chartered-bangladesh/",
   "published": "2026",
   "note": "Senior officer monthly average (the post MTOs are usually confirmed into)",
-  "model_median": 85756,
-  "residual_pct": -28.3
+  "model_median": 85839,
+  "residual_pct": -28.4
  },
  {
   "id": "optimizely_levels",
@@ -616,7 +616,7 @@
   "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
   "published": "2026-02",
   "note": "Optimizely median total compensation (all levels)",
-  "model_median": 116809,
+  "model_median": 116800,
   "residual_pct": 43.0
  },
  {
@@ -639,7 +639,7 @@
   "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
   "published": "2026-02",
   "note": "Cefalo median total compensation (all levels)",
-  "model_median": 116809,
+  "model_median": 116800,
   "residual_pct": 20.7
  },
  {
@@ -662,7 +662,7 @@
   "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
   "published": "2026-02",
   "note": "Enosis Solutions median total compensation (all levels)",
-  "model_median": 116809,
+  "model_median": 116800,
   "residual_pct": -30.7
  },
  {
@@ -683,8 +683,8 @@
   "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
   "published": "2026-02",
   "note": "Low end of published ranges at 8 top firms (Enosis 40k ... Optimizely 120k)",
-  "model_median": 78443,
-  "residual_pct": -23.5
+  "model_median": 78493,
+  "residual_pct": -23.6
  },
  {
   "id": "cefalo_senior_bdtech",
@@ -704,7 +704,7 @@
   "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
   "published": "2026-02",
   "note": "Cefalo senior",
-  "model_median": 173964,
+  "model_median": 173949,
   "residual_pct": 36.0
  },
  {
@@ -725,7 +725,7 @@
   "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
   "published": "2026-02",
   "note": "Enosis senior and team leads",
-  "model_median": 173964,
+  "model_median": 173949,
   "residual_pct": -20.3
  },
  {
@@ -746,7 +746,7 @@
   "source_url": "https://www.glassdoor.com/Salary/Bkash-Software-Engineer-Dhaka-Salaries-EJI_IE555424.0,5_KO6,23_IL.24,29_IM1237.htm",
   "published": "2026",
   "note": "Average base 6 lakh a year; mostly 1-3 years experience",
-  "model_median": 71385,
+  "model_median": 71441,
   "residual_pct": -30.0
  },
  {
@@ -767,8 +767,8 @@
   "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
   "published": "2026-02",
   "note": "bKash mid-level engineers",
-  "model_median": 101702,
-  "residual_pct": 7.7
+  "model_median": 101656,
+  "residual_pct": 7.8
  },
  {
   "id": "bkash_senior_bdtech",
@@ -788,7 +788,7 @@
   "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
   "published": "2026-02",
   "note": "bKash senior engineers",
-  "model_median": 144948,
+  "model_median": 144957,
   "residual_pct": 33.6
  },
  {
@@ -809,7 +809,7 @@
   "source_url": "https://www.glassdoor.com/Monthly-Pay/Bkash-Lead-Engineer-Dhaka-Monthly-Pay-EJI_IE555424.0,5_KO6,19_IL.20,25_IM1237.htm",
   "published": "2026",
   "note": "Median total pay",
-  "model_median": 175349,
+  "model_median": 175346,
   "residual_pct": -14.5
  },
  {
@@ -830,7 +830,7 @@
   "source_url": "https://www.bdtechjobs.com/blog/highest-paying-software-companies-bangladesh",
   "published": "2026-02",
   "note": "Pathao mid-level engineers",
-  "model_median": 101702,
+  "model_median": 101656,
   "residual_pct": 0.8
  },
  {
@@ -881,8 +881,8 @@
   "source_url": "https://www.usemultiplier.com/bangladesh/average-salary",
   "published": "2026",
   "note": "Entry-level engineers",
-  "model_median": 26650,
-  "residual_pct": 28.6
+  "model_median": 26626,
+  "residual_pct": 28.7
  },
  {
   "id": "swe_wits_junior",
@@ -903,8 +903,8 @@
   "source_url": "https://whatisthesalary.com/it-salaries/software-engineer-salary-in-bangladesh/",
   "published": "2026",
   "note": "Junior band",
-  "model_median": 36244,
-  "residual_pct": -17.2
+  "model_median": 36283,
+  "residual_pct": -17.3
  },
  {
   "id": "swe_wits_mid",
@@ -925,7 +925,7 @@
   "source_url": "https://whatisthesalary.com/it-salaries/software-engineer-salary-in-bangladesh/",
   "published": "2026",
   "note": "Mid band; Dhaka commonly 60-75k",
-  "model_median": 53028,
+  "model_median": 53008,
   "residual_pct": 19.3
  },
  {
@@ -947,8 +947,8 @@
   "source_url": "https://whatisthesalary.com/it-salaries/software-engineer-salary-in-bangladesh/",
   "published": "2026",
   "note": "Senior band",
-  "model_median": 77610,
-  "residual_pct": 41.1
+  "model_median": 77606,
+  "residual_pct": 41.2
  },
  {
   "id": "da_glassdoor",
@@ -976,7 +976,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-data-analyst-salary-SRCH_IL.0,16_IM1237_KO17,29.htm",
   "published": "2026-09",
   "note": "Total pay across levels",
-  "model_median": 33584,
+  "model_median": 33586,
   "residual_pct": -1.7
  },
  {
@@ -1002,7 +1002,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-senior-data-analyst-salary-SRCH_IL.0,5_IC2267834_KO6,25.htm",
   "published": "2026",
   "note": "Small sample (13)",
-  "model_median": 59006,
+  "model_median": 59003,
   "residual_pct": 1.5
  },
  {
@@ -1052,7 +1052,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-graphic-designer-salary-SRCH_IL.0,16_IM1237_KO17,33.htm",
   "published": "2026-08",
   "note": "Total pay across levels",
-  "model_median": 27244,
+  "model_median": 27245,
   "residual_pct": -0.9
  },
  {
@@ -1074,7 +1074,7 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "Accounts / finance officer",
-  "model_median": 21345,
+  "model_median": 21337,
   "residual_pct": 17.6
  },
  {
@@ -1096,7 +1096,7 @@
   "source_url": "https://www.usemultiplier.com/bangladesh/average-salary",
   "published": "2026",
   "note": "Entry-level accountant",
-  "model_median": 20231,
+  "model_median": 20224,
   "residual_pct": -11.3
  },
  {
@@ -1118,7 +1118,7 @@
   "source_url": "https://www.usemultiplier.com/bangladesh/average-salary",
   "published": "2026",
   "note": "Senior accountant",
-  "model_median": 58934,
+  "model_median": 58948,
   "residual_pct": -10.2
  },
  {
@@ -1142,8 +1142,8 @@
   "source_url": "https://manpower.com.bd/insights/bangladesh-salary-benchmarks",
   "published": "2026",
   "note": "Accountant / finance executive",
-  "model_median": 48730,
-  "residual_pct": 8.6
+  "model_median": 48759,
+  "residual_pct": 8.5
  },
  {
   "id": "hr_glassdoor",
@@ -1168,7 +1168,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-hr-executive-salary-SRCH_IL.0,16_IM1237_KO17,29.htm",
   "published": "2026",
   "note": "Typical base pay",
-  "model_median": 26882,
+  "model_median": 26887,
   "residual_pct": -7.0
  },
  {
@@ -1190,8 +1190,8 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "Entry HR executive",
-  "model_median": 16651,
-  "residual_pct": 16.3
+  "model_median": 16640,
+  "residual_pct": 16.4
  },
  {
   "id": "hr_manpower_mid",
@@ -1214,7 +1214,7 @@
   "source_url": "https://manpower.com.bd/insights/bangladesh-salary-benchmarks",
   "published": "2026",
   "note": "Admin & HR mid-level (2-5 years)",
-  "model_median": 38013,
+  "model_median": 38025,
   "residual_pct": -2.5
  },
  {
@@ -1236,8 +1236,8 @@
   "source_url": "https://manpower.com.bd/insights/bangladesh-salary-benchmarks",
   "published": "2026",
   "note": "Sales & marketing entry",
-  "model_median": 23000,
-  "residual_pct": -8.0
+  "model_median": 22993,
+  "residual_pct": -7.9
  },
  {
   "id": "sales_manpower_mid",
@@ -1258,8 +1258,8 @@
   "source_url": "https://manpower.com.bd/insights/bangladesh-salary-benchmarks",
   "published": "2026",
   "note": "Sales & marketing mid",
-  "model_median": 46699,
-  "residual_pct": -8.6
+  "model_median": 46706,
+  "residual_pct": -8.7
  },
  {
   "id": "sales_manpower_senior",
@@ -1280,7 +1280,7 @@
   "source_url": "https://manpower.com.bd/insights/bangladesh-salary-benchmarks",
   "published": "2026",
   "note": "Sales & marketing senior",
-  "model_median": 66529,
+  "model_median": 66561,
   "residual_pct": 22.1
  },
  {
@@ -1302,7 +1302,7 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "Entry sales executive",
-  "model_median": 21799,
+  "model_median": 21794,
   "residual_pct": -2.7
  },
  {
@@ -1349,7 +1349,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-civil-engineer-salary-SRCH_IL.0,16_IM1237_KO17,31.htm",
   "published": "2026-09",
   "note": "Median about 43-44k",
-  "model_median": 43780,
+  "model_median": 43782,
   "residual_pct": 0.5
  },
  {
@@ -1370,8 +1370,8 @@
   "source_url": "https://pctechmag.com/2026/08/career-paths-for-professionals-in-manufacturing-and-apparel-industries/",
   "published": "2026-08",
   "note": "Starting salary",
-  "model_median": 19652,
-  "residual_pct": -23.7
+  "model_median": 19635,
+  "residual_pct": -23.6
  },
  {
   "id": "merch_asst_posting",
@@ -1392,7 +1392,7 @@
   "source_url": "",
   "published": "2026",
   "note": "Assistant Merchandiser 2-4 years",
-  "model_median": 35622,
+  "model_median": 35636,
   "residual_pct": -2.8
  },
  {
@@ -1413,7 +1413,7 @@
   "source_url": "",
   "published": "2026",
   "note": "Senior Merchandiser 8-10 years",
-  "model_median": 64523,
+  "model_median": 64526,
   "residual_pct": 16.0
  },
  {
@@ -1433,7 +1433,7 @@
   "source_name": "Minimum Wage Board gazette for RMG workers (Dec 2023; still in force Nov 2026)",
   "source_url": "https://en.ittefaq.com.bd/6792/tk-12-500-finalised-as-minimum-rmg-wage",
   "published": "2023-12",
-  "note": "Legal minimum gross for the entry grade; overtime is extra. A new wage board was announced on 30 Oct 2026 and a revision is expected (unions demand Tk 30-37k)",
+  "note": "Legal minimum gross for the entry grade; overtime is extra. A new six-member wage board was formed by gazette on 1 Nov 2026 and a revision is expected (unions demand Tk 30-37k); update when the new wage is gazetted",
   "model_median": 12561,
   "residual_pct": -0.5
  },
@@ -1455,8 +1455,8 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "NGO & development sector entry range",
-  "model_median": 24899,
-  "residual_pct": -8.0
+  "model_median": 24890,
+  "residual_pct": -7.9
  },
  {
   "id": "un_noa_dhaka",
@@ -1475,9 +1475,9 @@
   "source_name": "UNjobnet: UN NO-A salary in Dhaka (scale effective Oct 2024)",
   "source_url": "https://www.unjobnet.org/countries/bangladesh/Dhaka/salary/no-a",
   "published": "2024-10",
-  "note": "National Officer A step 1: about Tk 38.3 lakh a year net; third-party transcription of the UN scale",
-  "model_median": 289826,
-  "residual_pct": 10.1
+  "note": "National Officer A step 1: about Tk 38.3 lakh a year net; third-party transcription of the UN scale. The UN's Dhaka salary survey was completed on 28 Sep 2026 (onehr.un.org/salary-survey) but no new scale or change was published as of 6 Nov 2026",
+  "model_median": 289934,
+  "residual_pct": 10.0
  },
  {
   "id": "pran_mt_glassdoor",
@@ -1497,8 +1497,8 @@
   "source_url": "https://www.glassdoor.com/Monthly-Pay/PRAN-RFL-Center-Management-Trainee-Bangladesh-Monthly-Pay-EJI_IE530328.0,15_KO16,34_IL.35,45_IN27.htm",
   "published": "2026",
   "note": "Base about 25k; RFL circulars say negotiable",
-  "model_median": 30445,
-  "residual_pct": -17.9
+  "model_median": 30428,
+  "residual_pct": -17.8
  },
  {
   "id": "gen_midtier_entry",
@@ -1518,7 +1518,7 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "Mid-tier local companies",
-  "model_median": 30445,
+  "model_median": 30428,
   "residual_pct": 10.2
  },
  {
@@ -1561,8 +1561,8 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "Local track year 0-1",
-  "model_median": 30445,
-  "residual_pct": -13.1
+  "model_median": 30428,
+  "residual_pct": -13.0
  },
  {
   "id": "gen_local_junior",
@@ -1582,8 +1582,8 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "Local track 2-3 years",
-  "model_median": 43201,
-  "residual_pct": -1.8
+  "model_median": 43266,
+  "residual_pct": -1.9
  },
  {
   "id": "gen_local_senior",
@@ -1603,7 +1603,7 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "Local track 5+ years",
-  "model_median": 86830,
+  "model_median": 86886,
   "residual_pct": -10.8
  },
  {
@@ -1626,8 +1626,8 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "Top MNC graduate programmes (selective)",
-  "model_median": 68336,
-  "residual_pct": 44.5
+  "model_median": 68298,
+  "residual_pct": 44.6
  },
  {
   "id": "gen_mnc_junior",
@@ -1649,8 +1649,8 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "Tech / MNC track 2-3 years",
-  "model_median": 98688,
-  "residual_pct": 11.0
+  "model_median": 98830,
+  "residual_pct": 10.8
  },
  {
   "id": "gen_mnc_senior",
@@ -1672,8 +1672,8 @@
   "source_url": "https://blog.nextjobz.com.bd/fresh-graduate-salary-in-bangladesh/",
   "published": "2026-04",
   "note": "Tech / MNC track 5+ years",
-  "model_median": 201906,
-  "residual_pct": 5.1
+  "model_median": 201969,
+  "residual_pct": 5.0
  },
  {
   "id": "spo_glassdoor_dhaka",
@@ -1694,8 +1694,8 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-senior-principal-officer-salary-SRCH_IL.0,16_IM1237_KO17,41.htm",
   "published": "2025-10",
   "note": "Senior Principal Officer across banks (usually 6-10 years); median total pay",
-  "model_median": 99691,
-  "residual_pct": -29.8
+  "model_median": 99626,
+  "residual_pct": -29.7
  },
  {
   "id": "pubali_spo_glassdoor",
@@ -1715,7 +1715,7 @@
   "source_url": "https://www.glassdoor.com/Salary/Pubali-Bank-Senior-Principal-Officer-Bangladesh-EJI_IE545108.0,11_KO12,36_IL.37,47_IN27.htm?filter.payPeriod=MONTHLY",
   "published": "2025-06",
   "note": "Average base 5.05 lakh a year",
-  "model_median": 76511,
+  "model_median": 76469,
   "residual_pct": -45.0
  },
  {
@@ -1737,8 +1737,8 @@
   "source_url": "https://www.glassdoor.com/Salary/Dutch-Bangla-Bank-Relationship-Manager-Bangladesh-Salaries-EJI_IE547664.0,17_KO18,38_IL.39,49_IN27.htm",
   "published": "2026",
   "note": "Relationship Manager; average base 1.12 lakh a month; small sample",
-  "model_median": 132039,
-  "residual_pct": -15.2
+  "model_median": 131937,
+  "residual_pct": -15.1
  },
  {
   "id": "dbbl_avp_bayt",
@@ -1759,8 +1759,8 @@
   "source_url": "https://www.bayt.com/en/bangladesh/salaries/companies/dutch-bangla-bank-ltd/",
   "published": "2026",
   "note": "Assistant Vice President average",
-  "model_median": 153394,
-  "residual_pct": -18.5
+  "model_median": 153218,
+  "residual_pct": -18.4
  },
  {
   "id": "dbbl_manager_bayt",
@@ -1780,8 +1780,8 @@
   "source_url": "https://www.bayt.com/en/bangladesh/salaries/companies/dutch-bangla-bank-ltd/",
   "published": "2026",
   "note": "Manager average",
-  "model_median": 158695,
-  "residual_pct": -5.5
+  "model_median": 158460,
+  "residual_pct": -5.3
  },
  {
   "id": "bracbank_so_bayt",
@@ -1801,8 +1801,8 @@
   "source_url": "https://www.bayt.com/en/bangladesh/salaries/companies/brac-bank/",
   "published": "2026",
   "note": "Senior Officer average range",
-  "model_median": 93284,
-  "residual_pct": -34.7
+  "model_median": 93387,
+  "residual_pct": -34.8
  },
  {
   "id": "ds_glassdoor",
@@ -1829,7 +1829,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-data-scientist-salary-SRCH_IL.0,16_IM1237_KO17,31.htm",
   "published": "2026",
   "note": "Median total pay across employers and levels",
-  "model_median": 54173,
+  "model_median": 54170,
   "residual_pct": 1.5
  },
  {
@@ -1857,7 +1857,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-machine-learning-engineer-salary-SRCH_IL.0,16_IM1237_KO17,42.htm",
   "published": "2026",
   "note": "Median total pay",
-  "model_median": 54173,
+  "model_median": 54170,
   "residual_pct": -4.0
  },
  {
@@ -1882,7 +1882,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-senior-machine-learning-engineer-salary-SRCH_IL.0,16_IM1237_KO17,49.htm",
   "published": "2026",
   "note": "Only 3 submissions",
-  "model_median": 97484,
+  "model_median": 97476,
   "residual_pct": -15.9
  },
  {
@@ -1908,7 +1908,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-artificial-intelligence-engineer-salary-SRCH_IL.0,16_IM1237_KO17,49.htm",
   "published": "2026",
   "note": "Only 5 submissions",
-  "model_median": 56207,
+  "model_median": 56219,
   "residual_pct": 6.7
  },
  {
@@ -1932,8 +1932,8 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-data-scientist-salary-SRCH_IL.0,16_IM1237_KO17,31.htm",
   "published": "2026",
   "note": "Grameenphone median",
-  "model_median": 92740,
-  "residual_pct": 51.0
+  "model_median": 92751,
+  "residual_pct": 50.9
  },
  {
   "id": "ssl_ds_glassdoor",
@@ -1956,7 +1956,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-data-scientist-salary-SRCH_IL.0,16_IM1237_KO17,31.htm",
   "published": "2026",
   "note": "SSL Wireless median",
-  "model_median": 36398,
+  "model_median": 36402,
   "residual_pct": -36.8
  },
  {
@@ -1984,7 +1984,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-product-manager-salary-SRCH_IL.0,16_IM1237_KO17,32.htm",
   "published": "2026-07",
   "note": "Median total pay",
-  "model_median": 74166,
+  "model_median": 74158,
   "residual_pct": -1.6
  },
  {
@@ -2009,7 +2009,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-senior-product-manager-salary-SRCH_IL.0,16_IM1237_KO17,39.htm",
   "published": "2026-07",
   "note": "16 submissions",
-  "model_median": 134016,
+  "model_median": 134008,
   "residual_pct": 22.4
  },
  {
@@ -2034,8 +2034,8 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-junior-product-manager-salary-SRCH_IL.0,5_IM1237_KO6,28.htm",
   "published": "2026-08",
   "note": "8 submissions",
-  "model_median": 63987,
-  "residual_pct": -28.1
+  "model_median": 64041,
+  "residual_pct": -28.2
  },
  {
   "id": "apm_glassdoor",
@@ -2060,7 +2060,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-associate-product-manager-salary-SRCH_IL.0,5_IM1237_KO6,31.htm",
   "published": "2025-08",
   "note": "Associate PM",
-  "model_median": 53166,
+  "model_median": 53156,
   "residual_pct": 9.1
  },
  {
@@ -2084,7 +2084,7 @@
   "source_url": "https://www.glassdoor.com/Monthly-Pay/GrameenPhone-Product-Manager-Dhaka-Monthly-Pay-EJI_IE405018.0,12_KO13,28_IL.29,34_IS3812.htm",
   "published": "2026-10",
   "note": "Average base pay",
-  "model_median": 122251,
+  "model_median": 122250,
   "residual_pct": -18.2
  },
  {
@@ -2108,8 +2108,8 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-product-manager-salary-SRCH_IL.0,16_IM1237_KO17,32.htm",
   "published": "2026",
   "note": "bKash and Pathao medians",
-  "model_median": 83658,
-  "residual_pct": 33.6
+  "model_median": 83640,
+  "residual_pct": 33.7
  },
  {
   "id": "sc_exec_glassdoor",
@@ -2135,7 +2135,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-supply-chain-executive-salary-SRCH_IL.0,5_IS3812_KO6,28.htm",
   "published": "2026",
   "note": "16 submissions",
-  "model_median": 25761,
+  "model_median": 25752,
   "residual_pct": -14.6
  },
  {
@@ -2162,7 +2162,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-procurement-executive-salary-SRCH_IL.0,5_IC2267834_KO6,27.htm",
   "published": "2026",
   "note": "4 submissions",
-  "model_median": 25761,
+  "model_median": 25752,
   "residual_pct": -10.7
  },
  {
@@ -2183,8 +2183,8 @@
   "source_url": "https://bdjobs.com/h/details/1517219?ln=1",
   "published": "2026-08",
   "note": "At least 1 year experience (seen via web search)",
-  "model_median": 22092,
-  "residual_pct": 24.0
+  "model_median": 22108,
+  "residual_pct": 23.9
  },
  {
   "id": "network_eng_glassdoor",
@@ -2211,7 +2211,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-network-engineer-salary-SRCH_IL.0,16_IM1237_KO17,33.htm",
   "published": "2026",
   "note": "87 submissions",
-  "model_median": 33371,
+  "model_median": 33380,
   "residual_pct": -10.1
  },
  {
@@ -2239,7 +2239,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-support-engineer-salary-SRCH_IL.0,16_IM1237_KO17,33.htm",
   "published": "2026",
   "note": "Median total pay",
-  "model_median": 33371,
+  "model_median": 33380,
   "residual_pct": -16.1
  },
  {
@@ -2263,7 +2263,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-it-systems-administrator-salary-SRCH_IL.0,16_IM1237_KO17,41.htm",
   "published": "2026",
   "note": "Higher at banks",
-  "model_median": 60072,
+  "model_median": 60053,
   "residual_pct": 19.9
  },
  {
@@ -2285,8 +2285,8 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-it-systems-administrator-salary-SRCH_IL.0,16_IM1237_KO17,41.htm",
   "published": "2026",
   "note": "The City Bank median",
-  "model_median": 88519,
-  "residual_pct": 54.8
+  "model_median": 88429,
+  "residual_pct": 54.9
  },
  {
   "id": "compliance_glassdoor",
@@ -2313,7 +2313,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-compliance-officer-salary-SRCH_IL.0,16_IM1237_KO17,35.htm",
   "published": "2026-07",
   "note": "18 submissions",
-  "model_median": 37427,
+  "model_median": 37429,
   "residual_pct": 1.5
  },
  {
@@ -2338,8 +2338,8 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-senior-compliance-officer-salary-SRCH_IL.0,5_IC2267834_KO6,31.htm",
   "published": "2026",
   "note": "Few submissions",
-  "model_median": 57478,
-  "residual_pct": 23.5
+  "model_median": 57461,
+  "residual_pct": 23.6
  },
  {
   "id": "audit_officer_glassdoor",
@@ -2366,7 +2366,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-audit-officer-salary-SRCH_IL.0,16_IM1237_KO17,30.htm",
   "published": "2025",
   "note": "Median total pay",
-  "model_median": 37427,
+  "model_median": 37429,
   "residual_pct": -22.5
  },
  {
@@ -2391,7 +2391,7 @@
   "source_url": "https://www.glassdoor.com/Salaries/dhaka-bangladesh-internal-audit-officer-salary-SRCH_IL.0,16_IM1237_KO17,39.htm",
   "published": "2026",
   "note": "Only 2 submissions",
-  "model_median": 40697,
+  "model_median": 40702,
   "residual_pct": 30.2
  },
  {
@@ -2412,8 +2412,8 @@
   "source_url": "https://www.glassdoor.com/Monthly-Pay/Brac-University-Lecturer-Dhaka-Monthly-Pay-EJI_IE537788.0,15_KO16,24_IL.25,30_IM1237.htm",
   "published": "2026",
   "note": "Mostly 1-3 years experience",
-  "model_median": 59911,
-  "residual_pct": 8.5
+  "model_median": 64356,
+  "residual_pct": 1.0
  },
  {
   "id": "nsu_lecturer_crowd",
@@ -2433,8 +2433,8 @@
   "source_url": "https://mhalder-dev.github.io/salary-explorer/",
   "published": "2024-08",
   "note": "North South University lecturer, including allowances",
-  "model_median": 59911,
-  "residual_pct": 75.3
+  "model_median": 64356,
+  "residual_pct": 63.2
  },
  {
   "id": "pvt_uni_lecturer_crowd",
@@ -2455,7 +2455,49 @@
   "source_url": "https://mhalder-dev.github.io/salary-explorer/",
   "published": "2026",
   "note": "Lecturers at 50+ private universities",
-  "model_median": 51538,
-  "residual_pct": -27.2
+  "model_median": 55193,
+  "residual_pct": -32.1
+ },
+ {
+  "id": "bracu_lecturer_crowd",
+  "function": "teaching",
+  "low": 85500.0,
+  "high": 85500.0,
+  "median": 85500,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "private_university": 1.0
+  },
+  "range_type": "point",
+  "source_type": "blog",
+  "source_name": "Private University Faculty Salary Explorer (crowd-sourced)",
+  "source_url": "https://mhalder-dev.github.io/salary-explorer/",
+  "published": "2025-01",
+  "note": "BRAC University lecturer (permanent), self-reported; explorer last synced Jul 2026",
+  "model_median": 64356,
+  "residual_pct": 32.9
+ },
+ {
+  "id": "ewu_lecturer_crowd",
+  "function": "teaching",
+  "low": 79000.0,
+  "high": 79000.0,
+  "median": 79000,
+  "level": {
+   "junior": 1.0
+  },
+  "group": {
+   "private_university": 1.0
+  },
+  "range_type": "point",
+  "source_type": "blog",
+  "source_name": "Private University Faculty Salary Explorer (crowd-sourced)",
+  "source_url": "https://mhalder-dev.github.io/salary-explorer/",
+  "published": "2025-02",
+  "note": "East West University lecturer, self-reported; explorer last synced Jul 2026",
+  "model_median": 64356,
+  "residual_pct": 22.8
  }
 ]

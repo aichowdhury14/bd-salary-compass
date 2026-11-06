@@ -119,6 +119,20 @@ export function CheckTool() {
                   <Select<CityId> label="Work location" value={city} onChange={setCity} options={bench.cities.map((c) => ({ value: c.id, label: c.label }))} />
                 </div>
               </details>
+              {/* Phones see the form first, so the answer is shown right here and updates as they type */}
+              {a && (
+                <div aria-live="polite" className="lg:hidden rounded-lg border border-line bg-surface-2 p-3.5">
+                  <p className="font-serif text-lg font-semibold leading-snug">
+                    You&apos;re paid <span className={VERDICT_TONE[a.verdict.id]}>{a.verdict.headline}</span>.
+                  </p>
+                  <p className="text-sm text-ink-2 mt-1">
+                    Typical pay <strong className="num text-ink">{tk(a.stats.p50)}</strong> · {peopleBelow(a.percentile)} of 100 people like you earn less.
+                  </p>
+                  <a href="#result" className="mt-2 inline-block text-sm font-medium text-gold underline underline-offset-2">
+                    See the full result ↓
+                  </a>
+                </div>
+              )}
             </>
           )}
         </div>
@@ -129,7 +143,7 @@ export function CheckTool() {
           <GovtQuick />
         ) : a && fnId ? (
           <>
-            <section className="rounded-xl border border-line bg-surface overflow-hidden">
+            <section id="result" className="scroll-mt-28 rounded-xl border border-line bg-surface overflow-hidden">
               <div className="p-5 sm:p-7">
                 <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
                   <p className="eyebrow">Salary check · {where}</p>

@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { computeTax, taxRules, TAX_CATEGORIES, taxFreeMonthlySalary, type TaxCategory } from "@/lib/tax";
 import { tk, pct } from "@/lib/format";
-import { Card, Checkbox, Note, NumberInput, Select, Stat } from "@/components/ui";
+import { Card, Checkbox, MoreDetails, Note, NumberInput, Select, Stat } from "@/components/ui";
 
 export function TaxTool() {
   const [monthly, setMonthly] = useState(80000);
@@ -37,12 +37,8 @@ export function TaxTool() {
       <Card title="Your salary">
         <div className="grid gap-4">
           <NumberInput label="Monthly gross salary" value={monthly} onChange={setMonthly} prefix="৳" step={1000} />
-          <div className="grid grid-cols-2 gap-3">
-            <NumberInput label="Basic share" value={basicPct} onChange={setBasicPct} suffix="%" max={100} hint="Of gross" />
-            <NumberInput label="Festival bonuses" value={festivals} onChange={setFestivals} max={6} suffix="× basic" hint="Per year" />
-          </div>
-          <NumberInput label="Other bonus / incentive (yearly)" value={otherBonus} onChange={setOtherBonus} prefix="৳" step={1000} />
-          <NumberInput label="Your provident fund contribution" value={pfPct} onChange={setPfPct} suffix="% of basic" max={20} hint="Counts as a tax-rebate investment" />
+          <NumberInput label="Festival bonuses" value={festivals} onChange={setFestivals} max={6} suffix="× basic" hint="Per year; usually 2" />
+          <Select<TaxCategory> label="Taxpayer category" value={category} onChange={setCategory} options={TAX_CATEGORIES.map((c) => ({ value: c.id, label: c.label }))} />
           <NumberInput
             label="Other tax-saving investment (yearly)"
             value={investment}
@@ -51,9 +47,13 @@ export function TaxTool() {
             step={5000}
             hint="DPS, savings certificates, listed shares/mutual funds, life insurance premium"
           />
-          <Select<TaxCategory> label="Taxpayer category" value={category} onChange={setCategory} options={TAX_CATEGORIES.map((c) => ({ value: c.id, label: c.label }))} />
-          <Checkbox label="Parent / guardian of a person with disability (+৳50,000)" checked={parent} onChange={setParent} />
-          <Checkbox label="First-time taxpayer (minimum tax ৳1,000)" checked={newTaxpayer} onChange={setNewTaxpayer} />
+          <MoreDetails summary={`basic ${basicPct}%, PF ${pfPct}%, other bonus`}>
+            <NumberInput label="Basic share" value={basicPct} onChange={setBasicPct} suffix="%" max={100} hint="Of gross; often 50-60%" />
+            <NumberInput label="Your provident fund contribution" value={pfPct} onChange={setPfPct} suffix="% of basic" max={20} hint="0 if there is no PF. Counts as a tax-rebate investment" />
+            <NumberInput label="Other bonus / incentive (yearly)" value={otherBonus} onChange={setOtherBonus} prefix="৳" step={1000} />
+            <Checkbox label="Parent / guardian of a person with disability (+৳50,000)" checked={parent} onChange={setParent} />
+            <Checkbox label="First-time taxpayer (minimum tax ৳1,000)" checked={newTaxpayer} onChange={setNewTaxpayer} />
+          </MoreDetails>
         </div>
       </Card>
 

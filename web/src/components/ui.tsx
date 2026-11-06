@@ -121,6 +121,23 @@ export function NumberInput({
   );
 }
 
+/** Less-used fields, folded away to keep forms short. They keep their default values while closed. */
+export function MoreDetails({ summary, children }: { summary: string; children: ReactNode }) {
+  return (
+    <details className="group rounded-lg border border-dashed border-line px-3 py-2">
+      <summary className="flex cursor-pointer list-none items-center justify-between gap-2 text-sm text-ink-2">
+        <span>
+          <span className="font-medium text-ink">More details</span> · {summary}
+        </span>
+        <span aria-hidden className="transition group-open:rotate-180">
+          ▾
+        </span>
+      </summary>
+      <div className="mt-3 grid gap-3 pb-1">{children}</div>
+    </details>
+  );
+}
+
 export function Checkbox({ label, checked, onChange }: { label: string; checked: boolean; onChange: (v: boolean) => void }) {
   return (
     <label className="flex items-center gap-2 text-sm cursor-pointer select-none">

@@ -125,7 +125,7 @@
     "jti",
     "emami"
    ],
-   "multiplier": 2.587,
+   "multiplier": 2.588,
    "experience_slope": 1.015
   },
   {
@@ -204,7 +204,7 @@
     "surecash",
     "tallykhata"
    ],
-   "multiplier": 1.492,
+   "multiplier": 1.491,
    "experience_slope": 1.005
   },
   {
@@ -358,7 +358,7 @@
     "enosis"
    ],
    "multiplier": 1.568,
-   "experience_slope": 1.05
+   "experience_slope": 1.051
   },
   {
    "id": "local_software",
@@ -408,7 +408,7 @@
     "ssl wireless",
     "kaz software"
    ],
-   "multiplier": 0.814,
+   "multiplier": 0.815,
    "experience_slope": 1.041
   },
   {
@@ -443,7 +443,7 @@
     "global company",
     "foreign company"
    ],
-   "multiplier": 1.983,
+   "multiplier": 1.982,
    "experience_slope": 0.999
   },
   {
@@ -554,7 +554,7 @@
    ],
    "match": [],
    "multiplier": 0.585,
-   "experience_slope": 1.012
+   "experience_slope": 1.011
   },
   {
    "id": "private_university",
@@ -591,8 +591,8 @@
     "university of liberal arts",
     "ulab"
    ],
-   "multiplier": 1.035,
-   "experience_slope": 1.027
+   "multiplier": 1.042,
+   "experience_slope": 1.033
   },
   {
    "id": "ngo",
@@ -658,7 +658,7 @@
     "united nations",
     "un agency"
    ],
-   "multiplier": 4.761,
+   "multiplier": 4.757,
    "experience_slope": 1.014
   }
  ],
@@ -669,12 +669,12 @@
  },
  "level_multipliers": {
   "entry": 1.0,
-  "junior": 1.419,
-  "mid": 2.011,
-  "senior": 2.852,
-  "lead": 3.433
+  "junior": 1.422,
+  "mid": 2.013,
+  "senior": 2.855,
+  "lead": 3.436
  },
- "residual_sd": 0.18,
+ "residual_sd": 0.181,
  "functions": {
   "officer": {
    "title": "Management trainee / officer",
@@ -722,31 +722,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 11.2742,
+       "mu": 11.2741,
        "se": 0.0932,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 11.6392,
+       "mu": 11.641,
        "se": 0.1388,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 12.003,
+       "mu": 12.0033,
        "se": 0.2305,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 12.3672,
+       "mu": 12.3678,
        "se": 0.2949,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.5674,
+       "mu": 12.5678,
        "se": 0.4073,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -757,31 +757,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 11.0954,
+       "mu": 11.0951,
        "se": 0.1457,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 11.4558,
+       "mu": 11.4574,
        "se": 0.1488,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.8151,
+       "mu": 11.8152,
        "se": 0.2093,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 12.1748,
+       "mu": 12.1752,
        "se": 0.2556,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.3705,
+       "mu": 12.3706,
        "se": 0.3578,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -792,13 +792,13 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.7235,
+       "mu": 10.7227,
        "se": 0.1894,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.0786,
+       "mu": 11.0799,
        "se": 0.17,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -810,13 +810,13 @@
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.7869,
+       "mu": 11.7875,
        "se": 0.1993,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.9773,
+       "mu": 11.9778,
        "se": 0.2361,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -827,31 +827,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 11.0519,
+       "mu": 11.051,
        "se": 0.1599,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.3593,
+       "mu": 11.3602,
        "se": 0.1604,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.6655,
+       "mu": 11.665,
        "se": 0.2384,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.9722,
+       "mu": 11.9719,
        "se": 0.2933,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.1149,
+       "mu": 12.1143,
        "se": 0.3952,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -862,31 +862,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 11.2108,
+       "mu": 11.2104,
        "se": 0.0431,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 11.4434,
+       "mu": 11.4445,
        "se": 0.0541,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 11.6749,
+       "mu": 11.6742,
        "se": 0.1229,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.9068,
+       "mu": 11.906,
        "se": 0.1253,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "lead": {
-       "mu": 11.9747,
+       "mu": 11.9733,
        "se": 0.1776,
        "confidence": "high",
        "extra_sd": 0.0
@@ -897,31 +897,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 11.0246,
+       "mu": 11.0241,
        "se": 0.0694,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 11.0987,
+       "mu": 11.0999,
        "se": 0.0742,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 11.1718,
+       "mu": 11.1712,
        "se": 0.1465,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.2452,
+       "mu": 11.2446,
        "se": 0.1517,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "lead": {
-       "mu": 11.2844,
+       "mu": 11.2839,
        "se": 0.2631,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -932,31 +932,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 11.0085,
+       "mu": 11.0074,
        "se": 0.2779,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.3577,
+       "mu": 11.3585,
        "se": 0.2793,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.7058,
+       "mu": 11.7052,
        "se": 0.32,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 12.0542,
+       "mu": 12.0539,
        "se": 0.3677,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.2387,
+       "mu": 12.2382,
        "se": 0.4596,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -967,31 +967,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.3237,
+       "mu": 10.3231,
        "se": 0.0825,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 10.6736,
+       "mu": 10.6751,
        "se": 0.0923,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.0225,
+       "mu": 11.0227,
        "se": 0.134,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.3717,
+       "mu": 11.3723,
        "se": 0.1129,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.557,
+       "mu": 11.5575,
        "se": 0.1714,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -1002,13 +1002,13 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.9054,
+       "mu": 9.9049,
        "se": 0.3066,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.3023,
+       "mu": 10.3037,
        "se": 0.3132,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1020,13 +1020,13 @@
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.0942,
+       "mu": 11.0946,
        "se": 0.3729,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.3265,
+       "mu": 11.3266,
        "se": 0.4491,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1037,13 +1037,13 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.7876,
+       "mu": 9.7875,
        "se": 0.225,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.1493,
+       "mu": 10.1509,
        "se": 0.235,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -1055,13 +1055,13 @@
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.8709,
+       "mu": 10.871,
        "se": 0.2997,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.0679,
+       "mu": 11.0676,
        "se": 0.3882,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -1072,32 +1072,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.3581,
-       "se": 0.3413,
+       "mu": 10.3645,
+       "se": 0.3412,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7344,
-       "se": 0.3541,
+       "mu": 10.7485,
+       "se": 0.3538,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.1096,
-       "se": 0.4035,
+       "mu": 11.1281,
+       "se": 0.4032,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.4852,
-       "se": 0.452,
+       "mu": 11.5098,
+       "se": 0.4515,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.6969,
-       "se": 0.5363,
+       "mu": 11.7269,
+       "se": 0.5355,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -1107,31 +1107,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.7937,
+       "mu": 9.7938,
        "se": 0.2703,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.1437,
+       "mu": 10.1458,
        "se": 0.2946,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.4925,
+       "mu": 10.4933,
        "se": 0.3522,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.8418,
+       "mu": 10.843,
        "se": 0.4129,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.0271,
+       "mu": 11.0281,
        "se": 0.5069,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -1178,31 +1178,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.2083,
+       "mu": 11.2082,
        "se": 0.1908,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5732,
+       "mu": 11.575,
        "se": 0.2189,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.937,
+       "mu": 11.9374,
        "se": 0.2751,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.3012,
+       "mu": 12.3019,
        "se": 0.3397,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.5015,
+       "mu": 12.5019,
        "se": 0.4429,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1213,31 +1213,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.0295,
+       "mu": 11.0292,
        "se": 0.2165,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3898,
+       "mu": 11.3915,
        "se": 0.2183,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.7491,
+       "mu": 11.7493,
        "se": 0.2493,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.1088,
+       "mu": 12.1093,
        "se": 0.2975,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.3045,
+       "mu": 12.3047,
        "se": 0.3899,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1248,31 +1248,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6576,
-       "se": 0.2376,
+       "mu": 10.6568,
+       "se": 0.2375,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.0126,
+       "mu": 11.014,
        "se": 0.2216,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.3666,
+       "mu": 11.3667,
        "se": 0.2243,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.7209,
+       "mu": 11.7215,
        "se": 0.2389,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.9113,
+       "mu": 11.9119,
        "se": 0.2715,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1283,31 +1283,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9859,
+       "mu": 10.985,
        "se": 0.2194,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.2933,
+       "mu": 11.2943,
        "se": 0.219,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.5996,
+       "mu": 11.5991,
        "se": 0.2677,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.9062,
+       "mu": 11.906,
        "se": 0.3247,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0489,
+       "mu": 12.0484,
        "se": 0.4198,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1318,31 +1318,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1448,
+       "mu": 11.1444,
        "se": 0.172,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3774,
+       "mu": 11.3786,
        "se": 0.1756,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.6089,
+       "mu": 11.6082,
        "se": 0.1901,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.8408,
+       "mu": 11.84,
        "se": 0.2046,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.9088,
+       "mu": 11.9073,
        "se": 0.2426,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1353,31 +1353,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9586,
+       "mu": 10.9581,
        "se": 0.1796,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.0327,
+       "mu": 11.0339,
        "se": 0.1833,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.1058,
+       "mu": 11.1052,
        "se": 0.2078,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.1792,
+       "mu": 11.1787,
        "se": 0.2243,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.2184,
+       "mu": 11.2179,
        "se": 0.3132,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1388,31 +1388,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.7078,
+       "mu": 10.7068,
        "se": 0.2524,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.1069,
+       "mu": 11.1081,
        "se": 0.2272,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.505,
+       "mu": 11.5049,
        "se": 0.2306,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.9034,
+       "mu": 11.9039,
        "se": 0.2396,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.1379,
+       "mu": 12.1383,
        "se": 0.3214,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1423,31 +1423,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.0525,
+       "mu": 10.0521,
        "se": 0.2849,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.4426,
+       "mu": 10.4442,
        "se": 0.2809,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.8317,
+       "mu": 10.8319,
        "se": 0.2964,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.2211,
+       "mu": 11.2217,
        "se": 0.3203,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.4466,
+       "mu": 11.447,
        "se": 0.3966,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1458,31 +1458,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9426,
+       "mu": 10.9415,
        "se": 0.3124,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.2917,
+       "mu": 11.2926,
        "se": 0.314,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.6398,
+       "mu": 11.6392,
        "se": 0.3409,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.9882,
+       "mu": 11.988,
        "se": 0.3926,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.1728,
+       "mu": 12.1723,
        "se": 0.4809,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1493,31 +1493,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.2577,
+       "mu": 10.2572,
        "se": 0.1586,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 10.6076,
+       "mu": 10.6092,
        "se": 0.1642,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.9565,
+       "mu": 10.9567,
        "se": 0.1716,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.3057,
+       "mu": 11.3064,
        "se": 0.1711,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.491,
+       "mu": 11.4916,
        "se": 0.2167,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -1534,25 +1534,25 @@
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 10.0833,
-       "se": 0.1894,
+       "mu": 10.085,
+       "se": 0.1893,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.4439,
+       "mu": 10.444,
        "se": 0.2196,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.8049,
+       "mu": 10.8051,
        "se": 0.2498,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.002,
+       "mu": 11.0017,
        "se": 0.3481,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -1604,31 +1604,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1523,
+       "mu": 11.1525,
        "se": 0.2725,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5172,
+       "mu": 11.5193,
        "se": 0.2941,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.881,
+       "mu": 11.8817,
        "se": 0.3447,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.2452,
+       "mu": 12.2462,
        "se": 0.3947,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.4455,
+       "mu": 12.4462,
        "se": 0.4846,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1645,25 +1645,25 @@
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3339,
+       "mu": 11.3358,
        "se": 0.2929,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.6932,
+       "mu": 11.6936,
        "se": 0.3235,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0528,
+       "mu": 12.0536,
        "se": 0.358,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.2485,
+       "mu": 12.249,
        "se": 0.4357,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1674,31 +1674,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6016,
+       "mu": 10.6011,
        "se": 0.3059,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.9567,
+       "mu": 10.9583,
        "se": 0.2949,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.3106,
+       "mu": 11.311,
        "se": 0.3047,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.665,
+       "mu": 11.6658,
        "se": 0.3113,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8554,
+       "mu": 11.8562,
        "se": 0.3345,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1709,31 +1709,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.9965,
+       "mu": 9.9964,
        "se": 0.3458,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.3867,
-       "se": 0.3421,
+       "mu": 10.3885,
+       "se": 0.342,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.7757,
+       "mu": 10.7762,
        "se": 0.3598,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.1651,
+       "mu": 11.166,
        "se": 0.3747,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.3906,
+       "mu": 11.3913,
        "se": 0.4386,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1744,19 +1744,19 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.8866,
+       "mu": 10.8858,
        "se": 0.3653,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.2358,
+       "mu": 11.2369,
        "se": 0.3674,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.5838,
+       "mu": 11.5835,
        "se": 0.3962,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1768,7 +1768,7 @@
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.1168,
+       "mu": 12.1166,
        "se": 0.517,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1779,31 +1779,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.2017,
+       "mu": 10.2015,
        "se": 0.251,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.5517,
+       "mu": 10.5535,
        "se": 0.2565,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.9005,
+       "mu": 10.901,
        "se": 0.2704,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.2498,
+       "mu": 11.2507,
        "se": 0.2654,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.4351,
+       "mu": 11.4359,
        "se": 0.2944,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -1814,25 +1814,25 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.6656,
+       "mu": 9.6659,
        "se": 0.2563,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.0273,
+       "mu": 10.0293,
        "se": 0.2699,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.388,
+       "mu": 10.3883,
        "se": 0.3076,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.7489,
+       "mu": 10.7494,
        "se": 0.333,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -1891,31 +1891,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1872,
+       "mu": 11.187,
        "se": 0.194,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5521,
+       "mu": 11.5538,
        "se": 0.2216,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.9159,
+       "mu": 11.9162,
        "se": 0.2841,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.2801,
+       "mu": 12.2807,
        "se": 0.3439,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.4804,
+       "mu": 12.4807,
        "se": 0.4466,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1926,13 +1926,13 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.0084,
+       "mu": 11.008,
        "se": 0.2197,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3688,
+       "mu": 11.3703,
        "se": 0.2207,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1944,13 +1944,13 @@
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0877,
+       "mu": 12.0881,
        "se": 0.3011,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.2834,
+       "mu": 12.2835,
        "se": 0.3928,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1961,13 +1961,13 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6365,
+       "mu": 10.6356,
        "se": 0.2396,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.9916,
+       "mu": 10.9928,
        "se": 0.2225,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1979,13 +1979,13 @@
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.6999,
+       "mu": 11.7003,
        "se": 0.2412,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8903,
+       "mu": 11.8907,
        "se": 0.2733,
        "confidence": "low",
        "extra_sd": 0.25
@@ -1996,31 +1996,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9649,
+       "mu": 10.9638,
        "se": 0.2223,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.2722,
+       "mu": 11.2731,
        "se": 0.2209,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.5785,
+       "mu": 11.5779,
        "se": 0.2755,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.8851,
+       "mu": 11.8848,
        "se": 0.3274,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0278,
+       "mu": 12.0272,
        "se": 0.4219,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2031,31 +2031,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1238,
+       "mu": 11.1232,
        "se": 0.1748,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3564,
+       "mu": 11.3574,
        "se": 0.1768,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.5879,
+       "mu": 11.587,
        "se": 0.1996,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.8197,
+       "mu": 11.8188,
        "se": 0.2071,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8877,
+       "mu": 11.8861,
        "se": 0.2445,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2066,31 +2066,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9375,
+       "mu": 10.9369,
        "se": 0.1824,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.0117,
+       "mu": 11.0127,
        "se": 0.1847,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.0847,
+       "mu": 11.084,
        "se": 0.2169,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.1581,
+       "mu": 11.1575,
        "se": 0.2272,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.1974,
+       "mu": 11.1967,
        "se": 0.3152,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2101,31 +2101,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6867,
+       "mu": 10.6856,
        "se": 0.2546,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.0859,
+       "mu": 11.0869,
        "se": 0.2284,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.4839,
+       "mu": 11.4837,
        "se": 0.2387,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.8823,
+       "mu": 11.8827,
        "se": 0.2419,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.1168,
+       "mu": 12.1171,
        "se": 0.3229,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2136,31 +2136,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.0314,
+       "mu": 10.0309,
        "se": 0.2897,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.4216,
-       "se": 0.285,
+       "mu": 10.423,
+       "se": 0.2849,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.8106,
+       "mu": 10.8107,
        "se": 0.3057,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.2001,
+       "mu": 11.2005,
        "se": 0.3251,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.4255,
+       "mu": 11.4258,
        "se": 0.4004,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2171,31 +2171,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.9215,
+       "mu": 10.9203,
        "se": 0.3032,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.2707,
+       "mu": 11.2714,
        "se": 0.3023,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.6187,
+       "mu": 11.618,
        "se": 0.3336,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.9672,
+       "mu": 11.9668,
        "se": 0.3816,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.1517,
+       "mu": 12.1511,
        "se": 0.4709,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -2206,31 +2206,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.2366,
+       "mu": 10.236,
        "se": 0.1638,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 10.5866,
+       "mu": 10.588,
        "se": 0.1679,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.9354,
+       "mu": 10.9355,
        "se": 0.1846,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.2847,
+       "mu": 11.2852,
        "se": 0.177,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.47,
+       "mu": 11.4704,
        "se": 0.2214,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -2241,13 +2241,13 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.8183,
+       "mu": 9.8177,
        "se": 0.3419,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.2152,
+       "mu": 10.2166,
        "se": 0.3478,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2259,13 +2259,13 @@
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.0072,
+       "mu": 11.0075,
        "se": 0.4019,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.2394,
+       "mu": 11.2395,
        "se": 0.475,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2276,31 +2276,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.7005,
+       "mu": 9.7004,
        "se": 0.173,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "junior": {
-       "mu": 10.0622,
+       "mu": 10.0638,
        "se": 0.1746,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.4229,
+       "mu": 10.4228,
        "se": 0.2137,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.7838,
+       "mu": 10.7839,
        "se": 0.2381,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.9809,
+       "mu": 10.9805,
        "se": 0.339,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -2311,32 +2311,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.271,
-       "se": 0.3695,
+       "mu": 10.2774,
+       "se": 0.3694,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.6474,
-       "se": 0.3809,
+       "mu": 10.6614,
+       "se": 0.3807,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.0226,
-       "se": 0.4231,
+       "mu": 11.0409,
+       "se": 0.4227,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.3982,
-       "se": 0.4722,
+       "mu": 11.4226,
+       "se": 0.4717,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.6098,
-       "se": 0.5543,
+       "mu": 11.6398,
+       "se": 0.5536,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2346,31 +2346,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.7067,
+       "mu": 9.7066,
        "se": 0.3304,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.0566,
+       "mu": 10.0586,
        "se": 0.35,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.4055,
+       "mu": 10.4062,
        "se": 0.3952,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.7547,
+       "mu": 10.7558,
        "se": 0.453,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.94,
+       "mu": 10.941,
        "se": 0.5409,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2416,25 +2416,25 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9388,
+       "mu": 10.9383,
        "se": 0.1876,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3037,
+       "mu": 11.3052,
        "se": 0.2134,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.6676,
+       "mu": 11.6675,
        "se": 0.274,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0318,
+       "mu": 12.032,
        "se": 0.3413,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2451,31 +2451,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.76,
+       "mu": 10.7593,
        "se": 0.2138,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.1204,
+       "mu": 11.1216,
        "se": 0.2123,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.4797,
+       "mu": 11.4795,
        "se": 0.247,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.8393,
+       "mu": 11.8394,
        "se": 0.2979,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0351,
+       "mu": 12.0349,
        "se": 0.3879,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2486,31 +2486,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.3881,
+       "mu": 10.387,
        "se": 0.236,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7432,
+       "mu": 10.7441,
        "se": 0.2162,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.0972,
+       "mu": 11.0968,
        "se": 0.2219,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.4515,
+       "mu": 11.4517,
        "se": 0.2392,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.6419,
+       "mu": 11.642,
        "se": 0.2681,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2521,31 +2521,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.7165,
+       "mu": 10.7152,
        "se": 0.2179,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.0238,
+       "mu": 11.0244,
        "se": 0.2147,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.3301,
+       "mu": 11.3292,
        "se": 0.2674,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.6368,
+       "mu": 11.6362,
        "se": 0.327,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.7795,
+       "mu": 11.7786,
        "se": 0.4198,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2556,31 +2556,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.8754,
+       "mu": 10.8746,
        "se": 0.1686,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.108,
+       "mu": 11.1087,
        "se": 0.1684,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.3395,
+       "mu": 11.3384,
        "se": 0.1878,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.5714,
+       "mu": 11.5702,
        "se": 0.2062,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.6393,
+       "mu": 11.6375,
        "se": 0.2406,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2591,31 +2591,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6891,
+       "mu": 10.6883,
        "se": 0.1766,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7633,
+       "mu": 10.7641,
        "se": 0.1758,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.8364,
+       "mu": 10.8354,
        "se": 0.2043,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.9098,
+       "mu": 10.9089,
        "se": 0.2238,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.949,
+       "mu": 10.9481,
        "se": 0.3097,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2626,19 +2626,19 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.4383,
+       "mu": 10.437,
        "se": 0.2512,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.8375,
+       "mu": 10.8383,
        "se": 0.2218,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.2355,
+       "mu": 11.2351,
        "se": 0.2277,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2650,7 +2650,7 @@
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8685,
+       "mu": 11.8684,
        "se": 0.3175,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2661,25 +2661,25 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.783,
+       "mu": 9.7822,
        "se": 0.2815,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.1732,
+       "mu": 10.1744,
        "se": 0.2737,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.5623,
+       "mu": 10.5621,
        "se": 0.291,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.9517,
+       "mu": 10.9519,
        "se": 0.3165,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2696,31 +2696,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.6731,
+       "mu": 10.6716,
        "se": 0.3015,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.0223,
+       "mu": 11.0227,
        "se": 0.2994,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.3704,
+       "mu": 11.3694,
        "se": 0.3285,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.7188,
+       "mu": 11.7182,
        "se": 0.3826,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.9033,
+       "mu": 11.9024,
        "se": 0.4701,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -2731,31 +2731,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.9882,
+       "mu": 9.9873,
        "se": 0.1538,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.3382,
+       "mu": 10.3393,
        "se": 0.1552,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 10.6871,
+       "mu": 10.6869,
        "se": 0.1677,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 11.0363,
+       "mu": 11.0366,
        "se": 0.1713,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.2216,
+       "mu": 11.2217,
        "se": 0.2129,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -2766,31 +2766,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.57,
+       "mu": 9.5691,
        "se": 0.3106,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.9669,
+       "mu": 9.9679,
        "se": 0.313,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.3627,
+       "mu": 10.3623,
        "se": 0.3361,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.7588,
+       "mu": 10.7589,
        "se": 0.3706,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.991,
+       "mu": 10.9908,
        "se": 0.445,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -2801,31 +2801,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.4521,
+       "mu": 9.4517,
        "se": 0.1917,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.8139,
+       "mu": 9.8152,
        "se": 0.1952,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.1745,
+       "mu": 10.1741,
        "se": 0.2304,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.5355,
+       "mu": 10.5352,
        "se": 0.2643,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.7325,
+       "mu": 10.7318,
        "se": 0.3578,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -2836,32 +2836,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.0227,
-       "se": 0.3653,
+       "mu": 10.0287,
+       "se": 0.3652,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.399,
-       "se": 0.3756,
+       "mu": 10.4127,
+       "se": 0.3754,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.7742,
-       "se": 0.4161,
+       "mu": 10.7923,
+       "se": 0.4158,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.1498,
-       "se": 0.4703,
+       "mu": 11.174,
+       "se": 0.4698,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.3615,
-       "se": 0.5511,
+       "mu": 11.3911,
+       "se": 0.5504,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -2871,31 +2871,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.4583,
+       "mu": 9.458,
        "se": 0.3213,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 9.8083,
+       "mu": 9.81,
        "se": 0.3401,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.1571,
+       "mu": 10.1575,
        "se": 0.384,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.5063,
+       "mu": 10.5072,
        "se": 0.4477,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.6916,
+       "mu": 10.6923,
        "se": 0.535,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2953,31 +2953,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1927,
+       "mu": 11.1918,
        "se": 0.1889,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.553,
+       "mu": 11.5541,
        "se": 0.1734,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.9123,
+       "mu": 11.912,
        "se": 0.205,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.272,
+       "mu": 12.2719,
        "se": 0.2543,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.4677,
+       "mu": 12.4674,
        "se": 0.3506,
        "confidence": "low",
        "extra_sd": 0.25
@@ -2988,25 +2988,25 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.8208,
+       "mu": 10.8195,
        "se": 0.1738,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.1758,
+       "mu": 11.1766,
        "se": 0.1295,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.5298,
+       "mu": 11.5293,
        "se": 0.1256,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 11.8841,
+       "mu": 11.8842,
        "se": 0.1385,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -3023,31 +3023,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1491,
+       "mu": 11.1477,
        "se": 0.2128,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.4565,
+       "mu": 11.4569,
        "se": 0.2074,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.7628,
+       "mu": 11.7617,
        "se": 0.2617,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0694,
+       "mu": 12.0687,
        "se": 0.3209,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.2121,
+       "mu": 12.2111,
        "se": 0.4157,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3058,31 +3058,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.308,
+       "mu": 11.3071,
        "se": 0.1656,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5406,
+       "mu": 11.5412,
        "se": 0.1638,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.7721,
+       "mu": 11.7709,
        "se": 0.1848,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.004,
+       "mu": 12.0027,
        "se": 0.2019,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.072,
+       "mu": 12.07,
        "se": 0.2389,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3093,31 +3093,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1218,
+       "mu": 11.1208,
        "se": 0.1738,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.1959,
+       "mu": 11.1966,
        "se": 0.1719,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.269,
+       "mu": 11.2679,
        "se": 0.2026,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.3424,
-       "se": 0.2213,
+       "mu": 11.3414,
+       "se": 0.2212,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.3816,
+       "mu": 11.3806,
        "se": 0.3097,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3128,31 +3128,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.871,
+       "mu": 10.8695,
        "se": 0.18,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.2701,
+       "mu": 11.2708,
        "se": 0.1211,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 11.6682,
+       "mu": 11.6676,
        "se": 0.1202,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 12.0666,
+       "mu": 12.0665,
        "se": 0.1254,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "lead": {
-       "mu": 12.3011,
+       "mu": 12.3009,
        "se": 0.239,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -3163,31 +3163,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.2157,
+       "mu": 10.2147,
        "se": 0.1725,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.6058,
+       "mu": 10.6069,
        "se": 0.1487,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 10.9949,
+       "mu": 10.9946,
        "se": 0.1718,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 11.3843,
+       "mu": 11.3844,
        "se": 0.2039,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.6098,
+       "mu": 11.6097,
        "se": 0.3034,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -3198,31 +3198,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1058,
+       "mu": 11.1041,
        "se": 0.32,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.4549,
+       "mu": 11.4552,
        "se": 0.32,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.803,
+       "mu": 11.8019,
        "se": 0.3505,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.1514,
+       "mu": 12.1507,
        "se": 0.4031,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.336,
+       "mu": 12.3349,
        "se": 0.4896,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3233,25 +3233,25 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.4209,
+       "mu": 10.4198,
        "se": 0.157,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.7708,
-       "se": 0.1568,
+       "mu": 10.7718,
+       "se": 0.1567,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.1197,
+       "mu": 11.1194,
        "se": 0.1706,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.4689,
+       "mu": 11.4691,
        "se": 0.1726,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -3268,31 +3268,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.8848,
+       "mu": 9.8842,
        "se": 0.2513,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.2465,
+       "mu": 10.2477,
        "se": 0.2562,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.6071,
+       "mu": 10.6066,
        "se": 0.2877,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.9681,
+       "mu": 10.9677,
        "se": 0.3171,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.1652,
+       "mu": 11.1643,
        "se": 0.4017,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -3344,31 +3344,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.7881,
+       "mu": 10.7875,
        "se": 0.197,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.153,
+       "mu": 11.1543,
        "se": 0.222,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.5168,
+       "mu": 11.5167,
        "se": 0.2833,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.881,
+       "mu": 11.8812,
        "se": 0.344,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0813,
+       "mu": 12.0812,
        "se": 0.4495,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3379,19 +3379,19 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6093,
+       "mu": 10.6085,
        "se": 0.2046,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.9697,
+       "mu": 10.9708,
        "se": 0.1925,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.3289,
+       "mu": 11.3286,
        "se": 0.2239,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3403,7 +3403,7 @@
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8843,
+       "mu": 11.884,
        "se": 0.3634,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3414,31 +3414,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.2374,
+       "mu": 10.2361,
        "se": 0.2176,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.5924,
+       "mu": 10.5933,
        "se": 0.1918,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.9464,
-       "se": 0.1977,
+       "mu": 10.946,
+       "se": 0.1976,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.3007,
+       "mu": 11.3008,
        "se": 0.2049,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.4911,
+       "mu": 11.4912,
        "se": 0.2438,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3449,31 +3449,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.5657,
+       "mu": 10.5644,
        "se": 0.2257,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.8731,
+       "mu": 10.8736,
        "se": 0.2215,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.1794,
+       "mu": 11.1784,
        "se": 0.2744,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.486,
+       "mu": 11.4853,
        "se": 0.3267,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.6287,
+       "mu": 11.6277,
        "se": 0.4241,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3484,31 +3484,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.7246,
+       "mu": 10.7238,
        "se": 0.1789,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.9572,
+       "mu": 10.9579,
        "se": 0.1774,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.1887,
-       "se": 0.1981,
+       "mu": 11.1876,
+       "se": 0.198,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.4206,
+       "mu": 11.4194,
        "se": 0.2062,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.4886,
+       "mu": 11.4866,
        "se": 0.2484,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3519,31 +3519,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.5384,
+       "mu": 10.5374,
        "se": 0.1865,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.6125,
+       "mu": 10.6132,
        "se": 0.187,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.6856,
+       "mu": 10.6846,
        "se": 0.2183,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.759,
+       "mu": 10.758,
        "se": 0.2301,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.7982,
+       "mu": 10.7972,
        "se": 0.3218,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3554,19 +3554,19 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.2876,
+       "mu": 10.2862,
        "se": 0.2367,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.6867,
+       "mu": 10.6874,
        "se": 0.2021,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.0848,
+       "mu": 11.0842,
        "se": 0.2087,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3578,7 +3578,7 @@
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.7177,
+       "mu": 11.7176,
        "se": 0.3013,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3589,25 +3589,25 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.6323,
+       "mu": 9.6314,
        "se": 0.2248,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.0224,
+       "mu": 10.0235,
        "se": 0.2071,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.4115,
+       "mu": 10.4112,
        "se": 0.225,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.8009,
+       "mu": 10.801,
        "se": 0.2436,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -3624,31 +3624,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.5224,
-       "se": 0.3274,
+       "mu": 10.5208,
+       "se": 0.3273,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.8715,
+       "mu": 10.8719,
        "se": 0.3278,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.2196,
+       "mu": 11.2185,
        "se": 0.3586,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.568,
+       "mu": 11.5673,
        "se": 0.4064,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.7526,
+       "mu": 11.7516,
        "se": 0.4956,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3659,31 +3659,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.8375,
+       "mu": 9.8365,
        "se": 0.171,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.1875,
+       "mu": 10.1885,
        "se": 0.1713,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.5363,
+       "mu": 10.536,
        "se": 0.1855,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.8855,
+       "mu": 10.8857,
        "se": 0.1785,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.0708,
+       "mu": 11.0709,
        "se": 0.2277,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -3694,31 +3694,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.3075,
+       "mu": 9.3071,
        "se": 0.3147,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 9.6575,
+       "mu": 9.6591,
        "se": 0.3334,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.0064,
+       "mu": 10.0067,
        "se": 0.3795,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.3556,
+       "mu": 10.3563,
        "se": 0.4395,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.5409,
+       "mu": 10.5415,
        "se": 0.5319,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3758,31 +3758,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.4951,
+       "mu": 11.4956,
        "se": 0.2696,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.86,
+       "mu": 11.8624,
        "se": 0.2932,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 12.2239,
+       "mu": 12.2248,
        "se": 0.3458,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.5881,
+       "mu": 12.5893,
        "se": 0.3937,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.7883,
+       "mu": 12.7892,
        "se": 0.4838,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3793,31 +3793,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.3163,
+       "mu": 11.3165,
        "se": 0.2778,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.6767,
+       "mu": 11.6788,
        "se": 0.2756,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 12.036,
+       "mu": 12.0367,
        "se": 0.3042,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.3956,
+       "mu": 12.3966,
        "se": 0.3327,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.5914,
+       "mu": 12.5921,
        "se": 0.4108,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3828,31 +3828,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9444,
+       "mu": 10.9442,
        "se": 0.2686,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.2995,
+       "mu": 11.3013,
        "se": 0.2599,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.6535,
+       "mu": 11.6541,
        "se": 0.2749,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0078,
+       "mu": 12.0089,
        "se": 0.281,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.1982,
+       "mu": 12.1992,
        "se": 0.308,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3863,25 +3863,25 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.2728,
+       "mu": 11.2724,
        "se": 0.2906,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5802,
+       "mu": 11.5817,
        "se": 0.2932,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.8864,
+       "mu": 11.8865,
        "se": 0.3398,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.1931,
+       "mu": 12.1934,
        "se": 0.3806,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3898,31 +3898,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.4317,
+       "mu": 11.4318,
        "se": 0.2548,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.6643,
+       "mu": 11.6659,
        "se": 0.2594,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.8958,
+       "mu": 11.8956,
        "se": 0.279,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.1277,
+       "mu": 12.1274,
        "se": 0.2803,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.1956,
+       "mu": 12.1947,
        "se": 0.3054,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3933,31 +3933,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.9946,
+       "mu": 10.9942,
        "se": 0.2963,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.3938,
+       "mu": 11.3955,
        "se": 0.2746,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.7919,
+       "mu": 11.7923,
        "se": 0.2841,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.1903,
+       "mu": 12.1912,
        "se": 0.2801,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.4248,
+       "mu": 12.4256,
        "se": 0.3472,
        "confidence": "low",
        "extra_sd": 0.25
@@ -3974,25 +3974,25 @@
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.7295,
+       "mu": 10.7316,
        "se": 0.2656,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.1186,
+       "mu": 11.1193,
        "se": 0.2961,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.508,
+       "mu": 11.5091,
        "se": 0.317,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.7335,
+       "mu": 11.7344,
        "se": 0.3948,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4003,25 +4003,25 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.2294,
+       "mu": 11.2288,
        "se": 0.3721,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5786,
+       "mu": 11.5799,
        "se": 0.3765,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.9267,
+       "mu": 11.9266,
        "se": 0.4071,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.2751,
+       "mu": 12.2754,
        "se": 0.447,
        "confidence": "low",
        "extra_sd": 0.25
@@ -4044,25 +4044,25 @@
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.8945,
+       "mu": 10.8966,
        "se": 0.2575,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.2434,
+       "mu": 11.2441,
        "se": 0.2733,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.5926,
+       "mu": 11.5938,
        "se": 0.2649,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.7779,
+       "mu": 11.7789,
        "se": 0.2936,
        "confidence": "low",
        "extra_sd": 0.25
@@ -4111,31 +4111,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.2911,
+       "mu": 10.29,
        "se": 0.2088,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.6515,
+       "mu": 10.6523,
        "se": 0.1947,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.0107,
+       "mu": 11.0101,
        "se": 0.2298,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.3704,
+       "mu": 11.3701,
        "se": 0.2725,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.5661,
+       "mu": 11.5655,
        "se": 0.3649,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4146,31 +4146,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.9192,
+       "mu": 9.9176,
        "se": 0.2428,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.2742,
+       "mu": 10.2748,
        "se": 0.2191,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.6282,
+       "mu": 10.6275,
        "se": 0.2292,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.9825,
+       "mu": 10.9824,
        "se": 0.2394,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.1729,
+       "mu": 11.1727,
        "se": 0.2688,
        "confidence": "low",
        "extra_sd": 0.25
@@ -4181,31 +4181,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.2475,
+       "mu": 10.2459,
        "se": 0.1948,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.5549,
+       "mu": 10.5551,
        "se": 0.177,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.8612,
+       "mu": 10.8599,
        "se": 0.2355,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.1678,
+       "mu": 11.1668,
        "se": 0.2906,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.3105,
+       "mu": 11.3092,
        "se": 0.3882,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4216,31 +4216,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.4064,
+       "mu": 10.4053,
        "se": 0.1865,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.639,
+       "mu": 10.6394,
        "se": 0.1837,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.8706,
+       "mu": 10.8691,
        "se": 0.2089,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.1024,
+       "mu": 11.1009,
        "se": 0.2205,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.1704,
+       "mu": 11.1682,
        "se": 0.2554,
        "confidence": "low",
        "extra_sd": 0.25
@@ -4251,31 +4251,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.2202,
+       "mu": 10.219,
        "se": 0.1941,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.2943,
+       "mu": 10.2948,
        "se": 0.1908,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.3674,
+       "mu": 10.3661,
        "se": 0.224,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.4408,
+       "mu": 10.4396,
        "se": 0.2372,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.48,
+       "mu": 10.4788,
        "se": 0.3214,
        "confidence": "low",
        "extra_sd": 0.25
@@ -4286,31 +4286,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.3141,
+       "mu": 9.3129,
        "se": 0.2631,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.7043,
+       "mu": 9.7051,
        "se": 0.2497,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.0933,
+       "mu": 10.0928,
        "se": 0.2711,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.4827,
+       "mu": 10.4826,
        "se": 0.2919,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.7082,
+       "mu": 10.7079,
        "se": 0.3704,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4321,19 +4321,19 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.5193,
+       "mu": 9.518,
        "se": 0.1849,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.8693,
+       "mu": 9.87,
        "se": 0.1826,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.2181,
+       "mu": 10.2176,
        "se": 0.2002,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4345,7 +4345,7 @@
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.7526,
+       "mu": 10.7524,
        "se": 0.236,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4362,25 +4362,25 @@
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.3449,
+       "mu": 9.3459,
        "se": 0.2624,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 9.7055,
+       "mu": 9.7048,
        "se": 0.2961,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.0665,
+       "mu": 10.0659,
        "se": 0.3209,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.2636,
+       "mu": 10.2625,
        "se": 0.404,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4432,19 +4432,19 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.3757,
+       "mu": 10.3743,
        "se": 0.2487,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7307,
+       "mu": 10.7315,
        "se": 0.2253,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.0847,
+       "mu": 11.0842,
        "se": 0.2268,
        "confidence": "low",
        "extra_sd": 0.25
@@ -4467,31 +4467,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.4259,
+       "mu": 10.4243,
        "se": 0.2606,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.825,
+       "mu": 10.8256,
        "se": 0.2281,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.2231,
+       "mu": 11.2224,
        "se": 0.2302,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.6215,
+       "mu": 11.6214,
        "se": 0.2395,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.856,
+       "mu": 11.8558,
        "se": 0.3166,
        "confidence": "low",
        "extra_sd": 0.25
@@ -4502,19 +4502,19 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.7706,
+       "mu": 9.7696,
        "se": 0.2647,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.1607,
+       "mu": 10.1617,
        "se": 0.2532,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.5498,
+       "mu": 10.5494,
        "se": 0.2693,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4526,7 +4526,7 @@
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.1647,
+       "mu": 11.1645,
        "se": 0.3734,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4537,25 +4537,25 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.9758,
+       "mu": 9.9747,
        "se": 0.1976,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.3257,
+       "mu": 10.3267,
        "se": 0.197,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.6746,
+       "mu": 10.6742,
        "se": 0.206,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.0238,
+       "mu": 11.0239,
        "se": 0.2102,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4572,31 +4572,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.4397,
+       "mu": 9.4391,
        "se": 0.2347,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.8014,
+       "mu": 9.8025,
        "se": 0.2335,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.162,
+       "mu": 10.1615,
        "se": 0.2607,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.523,
+       "mu": 10.5226,
        "se": 0.2898,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.7201,
+       "mu": 10.7192,
        "se": 0.3761,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4641,31 +4641,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.408,
+       "mu": 11.4073,
        "se": 0.2425,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.7729,
+       "mu": 11.7742,
        "se": 0.2613,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 12.1367,
+       "mu": 12.1365,
        "se": 0.3112,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.5009,
+       "mu": 12.501,
        "se": 0.372,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.7012,
+       "mu": 12.701,
        "se": 0.4667,
        "confidence": "low",
        "extra_sd": 0.25
@@ -4676,31 +4676,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.2292,
+       "mu": 11.2283,
        "se": 0.264,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5896,
+       "mu": 11.5906,
        "se": 0.2615,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.9489,
+       "mu": 11.9484,
        "se": 0.2893,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.3085,
+       "mu": 12.3084,
        "se": 0.3343,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.5042,
+       "mu": 12.5038,
        "se": 0.4171,
        "confidence": "low",
        "extra_sd": 0.25
@@ -4711,31 +4711,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1423,
+       "mu": 11.1406,
        "se": 0.3472,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.4915,
+       "mu": 11.4917,
        "se": 0.3456,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.8395,
+       "mu": 11.8384,
        "se": 0.3712,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.188,
+       "mu": 12.1871,
        "se": 0.4212,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.3725,
+       "mu": 12.3714,
        "se": 0.5032,
        "confidence": "low",
        "extra_sd": 0.25
@@ -4746,19 +4746,19 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.4574,
+       "mu": 10.4563,
        "se": 0.2199,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.8074,
+       "mu": 10.8083,
        "se": 0.2194,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.1562,
+       "mu": 11.1559,
        "se": 0.2269,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4770,7 +4770,7 @@
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.6908,
+       "mu": 11.6907,
        "se": 0.2637,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4781,31 +4781,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.0391,
+       "mu": 10.0381,
        "se": 0.3724,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.436,
+       "mu": 10.4369,
        "se": 0.3755,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.8318,
+       "mu": 10.8313,
        "se": 0.3961,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.228,
+       "mu": 11.2278,
        "se": 0.4279,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.4602,
+       "mu": 11.4598,
        "se": 0.4957,
        "confidence": "low",
        "extra_sd": 0.25
@@ -4816,31 +4816,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.9213,
+       "mu": 9.9207,
        "se": 0.226,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.283,
+       "mu": 10.2841,
        "se": 0.2206,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.6437,
+       "mu": 10.6431,
        "se": 0.2447,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.0046,
+       "mu": 11.0042,
        "se": 0.2718,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.2017,
+       "mu": 11.2008,
        "se": 0.3597,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4884,19 +4884,19 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.8859,
+       "mu": 9.8851,
        "se": 0.213,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.2828,
+       "mu": 10.2839,
        "se": 0.1723,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.6786,
+       "mu": 10.6783,
        "se": 0.1751,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4908,7 +4908,7 @@
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.307,
+       "mu": 11.3068,
        "se": 0.2795,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -4952,7 +4952,7 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.8567,
+       "mu": 9.8566,
        "se": 0.3088,
        "confidence": "low",
        "extra_sd": 0.25
@@ -4964,19 +4964,19 @@
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.0222,
+       "mu": 10.0221,
        "se": 0.3088,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.1568,
+       "mu": 10.1567,
        "se": 0.3088,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.3873,
+       "mu": 10.3872,
        "se": 0.3088,
        "confidence": "low",
        "extra_sd": 0.25
@@ -5056,31 +5056,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.1226,
+       "mu": 10.1222,
        "se": 0.2448,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.4725,
+       "mu": 10.4742,
        "se": 0.2688,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.8214,
+       "mu": 10.8218,
        "se": 0.3335,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.1706,
+       "mu": 11.1714,
        "se": 0.397,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.3559,
+       "mu": 11.3566,
        "se": 0.4934,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5091,31 +5091,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 12.2129,
+       "mu": 12.2113,
        "se": 0.2501,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 12.577,
+       "mu": 12.5774,
        "se": 0.2337,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 12.9401,
+       "mu": 12.9391,
        "se": 0.2841,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 13.3035,
+       "mu": 13.3029,
        "se": 0.3293,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 13.503,
+       "mu": 13.5022,
        "se": 0.4209,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5171,31 +5171,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1124,
+       "mu": 11.1118,
        "se": 0.1988,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.4773,
+       "mu": 11.4787,
        "se": 0.2239,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.8412,
+       "mu": 11.841,
        "se": 0.2842,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.2054,
+       "mu": 12.2055,
        "se": 0.349,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.4056,
+       "mu": 12.4055,
        "se": 0.4518,
        "confidence": "low",
        "extra_sd": 0.25
@@ -5206,19 +5206,19 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.9336,
+       "mu": 10.9328,
        "se": 0.1896,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.294,
+       "mu": 11.2951,
        "se": 0.168,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.6533,
+       "mu": 11.6529,
        "se": 0.1946,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5230,7 +5230,7 @@
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.2087,
+       "mu": 12.2084,
        "se": 0.3396,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5241,25 +5241,25 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.5617,
+       "mu": 10.5604,
        "se": 0.1978,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.9168,
+       "mu": 10.9176,
        "se": 0.1645,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.2708,
+       "mu": 11.2703,
        "se": 0.1652,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.6251,
+       "mu": 11.6252,
        "se": 0.1778,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5276,31 +5276,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.8901,
+       "mu": 10.8887,
        "se": 0.2251,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.1974,
+       "mu": 11.1979,
        "se": 0.2201,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.5037,
+       "mu": 11.5027,
        "se": 0.2717,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.8104,
+       "mu": 11.8096,
        "se": 0.3284,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.9531,
+       "mu": 11.9521,
        "se": 0.4231,
        "confidence": "low",
        "extra_sd": 0.25
@@ -5311,31 +5311,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 11.049,
+       "mu": 11.0481,
        "se": 0.1805,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.2816,
+       "mu": 11.2822,
        "se": 0.1783,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.5131,
+       "mu": 11.5119,
        "se": 0.1969,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.745,
+       "mu": 11.7437,
        "se": 0.2114,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.8129,
+       "mu": 11.811,
        "se": 0.2491,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5346,31 +5346,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.8627,
+       "mu": 10.8618,
        "se": 0.1882,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.9369,
+       "mu": 10.9376,
        "se": 0.1871,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.01,
-       "se": 0.2158,
+       "mu": 11.0089,
+       "se": 0.2157,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.0834,
+       "mu": 11.0824,
        "se": 0.2328,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.1226,
+       "mu": 11.1216,
        "se": 0.3203,
        "confidence": "low",
        "extra_sd": 0.25
@@ -5381,31 +5381,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.6119,
+       "mu": 10.6105,
        "se": 0.2086,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.0111,
+       "mu": 11.0118,
        "se": 0.1648,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.4091,
+       "mu": 11.4086,
        "se": 0.1678,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.8076,
+       "mu": 11.8075,
        "se": 0.1742,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.0421,
+       "mu": 12.0419,
        "se": 0.2727,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5416,31 +5416,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.9566,
+       "mu": 9.9557,
        "se": 0.1713,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.3468,
+       "mu": 10.3479,
        "se": 0.1427,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 10.7359,
+       "mu": 10.7356,
        "se": 0.1621,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 11.1253,
+       "mu": 11.1254,
        "se": 0.1913,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.3508,
+       "mu": 11.3507,
        "se": 0.2949,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5451,31 +5451,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.8467,
+       "mu": 10.8451,
        "se": 0.3336,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.1959,
+       "mu": 11.1962,
        "se": 0.3344,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.544,
+       "mu": 11.5429,
        "se": 0.3643,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.8924,
+       "mu": 11.8916,
        "se": 0.4153,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0769,
+       "mu": 12.0759,
        "se": 0.5015,
        "confidence": "low",
        "extra_sd": 0.25
@@ -5486,25 +5486,25 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.1618,
+       "mu": 10.1608,
        "se": 0.1761,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.5118,
+       "mu": 10.5128,
        "se": 0.1762,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.8607,
+       "mu": 10.8604,
        "se": 0.1885,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.2099,
+       "mu": 11.2101,
        "se": 0.1893,
        "confidence": "low",
        "extra_sd": 0.25
@@ -5551,31 +5551,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 11.2099,
+       "mu": 11.209,
        "se": 0.1737,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.5703,
+       "mu": 11.5713,
        "se": 0.1467,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.9296,
+       "mu": 11.9291,
        "se": 0.1833,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 12.2892,
+       "mu": 12.2891,
        "se": 0.2234,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.4849,
+       "mu": 12.4845,
        "se": 0.3291,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5586,31 +5586,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.838,
+       "mu": 10.8366,
        "se": 0.1742,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.1931,
+       "mu": 11.1938,
        "se": 0.1387,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 11.547,
+       "mu": 11.5465,
        "se": 0.154,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 11.9014,
+       "mu": 11.9013,
        "se": 0.1618,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.0918,
+       "mu": 12.0917,
        "se": 0.2082,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5621,31 +5621,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.1663,
+       "mu": 11.1648,
        "se": 0.2137,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.4737,
+       "mu": 11.4741,
        "se": 0.2076,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.78,
+       "mu": 11.7789,
        "se": 0.2673,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0866,
+       "mu": 12.0858,
        "se": 0.3199,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.2293,
+       "mu": 12.2282,
        "se": 0.4184,
        "confidence": "low",
        "extra_sd": 0.25
@@ -5656,31 +5656,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.3253,
+       "mu": 11.3242,
        "se": 0.1654,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.5579,
+       "mu": 11.5584,
        "se": 0.1626,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.7894,
-       "se": 0.1913,
+       "mu": 11.788,
+       "se": 0.1912,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.0212,
+       "mu": 12.0198,
        "se": 0.1989,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0892,
+       "mu": 12.0871,
        "se": 0.2422,
        "confidence": "low",
        "extra_sd": 0.25
@@ -5691,31 +5691,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.8882,
-       "se": 0.2076,
+       "mu": 10.8866,
+       "se": 0.2075,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.2874,
+       "mu": 11.2879,
        "se": 0.1633,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.6854,
+       "mu": 11.6847,
        "se": 0.1758,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 12.0838,
+       "mu": 12.0837,
        "se": 0.1739,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 12.3183,
+       "mu": 12.3181,
        "se": 0.2758,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5726,19 +5726,19 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.2329,
+       "mu": 10.2319,
        "se": 0.1889,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.6231,
+       "mu": 10.624,
        "se": 0.1657,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 11.0121,
+       "mu": 11.0117,
        "se": 0.1934,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5750,7 +5750,7 @@
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.627,
+       "mu": 11.6268,
        "se": 0.3141,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5761,31 +5761,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 11.123,
+       "mu": 11.1213,
        "se": 0.3245,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.4722,
+       "mu": 11.4724,
        "se": 0.3247,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.8202,
+       "mu": 11.819,
        "se": 0.3593,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 12.1687,
+       "mu": 12.1678,
        "se": 0.407,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.3532,
+       "mu": 12.3521,
        "se": 0.4962,
        "confidence": "low",
        "extra_sd": 0.25
@@ -5796,19 +5796,19 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.4381,
+       "mu": 10.437,
        "se": 0.159,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.7881,
+       "mu": 10.789,
        "se": 0.1577,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.1369,
+       "mu": 11.1365,
        "se": 0.1794,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5820,7 +5820,7 @@
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.6715,
+       "mu": 11.6714,
        "se": 0.2214,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5865,31 +5865,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6036,
+       "mu": 10.6027,
        "se": 0.187,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.9685,
+       "mu": 10.9695,
        "se": 0.2112,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.3323,
+       "mu": 11.3319,
        "se": 0.2804,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.6965,
+       "mu": 11.6964,
        "se": 0.3427,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8968,
+       "mu": 11.8964,
        "se": 0.4448,
        "confidence": "low",
        "extra_sd": 0.25
@@ -5900,31 +5900,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.4248,
-       "se": 0.2121,
+       "mu": 10.4237,
+       "se": 0.212,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7852,
+       "mu": 10.786,
        "se": 0.2076,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.1445,
+       "mu": 11.1438,
        "se": 0.2512,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.5041,
+       "mu": 11.5038,
        "se": 0.2963,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.6998,
+       "mu": 11.6992,
        "se": 0.3875,
        "confidence": "low",
        "extra_sd": 0.25
@@ -5935,31 +5935,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.0529,
+       "mu": 10.0513,
        "se": 0.2371,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.408,
+       "mu": 10.4085,
        "se": 0.2148,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.7619,
+       "mu": 10.7612,
        "se": 0.2298,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.1163,
+       "mu": 11.116,
        "se": 0.2406,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.3067,
+       "mu": 11.3064,
        "se": 0.2708,
        "confidence": "low",
        "extra_sd": 0.25
@@ -5970,7 +5970,7 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.3379,
+       "mu": 10.336,
        "se": 0.2859,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -5982,19 +5982,19 @@
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.0351,
+       "mu": 11.0337,
        "se": 0.3154,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.3836,
+       "mu": 11.3825,
        "se": 0.3659,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.5681,
+       "mu": 11.5668,
        "se": 0.4561,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6005,31 +6005,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.653,
+       "mu": 9.6517,
        "se": 0.1465,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.003,
+       "mu": 10.0037,
        "se": 0.1427,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 10.3518,
+       "mu": 10.3512,
        "se": 0.1678,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 10.7011,
+       "mu": 10.7009,
        "se": 0.1615,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.8864,
+       "mu": 10.8861,
        "se": 0.2059,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6046,25 +6046,25 @@
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.6316,
+       "mu": 9.6323,
        "se": 0.2973,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.0274,
+       "mu": 10.0267,
        "se": 0.327,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.4236,
+       "mu": 10.4232,
        "se": 0.3573,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.6558,
+       "mu": 10.6552,
        "se": 0.4341,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6081,25 +6081,25 @@
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.4786,
+       "mu": 9.4795,
        "se": 0.2582,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 9.8393,
+       "mu": 9.8385,
        "se": 0.2956,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.2002,
+       "mu": 10.1996,
        "se": 0.3205,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.3973,
+       "mu": 10.3962,
        "se": 0.404,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6116,7 +6116,7 @@
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 9.473,
+       "mu": 9.4743,
        "se": 0.3218,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6128,13 +6128,13 @@
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.1711,
+       "mu": 10.1715,
        "se": 0.4345,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.3564,
+       "mu": 10.3567,
        "se": 0.5243,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6183,31 +6183,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.6956,
+       "mu": 10.695,
        "se": 0.1804,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.0559,
+       "mu": 11.0573,
        "se": 0.1732,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.4152,
+       "mu": 11.4151,
        "se": 0.2035,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.7749,
+       "mu": 11.7751,
        "se": 0.258,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.9706,
+       "mu": 11.9705,
        "se": 0.3602,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6218,31 +6218,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.3237,
+       "mu": 10.3226,
        "se": 0.2059,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.6787,
+       "mu": 10.6798,
        "se": 0.1808,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.0327,
+       "mu": 11.0325,
        "se": 0.1784,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.387,
+       "mu": 11.3873,
        "se": 0.196,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.5774,
+       "mu": 11.5777,
        "se": 0.236,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6253,31 +6253,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.652,
+       "mu": 10.6509,
        "se": 0.1998,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.9594,
+       "mu": 10.9601,
        "se": 0.1969,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.2657,
+       "mu": 11.2649,
        "se": 0.2484,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.5723,
+       "mu": 11.5718,
        "se": 0.311,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.715,
+       "mu": 11.7142,
        "se": 0.4117,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6288,31 +6288,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.8109,
+       "mu": 10.8103,
        "se": 0.1435,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.0435,
+       "mu": 11.0444,
        "se": 0.1403,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.275,
+       "mu": 11.2741,
        "se": 0.1518,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 11.5069,
+       "mu": 11.5058,
        "se": 0.1696,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "lead": {
-       "mu": 11.5749,
+       "mu": 11.5731,
        "se": 0.2158,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6323,31 +6323,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6247,
+       "mu": 10.6239,
        "se": 0.1527,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.6988,
+       "mu": 10.6997,
        "se": 0.1552,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.7719,
-       "se": 0.1825,
+       "mu": 10.7711,
+       "se": 0.1824,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.8453,
+       "mu": 10.8445,
        "se": 0.2049,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.8845,
+       "mu": 10.8837,
        "se": 0.3036,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6358,31 +6358,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.7186,
+       "mu": 9.7179,
        "se": 0.2153,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.1087,
+       "mu": 10.11,
        "se": 0.2008,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 10.4978,
+       "mu": 10.4977,
        "se": 0.2137,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 10.8872,
+       "mu": 10.8875,
        "se": 0.2424,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.1127,
+       "mu": 11.1129,
        "se": 0.3357,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6393,31 +6393,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.6086,
+       "mu": 10.6073,
        "se": 0.309,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.9578,
+       "mu": 10.9584,
        "se": 0.3102,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.3059,
+       "mu": 11.305,
        "se": 0.3374,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.6543,
+       "mu": 11.6538,
        "se": 0.392,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.8388,
+       "mu": 11.8381,
        "se": 0.4833,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6428,31 +6428,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 9.9238,
+       "mu": 9.923,
        "se": 0.1379,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.2737,
+       "mu": 10.275,
        "se": 0.1409,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 10.6226,
+       "mu": 10.6225,
        "se": 0.1471,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 10.9718,
+       "mu": 10.9722,
        "se": 0.1505,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.1571,
+       "mu": 11.1574,
        "se": 0.2058,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6463,31 +6463,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.5055,
+       "mu": 9.5048,
        "se": 0.3273,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 9.9024,
+       "mu": 9.9036,
        "se": 0.3325,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.2982,
+       "mu": 10.298,
        "se": 0.3533,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.6943,
+       "mu": 10.6945,
        "se": 0.3879,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.9266,
+       "mu": 10.9265,
        "se": 0.4652,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6498,31 +6498,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.3877,
+       "mu": 9.3874,
        "se": 0.2394,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.7494,
+       "mu": 9.7508,
        "se": 0.2476,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.11,
+       "mu": 10.1098,
        "se": 0.2763,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.471,
+       "mu": 10.4709,
        "se": 0.3083,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.6681,
+       "mu": 10.6675,
        "se": 0.399,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6533,32 +6533,32 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.9582,
-       "se": 0.3588,
+       "mu": 9.9644,
+       "se": 0.3587,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.3345,
-       "se": 0.3699,
+       "mu": 10.3484,
+       "se": 0.3696,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.7097,
-       "se": 0.4082,
+       "mu": 10.7279,
+       "se": 0.4078,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.0853,
-       "se": 0.463,
+       "mu": 11.1096,
+       "se": 0.4625,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.297,
-       "se": 0.5484,
+       "mu": 11.3268,
+       "se": 0.5477,
        "confidence": "low",
        "extra_sd": 0.25
       }
@@ -6568,31 +6568,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 9.3938,
+       "mu": 9.3936,
        "se": 0.2997,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 9.7438,
+       "mu": 9.7456,
        "se": 0.3204,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.0927,
+       "mu": 10.0932,
        "se": 0.3636,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.4419,
+       "mu": 10.4428,
        "se": 0.4301,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.6272,
+       "mu": 10.628,
        "se": 0.5239,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6646,31 +6646,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.7137,
+       "mu": 10.7135,
        "se": 0.173,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 11.0786,
+       "mu": 11.0803,
        "se": 0.2031,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.4425,
+       "mu": 11.4427,
        "se": 0.2677,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.8067,
+       "mu": 11.8072,
        "se": 0.3318,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 12.0069,
+       "mu": 12.0072,
        "se": 0.4387,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6681,13 +6681,13 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.5349,
+       "mu": 10.5345,
        "se": 0.2024,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.8953,
+       "mu": 10.8968,
        "se": 0.204,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6699,7 +6699,7 @@
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.6142,
+       "mu": 11.6145,
        "se": 0.2895,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6716,31 +6716,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.163,
+       "mu": 10.1621,
        "se": 0.2327,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.5181,
+       "mu": 10.5193,
        "se": 0.2156,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 10.8721,
+       "mu": 10.872,
        "se": 0.2242,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.2264,
+       "mu": 11.2268,
        "se": 0.2359,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.4168,
+       "mu": 11.4171,
        "se": 0.2716,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6751,31 +6751,31 @@
      "confidence": "low",
      "levels": {
       "entry": {
-       "mu": 10.4914,
+       "mu": 10.4903,
        "se": 0.211,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 10.7987,
+       "mu": 10.7996,
        "se": 0.2104,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 11.105,
+       "mu": 11.1044,
        "se": 0.2659,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 11.4117,
+       "mu": 11.4113,
        "se": 0.3214,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 11.5544,
+       "mu": 11.5537,
        "se": 0.4193,
        "confidence": "low",
        "extra_sd": 0.25
@@ -6786,31 +6786,31 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.6503,
+       "mu": 10.6497,
        "se": 0.1498,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.8829,
+       "mu": 10.8839,
        "se": 0.1495,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 11.1144,
+       "mu": 11.1135,
        "se": 0.1708,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "senior": {
-       "mu": 11.3463,
+       "mu": 11.3453,
        "se": 0.1802,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.4142,
+       "mu": 11.4126,
        "se": 0.2234,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6821,31 +6821,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.464,
+       "mu": 10.4634,
        "se": 0.1581,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.5382,
+       "mu": 10.5392,
        "se": 0.1574,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.6113,
+       "mu": 10.6105,
        "se": 0.1888,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.6847,
+       "mu": 10.684,
        "se": 0.2003,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.7239,
+       "mu": 10.7232,
        "se": 0.2968,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6856,31 +6856,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 10.448,
+       "mu": 10.4467,
        "se": 0.2919,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.7972,
+       "mu": 10.7979,
        "se": 0.2901,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 11.1453,
+       "mu": 11.1445,
        "se": 0.3203,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.4937,
+       "mu": 11.4933,
        "se": 0.3707,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.6782,
+       "mu": 11.6775,
        "se": 0.4629,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6891,13 +6891,13 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.7631,
+       "mu": 9.7625,
        "se": 0.1471,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 10.1131,
+       "mu": 10.1145,
        "se": 0.1512,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6909,13 +6909,13 @@
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.8112,
+       "mu": 10.8117,
        "se": 0.1605,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.9965,
+       "mu": 10.9968,
        "se": 0.2113,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6926,31 +6926,31 @@
      "confidence": "medium",
      "levels": {
       "entry": {
-       "mu": 9.3449,
+       "mu": 9.3442,
        "se": 0.2839,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 9.7418,
+       "mu": 9.7431,
        "se": 0.2855,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "mid": {
-       "mu": 10.1376,
+       "mu": 10.1375,
        "se": 0.3096,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 10.5337,
+       "mu": 10.534,
        "se": 0.3401,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 10.7659,
+       "mu": 10.766,
        "se": 0.4217,
        "confidence": "medium",
        "extra_sd": 0.12
@@ -6967,25 +6967,25 @@
        "extra_sd": 0.25
       },
       "junior": {
-       "mu": 9.5832,
+       "mu": 9.5851,
        "se": 0.3213,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "mid": {
-       "mu": 9.932,
+       "mu": 9.9327,
        "se": 0.3685,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "senior": {
-       "mu": 10.2812,
+       "mu": 10.2823,
        "se": 0.4309,
        "confidence": "low",
        "extra_sd": 0.25
       },
       "lead": {
-       "mu": 10.4665,
+       "mu": 10.4675,
        "se": 0.5237,
        "confidence": "low",
        "extra_sd": 0.25
@@ -7028,32 +7028,32 @@
      "confidence": "high",
      "levels": {
       "entry": {
-       "mu": 10.6243,
-       "se": 0.1694,
+       "mu": 10.6882,
+       "se": 0.1585,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "junior": {
-       "mu": 11.0006,
-       "se": 0.1406,
+       "mu": 11.0722,
+       "se": 0.1236,
        "confidence": "high",
        "extra_sd": 0.0
       },
       "mid": {
-       "mu": 11.3758,
-       "se": 0.2124,
+       "mu": 11.4517,
+       "se": 0.2002,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "senior": {
-       "mu": 11.7514,
-       "se": 0.2692,
+       "mu": 11.8334,
+       "se": 0.2581,
        "confidence": "medium",
        "extra_sd": 0.12
       },
       "lead": {
-       "mu": 11.9631,
-       "se": 0.375,
+       "mu": 12.0506,
+       "se": 0.366,
        "confidence": "medium",
        "extra_sd": 0.12
       }

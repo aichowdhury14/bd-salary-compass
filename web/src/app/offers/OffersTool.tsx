@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { defaultOffer, valueOffer, type Offer } from "@/lib/offers";
 import { tk } from "@/lib/format";
 import { TAX_CATEGORIES, type TaxCategory } from "@/lib/tax";
-import { Card, Checkbox, Note, NumberInput, Select } from "@/components/ui";
+import { Card, Checkbox, MoreDetails, Note, NumberInput, Select } from "@/components/ui";
 
 function OfferForm({ offer, onChange, onRemove }: { offer: Offer; onChange: (o: Offer) => void; onRemove?: () => void }) {
   const set = <K extends keyof Offer>(k: K, v: Offer[K]) => onChange({ ...offer, [k]: v });
@@ -22,14 +22,16 @@ function OfferForm({ offer, onChange, onRemove }: { offer: Offer; onChange: (o: 
       <div className="grid gap-3">
         <NumberInput label="Monthly gross" value={offer.monthlyGross} onChange={(v) => set("monthlyGross", v)} prefix="৳" step={1000} />
         <div className="grid grid-cols-2 gap-3">
-          <NumberInput label="Basic share" value={Math.round(offer.basicShare * 100)} onChange={(v) => set("basicShare", v / 100)} suffix="%" max={100} />
           <NumberInput label="Festival bonuses" value={offer.festivalBonuses} onChange={(v) => set("festivalBonuses", v)} suffix="× basic" max={6} />
+          <NumberInput label="Provident fund" value={Math.round(offer.pfRate * 100)} onChange={(v) => set("pfRate", v / 100)} suffix="% basic" max={20} hint="Each side; 0 if none" />
         </div>
-        <NumberInput label="Performance bonus (yearly)" value={offer.performanceBonusAnnual} onChange={(v) => set("performanceBonusAnnual", v)} prefix="৳" step={5000} />
-        <NumberInput label="Provident fund (each side)" value={Math.round(offer.pfRate * 100)} onChange={(v) => set("pfRate", v / 100)} suffix="% of basic" max={20} hint="0 if there is no PF" />
-        <NumberInput label="Other benefits (yearly value)" value={offer.otherBenefitsAnnual} onChange={(v) => set("otherBenefitsAnnual", v)} prefix="৳" step={5000} hint="Health insurance, lunch, transport, phone" />
         <NumberInput label="Commute cost (monthly)" value={offer.commuteMonthly} onChange={(v) => set("commuteMonthly", v)} prefix="৳" step={500} />
-        <Checkbox label="Gratuity (one basic per year of service)" checked={offer.gratuity} onChange={(v) => set("gratuity", v)} />
+        <MoreDetails summary={`basic ${Math.round(offer.basicShare * 100)}%, bonus, benefits, gratuity ${offer.gratuity ? "on" : "off"}`}>
+          <NumberInput label="Basic share" value={Math.round(offer.basicShare * 100)} onChange={(v) => set("basicShare", v / 100)} suffix="%" max={100} hint="Of gross; often 50-60%" />
+          <NumberInput label="Performance bonus (yearly)" value={offer.performanceBonusAnnual} onChange={(v) => set("performanceBonusAnnual", v)} prefix="৳" step={5000} />
+          <NumberInput label="Other benefits (yearly value)" value={offer.otherBenefitsAnnual} onChange={(v) => set("otherBenefitsAnnual", v)} prefix="৳" step={5000} hint="Health insurance, lunch, transport, phone" />
+          <Checkbox label="Gratuity (one basic per year of service)" checked={offer.gratuity} onChange={(v) => set("gratuity", v)} />
+        </MoreDetails>
       </div>
     </Card>
   );

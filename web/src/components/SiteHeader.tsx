@@ -1,17 +1,18 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import insights from "@/data/insights.json";
 import { pct, tk } from "@/lib/format";
 
 const NAV = [
-  { href: "/check", label: "Salary check" },
-  { href: "/tax", label: "Take-home & tax" },
-  { href: "/offers", label: "Compare offers" },
-  { href: "/job-post", label: "Job post check" },
-  { href: "/govt", label: "Govt pay 2026" },
-  { href: "/insights", label: "Insights" },
+  { href: "/check", label: "Salary check", bn: "বেতন যাচাই" },
+  { href: "/tax", label: "Take-home & tax", bn: "আয়কর ও হাতে পাওয়া বেতন" },
+  { href: "/offers", label: "Compare offers", bn: "অফার তুলনা" },
+  { href: "/job-post", label: "Job post check", bn: "বিজ্ঞপ্তি যাচাই" },
+  { href: "/govt", label: "Govt pay 2026", bn: "সরকারি বেতন ২০২৬" },
+  { href: "/insights", label: "Insights", bn: "বাজার বিশ্লেষণ" },
 ];
 
 const eg = Object.fromEntries(insights.market.entry_by_group.map((r) => [r.group, r]));
@@ -30,6 +31,17 @@ const TICKER = [
 
 export function SiteHeader() {
   const path = usePathname();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const current = NAV.find((n) => n.href === path);
+
+  // Close the phone menu with Escape, and whenever the page changes (e.g. the browser's back button).
+  useEffect(() => setMenuOpen(false), [path]);
+  useEffect(() => {
+    if (!menuOpen) return;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setMenuOpen(false);
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [menuOpen]);
   return (
     <header className="sticky top-0 z-20 bg-bg/90 backdrop-blur border-b border-line">
       <div className="bg-brand text-brand-ink overflow-hidden" aria-label="Market numbers">
@@ -63,22 +75,40 @@ export function SiteHeader() {
             ))}
           </ul>
         </nav>
+        {/* Phones: one button opens every tool, instead of a sideways strip that hid half of them */}
+        <button
+          type="button"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-expanded={menuOpen}
+          aria-controls="phone-menu"
+          className="md:hidden ml-auto flex items-center gap-2 rounded-lg border border-line bg-surface px-3 py-2 text-sm font-medium"
+        >
+          <span className="max-w-[9rem] truncate text-ink-2">{current?.label ?? "Tools"}</span>
+          <svg aria-hidden width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            {menuOpen ? <path d="M6 6l12 12M18 6 6 18" /> : <path d="M4 7h16M4 12h16M4 17h16" />}
+          </svg>
+          <span className="sr-only">{menuOpen ? "Close menu" : "Open menu"}</span>
+        </button>
       </div>
-      <nav aria-label="Tools" className="md:hidden overflow-x-auto px-2 pb-2">
-        <ul className="flex gap-1 text-sm whitespace-nowrap">
-          {NAV.map((n) => (
-            <li key={n.href}>
-              <Link
-                href={n.href}
-                aria-current={path === n.href ? "page" : undefined}
-                className={`block px-3 py-1.5 rounded-md ${path === n.href ? "bg-brand text-brand-ink" : "text-ink-2 bg-surface"}`}
-              >
-                {n.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      {menuOpen && (
+        <nav id="phone-menu" aria-label="Tools" className="md:hidden border-t border-line bg-bg px-3 pb-3 pt-2 shadow-[0_12px_24px_-12px_rgba(20,27,45,0.35)]">
+          <ul className="grid gap-1.5">
+            {NAV.map((n) => (
+              <li key={n.href}>
+                <Link
+                  href={n.href}
+                  aria-current={path === n.href ? "page" : undefined}
+                  onClick={() => setMenuOpen(false)}
+                  className={`flex items-baseline justify-between gap-3 rounded-lg px-3.5 py-3 ${path === n.href ? "bg-brand text-brand-ink" : "bg-surface text-ink"}`}
+                >
+                  <span className="font-medium">{n.label}</span>
+                  <span className={`text-sm ${path === n.href ? "opacity-80" : "text-ink-2"}`}>{n.bn}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
     </header>
   );
 }
