@@ -13,7 +13,7 @@ Free, private salary tools for people working in Bangladesh, built on cited 2026
 | **Govt pay 2026** (`/govt`) | National Pay Scale 2026 by grade, step, implementation phase and duty station |
 | **Market insights** (`/insights`) | Pay scale vs inflation, tax curve, role benchmarks and experience curve |
 
-**Free and private:** there is no database and no paid service. Every calculation runs in the browser, and nothing is stored or logged. It runs on Vercel's free plan.
+**Free and private:** there is no database and no paid service. Every calculation runs in the browser, and nothing is stored or logged. It runs on Vercel's free plan. The optional AI coach (off unless configured) is the one exception: when a visitor asks it for advice, their job details and salary rounded to ৳1,000 go to a free AI service, and the page says so.
 
 ## Repository layout
 
@@ -27,7 +27,7 @@ pipeline/            Python data science
 reports/             generated analysis report and charts
 web/                 Next.js 16 app (deploy this folder)
   src/lib/           tax, benchmark, recommendation, offer, govt pay and job-post logic (pure TypeScript)
-  src/app/api/coach  streaming Claude endpoint for the AI coach
+  src/app/api/coach  streaming endpoint for the free AI coach (Groq, Cloudflare Workers AI as backup)
 ```
 
 ## The salary model
@@ -60,13 +60,36 @@ npm test                     # 647 tests
 npm run dev                  # http://localhost:3000
 ```
 
-An optional paid AI coach (Claude) is included but **switched off**. To enable it, set `NEXT_PUBLIC_AI_COACH=on` and `ANTHROPIC_API_KEY`. Each answer costs about $0.04 on Claude Opus 5.5. Without those settings, the free template-based negotiation script is used.
+### Optional free AI coach
+
+The salary check can show an AI coach that writes a personalised script and 90-day plan in English or Bangla. It uses free-tier AI services, so it costs nothing:
+
+| Order | Provider | Default model | Free allowance |
+|---|---|---|---|
+| 1 | [Groq](https://console.groq.com) | `qwen/qwen3.8-27b` | about 1,000 requests a day |
+| 2 | [Cloudflare Workers AI](https://dash.cloudflare.com) | `@cf/google/gemma-4-26b-a4b-it` | 10,000 Neurons a day, about 390 answers |
+
+The route (`web/src/lib/coach.ts`) tries Groq first and switches to Cloudflare when Groq refuses (for example HTTP 429 once the daily allowance is used up). If both refuse, visitors see a short message and the template negotiation script still works. **Don't add a payment card to either account**: without one, reaching a limit only refuses requests and can never create a bill.
+
+Only the job, level, employer type, city and salary rounded to ৳1,000 are sent, and the page tells visitors so. Free tiers can change their limits; check the providers' consoles.
+
+To switch it on, set these in Vercel (Project → Settings → Environment Variables), then redeploy. `NEXT_PUBLIC_*` values are built into the page, so a redeploy is required:
+
+| Variable | Value |
+|---|---|
+| `NEXT_PUBLIC_AI_COACH` | `on` |
+| `GROQ_API_KEY` | Groq console → API Keys |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare dashboard → Workers AI → "Use REST API" |
+| `CLOUDFLARE_API_TOKEN` | Same page → create a token with the Workers AI permission |
+| `GROQ_MODEL`, `CLOUDFLARE_MODEL` | Optional, to change the models |
+
+Either provider alone also works. Without these settings the coach is hidden and the free template script is used.
 
 ## Deploy (Vercel)
 
 1. Push the repo to GitHub.
 2. In Vercel, import the repo and set **Root Directory** to `web` (the framework is detected as Next.js).
-3. No environment variables are needed.
+3. No environment variables are needed (only the optional AI coach above uses any).
 4. Deploy. Every page except `/api/coach` is static.
 
 From the CLI: `cd web && npx vercel --prod`.

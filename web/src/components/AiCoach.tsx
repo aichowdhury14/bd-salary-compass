@@ -24,6 +24,7 @@ export function AiCoach({ profile, assessment }: { profile: CoachProfile; assess
   const [answer, setAnswer] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
   const [error, setError] = useState("");
+  const [writtenBy, setWrittenBy] = useState("");
   const abortRef = useRef<AbortController | null>(null);
 
   async function ask() {
@@ -32,6 +33,7 @@ export function AiCoach({ profile, assessment }: { profile: CoachProfile; assess
     abortRef.current = ctrl;
     setAnswer("");
     setError("");
+    setWrittenBy("");
     setStatus("loading");
     try {
       const res = await fetch("/api/coach", {
@@ -66,6 +68,7 @@ export function AiCoach({ profile, assessment }: { profile: CoachProfile; assess
         const data = await res.json().catch(() => ({}));
         throw new Error(data.error ?? `Request failed (${res.status})`);
       }
+      setWrittenBy(res.headers.get("x-coach-model") ?? "");
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
       let text = "";
@@ -86,8 +89,8 @@ export function AiCoach({ profile, assessment }: { profile: CoachProfile; assess
   return (
     <div className="grid gap-4">
       <p className="text-sm text-ink-2">
-        Claude writes a short script for your next salary conversation, a 90-day plan, and the risks to watch, based on the numbers
-        above. English or Bangla.
+        A free AI model writes a short script for your next salary conversation, a 90-day plan, and the risks to watch, based on
+        the numbers above. English or Bangla. AI can make mistakes, so check the advice against the figures above.
       </p>
       <div className="grid sm:grid-cols-2 gap-3">
         <Select<Goal>
@@ -132,13 +135,15 @@ export function AiCoach({ profile, assessment }: { profile: CoachProfile; assess
           {status === "loading" ? "Writing…" : answer ? "Ask again" : "Write my script"}
         </Button>
         <p className="text-xs text-muted max-w-md">
-          Sends your job, level, city and salary rounded to ৳1,000 to Claude (Anthropic). Nothing is stored.
+          Sends your job, level, city and salary rounded to ৳1,000 to a free AI service (Groq, or Cloudflare as a backup) to
+          write the answer. This site stores nothing.
         </p>
       </div>
       {status === "error" && <p className="text-sm text-bad">{error}</p>}
       {answer && (
         <div className="rounded-lg border border-line bg-surface-2 p-4 text-sm" aria-live="polite">
           <SimpleMarkdown text={answer} />
+          {writtenBy && status === "done" && <p className="mt-3 text-xs text-muted">Written by {writtenBy}</p>}
         </div>
       )}
     </div>

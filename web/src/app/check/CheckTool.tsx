@@ -15,7 +15,8 @@ import { ForecastCard } from "@/components/ForecastCard";
 import { NegotiationScript } from "@/components/NegotiationScript";
 import { HundredDots, RaiseCheckCard, TakeHomeLine, WhatIfCard } from "@/components/PayInsights";
 
-// The paid AI coach (Claude) is off: the site is free to run. Set NEXT_PUBLIC_AI_COACH=on plus ANTHROPIC_API_KEY to enable it.
+// The free AI coach (Groq, with Cloudflare Workers AI as backup) shows only with NEXT_PUBLIC_AI_COACH=on
+// plus GROQ_API_KEY and/or CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN. See README.
 const AI_COACH_ENABLED = process.env.NEXT_PUBLIC_AI_COACH === "on";
 
 const KIND_LABEL: Record<RecKind, string> = {
@@ -275,7 +276,7 @@ export function CheckTool() {
                 <summary className="cursor-pointer list-none flex items-center justify-between gap-3">
                   <span>
                     <span className="eyebrow block mb-1">Optional · AI</span>
-                    <span className="font-serif text-lg font-semibold">Get a personalised script from Claude</span>
+                    <span className="font-serif text-lg font-semibold">Get a personalised script from AI (free)</span>
                   </span>
                   <span className="text-gold text-sm group-open:hidden">Open ↓</span>
                 </summary>

@@ -1,10 +1,11 @@
-import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
+import { configuredProviders, openFirst } from "@/lib/coach";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
-const MODEL = process.env.COACH_MODEL ?? "claude-opus-5-5";
+// Bangla takes several times more tokens than English for the same text, so leave room for ~350 words.
+const MAX_TOKENS = 1500;
 
 const Body = z.object({
   lang: z.enum(["en", "bn"]),
@@ -64,7 +65,8 @@ function limited(ip: string): boolean {
 const tk = (n: number) => `Tk ${Math.round(n).toLocaleString("en-IN")}`;
 
 export async function POST(req: Request) {
-  if (process.env.NEXT_PUBLIC_AI_COACH !== "on" || !process.env.ANTHROPIC_API_KEY) {
+  const providers = configuredProviders();
+  if (process.env.NEXT_PUBLIC_AI_COACH !== "on" || providers.length === 0) {
     return Response.json({ error: "The AI coach is not configured on this server yet. The recommendations above still work." }, { status: 503 });
   }
   const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "local";
@@ -94,42 +96,41 @@ export async function POST(req: Request) {
     b.lang === "bn" ? "Write the whole answer in Bangla (বাংলা). Keep numbers in taka." : "Write in English.",
   ].filter(Boolean);
 
-  const client = new Anthropic();
-  const encoder = new TextEncoder();
+  let opened;
+  try {
+    opened = await openFirst(
+      providers,
+      [
+        { role: "system", content: SYSTEM },
+        { role: "user", content: facts.join("\n") },
+      ],
+      { maxTokens: MAX_TOKENS, signal: req.signal }, // stop generating if the visitor leaves
+    );
+  } catch {
+    return new Response(null, { status: 499 }); // visitor aborted
+  }
+  if (!opened.ok) {
+    // Status codes only (e.g. "groq: 429"), never any of the visitor's data.
+    const badKeys = opened.failures.every((f) => / 40[13]$/.test(f));
+    return Response.json(
+      {
+        error: badKeys
+          ? "The AI coach is misconfigured on the server. The negotiation script above works without AI."
+          : "Today's free AI allowance is used up or the service is busy. Please try again later; the negotiation script above works without AI.",
+        detail: opened.failures.join(", "),
+      },
+      { status: 503 },
+    );
+  }
 
+  const { provider, text } = opened;
+  const encoder = new TextEncoder();
   const stream = new ReadableStream<Uint8Array>({
     async start(controller) {
       try {
-        const s = client.beta.messages.stream({
-          model: MODEL,
-          max_tokens: 4000,
-          betas: ["server-side-fallback-2026-07-01"],
-          fallbacks: "default",
-          output_config: { effort: "medium" },
-          system: SYSTEM,
-          messages: [{ role: "user", content: facts.join("\n") }],
-        }, { signal: req.signal }); // stop generating (and billing) if the visitor leaves
-        for await (const event of s) {
-          if (event.type === "content_block_delta" && event.delta.type === "text_delta") {
-            controller.enqueue(encoder.encode(event.delta.text));
-          }
-        }
-        const final = await s.finalMessage();
-        if (final.stop_reason === "refusal") {
-          controller.enqueue(encoder.encode("\n\nThe AI coach could not answer this request. Try rephrasing your note."));
-        } else if (final.stop_reason === "max_tokens") {
-          controller.enqueue(encoder.encode("\n\n(Answer cut short.)"));
-        }
-      } catch (err) {
-        const msg =
-          err instanceof Anthropic.RateLimitError
-            ? "The AI service is busy right now. Please try again in a minute."
-            : err instanceof Anthropic.AuthenticationError
-              ? "The AI coach is misconfigured on the server."
-              : err instanceof Anthropic.APIError
-                ? `The AI service returned an error (${err.status ?? "network"}). Please try again.`
-                : "Something went wrong while generating advice.";
-        controller.enqueue(encoder.encode(`\n\n${msg}`));
+        for await (const piece of text) controller.enqueue(encoder.encode(piece));
+      } catch {
+        if (!req.signal.aborted) controller.enqueue(encoder.encode("\n\nThe AI service stopped part-way. Please try again."));
       } finally {
         controller.close();
       }
@@ -137,6 +138,11 @@ export async function POST(req: Request) {
   });
 
   return new Response(stream, {
-    headers: { "content-type": "text/plain; charset=utf-8", "cache-control": "no-store", "x-content-type-options": "nosniff" },
+    headers: {
+      "content-type": "text/plain; charset=utf-8",
+      "cache-control": "no-store",
+      "x-content-type-options": "nosniff",
+      "x-coach-model": `${provider.model.replace(/^@cf\/[^/]+\//, "")} via ${provider.label}`,
+    },
   });
 }
